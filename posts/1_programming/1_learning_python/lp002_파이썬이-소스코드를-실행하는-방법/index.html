@@ -1,0 +1,262 @@
+<!DOCTYPE html>
+<html lang="en-us">
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <meta name="robots" content="noodp" />
+        <title>[LP002] 파이썬은 정말로 인터프리터 언어이기때문에 느릴까? - Jongbin&#39;s Blog</title>
+            
+<script type="application/javascript">
+var doNotTrack = false;
+if (!doNotTrack) {
+	(function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+	(i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+	m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+	})(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+	ga('create', 'UA-253164009-1', 'auto');
+	
+	ga('send', 'pageview');
+}
+</script><meta name="Description" content="welcome to Jongbin Won&#39;s Blog!"><meta property="og:title" content="[LP002] 파이썬은 정말로 인터프리터 언어이기때문에 느릴까?" />
+<meta property="og:description" content="파이썬은 인터프리터 언어이기때문에 느리다? 흔히들 파이썬을 인터프리터 언어(interpreter language)라고 부른다. 그리고 인터프리터 언" />
+<meta property="og:type" content="article" />
+<meta property="og:url" content="https://Jongbin-kr.github.io/posts/1_programming/1_learning_python/lp002_%ED%8C%8C%EC%9D%B4%EC%8D%AC%EC%9D%B4-%EC%86%8C%EC%8A%A4%EC%BD%94%EB%93%9C%EB%A5%BC-%EC%8B%A4%ED%96%89%ED%95%98%EB%8A%94-%EB%B0%A9%EB%B2%95/" /><meta property="og:image" content="https://Jongbin-kr.github.io/logo.png"/><meta property="article:section" content="posts" />
+<meta property="article:published_time" content="2023-01-09T21:22:23+09:00" />
+<meta property="article:modified_time" content="2023-01-09T21:22:23+09:00" /><meta property="og:site_name" content="Jongbin&#39;s Blog" />
+<meta name="twitter:card" content="summary_large_image"/>
+<meta name="twitter:image" content="https://Jongbin-kr.github.io/logo.png"/>
+
+<meta name="twitter:title" content="[LP002] 파이썬은 정말로 인터프리터 언어이기때문에 느릴까?"/>
+<meta name="twitter:description" content="파이썬은 인터프리터 언어이기때문에 느리다? 흔히들 파이썬을 인터프리터 언어(interpreter language)라고 부른다. 그리고 인터프리터 언"/>
+<meta name="application-name" content="My cool site">
+<meta name="apple-mobile-web-app-title" content="My cool site"><meta name="theme-color" content="#ffffff"><meta name="msapplication-TileColor" content="#da532c"><link rel="shortcut icon" type="image/x-icon" href="/favicon.ico" />
+        <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
+        <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png"><link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png"><link rel="mask-icon" href="/safari-pinned-tab.svg" color="#5bbad5"><link rel="manifest" href="/site.webmanifest"><link rel="canonical" href="https://Jongbin-kr.github.io/posts/1_programming/1_learning_python/lp002_%ED%8C%8C%EC%9D%B4%EC%8D%AC%EC%9D%B4-%EC%86%8C%EC%8A%A4%EC%BD%94%EB%93%9C%EB%A5%BC-%EC%8B%A4%ED%96%89%ED%95%98%EB%8A%94-%EB%B0%A9%EB%B2%95/" /><link rel="prev" href="https://Jongbin-kr.github.io/posts/4_daily/2022%EB%85%84%EC%97%90-%EB%8C%80%ED%95%9C-%EB%82%98%EC%9D%98-%EC%A7%A7%EC%9D%80-%ED%9A%8C%EA%B3%A0%EC%99%80-%EB%B0%94%EB%9E%A8/" /><link rel="stylesheet" href="/css/style.min.css"><link rel="preload" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.1.1/css/all.min.css" as="style" onload="this.onload=null;this.rel='stylesheet'">
+        <noscript><link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.1.1/css/all.min.css"></noscript><link rel="preload" href="https://cdn.jsdelivr.net/npm/animate.css@4.1.1/animate.min.css" as="style" onload="this.onload=null;this.rel='stylesheet'">
+        <noscript><link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/animate.css@4.1.1/animate.min.css"></noscript><script type="application/ld+json">
+    {
+        "@context": "http://schema.org",
+        "@type": "BlogPosting",
+        "headline": "[LP002] 파이썬은 정말로 인터프리터 언어이기때문에 느릴까?",
+        "inLanguage": "en-us",
+        "mainEntityOfPage": {
+            "@type": "WebPage",
+            "@id": "https:\/\/Jongbin-kr.github.io\/posts\/1_programming\/1_learning_python\/lp002_%ED%8C%8C%EC%9D%B4%EC%8D%AC%EC%9D%B4-%EC%86%8C%EC%8A%A4%EC%BD%94%EB%93%9C%EB%A5%BC-%EC%8B%A4%ED%96%89%ED%95%98%EB%8A%94-%EB%B0%A9%EB%B2%95\/"
+        },"genre": "posts","keywords": "Programming, Python, Interpret, Compile, Byte Code","wordcount":  1661 ,
+        "url": "https:\/\/Jongbin-kr.github.io\/posts\/1_programming\/1_learning_python\/lp002_%ED%8C%8C%EC%9D%B4%EC%8D%AC%EC%9D%B4-%EC%86%8C%EC%8A%A4%EC%BD%94%EB%93%9C%EB%A5%BC-%EC%8B%A4%ED%96%89%ED%95%98%EB%8A%94-%EB%B0%A9%EB%B2%95\/","datePublished": "2023-01-09T21:22:23+09:00","dateModified": "2023-01-09T21:22:23+09:00","publisher": {
+            "@type": "Organization",
+            "name": ""},"author": {
+                "@type": "Person",
+                "name": "Jongbin Won"
+            },"description": ""
+    }
+    </script></head>
+    <body data-header-desktop="fixed" data-header-mobile="auto"><script type="text/javascript">(window.localStorage && localStorage.getItem('theme') ? localStorage.getItem('theme') === 'dark' : ('auto' === 'auto' ? window.matchMedia('(prefers-color-scheme: dark)').matches : 'auto' === 'dark')) && document.body.setAttribute('theme', 'dark');</script>
+
+        <div id="mask"></div><div class="wrapper"><header class="desktop" id="header-desktop">
+    <div class="header-wrapper">
+        <div class="header-title">
+            <a href="/" title="Jongbin&#39;s Blog">Jongbin&#39;s Blog</a>
+        </div>
+        <div class="menu">
+            <div class="menu-inner"><a class="menu-item" href="/about_me" title="Jongbin&#39;s Rrofile"> About </a><a class="menu-item" href="/posts/" title="Show All Posts by Timeline"> Posts </a><a class="menu-item" href="/tags/" title="Show All Posts by Tags"> Tags </a><a class="menu-item" href="/categories/" title="Show All Posts by Categories"> Categories </a><span class="menu-item delimiter"></span><span class="menu-item search" id="search-desktop">
+                        <input type="text" placeholder="Search titles or contents..." id="search-input-desktop">
+                        <a href="javascript:void(0);" class="search-button search-toggle" id="search-toggle-desktop" title="Search">
+                            <i class="fas fa-search fa-fw" aria-hidden="true"></i>
+                        </a>
+                        <a href="javascript:void(0);" class="search-button search-clear" id="search-clear-desktop" title="Clear">
+                            <i class="fas fa-times-circle fa-fw" aria-hidden="true"></i>
+                        </a>
+                        <span class="search-button search-loading" id="search-loading-desktop">
+                            <i class="fas fa-spinner fa-fw fa-spin" aria-hidden="true"></i>
+                        </span>
+                    </span><a href="javascript:void(0);" class="menu-item theme-switch" title="Switch Theme">
+                    <i class="fas fa-adjust fa-fw" aria-hidden="true"></i>
+                </a></div>
+        </div>
+    </div>
+</header><header class="mobile" id="header-mobile">
+    <div class="header-container">
+        <div class="header-wrapper">
+            <div class="header-title">
+                <a href="/" title="Jongbin&#39;s Blog">Jongbin&#39;s Blog</a>
+            </div>
+            <div class="menu-toggle" id="menu-toggle-mobile">
+                <span></span><span></span><span></span>
+            </div>
+        </div>
+        <div class="menu" id="menu-mobile"><div class="search-wrapper">
+                    <div class="search mobile" id="search-mobile">
+                        <input type="text" placeholder="Search titles or contents..." id="search-input-mobile">
+                        <a href="javascript:void(0);" class="search-button search-toggle" id="search-toggle-mobile" title="Search">
+                            <i class="fas fa-search fa-fw" aria-hidden="true"></i>
+                        </a>
+                        <a href="javascript:void(0);" class="search-button search-clear" id="search-clear-mobile" title="Clear">
+                            <i class="fas fa-times-circle fa-fw" aria-hidden="true"></i>
+                        </a>
+                        <span class="search-button search-loading" id="search-loading-mobile">
+                            <i class="fas fa-spinner fa-fw fa-spin" aria-hidden="true"></i>
+                        </span>
+                    </div>
+                    <a href="javascript:void(0);" class="search-cancel" id="search-cancel-mobile">
+                        Cancel
+                    </a>
+                </div><a class="menu-item" href="/about_me" title="Jongbin&#39;s Rrofile">About</a><a class="menu-item" href="/posts/" title="Show All Posts by Timeline">Posts</a><a class="menu-item" href="/tags/" title="Show All Posts by Tags">Tags</a><a class="menu-item" href="/categories/" title="Show All Posts by Categories">Categories</a><a href="javascript:void(0);" class="menu-item theme-switch" title="Switch Theme">
+                <i class="fas fa-adjust fa-fw" aria-hidden="true"></i>
+            </a></div>
+    </div>
+</header><div class="search-dropdown desktop">
+        <div id="search-dropdown-desktop"></div>
+    </div>
+    <div class="search-dropdown mobile">
+        <div id="search-dropdown-mobile"></div>
+    </div><main class="main">
+                <div class="container"><div class="toc" id="toc-auto">
+            <h2 class="toc-title">Contents</h2>
+            <div class="toc-content" id="toc-content-auto"></div>
+        </div><article class="page single"><h1 class="single-title animate__animated animate__flipInX">[LP002] 파이썬은 정말로 인터프리터 언어이기때문에 느릴까?</h1><div class="post-meta">
+            <div class="post-meta-line"><span class="post-author"><a href="/" title="Author" rel="author" class="author"><i class="fas fa-user-circle fa-fw" aria-hidden="true"></i>Jongbin Won</a></span>&nbsp;<span class="post-category">included in <a href="/categories/learning-python/"><i class="far fa-folder fa-fw" aria-hidden="true"></i>Learning Python</a></span></div>
+            <div class="post-meta-line"><i class="far fa-calendar-alt fa-fw" aria-hidden="true"></i>&nbsp;<time datetime="2023-01-09">2023-01-09</time>&nbsp;<i class="fas fa-pencil-alt fa-fw" aria-hidden="true"></i>&nbsp;1661 words&nbsp;
+                <i class="far fa-clock fa-fw" aria-hidden="true"></i>&nbsp;4 minutes&nbsp;</div>
+        </div><div class="details toc" id="toc-static"  data-kept="true">
+                <div class="details-summary toc-title">
+                    <span>Contents</span>
+                    <span><i class="details-icon fas fa-angle-right" aria-hidden="true"></i></span>
+                </div>
+                <div class="details-content toc-content" id="toc-content-static"><nav id="TableOfContents">
+  <ul>
+    <li><a href="#파이썬은-인터프리터-언어이기때문에-느리다">파이썬은 <code>인터프리터 언어</code>이기때문에 느리다?</a></li>
+    <li><a href="#파이썬이-소스코드를-실행하는-방법">파이썬이 <code>소스코드</code>를 실행하는 방법</a>
+      <ul>
+        <li><a href="#1-파이썬은-소스코드를-바이트코드로-컴파일한다">1. 파이썬은 <code>소스코드</code>를 <code>바이트코드</code>로 <code>컴파일</code>한다.</a></li>
+        <li><a href="#2-파이썬-가상머신pvm은-바이트코드를-해석하고-실행한다">2. 파이썬 가상머신(PVM)은 <code>바이트코드</code>를 해석하고 실행한다.</a></li>
+      </ul>
+    </li>
+    <li><a href="#결국-파이썬은-그렇게-느리지도-빠르지도-않다">결국 파이썬은 그렇게 느리지도 빠르지도 않다.</a></li>
+  </ul>
+</nav></div>
+            </div><div class="content" id="content"><br>
+<h2 id="파이썬은-인터프리터-언어이기때문에-느리다">파이썬은 <code>인터프리터 언어</code>이기때문에 느리다?</h2>
+<p><strong>흔히들 파이썬을 <code>인터프리터 언어(interpreter language)</code>라고 부른다.</strong></p>
+<p>그리고 <strong><code>인터프리터 언어</code> 특성상, 파이썬은 너무 느려서, 파이썬을 공부하는 대신 <code>C</code>나 <code>C++</code>같은 <code>컴파일 언어</code>들을 공부하는 것이 낫다고 주장하는 사람들도 많다.</strong></p>
+<br>
+<p><strong>그러나 파이썬은 아래 표에서도 확인할 수 있듯, 파이썬은 그 실행속도가 <code>Perl</code>이나 <code>Ruby</code>와 같은 전통적인 인터프리터 언어들보다 유의미하게 빠르다.</strong></p>
+<p><img
+        class="lazyload"
+        src="/svg/loading.min.svg"
+        data-src="/posts/1_programming/1_learning_python/lp002_%ED%8C%8C%EC%9D%B4%EC%8D%AC%EC%9D%B4-%EC%86%8C%EC%8A%A4%EC%BD%94%EB%93%9C%EB%A5%BC-%EC%8B%A4%ED%96%89%ED%95%98%EB%8A%94-%EB%B0%A9%EB%B2%95/programming_language_speed_comparison.png"
+        data-srcset="/posts/1_programming/1_learning_python/lp002_%ED%8C%8C%EC%9D%B4%EC%8D%AC%EC%9D%B4-%EC%86%8C%EC%8A%A4%EC%BD%94%EB%93%9C%EB%A5%BC-%EC%8B%A4%ED%96%89%ED%95%98%EB%8A%94-%EB%B0%A9%EB%B2%95/programming_language_speed_comparison.png, /posts/1_programming/1_learning_python/lp002_%ED%8C%8C%EC%9D%B4%EC%8D%AC%EC%9D%B4-%EC%86%8C%EC%8A%A4%EC%BD%94%EB%93%9C%EB%A5%BC-%EC%8B%A4%ED%96%89%ED%95%98%EB%8A%94-%EB%B0%A9%EB%B2%95/programming_language_speed_comparison.png 1.5x, /posts/1_programming/1_learning_python/lp002_%ED%8C%8C%EC%9D%B4%EC%8D%AC%EC%9D%B4-%EC%86%8C%EC%8A%A4%EC%BD%94%EB%93%9C%EB%A5%BC-%EC%8B%A4%ED%96%89%ED%95%98%EB%8A%94-%EB%B0%A9%EB%B2%95/programming_language_speed_comparison.png 2x"
+        data-sizes="auto"
+        alt="/posts/1_programming/1_learning_python/lp002_%ED%8C%8C%EC%9D%B4%EC%8D%AC%EC%9D%B4-%EC%86%8C%EC%8A%A4%EC%BD%94%EB%93%9C%EB%A5%BC-%EC%8B%A4%ED%96%89%ED%95%98%EB%8A%94-%EB%B0%A9%EB%B2%95/programming_language_speed_comparison.png"
+        title="프로그래밍 언어별 속도 비교" width="720" height="444" /></p>
+<br>
+<p><strong>같은 <code>인터프리터 언어</code>임에도, 이러한 속도 차이가 발생하는 이유는 무엇일까?</strong><sup id="fnref:1"><a href="#fn:1" class="footnote-ref" role="doc-noteref">1</a></sup></p>
+<p>이는 파이썬의 <code>소스코드</code>를 실행할 때, 암묵적으로 다음과 같은 과정들을 거치기 때문이다.</p>
+<br>
+<br>
+<h2 id="파이썬이-소스코드를-실행하는-방법">파이썬이 <code>소스코드</code>를 실행하는 방법</h2>
+<p><img
+        class="lazyload"
+        src="/svg/loading.min.svg"
+        data-src="/posts/1_programming/1_learning_python/lp002_%ED%8C%8C%EC%9D%B4%EC%8D%AC%EC%9D%B4-%EC%86%8C%EC%8A%A4%EC%BD%94%EB%93%9C%EB%A5%BC-%EC%8B%A4%ED%96%89%ED%95%98%EB%8A%94-%EB%B0%A9%EB%B2%95/python_execution_model.png"
+        data-srcset="/posts/1_programming/1_learning_python/lp002_%ED%8C%8C%EC%9D%B4%EC%8D%AC%EC%9D%B4-%EC%86%8C%EC%8A%A4%EC%BD%94%EB%93%9C%EB%A5%BC-%EC%8B%A4%ED%96%89%ED%95%98%EB%8A%94-%EB%B0%A9%EB%B2%95/python_execution_model.png, /posts/1_programming/1_learning_python/lp002_%ED%8C%8C%EC%9D%B4%EC%8D%AC%EC%9D%B4-%EC%86%8C%EC%8A%A4%EC%BD%94%EB%93%9C%EB%A5%BC-%EC%8B%A4%ED%96%89%ED%95%98%EB%8A%94-%EB%B0%A9%EB%B2%95/python_execution_model.png 1.5x, /posts/1_programming/1_learning_python/lp002_%ED%8C%8C%EC%9D%B4%EC%8D%AC%EC%9D%B4-%EC%86%8C%EC%8A%A4%EC%BD%94%EB%93%9C%EB%A5%BC-%EC%8B%A4%ED%96%89%ED%95%98%EB%8A%94-%EB%B0%A9%EB%B2%95/python_execution_model.png 2x"
+        data-sizes="auto"
+        alt="/posts/1_programming/1_learning_python/lp002_%ED%8C%8C%EC%9D%B4%EC%8D%AC%EC%9D%B4-%EC%86%8C%EC%8A%A4%EC%BD%94%EB%93%9C%EB%A5%BC-%EC%8B%A4%ED%96%89%ED%95%98%EB%8A%94-%EB%B0%A9%EB%B2%95/python_execution_model.png"
+        title="파이썬이 소스코드를 실행하는 방법" width="1585" height="517" /></p>
+<h3 id="1-파이썬은-소스코드를-바이트코드로-컴파일한다">1. 파이썬은 <code>소스코드</code>를 <code>바이트코드</code>로 <code>컴파일</code>한다.</h3>
+<p><strong>우리가 파이썬 <code>소스코드</code>를 실행하면, 파이썬은 내부적으로 우리가 작성한 <code>소스코드</code>(source code)를 <code>바이트코드</code>(byte code)로 <code>컴파일</code>한다.</strong> (&lsquo;초벌번역&rsquo;한다고 풀어쓸 수도 있을 것 같다.)</p>
+<p><strong>이때, <code>바이트코드</code>란 파이썬 가상머신(<code>PVM, Python Virtual Machine</code>)이 이해할 수 있는, <code>소스코드</code>와 <code>기계어</code>(0과 1로만 이뤄진 low-level 언어) 사이에 존재하는 중간 단계 언어라고 할 수 있다.</strong></p>
+<br>
+<p><strong>이렇게 <code>컴파일</code>된 <code>바이트코드</code>들은 해당 <code>소스코드</code>가 존재하는 폴더의 하위 디렉토리 <code>__pycache__</code>에 <code>.pyc</code> 형태로 저장된다.</strong></p>
+<ul>
+<li>단, 모든 <code>소스코드</code>들이 이렇게 별도의 <code>.pyc</code> 파일로 저장되는 것은 아니고, <strong><code>import</code>문을 통해서 불러들여진 <code>.py</code> 파일들에 한해서만 <code>.pyc</code> 파일들을 생성하고 저장한다.</strong>
+<ul>
+<li><strong>곧, <code>__main__</code>에 해당하는 <code>메인 소스코드</code>는 따로 <code>.pyc</code> 형식의 파일을 생성/저장하지 않는다.</strong></li>
+</ul>
+</li>
+<li>그렇다고, <code>메인 소스코드</code>가 (바이트 코드로의) <code>컴파일</code> 과정을 생략하는 것은 아니다. <strong><code>메인 소스코드</code>의 <code>바이트코드</code>는 메모리상에 저장된다.</strong>
+<ul>
+<li><strong>따라서 보조기억장치상에 저장되는 <code>.pyc</code>파일들보다 더욱 빠른 속도로 실행될 수 있을 것이다.</strong></li>
+</ul>
+</li>
+</ul>
+<br>
+<p>이러한 <code>컴파일</code> 과정은 1) <code>소스코드</code>가 변경되거나, 2) 파이썬의 실행버전이 달라지는 경우에는 다시 한 번 실행된다.</p>
+<br>
+<p>또한, 이미 <code>소스코드</code>가 <code>바이트코드</code>의 형태로 <code>컴파일</code>되었다면, 더 이상 <code>소스코드</code>가 없더라도 해당 파일을 실행할 수 있다.</p>
+<p>이러한 특징을 활용해 <code>소스코드</code>의 유출없이 프로그램을 배포할 수도 있다고 한다.</p>
+<br>
+<p>이처럼 <code>소스코드</code>를 중간단계에 해당하는 <code>바이트코드</code>로 <code>컴파일</code>하는 과정은 가상머신을 활용하는 언어(대표적으로는 <code>Java</code>)들에서 많이 쓰이는 방식이라고 한다.</p>
+<br>
+<br>
+<h3 id="2-파이썬-가상머신pvm은-바이트코드를-해석하고-실행한다">2. 파이썬 가상머신(PVM)은 <code>바이트코드</code>를 해석하고 실행한다.</h3>
+<p><strong>파이썬의 <code>소스코드</code>에 대한 <code>컴파일</code> 과정이 이뤄지고 나면, 파이썬 가상머신은 해당 <code>바이트코드</code>를 <code>인터프리트</code>(interpret, 통역)하고 <code>실행</code>(execute)한다.</strong></p>
+<p><strong>이때 <code>인터프리트</code> 과정은 파이썬 가상머신이 작동하는 <code>OS</code>에 따라 다르게 수행된다.</strong></p>
+<p><strong>그렇기에 파이썬 <code>소스코드</code>는 <code>OS</code>와 무관하게 모두 동일한 동작을 수행할 수 있다.</strong></p>
+<br>
+<p>한편, 대화형 프롬프트(<code>Python IDLE</code>)를 통해 작성된 코드는 <code>컴파일</code> 과정을 생략하고 바로 해석-실행된다.</p>
+<br>
+<br>
+<h2 id="결국-파이썬은-그렇게-느리지도-빠르지도-않다">결국 파이썬은 그렇게 느리지도 빠르지도 않다.</h2>
+<p><strong>파이썬은 소스코드를 실행할 때 암묵적으로 이상의 두 단계 과정(<code>컴파일</code> &amp; <code>인터프리트</code>)을 거치기 때문에, 결국 파이썬의 실행속도는 그렇게 느리지도 빠르지도 않다.</strong></p>
+<br>
+<p>혹자의 말처럼, <strong>파이썬은 <code>C</code>, <code>C++</code>과 같은 전통적인 컴파일 언어들에 비해서는 실행속도가 느리다.</strong></p>
+<p>그렇기에 하드웨어 제어처럼 속도가 정말 중요한 경우에는 파이썬이 적합하지 않을 수 있다.</p>
+<br>
+<p><strong>그러나, 파이썬은 <code>Ruby</code>, <code>Perl</code>과 같은 순수 인터프리터 언어들에 비해서는 실행속도가 빠르다.</strong></p>
+<p><strong>나아가, 인터프리터 언어로서 역동적인 프로그래밍이 가능하다는 장점과 파이썬 특유의 깔끔한 문법, 확장성 등은 파이썬을 더욱 더 매력적이게 만든다.</strong></p>
+<br>
+<p><strong>결국 어떤 프로그래밍 언어를 사용할지는 프로그래머의 선택이라고 생각한다.</strong></p>
+<br>
+<p><strong>파이썬이 조금 느리다고 너무 미워하지는 말아주십사 드리는 말씀입니다&hellip;😥</strong></p>
+<br>
+<br>
+<hr>
+<p>출처: M. Lutz, Learning Python. O’Reilly, 2017, p35 ~ pp. 35 ~ 40.</p>
+<div class="footnotes" role="doc-endnotes">
+<hr>
+<ol>
+<li id="fn:1">
+<p>여기서 또 한가지 재밌는 것은, 파이썬 표준 구현체인 <code>CPython</code>보다, 파이썬으로 파이썬을 재귀적으로(recursively) 구현한 변형 구현체인 <code>PyPy</code>의 실행속도가 훨씬 빠르다는 것이다.&#160;<a href="#fnref:1" class="footnote-backref" role="doc-backlink">&#x21a9;&#xfe0e;</a></p>
+</li>
+</ol>
+</div>
+</div><div class="post-footer" id="post-footer">
+    <div class="post-info">
+        <div class="post-info-line">
+            <div class="post-info-mod">
+                <span>Updated on 2023-01-09</span>
+            </div></div>
+        <div class="post-info-line">
+            <div class="post-info-md"></div>
+            <div class="post-info-share">
+                <span><a href="javascript:void(0);" title="Share on Twitter" data-sharer="twitter" data-url="https://Jongbin-kr.github.io/posts/1_programming/1_learning_python/lp002_%ED%8C%8C%EC%9D%B4%EC%8D%AC%EC%9D%B4-%EC%86%8C%EC%8A%A4%EC%BD%94%EB%93%9C%EB%A5%BC-%EC%8B%A4%ED%96%89%ED%95%98%EB%8A%94-%EB%B0%A9%EB%B2%95/" data-title="[LP002] 파이썬은 정말로 인터프리터 언어이기때문에 느릴까?" data-hashtags="Programming,Python,Interpret,Compile,Byte Code"><i class="fab fa-twitter fa-fw" aria-hidden="true"></i></a><a href="javascript:void(0);" title="Share on Facebook" data-sharer="facebook" data-url="https://Jongbin-kr.github.io/posts/1_programming/1_learning_python/lp002_%ED%8C%8C%EC%9D%B4%EC%8D%AC%EC%9D%B4-%EC%86%8C%EC%8A%A4%EC%BD%94%EB%93%9C%EB%A5%BC-%EC%8B%A4%ED%96%89%ED%95%98%EB%8A%94-%EB%B0%A9%EB%B2%95/" data-hashtag="Programming"><i class="fab fa-facebook-square fa-fw" aria-hidden="true"></i></a><a href="javascript:void(0);" title="Share on Linkedin" data-sharer="linkedin" data-url="https://Jongbin-kr.github.io/posts/1_programming/1_learning_python/lp002_%ED%8C%8C%EC%9D%B4%EC%8D%AC%EC%9D%B4-%EC%86%8C%EC%8A%A4%EC%BD%94%EB%93%9C%EB%A5%BC-%EC%8B%A4%ED%96%89%ED%95%98%EB%8A%94-%EB%B0%A9%EB%B2%95/"><i class="fab fa-linkedin fa-fw" aria-hidden="true"></i></a><a href="javascript:void(0);" title="Share on Reddit" data-sharer="reddit" data-url="https://Jongbin-kr.github.io/posts/1_programming/1_learning_python/lp002_%ED%8C%8C%EC%9D%B4%EC%8D%AC%EC%9D%B4-%EC%86%8C%EC%8A%A4%EC%BD%94%EB%93%9C%EB%A5%BC-%EC%8B%A4%ED%96%89%ED%95%98%EB%8A%94-%EB%B0%A9%EB%B2%95/"><i class="fab fa-reddit fa-fw" aria-hidden="true"></i></a><a href="javascript:void(0);" title="Share on Blogger" data-sharer="blogger" data-url="https://Jongbin-kr.github.io/posts/1_programming/1_learning_python/lp002_%ED%8C%8C%EC%9D%B4%EC%8D%AC%EC%9D%B4-%EC%86%8C%EC%8A%A4%EC%BD%94%EB%93%9C%EB%A5%BC-%EC%8B%A4%ED%96%89%ED%95%98%EB%8A%94-%EB%B0%A9%EB%B2%95/" data-title="[LP002] 파이썬은 정말로 인터프리터 언어이기때문에 느릴까?" data-description=""><i class="fab fa-blogger fa-fw" aria-hidden="true"></i></a></span>
+            </div>
+        </div>
+    </div>
+
+    <div class="post-info-more">
+        <section class="post-tags"><i class="fas fa-tags fa-fw" aria-hidden="true"></i>&nbsp;<a href="/tags/programming/">Programming</a>,&nbsp;<a href="/tags/python/">Python</a>,&nbsp;<a href="/tags/interpret/">Interpret</a>,&nbsp;<a href="/tags/compile/">Compile</a>,&nbsp;<a href="/tags/byte-code/">Byte Code</a></section>
+        <section>
+            <span><a href="javascript:void(0);" onclick="window.history.back();">Back</a></span>&nbsp;|&nbsp;<span><a href="/">Home</a></span>
+        </section>
+    </div>
+
+    <div class="post-nav"><a href="/posts/4_daily/2022%EB%85%84%EC%97%90-%EB%8C%80%ED%95%9C-%EB%82%98%EC%9D%98-%EC%A7%A7%EC%9D%80-%ED%9A%8C%EA%B3%A0%EC%99%80-%EB%B0%94%EB%9E%A8/" class="prev" rel="prev" title="2022년에 대한 나의 짧은 회고와 바램"><i class="fas fa-angle-left fa-fw" aria-hidden="true"></i>2022년에 대한 나의 짧은 회고와 바램</a></div>
+</div>
+<div id="comments"><div id="disqus_thread" class="comment"></div><noscript>
+                Please enable JavaScript to view the comments powered by <a href="https://disqus.com/?ref_noscript">Disqus</a>.
+            </noscript></div></article></div>
+            </main><footer class="footer">
+        <div class="footer-container"><div class="footer-line">Powered by <a href="https://gohugo.io/" target="_blank" rel="noopener noreffer" title="Hugo 0.108.0">Hugo</a> | Theme - <a href="https://github.com/dillonzq/LoveIt" target="_blank" rel="noopener noreffer" title="LoveIt 0.2.11"><i class="far fa-kiss-wink-heart fa-fw" aria-hidden="true"></i> LoveIt</a>
+                </div><div class="footer-line" itemscope itemtype="http://schema.org/CreativeWork"><i class="far fa-copyright fa-fw" aria-hidden="true"></i><span itemprop="copyrightYear">2022 - 2023</span><span class="author" itemprop="copyrightHolder">&nbsp;<a href="/" target="_blank">Jongbin Won</a></span>&nbsp;|&nbsp;<span class="license"><a rel="license external nofollow noopener noreffer" href="https://creativecommons.org/licenses/by-nc/4.0/" target="_blank">CC BY-NC 4.0</a></span></div>
+        </div>
+    </footer></div>
+
+        <div id="fixed-buttons"><a href="#" id="back-to-top" class="fixed-button" title="Back to Top">
+                <i class="fas fa-arrow-up fa-fw" aria-hidden="true"></i>
+            </a><a href="#" id="view-comments" class="fixed-button" title="View Comments">
+                <i class="fas fa-comment fa-fw" aria-hidden="true"></i>
+            </a>
+        </div><link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/katex@0.16.0/dist/katex.min.css"><script type="text/javascript" src="https://Jongbin.disqus.com/embed.js" defer></script><script type="text/javascript" src="https://cdn.jsdelivr.net/npm/autocomplete.js@0.38.1/dist/autocomplete.min.js"></script><script type="text/javascript" src="https://cdn.jsdelivr.net/npm/lunr@2.3.9/lunr.min.js"></script><script type="text/javascript" src="https://cdn.jsdelivr.net/npm/lazysizes@5.3.2/lazysizes.min.js"></script><script type="text/javascript" src="https://cdn.jsdelivr.net/npm/clipboard@2.0.11/dist/clipboard.min.js"></script><script type="text/javascript" src="https://cdn.jsdelivr.net/npm/sharer.js@0.5.1/sharer.min.js"></script><script type="text/javascript" src="https://cdn.jsdelivr.net/npm/katex@0.16.0/dist/katex.min.js"></script><script type="text/javascript" src="https://cdn.jsdelivr.net/npm/katex@0.16.0/dist/contrib/auto-render.min.js"></script><script type="text/javascript" src="https://cdn.jsdelivr.net/npm/katex@0.16.0/dist/contrib/copy-tex.min.js"></script><script type="text/javascript" src="https://cdn.jsdelivr.net/npm/katex@0.16.0/dist/contrib/mhchem.min.js"></script><script type="text/javascript">window.config={"code":{"copyTitle":"Copy to clipboard","maxShownLines":50},"comment":{},"math":{"delimiters":[{"display":true,"left":"$$","right":"$$"},{"display":true,"left":"\\[","right":"\\]"},{"display":true,"left":"\\begin{equation}","right":"\\end{equation}"},{"display":true,"left":"\\begin{equation*}","right":"\\end{equation*}"},{"display":true,"left":"\\begin{align}","right":"\\end{align}"},{"display":true,"left":"\\begin{align*}","right":"\\end{align*}"},{"display":true,"left":"\\begin{alignat}","right":"\\end{alignat}"},{"display":true,"left":"\\begin{alignat*}","right":"\\end{alignat*}"},{"display":true,"left":"\\begin{gather}","right":"\\end{gather}"},{"display":true,"left":"\\begin{CD}","right":"\\end{CD}"},{"display":true,"left":"$$","right":"$$"},{"display":false,"left":"$","right":"$"},{"display":false,"left":"\\(","right":"\\)"},{"display":false,"left":"$","right":"$"}],"strict":false},"search":{"highlightTag":"em","lunrIndexURL":"/index.json","maxResultLength":10,"noResultsFound":"No results found","snippetLength":30,"type":"lunr"}};</script><script type="text/javascript" src="/js/theme.min.js"></script></body>
+</html>
