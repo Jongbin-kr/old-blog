@@ -141,28 +141,21 @@ if (!doNotTrack) {
 <p>그리고 <strong><code>인터프리터 언어</code> 특성상, 파이썬은 너무 느려서, 파이썬을 공부하는 대신 <code>C</code>나 <code>C++</code>같은 <code>컴파일 언어</code>들을 공부하는 것이 낫다고 주장하는 사람들도 많다.</strong></p>
 <br>
 <p><strong>그러나 파이썬은 아래 표에서도 확인할 수 있듯, 파이썬은 그 실행속도가 <code>Perl</code>이나 <code>Ruby</code>와 같은 전통적인 인터프리터 언어들보다 유의미하게 빠르다.</strong></p>
-<p><img
-        class="lazyload"
-        src="/svg/loading.min.svg"
-        data-src="/posts/1_programming/1_learning_python/lp002_%ED%8C%8C%EC%9D%B4%EC%8D%AC%EC%9D%B4-%EC%86%8C%EC%8A%A4%EC%BD%94%EB%93%9C%EB%A5%BC-%EC%8B%A4%ED%96%89%ED%95%98%EB%8A%94-%EB%B0%A9%EB%B2%95/programming_language_speed_comparison.png"
-        data-srcset="/posts/1_programming/1_learning_python/lp002_%ED%8C%8C%EC%9D%B4%EC%8D%AC%EC%9D%B4-%EC%86%8C%EC%8A%A4%EC%BD%94%EB%93%9C%EB%A5%BC-%EC%8B%A4%ED%96%89%ED%95%98%EB%8A%94-%EB%B0%A9%EB%B2%95/programming_language_speed_comparison.png, /posts/1_programming/1_learning_python/lp002_%ED%8C%8C%EC%9D%B4%EC%8D%AC%EC%9D%B4-%EC%86%8C%EC%8A%A4%EC%BD%94%EB%93%9C%EB%A5%BC-%EC%8B%A4%ED%96%89%ED%95%98%EB%8A%94-%EB%B0%A9%EB%B2%95/programming_language_speed_comparison.png 1.5x, /posts/1_programming/1_learning_python/lp002_%ED%8C%8C%EC%9D%B4%EC%8D%AC%EC%9D%B4-%EC%86%8C%EC%8A%A4%EC%BD%94%EB%93%9C%EB%A5%BC-%EC%8B%A4%ED%96%89%ED%95%98%EB%8A%94-%EB%B0%A9%EB%B2%95/programming_language_speed_comparison.png 2x"
-        data-sizes="auto"
-        alt="/posts/1_programming/1_learning_python/lp002_%ED%8C%8C%EC%9D%B4%EC%8D%AC%EC%9D%B4-%EC%86%8C%EC%8A%A4%EC%BD%94%EB%93%9C%EB%A5%BC-%EC%8B%A4%ED%96%89%ED%95%98%EB%8A%94-%EB%B0%A9%EB%B2%95/programming_language_speed_comparison.png"
-        title="프로그래밍 언어별 속도 비교" width="720" height="444" /></p>
+<br>
+<figure><img src="programming_language_speed_comparison.png"/>
+</figure>
+
 <br>
 <p><strong>같은 <code>인터프리터 언어</code>임에도, 이러한 속도 차이가 발생하는 이유는 무엇일까?</strong><sup id="fnref:1"><a href="#fn:1" class="footnote-ref" role="doc-noteref">1</a></sup></p>
 <p>이는 파이썬의 <code>소스코드</code>를 실행할 때, 암묵적으로 다음과 같은 과정들을 거치기 때문이다.</p>
 <br>
 <br>
 <h2 id="파이썬이-소스코드를-실행하는-방법">파이썬이 <code>소스코드</code>를 실행하는 방법</h2>
-<p><img
-        class="lazyload"
-        src="/svg/loading.min.svg"
-        data-src="/posts/1_programming/1_learning_python/lp002_%ED%8C%8C%EC%9D%B4%EC%8D%AC%EC%9D%B4-%EC%86%8C%EC%8A%A4%EC%BD%94%EB%93%9C%EB%A5%BC-%EC%8B%A4%ED%96%89%ED%95%98%EB%8A%94-%EB%B0%A9%EB%B2%95/python_execution_model.png"
-        data-srcset="/posts/1_programming/1_learning_python/lp002_%ED%8C%8C%EC%9D%B4%EC%8D%AC%EC%9D%B4-%EC%86%8C%EC%8A%A4%EC%BD%94%EB%93%9C%EB%A5%BC-%EC%8B%A4%ED%96%89%ED%95%98%EB%8A%94-%EB%B0%A9%EB%B2%95/python_execution_model.png, /posts/1_programming/1_learning_python/lp002_%ED%8C%8C%EC%9D%B4%EC%8D%AC%EC%9D%B4-%EC%86%8C%EC%8A%A4%EC%BD%94%EB%93%9C%EB%A5%BC-%EC%8B%A4%ED%96%89%ED%95%98%EB%8A%94-%EB%B0%A9%EB%B2%95/python_execution_model.png 1.5x, /posts/1_programming/1_learning_python/lp002_%ED%8C%8C%EC%9D%B4%EC%8D%AC%EC%9D%B4-%EC%86%8C%EC%8A%A4%EC%BD%94%EB%93%9C%EB%A5%BC-%EC%8B%A4%ED%96%89%ED%95%98%EB%8A%94-%EB%B0%A9%EB%B2%95/python_execution_model.png 2x"
-        data-sizes="auto"
-        alt="/posts/1_programming/1_learning_python/lp002_%ED%8C%8C%EC%9D%B4%EC%8D%AC%EC%9D%B4-%EC%86%8C%EC%8A%A4%EC%BD%94%EB%93%9C%EB%A5%BC-%EC%8B%A4%ED%96%89%ED%95%98%EB%8A%94-%EB%B0%A9%EB%B2%95/python_execution_model.png"
-        title="파이썬이 소스코드를 실행하는 방법" width="1585" height="517" /></p>
+<br>
+<figure><img src="python_execution_model.png"/>
+</figure>
+
+<br>
 <h3 id="1-파이썬은-소스코드를-바이트코드로-컴파일한다">1. 파이썬은 <code>소스코드</code>를 <code>바이트코드</code>로 <code>컴파일</code>한다.</h3>
 <p><strong>우리가 파이썬 <code>소스코드</code>를 실행하면, 파이썬은 내부적으로 우리가 작성한 <code>소스코드</code>(source code)를 <code>바이트코드</code>(byte code)로 <code>컴파일</code>한다.</strong> (&lsquo;초벌번역&rsquo;한다고 풀어쓸 수도 있을 것 같다.)</p>
 <p><strong>이때, <code>바이트코드</code>란 파이썬 가상머신(<code>PVM, Python Virtual Machine</code>)이 이해할 수 있는, <code>소스코드</code>와 <code>기계어</code>(0과 1로만 이뤄진 low-level 언어) 사이에 존재하는 중간 단계 언어라고 할 수 있다.</strong></p>
