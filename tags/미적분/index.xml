@@ -1,0 +1,16 @@
+<rss xmlns:atom="http://www.w3.org/2005/Atom" version="2.0">
+    <channel>
+        <title>미적분 - Tag - Jongbin&#39;s Blog</title>
+        <link>https://Jongbin-kr.github.io/tags/%EB%AF%B8%EC%A0%81%EB%B6%84/</link>
+        <description>미적분 - Tag - Jongbin&#39;s Blog</description>
+        <generator>Hugo -- gohugo.io</generator><language>en-us</language><managingEditor>wonjb001@naver.com (Jongbin Won)</managingEditor>
+            <webMaster>wonjb001@naver.com (Jongbin Won)</webMaster><lastBuildDate>Thu, 02 Feb 2023 23:50:39 &#43;0900</lastBuildDate><atom:link href="https://Jongbin-kr.github.io/tags/%EB%AF%B8%EC%A0%81%EB%B6%84/" rel="self" type="application/rss+xml" /><item>
+    <title>[TIL_230202] 지수/로그함수와 유니코드</title>
+    <link>https://Jongbin-kr.github.io/posts/4_daily/0_til/230202_til_%EA%B3%A0%EB%93%B1%EB%AF%B8%EC%A0%81%EB%B6%84_%EB%9F%AC%EB%8B%9D%ED%8C%8C%EC%9D%B4%EC%8D%AC/</link>
+    <pubDate>Thu, 02 Feb 2023 23:50:39 &#43;0900</pubDate>
+    <author>Jongbin Won</author>
+    <guid>https://Jongbin-kr.github.io/posts/4_daily/0_til/230202_til_%EA%B3%A0%EB%93%B1%EB%AF%B8%EC%A0%81%EB%B6%84_%EB%9F%AC%EB%8B%9D%ED%8C%8C%EC%9D%B4%EC%8D%AC/</guid>
+    <description><![CDATA[Today I Learned&hellip; 대학미적분 스터디 전에 고등 미적분2 공부하는 중&hellip; (학창시절 문과를 택했던 것에 대한 작은 후회는 덤.) 오랜만에 그려본 그래프들. 빨간펜]]></description>
+</item>
+</channel>
+</rss>

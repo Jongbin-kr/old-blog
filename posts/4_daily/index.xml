@@ -4,7 +4,15 @@
         <link>https://Jongbin-kr.github.io/posts/4_daily/</link>
         <description>All Posts | Jongbin&#39;s Blog</description>
         <generator>Hugo -- gohugo.io</generator><language>en-us</language><managingEditor>wonjb001@naver.com (Jongbin Won)</managingEditor>
-            <webMaster>wonjb001@naver.com (Jongbin Won)</webMaster><lastBuildDate>Fri, 20 Jan 2023 13:20:53 &#43;0900</lastBuildDate><atom:link href="https://Jongbin-kr.github.io/posts/4_daily/" rel="self" type="application/rss+xml" /><item>
+            <webMaster>wonjb001@naver.com (Jongbin Won)</webMaster><lastBuildDate>Fri, 03 Feb 2023 23:56:37 &#43;0900</lastBuildDate><atom:link href="https://Jongbin-kr.github.io/posts/4_daily/" rel="self" type="application/rss+xml" /><item>
+    <title></title>
+    <link>https://Jongbin-kr.github.io/posts/4_daily/0_til/</link>
+    <pubDate>Fri, 03 Feb 2023 23:56:37 &#43;0900</pubDate>
+    <author>Jongbin Won</author>
+    <guid>https://Jongbin-kr.github.io/posts/4_daily/0_til/</guid>
+    <description><![CDATA[]]></description>
+</item>
+<item>
     <title>새벽녘에 지하철을 타며 든 생각</title>
     <link>https://Jongbin-kr.github.io/posts/4_daily/230120_%EC%83%88%EB%B2%BD%EB%85%98%EC%97%90-%EC%A7%80%ED%95%98%EC%B2%A0%EC%9D%84-%ED%83%80%EB%A9%B0-%EB%93%A0-%EC%83%9D%EA%B0%81/</link>
     <pubDate>Fri, 20 Jan 2023 13:20:53 &#43;0900</pubDate>
@@ -27,14 +35,6 @@
     <author>Jongbin Won</author>
     <guid>https://Jongbin-kr.github.io/posts/4_daily/221228_%EB%B8%94%EB%A1%9C%EA%B7%B8%EB%A5%BC-%EC%8B%9C%EC%9E%91%ED%96%88%EB%8B%A4/</guid>
     <description><![CDATA[블로그를 시작했다. 이번 학기부터 본격적으로 컴퓨터학과 전공수업들을 들으면서, 깃허브를 관리하면 좋겠다는 생각이 들었고, 이왕 깃허브를 관리하는 김에 &ls]]></description>
-</item>
-<item>
-    <title></title>
-    <link>https://Jongbin-kr.github.io/posts/4_daily/0_til/</link>
-    <pubDate>Mon, 01 Jan 0001 00:00:00 &#43;0000</pubDate>
-    <author>Jongbin Won</author>
-    <guid>https://Jongbin-kr.github.io/posts/4_daily/0_til/</guid>
-    <description><![CDATA[]]></description>
 </item>
 </channel>
 </rss>

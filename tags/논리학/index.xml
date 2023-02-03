@@ -1,0 +1,16 @@
+<rss xmlns:atom="http://www.w3.org/2005/Atom" version="2.0">
+    <channel>
+        <title>논리학 - Tag - Jongbin&#39;s Blog</title>
+        <link>https://Jongbin-kr.github.io/tags/%EB%85%BC%EB%A6%AC%ED%95%99/</link>
+        <description>논리학 - Tag - Jongbin&#39;s Blog</description>
+        <generator>Hugo -- gohugo.io</generator><language>en-us</language><managingEditor>wonjb001@naver.com (Jongbin Won)</managingEditor>
+            <webMaster>wonjb001@naver.com (Jongbin Won)</webMaster><lastBuildDate>Fri, 03 Feb 2023 23:56:37 &#43;0900</lastBuildDate><atom:link href="https://Jongbin-kr.github.io/tags/%EB%85%BC%EB%A6%AC%ED%95%99/" rel="self" type="application/rss+xml" /><item>
+    <title>[TIL_230203] 오랜만에 도서관, 러닝 파이썬 &amp; 논리학</title>
+    <link>https://Jongbin-kr.github.io/posts/4_daily/0_til/230203_til_%EB%8F%84%EC%84%9C%EA%B4%80_%EB%9F%AC%EB%8B%9D%ED%8C%8C%EC%9D%B4%EC%8D%AC_%EB%85%BC%EB%A6%AC%ED%95%99%EC%9E%85%EB%AC%B8/</link>
+    <pubDate>Fri, 03 Feb 2023 23:56:37 &#43;0900</pubDate>
+    <author>Jongbin Won</author>
+    <guid>https://Jongbin-kr.github.io/posts/4_daily/0_til/230203_til_%EB%8F%84%EC%84%9C%EA%B4%80_%EB%9F%AC%EB%8B%9D%ED%8C%8C%EC%9D%B4%EC%8D%AC_%EB%85%BC%EB%A6%AC%ED%95%99%EC%9E%85%EB%AC%B8/</guid>
+    <description><![CDATA[Todaty I Learned&hellip; 러닝 파이썬 문자열 파트를 조금 읽고, 파이썬 세션 마지막 강의자료를 만들었다. 이번 학기중에 들을 기호논리학 수업을 대비하고자, 논리적 사고의 기초(최원]]></description>
+</item>
+</channel>
+</rss>
