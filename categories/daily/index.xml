@@ -4,8 +4,16 @@
         <link>https://Jongbin-kr.github.io/categories/daily/</link>
         <description>Daily - Category - Jongbin&#39;s Blog</description>
         <generator>Hugo -- gohugo.io</generator><language>en-us</language><managingEditor>wonjb001@naver.com (Jongbin Won)</managingEditor>
-            <webMaster>wonjb001@naver.com (Jongbin Won)</webMaster><lastBuildDate>Fri, 03 Feb 2023 23:56:37 &#43;0900</lastBuildDate><atom:link href="https://Jongbin-kr.github.io/categories/daily/" rel="self" type="application/rss+xml" /><item>
-    <title>[TIL_230203] 오랜만에 도서관, 러닝 파이썬 &amp; 논리학</title>
+            <webMaster>wonjb001@naver.com (Jongbin Won)</webMaster><lastBuildDate>Sun, 05 Feb 2023 00:11:29 &#43;0900</lastBuildDate><atom:link href="https://Jongbin-kr.github.io/categories/daily/" rel="self" type="application/rss+xml" /><item>
+    <title>[TIL003] 미적분학의 첫걸음, 파이썬 세션 끝</title>
+    <link>https://Jongbin-kr.github.io/posts/4_daily/0_til/230204_til/</link>
+    <pubDate>Sun, 05 Feb 2023 00:11:29 &#43;0900</pubDate>
+    <author>Jongbin Won</author>
+    <guid>https://Jongbin-kr.github.io/posts/4_daily/0_til/230204_til/</guid>
+    <description><![CDATA[Today I Learned&hellip; 서울대학교 미적분학의 첫걸음 1강(수열의 극한) 독파! 수학의 증명 문화는 아직 익숙치 않다. 고등 미적분2 일반각 개념 공부. 근데 왜 각을 잴 때 양수가 반시]]></description>
+</item>
+<item>
+    <title>[TIL002] 오랜만에 도서관, 러닝 파이썬 &amp; 논리학</title>
     <link>https://Jongbin-kr.github.io/posts/4_daily/0_til/230203_til_%EB%8F%84%EC%84%9C%EA%B4%80_%EB%9F%AC%EB%8B%9D%ED%8C%8C%EC%9D%B4%EC%8D%AC_%EB%85%BC%EB%A6%AC%ED%95%99%EC%9E%85%EB%AC%B8/</link>
     <pubDate>Fri, 03 Feb 2023 23:56:37 &#43;0900</pubDate>
     <author>Jongbin Won</author>
@@ -13,7 +21,7 @@
     <description><![CDATA[Todaty I Learned&hellip; 러닝 파이썬 문자열 파트를 조금 읽고, 파이썬 세션 마지막 강의자료를 만들었다. 이번 학기중에 들을 기호논리학 수업을 대비하고자, 논리적 사고의 기초(최원]]></description>
 </item>
 <item>
-    <title>[TIL_230202] 지수/로그함수와 유니코드</title>
+    <title>[TIL001] 지수/로그함수와 유니코드</title>
     <link>https://Jongbin-kr.github.io/posts/4_daily/0_til/230202_til_%EA%B3%A0%EB%93%B1%EB%AF%B8%EC%A0%81%EB%B6%84_%EB%9F%AC%EB%8B%9D%ED%8C%8C%EC%9D%B4%EC%8D%AC/</link>
     <pubDate>Thu, 02 Feb 2023 23:50:39 &#43;0900</pubDate>
     <author>Jongbin Won</author>
