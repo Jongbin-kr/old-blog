@@ -4,7 +4,7 @@
         <meta charset="utf-8">
         <meta name="viewport" content="width=device-width, initial-scale=1">
         <meta name="robots" content="noodp" />
-        <title>[TIL003] 미적분학의 첫걸음, 파이썬 세션 끝 - Jongbin&#39;s Blog</title>
+        <title>[TIL004] 처음으로 BERT, 처음으로 미적분 스터디. - Jongbin&#39;s Blog</title>
             
 <script type="application/javascript">
 var doNotTrack = false;
@@ -17,33 +17,33 @@ if (!doNotTrack) {
 	
 	ga('send', 'pageview');
 }
-</script><meta name="Description" content="welcome to Jongbin Won&#39;s Blog!"><meta property="og:title" content="[TIL003] 미적분학의 첫걸음, 파이썬 세션 끝" />
-<meta property="og:description" content="Today I Learned&hellip; 서울대학교 미적분학의 첫걸음 1강(수열의 극한) 독파! 수학의 증명 문화는 아직 익숙치 않다. 고등 미적분2 일반각 개념 공부. 근데 왜 각을 잴 때 양수가 반시" />
+</script><meta name="Description" content="welcome to Jongbin Won&#39;s Blog!"><meta property="og:title" content="[TIL004] 처음으로 BERT, 처음으로 미적분 스터디." />
+<meta property="og:description" content="Today I Learned&hellip; koVAR 논문 스터디 처음으로 베이스라인 모델(BERT기반 이야기상식 귀추추론 모델) 코드를 보면서, 공부하는 시간을 가졌다! wandb, huggingface, BERT 등의 라이브러리들이 어" />
 <meta property="og:type" content="article" />
-<meta property="og:url" content="https://Jongbin-kr.github.io/posts/4_daily/0_til/230204_til/" /><meta property="og:image" content="https://Jongbin-kr.github.io/logo.png"/><meta property="article:section" content="posts" />
-<meta property="article:published_time" content="2023-02-05T00:11:29+09:00" />
-<meta property="article:modified_time" content="2023-02-05T00:11:29+09:00" /><meta property="og:site_name" content="Jongbin&#39;s Blog" />
+<meta property="og:url" content="https://Jongbin-kr.github.io/posts/4_daily/0_til/230205_til_%EB%AF%B8%EC%A0%81%EB%B6%84%EC%8A%A4%ED%84%B0%EB%94%94_%EB%85%BC%EB%AC%B8%EC%8A%A4%ED%84%B0%EB%94%94/" /><meta property="og:image" content="https://Jongbin-kr.github.io/logo.png"/><meta property="article:section" content="posts" />
+<meta property="article:published_time" content="2023-02-05T20:44:08+09:00" />
+<meta property="article:modified_time" content="2023-02-05T20:44:08+09:00" /><meta property="og:site_name" content="Jongbin&#39;s Blog" />
 <meta name="twitter:card" content="summary_large_image"/>
 <meta name="twitter:image" content="https://Jongbin-kr.github.io/logo.png"/>
 
-<meta name="twitter:title" content="[TIL003] 미적분학의 첫걸음, 파이썬 세션 끝"/>
-<meta name="twitter:description" content="Today I Learned&hellip; 서울대학교 미적분학의 첫걸음 1강(수열의 극한) 독파! 수학의 증명 문화는 아직 익숙치 않다. 고등 미적분2 일반각 개념 공부. 근데 왜 각을 잴 때 양수가 반시"/>
+<meta name="twitter:title" content="[TIL004] 처음으로 BERT, 처음으로 미적분 스터디."/>
+<meta name="twitter:description" content="Today I Learned&hellip; koVAR 논문 스터디 처음으로 베이스라인 모델(BERT기반 이야기상식 귀추추론 모델) 코드를 보면서, 공부하는 시간을 가졌다! wandb, huggingface, BERT 등의 라이브러리들이 어"/>
 <meta name="application-name" content="My cool site">
 <meta name="apple-mobile-web-app-title" content="My cool site"><meta name="theme-color" content="#ffffff"><meta name="msapplication-TileColor" content="#da532c"><link rel="shortcut icon" type="image/x-icon" href="/favicon.ico" />
         <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
-        <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png"><link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png"><link rel="mask-icon" href="/safari-pinned-tab.svg" color="#5bbad5"><link rel="manifest" href="/site.webmanifest"><link rel="canonical" href="https://Jongbin-kr.github.io/posts/4_daily/0_til/230204_til/" /><link rel="prev" href="https://Jongbin-kr.github.io/posts/4_daily/0_til/230203_til_%EB%8F%84%EC%84%9C%EA%B4%80_%EB%9F%AC%EB%8B%9D%ED%8C%8C%EC%9D%B4%EC%8D%AC_%EB%85%BC%EB%A6%AC%ED%95%99%EC%9E%85%EB%AC%B8/" /><link rel="next" href="https://Jongbin-kr.github.io/posts/4_daily/0_til/230205_til_%EB%AF%B8%EC%A0%81%EB%B6%84%EC%8A%A4%ED%84%B0%EB%94%94_%EB%85%BC%EB%AC%B8%EC%8A%A4%ED%84%B0%EB%94%94/" /><link rel="stylesheet" href="/css/style.min.css"><link rel="preload" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.1.1/css/all.min.css" as="style" onload="this.onload=null;this.rel='stylesheet'">
+        <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png"><link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png"><link rel="mask-icon" href="/safari-pinned-tab.svg" color="#5bbad5"><link rel="manifest" href="/site.webmanifest"><link rel="canonical" href="https://Jongbin-kr.github.io/posts/4_daily/0_til/230205_til_%EB%AF%B8%EC%A0%81%EB%B6%84%EC%8A%A4%ED%84%B0%EB%94%94_%EB%85%BC%EB%AC%B8%EC%8A%A4%ED%84%B0%EB%94%94/" /><link rel="prev" href="https://Jongbin-kr.github.io/posts/4_daily/0_til/230204_til/" /><link rel="stylesheet" href="/css/style.min.css"><link rel="preload" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.1.1/css/all.min.css" as="style" onload="this.onload=null;this.rel='stylesheet'">
         <noscript><link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.1.1/css/all.min.css"></noscript><link rel="preload" href="https://cdn.jsdelivr.net/npm/animate.css@4.1.1/animate.min.css" as="style" onload="this.onload=null;this.rel='stylesheet'">
         <noscript><link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/animate.css@4.1.1/animate.min.css"></noscript><script type="application/ld+json">
     {
         "@context": "http://schema.org",
         "@type": "BlogPosting",
-        "headline": "[TIL003] 미적분학의 첫걸음, 파이썬 세션 끝",
+        "headline": "[TIL004] 처음으로 BERT, 처음으로 미적분 스터디.",
         "inLanguage": "en-us",
         "mainEntityOfPage": {
             "@type": "WebPage",
-            "@id": "https:\/\/Jongbin-kr.github.io\/posts\/4_daily\/0_til\/230204_til\/"
-        },"genre": "posts","keywords": "TIL, 미적분","wordcount":  173 ,
-        "url": "https:\/\/Jongbin-kr.github.io\/posts\/4_daily\/0_til\/230204_til\/","datePublished": "2023-02-05T00:11:29+09:00","dateModified": "2023-02-05T00:11:29+09:00","publisher": {
+            "@id": "https:\/\/Jongbin-kr.github.io\/posts\/4_daily\/0_til\/230205_til_%EB%AF%B8%EC%A0%81%EB%B6%84%EC%8A%A4%ED%84%B0%EB%94%94_%EB%85%BC%EB%AC%B8%EC%8A%A4%ED%84%B0%EB%94%94\/"
+        },"genre": "posts","keywords": "TIL, 미적분, BERT","wordcount":  357 ,
+        "url": "https:\/\/Jongbin-kr.github.io\/posts\/4_daily\/0_til\/230205_til_%EB%AF%B8%EC%A0%81%EB%B6%84%EC%8A%A4%ED%84%B0%EB%94%94_%EB%85%BC%EB%AC%B8%EC%8A%A4%ED%84%B0%EB%94%94\/","datePublished": "2023-02-05T20:44:08+09:00","dateModified": "2023-02-05T20:44:08+09:00","publisher": {
             "@type": "Organization",
             "name": ""},"author": {
                 "@type": "Person",
@@ -114,9 +114,9 @@ if (!doNotTrack) {
                 <div class="container"><div class="toc" id="toc-auto">
             <h2 class="toc-title">Contents</h2>
             <div class="toc-content" id="toc-content-auto"></div>
-        </div><article class="page single"><h1 class="single-title animate__animated animate__flipInX">[TIL003] 미적분학의 첫걸음, 파이썬 세션 끝</h1><div class="post-meta">
+        </div><article class="page single"><h1 class="single-title animate__animated animate__flipInX">[TIL004] 처음으로 BERT, 처음으로 미적분 스터디.</h1><div class="post-meta">
             <div class="post-meta-line"><span class="post-author"><a href="/" title="Author" rel="author" class="author"><i class="fas fa-user-circle fa-fw" aria-hidden="true"></i>Jongbin Won</a></span>&nbsp;<span class="post-category">included in <a href="/categories/daily/"><i class="far fa-folder fa-fw" aria-hidden="true"></i>Daily</a></span></div>
-            <div class="post-meta-line"><i class="far fa-calendar-alt fa-fw" aria-hidden="true"></i>&nbsp;<time datetime="2023-02-05">2023-02-05</time>&nbsp;<i class="fas fa-pencil-alt fa-fw" aria-hidden="true"></i>&nbsp;173 words&nbsp;
+            <div class="post-meta-line"><i class="far fa-calendar-alt fa-fw" aria-hidden="true"></i>&nbsp;<time datetime="2023-02-05">2023-02-05</time>&nbsp;<i class="fas fa-pencil-alt fa-fw" aria-hidden="true"></i>&nbsp;357 words&nbsp;
                 <i class="far fa-clock fa-fw" aria-hidden="true"></i>&nbsp;One minute&nbsp;</div>
         </div><div class="details toc" id="toc-static"  data-kept="true">
                 <div class="details-summary toc-title">
@@ -133,45 +133,63 @@ if (!doNotTrack) {
             </div><div class="content" id="content"><br>
 <h2 id="today-i-learned">Today I Learned&hellip;</h2>
 <ul>
-<li>서울대학교 미적분학의 첫걸음 1강(수열의 극한) 독파!
+<li><code>koVAR</code> 논문 스터디
 <ul>
-<li>수학의 증명 문화는 아직 익숙치 않다.</li>
+<li>처음으로 베이스라인 모델(BERT기반 이야기상식 귀추추론 모델) 코드를 보면서, 공부하는 시간을 가졌다!
+<ul>
+<li><code>wandb</code>, <code>huggingface</code>, <code>BERT</code> 등의 라이브러리들이 어떻게 쓰이는지 대충 알 수 있었다.</li>
+<li>파이썬의 <code>dataclass</code>모듈과 데코레이터(<code>@dataclass</code>), <code>__call__</code> 함수에 대해서 공부했다.</li>
+</ul>
+</li>
 </ul>
 </li>
 </ul>
 <br>
-<figure><img src="20230205_001103.jpg"/>
-</figure>
-
-<figure><img src="20230205_001118.jpg"/>
-</figure>
-
-<figure><img src="20230205_001131.jpg"/>
+<figure><img src="20230205_163742.jpg"/>
 </figure>
 
 <br>
 <ul>
-<li>고등 미적분2 일반각 개념 공부.
+<li>처음으로 대학 미적분 스터디를 진행했다.
 <ul>
-<li>근데 왜 각을 잴 때 양수가 반시계방향일까???</li>
+<li>수학에 있어 증명과 직관의 변천사를 듣고, 이런저런 연습문제들을 조금은 직관적으로 접근하려고 노력했던 것 같다.</li>
+<li>삼각함수는 빨리 공부하자&hellip;</li>
+<li>장기적으로는 이산수학(특히 집합론)도 공부해야겠다.</li>
 </ul>
 </li>
 </ul>
+<br>
+<figure><img src="20230205_202949.jpg"/>
+</figure>
+
+<figure><img src="20230205_202953.jpg"/>
+</figure>
+
+<figure><img src="20230205_203002.jpg"/>
+</figure>
+
+<br>
 <br>
 <br>
 <h2 id="today-i-did">Today I Did&hellip;</h2>
 <ul>
-<li><strong>2월부터 진행해온 파이썬 세션(🤿 Dive into Python 🐍)을 드디어 마무리했다..!</strong>
-<ul>
-<li><strong>이제 앞으로는 내 공부랑 논문 작업에 좀 더 시간써야지&hellip;!</strong></li>
-</ul>
+<li>
+<p>학과에서 진행하는 코딩 봉사활동을 주도적으로 맡아서 진행해볼 생각으로, 교수님께 연락을 드렸다.</p>
+</li>
+<li>
+<p>오늘 시간이 많지 않아, 그 외에는 딱히 한 일은 없네.</p>
 </li>
 </ul>
 <br>
 <br>
 <h2 id="today-i-felt">Today I Felt&hellip;</h2>
 <ul>
-<li>_NTJ들은 다들 어딘가 하나씩은 나사가 빠져있는 것 같다.</li>
+<li>
+<p>날이 많이 따뜻해졌다. 그만큼 마음도 따뜻해지면 좋겠다.</p>
+</li>
+<li>
+<p>항상 말은 곱고 예쁘게. 혀는 칼보다 날카롭다.</p>
+</li>
 </ul>
 </div><div class="post-footer" id="post-footer">
     <div class="post-info">
@@ -182,20 +200,19 @@ if (!doNotTrack) {
         <div class="post-info-line">
             <div class="post-info-md"></div>
             <div class="post-info-share">
-                <span><a href="javascript:void(0);" title="Share on Twitter" data-sharer="twitter" data-url="https://Jongbin-kr.github.io/posts/4_daily/0_til/230204_til/" data-title="[TIL003] 미적분학의 첫걸음, 파이썬 세션 끝" data-hashtags="TIL,미적분"><i class="fab fa-twitter fa-fw" aria-hidden="true"></i></a><a href="javascript:void(0);" title="Share on Facebook" data-sharer="facebook" data-url="https://Jongbin-kr.github.io/posts/4_daily/0_til/230204_til/" data-hashtag="TIL"><i class="fab fa-facebook-square fa-fw" aria-hidden="true"></i></a><a href="javascript:void(0);" title="Share on Linkedin" data-sharer="linkedin" data-url="https://Jongbin-kr.github.io/posts/4_daily/0_til/230204_til/"><i class="fab fa-linkedin fa-fw" aria-hidden="true"></i></a><a href="javascript:void(0);" title="Share on Reddit" data-sharer="reddit" data-url="https://Jongbin-kr.github.io/posts/4_daily/0_til/230204_til/"><i class="fab fa-reddit fa-fw" aria-hidden="true"></i></a><a href="javascript:void(0);" title="Share on Blogger" data-sharer="blogger" data-url="https://Jongbin-kr.github.io/posts/4_daily/0_til/230204_til/" data-title="[TIL003] 미적분학의 첫걸음, 파이썬 세션 끝" data-description=""><i class="fab fa-blogger fa-fw" aria-hidden="true"></i></a></span>
+                <span><a href="javascript:void(0);" title="Share on Twitter" data-sharer="twitter" data-url="https://Jongbin-kr.github.io/posts/4_daily/0_til/230205_til_%EB%AF%B8%EC%A0%81%EB%B6%84%EC%8A%A4%ED%84%B0%EB%94%94_%EB%85%BC%EB%AC%B8%EC%8A%A4%ED%84%B0%EB%94%94/" data-title="[TIL004] 처음으로 BERT, 처음으로 미적분 스터디." data-hashtags="TIL,미적분,BERT"><i class="fab fa-twitter fa-fw" aria-hidden="true"></i></a><a href="javascript:void(0);" title="Share on Facebook" data-sharer="facebook" data-url="https://Jongbin-kr.github.io/posts/4_daily/0_til/230205_til_%EB%AF%B8%EC%A0%81%EB%B6%84%EC%8A%A4%ED%84%B0%EB%94%94_%EB%85%BC%EB%AC%B8%EC%8A%A4%ED%84%B0%EB%94%94/" data-hashtag="TIL"><i class="fab fa-facebook-square fa-fw" aria-hidden="true"></i></a><a href="javascript:void(0);" title="Share on Linkedin" data-sharer="linkedin" data-url="https://Jongbin-kr.github.io/posts/4_daily/0_til/230205_til_%EB%AF%B8%EC%A0%81%EB%B6%84%EC%8A%A4%ED%84%B0%EB%94%94_%EB%85%BC%EB%AC%B8%EC%8A%A4%ED%84%B0%EB%94%94/"><i class="fab fa-linkedin fa-fw" aria-hidden="true"></i></a><a href="javascript:void(0);" title="Share on Reddit" data-sharer="reddit" data-url="https://Jongbin-kr.github.io/posts/4_daily/0_til/230205_til_%EB%AF%B8%EC%A0%81%EB%B6%84%EC%8A%A4%ED%84%B0%EB%94%94_%EB%85%BC%EB%AC%B8%EC%8A%A4%ED%84%B0%EB%94%94/"><i class="fab fa-reddit fa-fw" aria-hidden="true"></i></a><a href="javascript:void(0);" title="Share on Blogger" data-sharer="blogger" data-url="https://Jongbin-kr.github.io/posts/4_daily/0_til/230205_til_%EB%AF%B8%EC%A0%81%EB%B6%84%EC%8A%A4%ED%84%B0%EB%94%94_%EB%85%BC%EB%AC%B8%EC%8A%A4%ED%84%B0%EB%94%94/" data-title="[TIL004] 처음으로 BERT, 처음으로 미적분 스터디." data-description=""><i class="fab fa-blogger fa-fw" aria-hidden="true"></i></a></span>
             </div>
         </div>
     </div>
 
     <div class="post-info-more">
-        <section class="post-tags"><i class="fas fa-tags fa-fw" aria-hidden="true"></i>&nbsp;<a href="/tags/til/">TIL</a>,&nbsp;<a href="/tags/%EB%AF%B8%EC%A0%81%EB%B6%84/">미적분</a></section>
+        <section class="post-tags"><i class="fas fa-tags fa-fw" aria-hidden="true"></i>&nbsp;<a href="/tags/til/">TIL</a>,&nbsp;<a href="/tags/%EB%AF%B8%EC%A0%81%EB%B6%84/">미적분</a>,&nbsp;<a href="/tags/bert/">BERT</a></section>
         <section>
             <span><a href="javascript:void(0);" onclick="window.history.back();">Back</a></span>&nbsp;|&nbsp;<span><a href="/">Home</a></span>
         </section>
     </div>
 
-    <div class="post-nav"><a href="/posts/4_daily/0_til/230203_til_%EB%8F%84%EC%84%9C%EA%B4%80_%EB%9F%AC%EB%8B%9D%ED%8C%8C%EC%9D%B4%EC%8D%AC_%EB%85%BC%EB%A6%AC%ED%95%99%EC%9E%85%EB%AC%B8/" class="prev" rel="prev" title="[TIL002] 오랜만에 도서관, 러닝 파이썬 &amp; 논리학"><i class="fas fa-angle-left fa-fw" aria-hidden="true"></i>[TIL002] 오랜만에 도서관, 러닝 파이썬 & 논리학</a>
-            <a href="/posts/4_daily/0_til/230205_til_%EB%AF%B8%EC%A0%81%EB%B6%84%EC%8A%A4%ED%84%B0%EB%94%94_%EB%85%BC%EB%AC%B8%EC%8A%A4%ED%84%B0%EB%94%94/" class="next" rel="next" title="[TIL004] 처음으로 BERT, 처음으로 미적분 스터디.">[TIL004] 처음으로 BERT, 처음으로 미적분 스터디.<i class="fas fa-angle-right fa-fw" aria-hidden="true"></i></a></div>
+    <div class="post-nav"><a href="/posts/4_daily/0_til/230204_til/" class="prev" rel="prev" title="[TIL003] 미적분학의 첫걸음, 파이썬 세션 끝"><i class="fas fa-angle-left fa-fw" aria-hidden="true"></i>[TIL003] 미적분학의 첫걸음, 파이썬 세션 끝</a></div>
 </div>
 <div id="comments"><div id="disqus_thread" class="comment"></div><noscript>
                 Please enable JavaScript to view the comments powered by <a href="https://disqus.com/?ref_noscript">Disqus</a>.

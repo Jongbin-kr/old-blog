@@ -4,7 +4,15 @@
         <link>https://Jongbin-kr.github.io/posts/4_daily/0_til/</link>
         <description>All Posts | Jongbin&#39;s Blog</description>
         <generator>Hugo -- gohugo.io</generator><language>en-us</language><managingEditor>wonjb001@naver.com (Jongbin Won)</managingEditor>
-            <webMaster>wonjb001@naver.com (Jongbin Won)</webMaster><lastBuildDate>Sun, 05 Feb 2023 00:11:29 &#43;0900</lastBuildDate><atom:link href="https://Jongbin-kr.github.io/posts/4_daily/0_til/" rel="self" type="application/rss+xml" /><item>
+            <webMaster>wonjb001@naver.com (Jongbin Won)</webMaster><lastBuildDate>Sun, 05 Feb 2023 20:44:08 &#43;0900</lastBuildDate><atom:link href="https://Jongbin-kr.github.io/posts/4_daily/0_til/" rel="self" type="application/rss+xml" /><item>
+    <title>[TIL004] 처음으로 BERT, 처음으로 미적분 스터디.</title>
+    <link>https://Jongbin-kr.github.io/posts/4_daily/0_til/230205_til_%EB%AF%B8%EC%A0%81%EB%B6%84%EC%8A%A4%ED%84%B0%EB%94%94_%EB%85%BC%EB%AC%B8%EC%8A%A4%ED%84%B0%EB%94%94/</link>
+    <pubDate>Sun, 05 Feb 2023 20:44:08 &#43;0900</pubDate>
+    <author>Jongbin Won</author>
+    <guid>https://Jongbin-kr.github.io/posts/4_daily/0_til/230205_til_%EB%AF%B8%EC%A0%81%EB%B6%84%EC%8A%A4%ED%84%B0%EB%94%94_%EB%85%BC%EB%AC%B8%EC%8A%A4%ED%84%B0%EB%94%94/</guid>
+    <description><![CDATA[Today I Learned&hellip; koVAR 논문 스터디 처음으로 베이스라인 모델(BERT기반 이야기상식 귀추추론 모델) 코드를 보면서, 공부하는 시간을 가졌다! wandb, huggingface, BERT 등의 라이브러리들이 어]]></description>
+</item>
+<item>
     <title>[TIL003] 미적분학의 첫걸음, 파이썬 세션 끝</title>
     <link>https://Jongbin-kr.github.io/posts/4_daily/0_til/230204_til/</link>
     <pubDate>Sun, 05 Feb 2023 00:11:29 &#43;0900</pubDate>
