@@ -4,7 +4,15 @@
         <link>https://Jongbin-kr.github.io/tags/til/</link>
         <description>TIL - Tag - Jongbin&#39;s Blog</description>
         <generator>Hugo -- gohugo.io</generator><language>en-us</language><managingEditor>wonjb001@naver.com (Jongbin Won)</managingEditor>
-            <webMaster>wonjb001@naver.com (Jongbin Won)</webMaster><lastBuildDate>Wed, 08 Feb 2023 00:50:51 &#43;0900</lastBuildDate><atom:link href="https://Jongbin-kr.github.io/tags/til/" rel="self" type="application/rss+xml" /><item>
+            <webMaster>wonjb001@naver.com (Jongbin Won)</webMaster><lastBuildDate>Fri, 10 Feb 2023 00:25:44 &#43;0900</lastBuildDate><atom:link href="https://Jongbin-kr.github.io/tags/til/" rel="self" type="application/rss+xml" /><item>
+    <title>[TIL006] 원격 연결, Docker, 그리고 인간관계론</title>
+    <link>https://Jongbin-kr.github.io/posts/4_daily/0_til/230210_til_var_%EC%9D%B8%EA%B0%84%EA%B4%80%EA%B3%84%EB%A1%A0/</link>
+    <pubDate>Fri, 10 Feb 2023 00:25:44 &#43;0900</pubDate>
+    <author>Jongbin Won</author>
+    <guid>https://Jongbin-kr.github.io/posts/4_daily/0_til/230210_til_var_%EC%9D%B8%EA%B0%84%EA%B4%80%EA%B3%84%EB%A1%A0/</guid>
+    <description><![CDATA[Today I Learned&hellip; 베이스라인 모델을 짜신 대학원생분을 만나, 활용법을 배웠다. 그 과정에서 vscode만으로 원격 데스크톱에 들어가는 법을 배웠고, Docker를 쓰면]]></description>
+</item>
+<item>
     <title>[TIL005] 수학공부, 완비성 공리, BERT공부 해야하는데...</title>
     <link>https://Jongbin-kr.github.io/posts/4_daily/0_til/230207_til_%EC%88%98%ED%95%99%EA%B3%B5%EB%B6%80/</link>
     <pubDate>Wed, 08 Feb 2023 00:50:51 &#43;0900</pubDate>
@@ -43,6 +51,16 @@
     <author>Jongbin Won</author>
     <guid>https://Jongbin-kr.github.io/posts/4_daily/0_til/230202_til_%EA%B3%A0%EB%93%B1%EB%AF%B8%EC%A0%81%EB%B6%84_%EB%9F%AC%EB%8B%9D%ED%8C%8C%EC%9D%B4%EC%8D%AC/</guid>
     <description><![CDATA[Today I Learned&hellip; 대학미적분 스터디 전에 고등 미적분2 공부하는 중&hellip; (학창시절 문과를 택했던 것에 대한 작은 후회는 덤.) 오랜만에 그려본 그래프들. 빨간펜]]></description>
+</item>
+<item>
+    <title>[TIL###]</title>
+    <link>https://Jongbin-kr.github.io/posts/4_daily/0_til/til-template/</link>
+    <pubDate>Mon, 01 Jan 0001 00:00:00 &#43;0000</pubDate>
+    <author>Jongbin Won</author>
+    <guid>https://Jongbin-kr.github.io/posts/4_daily/0_til/til-template/</guid>
+    <description><![CDATA[
+Today I Learned&hellip; text
+Today I Did&hellip; Today I Felt&hellip; ]]></description>
 </item>
 </channel>
 </rss>
