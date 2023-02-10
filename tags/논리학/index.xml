@@ -4,7 +4,15 @@
         <link>https://Jongbin-kr.github.io/tags/%EB%85%BC%EB%A6%AC%ED%95%99/</link>
         <description>논리학 - Tag - Jongbin&#39;s Blog</description>
         <generator>Hugo -- gohugo.io</generator><language>en-us</language><managingEditor>wonjb001@naver.com (Jongbin Won)</managingEditor>
-            <webMaster>wonjb001@naver.com (Jongbin Won)</webMaster><lastBuildDate>Fri, 03 Feb 2023 23:56:37 &#43;0900</lastBuildDate><atom:link href="https://Jongbin-kr.github.io/tags/%EB%85%BC%EB%A6%AC%ED%95%99/" rel="self" type="application/rss+xml" /><item>
+            <webMaster>wonjb001@naver.com (Jongbin Won)</webMaster><lastBuildDate>Fri, 10 Feb 2023 23:58:31 &#43;0900</lastBuildDate><atom:link href="https://Jongbin-kr.github.io/tags/%EB%85%BC%EB%A6%AC%ED%95%99/" rel="self" type="application/rss+xml" /><item>
+    <title>[TIL007] 자연상수 e, 비교판정법, 논리학 입문, Docker</title>
+    <link>https://Jongbin-kr.github.io/posts/4_daily/0_til/230210_til_%EB%AF%B8%EC%A0%81%EB%B6%84_%EB%8F%84%EC%BB%A4_%EB%85%BC%EB%A6%AC%ED%95%99/</link>
+    <pubDate>Fri, 10 Feb 2023 23:58:31 &#43;0900</pubDate>
+    <author>Jongbin Won</author>
+    <guid>https://Jongbin-kr.github.io/posts/4_daily/0_til/230210_til_%EB%AF%B8%EC%A0%81%EB%B6%84_%EB%8F%84%EC%BB%A4_%EB%85%BC%EB%A6%AC%ED%95%99/</guid>
+    <description><![CDATA[Today I Learned&hellip; 미적분 2강을 마무리했다. 자연상수 $e$의 정의와 증명 비교판정법 논리학 책을 드디어&hellip;펼쳐보았다. 연역추론은 건전한 추론인 경우, 결]]></description>
+</item>
+<item>
     <title>[TIL002] 오랜만에 도서관, 러닝 파이썬 &amp; 논리학</title>
     <link>https://Jongbin-kr.github.io/posts/4_daily/0_til/230203_til_%EB%8F%84%EC%84%9C%EA%B4%80_%EB%9F%AC%EB%8B%9D%ED%8C%8C%EC%9D%B4%EC%8D%AC_%EB%85%BC%EB%A6%AC%ED%95%99%EC%9E%85%EB%AC%B8/</link>
     <pubDate>Fri, 03 Feb 2023 23:56:37 &#43;0900</pubDate>

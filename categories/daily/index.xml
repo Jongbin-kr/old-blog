@@ -4,7 +4,15 @@
         <link>https://Jongbin-kr.github.io/categories/daily/</link>
         <description>Daily - Category - Jongbin&#39;s Blog</description>
         <generator>Hugo -- gohugo.io</generator><language>en-us</language><managingEditor>wonjb001@naver.com (Jongbin Won)</managingEditor>
-            <webMaster>wonjb001@naver.com (Jongbin Won)</webMaster><lastBuildDate>Fri, 10 Feb 2023 00:25:44 &#43;0900</lastBuildDate><atom:link href="https://Jongbin-kr.github.io/categories/daily/" rel="self" type="application/rss+xml" /><item>
+            <webMaster>wonjb001@naver.com (Jongbin Won)</webMaster><lastBuildDate>Fri, 10 Feb 2023 23:58:31 &#43;0900</lastBuildDate><atom:link href="https://Jongbin-kr.github.io/categories/daily/" rel="self" type="application/rss+xml" /><item>
+    <title>[TIL007] 자연상수 e, 비교판정법, 논리학 입문, Docker</title>
+    <link>https://Jongbin-kr.github.io/posts/4_daily/0_til/230210_til_%EB%AF%B8%EC%A0%81%EB%B6%84_%EB%8F%84%EC%BB%A4_%EB%85%BC%EB%A6%AC%ED%95%99/</link>
+    <pubDate>Fri, 10 Feb 2023 23:58:31 &#43;0900</pubDate>
+    <author>Jongbin Won</author>
+    <guid>https://Jongbin-kr.github.io/posts/4_daily/0_til/230210_til_%EB%AF%B8%EC%A0%81%EB%B6%84_%EB%8F%84%EC%BB%A4_%EB%85%BC%EB%A6%AC%ED%95%99/</guid>
+    <description><![CDATA[Today I Learned&hellip; 미적분 2강을 마무리했다. 자연상수 $e$의 정의와 증명 비교판정법 논리학 책을 드디어&hellip;펼쳐보았다. 연역추론은 건전한 추론인 경우, 결]]></description>
+</item>
+<item>
     <title>[TIL006] 원격 연결, Docker, 그리고 인간관계론</title>
     <link>https://Jongbin-kr.github.io/posts/4_daily/0_til/230210_til_var_%EC%9D%B8%EA%B0%84%EA%B4%80%EA%B3%84%EB%A1%A0/</link>
     <pubDate>Fri, 10 Feb 2023 00:25:44 &#43;0900</pubDate>
@@ -75,14 +83,6 @@
     <author>Jongbin Won</author>
     <guid>https://Jongbin-kr.github.io/posts/1_programming/1_learning_python/lp001_%ED%8C%8C%EC%9D%B4%EC%8D%AC%EC%9D%80-%EC%96%B4%EB%A0%B5%EB%8B%A4/</guid>
     <description><![CDATA[파이썬은 어렵다. 파이썬 기초를 떼고 가장 먼저 든 생각은 &lsquo;파이썬은 어렵다&lsquo;였다. 정확히 말하자면, 파이썬은 입문하기는 쉽지만 숙달]]></description>
-</item>
-<item>
-    <title>블로그를 시작했다.</title>
-    <link>https://Jongbin-kr.github.io/posts/4_daily/221228_%EB%B8%94%EB%A1%9C%EA%B7%B8%EB%A5%BC-%EC%8B%9C%EC%9E%91%ED%96%88%EB%8B%A4/</link>
-    <pubDate>Wed, 28 Dec 2022 13:52:54 &#43;0900</pubDate>
-    <author>Jongbin Won</author>
-    <guid>https://Jongbin-kr.github.io/posts/4_daily/221228_%EB%B8%94%EB%A1%9C%EA%B7%B8%EB%A5%BC-%EC%8B%9C%EC%9E%91%ED%96%88%EB%8B%A4/</guid>
-    <description><![CDATA[블로그를 시작했다. 이번 학기부터 본격적으로 컴퓨터학과 전공수업들을 들으면서, 깃허브를 관리하면 좋겠다는 생각이 들었고, 이왕 깃허브를 관리하는 김에 &ls]]></description>
 </item>
 </channel>
 </rss>
