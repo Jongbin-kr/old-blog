@@ -4,7 +4,15 @@
         <link>https://Jongbin-kr.github.io/tags/%EB%AF%B8%EC%A0%81%EB%B6%84/</link>
         <description>미적분 - Tag - Jongbin&#39;s Blog</description>
         <generator>Hugo -- gohugo.io</generator><language>en-us</language><managingEditor>wonjb001@naver.com (Jongbin Won)</managingEditor>
-            <webMaster>wonjb001@naver.com (Jongbin Won)</webMaster><lastBuildDate>Fri, 10 Feb 2023 23:58:31 &#43;0900</lastBuildDate><atom:link href="https://Jongbin-kr.github.io/tags/%EB%AF%B8%EC%A0%81%EB%B6%84/" rel="self" type="application/rss+xml" /><item>
+            <webMaster>wonjb001@naver.com (Jongbin Won)</webMaster><lastBuildDate>Mon, 13 Feb 2023 00:40:00 &#43;0900</lastBuildDate><atom:link href="https://Jongbin-kr.github.io/tags/%EB%AF%B8%EC%A0%81%EB%B6%84/" rel="self" type="application/rss+xml" /><item>
+    <title>[TIL008] 도 커 조 아</title>
+    <link>https://Jongbin-kr.github.io/posts/4_daily/0_til/230213_til008_%ED%98%B8%EB%8F%84%EB%B2%95_%EB%8F%84%EC%BB%A4/</link>
+    <pubDate>Mon, 13 Feb 2023 00:40:00 &#43;0900</pubDate>
+    <author>Jongbin Won</author>
+    <guid>https://Jongbin-kr.github.io/posts/4_daily/0_til/230213_til008_%ED%98%B8%EB%8F%84%EB%B2%95_%EB%8F%84%EC%BB%A4/</guid>
+    <description><![CDATA[Today I Learned&hellip; 도커🐳를 열심히 공부했다. 원래는 얄팍한 코딩사전님의 가장 쉽게 배우는 도커로 공부를 시작했는데, 영상으로만 공부하다보니 불편한 점이 많아, 초보를 위한]]></description>
+</item>
+<item>
     <title>[TIL007] 자연상수 e, 비교판정법, 논리학 입문, Docker</title>
     <link>https://Jongbin-kr.github.io/posts/4_daily/0_til/230210_til_%EB%AF%B8%EC%A0%81%EB%B6%84_%EB%8F%84%EC%BB%A4_%EB%85%BC%EB%A6%AC%ED%95%99/</link>
     <pubDate>Fri, 10 Feb 2023 23:58:31 &#43;0900</pubDate>

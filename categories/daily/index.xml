@@ -4,7 +4,15 @@
         <link>https://Jongbin-kr.github.io/categories/daily/</link>
         <description>Daily - Category - Jongbin&#39;s Blog</description>
         <generator>Hugo -- gohugo.io</generator><language>en-us</language><managingEditor>wonjb001@naver.com (Jongbin Won)</managingEditor>
-            <webMaster>wonjb001@naver.com (Jongbin Won)</webMaster><lastBuildDate>Fri, 10 Feb 2023 23:58:31 &#43;0900</lastBuildDate><atom:link href="https://Jongbin-kr.github.io/categories/daily/" rel="self" type="application/rss+xml" /><item>
+            <webMaster>wonjb001@naver.com (Jongbin Won)</webMaster><lastBuildDate>Mon, 13 Feb 2023 00:40:00 &#43;0900</lastBuildDate><atom:link href="https://Jongbin-kr.github.io/categories/daily/" rel="self" type="application/rss+xml" /><item>
+    <title>[TIL008] 도 커 조 아</title>
+    <link>https://Jongbin-kr.github.io/posts/4_daily/0_til/230213_til008_%ED%98%B8%EB%8F%84%EB%B2%95_%EB%8F%84%EC%BB%A4/</link>
+    <pubDate>Mon, 13 Feb 2023 00:40:00 &#43;0900</pubDate>
+    <author>Jongbin Won</author>
+    <guid>https://Jongbin-kr.github.io/posts/4_daily/0_til/230213_til008_%ED%98%B8%EB%8F%84%EB%B2%95_%EB%8F%84%EC%BB%A4/</guid>
+    <description><![CDATA[Today I Learned&hellip; 도커🐳를 열심히 공부했다. 원래는 얄팍한 코딩사전님의 가장 쉽게 배우는 도커로 공부를 시작했는데, 영상으로만 공부하다보니 불편한 점이 많아, 초보를 위한]]></description>
+</item>
+<item>
     <title>[TIL007] 자연상수 e, 비교판정법, 논리학 입문, Docker</title>
     <link>https://Jongbin-kr.github.io/posts/4_daily/0_til/230210_til_%EB%AF%B8%EC%A0%81%EB%B6%84_%EB%8F%84%EC%BB%A4_%EB%85%BC%EB%A6%AC%ED%95%99/</link>
     <pubDate>Fri, 10 Feb 2023 23:58:31 &#43;0900</pubDate>
@@ -75,14 +83,6 @@
     <author>Jongbin Won</author>
     <guid>https://Jongbin-kr.github.io/posts/4_daily/230102_2022%EB%85%84%EC%97%90-%EB%8C%80%ED%95%9C-%EB%82%98%EC%9D%98-%EC%A7%A7%EC%9D%80-%ED%9A%8C%EA%B3%A0%EC%99%80-%EB%B0%94%EB%9E%A8/</guid>
     <description><![CDATA[지난 2022년은 코로나로 빼았겼던 많은 것들을 조금씩 되찾아가는 한 해였던 것 같다. 많은 사람들이 그동안 상실한 것들을 대하여 아파하고, 돌아온 것들을 즐기기도]]></description>
-</item>
-<item>
-    <title>[LP001] 파이썬은 어렵다. 그래서 공부해야한다.</title>
-    <link>https://Jongbin-kr.github.io/posts/1_programming/1_learning_python/lp001_%ED%8C%8C%EC%9D%B4%EC%8D%AC%EC%9D%80-%EC%96%B4%EB%A0%B5%EB%8B%A4/</link>
-    <pubDate>Fri, 30 Dec 2022 22:23:35 &#43;0900</pubDate>
-    <author>Jongbin Won</author>
-    <guid>https://Jongbin-kr.github.io/posts/1_programming/1_learning_python/lp001_%ED%8C%8C%EC%9D%B4%EC%8D%AC%EC%9D%80-%EC%96%B4%EB%A0%B5%EB%8B%A4/</guid>
-    <description><![CDATA[파이썬은 어렵다. 파이썬 기초를 떼고 가장 먼저 든 생각은 &lsquo;파이썬은 어렵다&lsquo;였다. 정확히 말하자면, 파이썬은 입문하기는 쉽지만 숙달]]></description>
 </item>
 </channel>
 </rss>
