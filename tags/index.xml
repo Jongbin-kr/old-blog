@@ -4,10 +4,10 @@
         <link>https://Jongbin-kr.github.io/tags/</link>
         <description>Tags - Tag - Jongbin&#39;s Blog</description>
         <generator>Hugo -- gohugo.io</generator><language>en-us</language><managingEditor>wonjb001@naver.com (Jongbin Won)</managingEditor>
-            <webMaster>wonjb001@naver.com (Jongbin Won)</webMaster><lastBuildDate>Mon, 13 Feb 2023 00:40:00 &#43;0900</lastBuildDate><atom:link href="https://Jongbin-kr.github.io/tags/" rel="self" type="application/rss+xml" /><item>
+            <webMaster>wonjb001@naver.com (Jongbin Won)</webMaster><lastBuildDate>Wed, 15 Feb 2023 23:38:31 &#43;0900</lastBuildDate><atom:link href="https://Jongbin-kr.github.io/tags/" rel="self" type="application/rss+xml" /><item>
     <title>Docker</title>
     <link>https://Jongbin-kr.github.io/tags/docker/</link>
-    <pubDate>Mon, 13 Feb 2023 00:40:00 &#43;0900</pubDate>
+    <pubDate>Wed, 15 Feb 2023 23:38:31 &#43;0900</pubDate>
     <author>Jongbin Won</author>
     <guid>https://Jongbin-kr.github.io/tags/docker/</guid>
     <description><![CDATA[]]></description>
@@ -15,15 +15,23 @@
 <item>
     <title>TIL</title>
     <link>https://Jongbin-kr.github.io/tags/til/</link>
-    <pubDate>Mon, 13 Feb 2023 00:40:00 &#43;0900</pubDate>
+    <pubDate>Wed, 15 Feb 2023 23:38:31 &#43;0900</pubDate>
     <author>Jongbin Won</author>
     <guid>https://Jongbin-kr.github.io/tags/til/</guid>
     <description><![CDATA[]]></description>
 </item>
 <item>
+    <title>Ubuntu</title>
+    <link>https://Jongbin-kr.github.io/tags/ubuntu/</link>
+    <pubDate>Wed, 15 Feb 2023 23:38:31 &#43;0900</pubDate>
+    <author>Jongbin Won</author>
+    <guid>https://Jongbin-kr.github.io/tags/ubuntu/</guid>
+    <description><![CDATA[]]></description>
+</item>
+<item>
     <title>미적분</title>
     <link>https://Jongbin-kr.github.io/tags/%EB%AF%B8%EC%A0%81%EB%B6%84/</link>
-    <pubDate>Mon, 13 Feb 2023 00:40:00 &#43;0900</pubDate>
+    <pubDate>Wed, 15 Feb 2023 23:38:31 &#43;0900</pubDate>
     <author>Jongbin Won</author>
     <guid>https://Jongbin-kr.github.io/tags/%EB%AF%B8%EC%A0%81%EB%B6%84/</guid>
     <description><![CDATA[]]></description>
@@ -74,14 +82,6 @@
     <pubDate>Wed, 01 Feb 2023 23:15:03 &#43;0900</pubDate>
     <author>Jongbin Won</author>
     <guid>https://Jongbin-kr.github.io/tags/discourse-analysis/</guid>
-    <description><![CDATA[]]></description>
-</item>
-<item>
-    <title>wake-up words</title>
-    <link>https://Jongbin-kr.github.io/tags/wake-up-words/</link>
-    <pubDate>Wed, 01 Feb 2023 23:15:03 &#43;0900</pubDate>
-    <author>Jongbin Won</author>
-    <guid>https://Jongbin-kr.github.io/tags/wake-up-words/</guid>
     <description><![CDATA[]]></description>
 </item>
 </channel>

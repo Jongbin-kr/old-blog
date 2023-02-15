@@ -4,7 +4,23 @@
         <link>https://Jongbin-kr.github.io/tags/til/</link>
         <description>TIL - Tag - Jongbin&#39;s Blog</description>
         <generator>Hugo -- gohugo.io</generator><language>en-us</language><managingEditor>wonjb001@naver.com (Jongbin Won)</managingEditor>
-            <webMaster>wonjb001@naver.com (Jongbin Won)</webMaster><lastBuildDate>Mon, 13 Feb 2023 00:40:00 &#43;0900</lastBuildDate><atom:link href="https://Jongbin-kr.github.io/tags/til/" rel="self" type="application/rss+xml" /><item>
+            <webMaster>wonjb001@naver.com (Jongbin Won)</webMaster><lastBuildDate>Wed, 15 Feb 2023 23:38:31 &#43;0900</lastBuildDate><atom:link href="https://Jongbin-kr.github.io/tags/til/" rel="self" type="application/rss+xml" /><item>
+    <title>[TIL010] 함수의 극한, 리눅스머신 사고싶다</title>
+    <link>https://Jongbin-kr.github.io/posts/4_daily/0_til/230215_til010_%EB%AF%B8%EC%A0%81%EB%B6%84_%EC%9A%B0%EB%B6%84%ED%88%AC/</link>
+    <pubDate>Wed, 15 Feb 2023 23:38:31 &#43;0900</pubDate>
+    <author>Jongbin Won</author>
+    <guid>https://Jongbin-kr.github.io/posts/4_daily/0_til/230215_til010_%EB%AF%B8%EC%A0%81%EB%B6%84_%EC%9A%B0%EB%B6%84%ED%88%AC/</guid>
+    <description><![CDATA[Today I Learned&hellip; 어제에 이어 미적분 공부. 3. 함수의 극한을 처음부터 다시 복습했다. 이제 조금 이해가 된다. 수학은 직관적으로 당연한 것을 엄밀히 증명함으로써, 어디서든 써]]></description>
+</item>
+<item>
+    <title>[TIL009] 선형대수, 인공지능, 기호학, let&#39;s go.</title>
+    <link>https://Jongbin-kr.github.io/posts/4_daily/0_til/230214_til009_%EC%88%98%EA%B0%95%EC%8B%A0%EC%B2%AD_%EB%8F%84%EC%BB%A4_-%EC%9A%B0%EB%B6%84%ED%88%AC/</link>
+    <pubDate>Wed, 15 Feb 2023 23:28:45 &#43;0900</pubDate>
+    <author>Jongbin Won</author>
+    <guid>https://Jongbin-kr.github.io/posts/4_daily/0_til/230214_til009_%EC%88%98%EA%B0%95%EC%8B%A0%EC%B2%AD_%EB%8F%84%EC%BB%A4_-%EC%9A%B0%EB%B6%84%ED%88%AC/</guid>
+    <description><![CDATA[Today I Learned&hellip; 어제 공부하던 도커를 이어서 공부했다. 도커 기본 사용법을 공부했다. 근데 이미지 만드는 것은 당장은 필요없을 것 같아 미뤄두었다. 미적분학의 첫걸음 3. 함수]]></description>
+</item>
+<item>
     <title>[TIL008] 도 커 조 아</title>
     <link>https://Jongbin-kr.github.io/posts/4_daily/0_til/230213_til008_%ED%98%B8%EB%8F%84%EB%B2%95_%EB%8F%84%EC%BB%A4/</link>
     <pubDate>Mon, 13 Feb 2023 00:40:00 &#43;0900</pubDate>

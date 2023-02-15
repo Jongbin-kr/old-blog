@@ -4,7 +4,7 @@
         <meta charset="utf-8">
         <meta name="viewport" content="width=device-width, initial-scale=1">
         <meta name="robots" content="noodp" />
-        <title>[TIL008] 도 커 조 아 - Jongbin&#39;s Blog</title>
+        <title>[TIL009] 선형대수, 인공지능, 기호학, let&#39;s go. - Jongbin&#39;s Blog</title>
             
 <script type="application/javascript">
 var doNotTrack = false;
@@ -17,33 +17,33 @@ if (!doNotTrack) {
 	
 	ga('send', 'pageview');
 }
-</script><meta name="Description" content="welcome to Jongbin Won&#39;s Blog!"><meta property="og:title" content="[TIL008] 도 커 조 아" />
-<meta property="og:description" content="Today I Learned&hellip; 도커🐳를 열심히 공부했다. 원래는 얄팍한 코딩사전님의 가장 쉽게 배우는 도커로 공부를 시작했는데, 영상으로만 공부하다보니 불편한 점이 많아, 초보를 위한" />
+</script><meta name="Description" content="welcome to Jongbin Won&#39;s Blog!"><meta property="og:title" content="[TIL009] 선형대수, 인공지능, 기호학, let&#39;s go." />
+<meta property="og:description" content="Today I Learned&hellip; 어제 공부하던 도커를 이어서 공부했다. 도커 기본 사용법을 공부했다. 근데 이미지 만드는 것은 당장은 필요없을 것 같아 미뤄두었다. 미적분학의 첫걸음 3. 함수" />
 <meta property="og:type" content="article" />
-<meta property="og:url" content="https://Jongbin-kr.github.io/posts/4_daily/0_til/230213_til008_%ED%98%B8%EB%8F%84%EB%B2%95_%EB%8F%84%EC%BB%A4/" /><meta property="og:image" content="https://Jongbin-kr.github.io/logo.png"/><meta property="article:section" content="posts" />
-<meta property="article:published_time" content="2023-02-13T00:40:00+09:00" />
-<meta property="article:modified_time" content="2023-02-13T00:40:00+09:00" /><meta property="og:site_name" content="Jongbin&#39;s Blog" />
+<meta property="og:url" content="https://Jongbin-kr.github.io/posts/4_daily/0_til/230214_til009_%EC%88%98%EA%B0%95%EC%8B%A0%EC%B2%AD_%EB%8F%84%EC%BB%A4_-%EC%9A%B0%EB%B6%84%ED%88%AC/" /><meta property="og:image" content="https://Jongbin-kr.github.io/logo.png"/><meta property="article:section" content="posts" />
+<meta property="article:published_time" content="2023-02-15T23:28:45+09:00" />
+<meta property="article:modified_time" content="2023-02-15T23:28:45+09:00" /><meta property="og:site_name" content="Jongbin&#39;s Blog" />
 <meta name="twitter:card" content="summary_large_image"/>
 <meta name="twitter:image" content="https://Jongbin-kr.github.io/logo.png"/>
 
-<meta name="twitter:title" content="[TIL008] 도 커 조 아"/>
-<meta name="twitter:description" content="Today I Learned&hellip; 도커🐳를 열심히 공부했다. 원래는 얄팍한 코딩사전님의 가장 쉽게 배우는 도커로 공부를 시작했는데, 영상으로만 공부하다보니 불편한 점이 많아, 초보를 위한"/>
+<meta name="twitter:title" content="[TIL009] 선형대수, 인공지능, 기호학, let&#39;s go."/>
+<meta name="twitter:description" content="Today I Learned&hellip; 어제 공부하던 도커를 이어서 공부했다. 도커 기본 사용법을 공부했다. 근데 이미지 만드는 것은 당장은 필요없을 것 같아 미뤄두었다. 미적분학의 첫걸음 3. 함수"/>
 <meta name="application-name" content="My cool site">
 <meta name="apple-mobile-web-app-title" content="My cool site"><meta name="theme-color" content="#ffffff"><meta name="msapplication-TileColor" content="#da532c"><link rel="shortcut icon" type="image/x-icon" href="/favicon.ico" />
         <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
-        <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png"><link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png"><link rel="mask-icon" href="/safari-pinned-tab.svg" color="#5bbad5"><link rel="manifest" href="/site.webmanifest"><link rel="canonical" href="https://Jongbin-kr.github.io/posts/4_daily/0_til/230213_til008_%ED%98%B8%EB%8F%84%EB%B2%95_%EB%8F%84%EC%BB%A4/" /><link rel="prev" href="https://Jongbin-kr.github.io/posts/4_daily/0_til/230210_til_%EB%AF%B8%EC%A0%81%EB%B6%84_%EB%8F%84%EC%BB%A4_%EB%85%BC%EB%A6%AC%ED%95%99/" /><link rel="next" href="https://Jongbin-kr.github.io/posts/4_daily/0_til/230214_til009_%EC%88%98%EA%B0%95%EC%8B%A0%EC%B2%AD_%EB%8F%84%EC%BB%A4_-%EC%9A%B0%EB%B6%84%ED%88%AC/" /><link rel="stylesheet" href="/css/style.min.css"><link rel="preload" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.1.1/css/all.min.css" as="style" onload="this.onload=null;this.rel='stylesheet'">
+        <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png"><link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png"><link rel="mask-icon" href="/safari-pinned-tab.svg" color="#5bbad5"><link rel="manifest" href="/site.webmanifest"><link rel="canonical" href="https://Jongbin-kr.github.io/posts/4_daily/0_til/230214_til009_%EC%88%98%EA%B0%95%EC%8B%A0%EC%B2%AD_%EB%8F%84%EC%BB%A4_-%EC%9A%B0%EB%B6%84%ED%88%AC/" /><link rel="prev" href="https://Jongbin-kr.github.io/posts/4_daily/0_til/230213_til008_%ED%98%B8%EB%8F%84%EB%B2%95_%EB%8F%84%EC%BB%A4/" /><link rel="next" href="https://Jongbin-kr.github.io/posts/4_daily/0_til/230215_til010_%EB%AF%B8%EC%A0%81%EB%B6%84_%EC%9A%B0%EB%B6%84%ED%88%AC/" /><link rel="stylesheet" href="/css/style.min.css"><link rel="preload" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.1.1/css/all.min.css" as="style" onload="this.onload=null;this.rel='stylesheet'">
         <noscript><link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.1.1/css/all.min.css"></noscript><link rel="preload" href="https://cdn.jsdelivr.net/npm/animate.css@4.1.1/animate.min.css" as="style" onload="this.onload=null;this.rel='stylesheet'">
         <noscript><link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/animate.css@4.1.1/animate.min.css"></noscript><script type="application/ld+json">
     {
         "@context": "http://schema.org",
         "@type": "BlogPosting",
-        "headline": "[TIL008] 도 커 조 아",
+        "headline": "[TIL009] 선형대수, 인공지능, 기호학, let's go.",
         "inLanguage": "en-us",
         "mainEntityOfPage": {
             "@type": "WebPage",
-            "@id": "https:\/\/Jongbin-kr.github.io\/posts\/4_daily\/0_til\/230213_til008_%ED%98%B8%EB%8F%84%EB%B2%95_%EB%8F%84%EC%BB%A4\/"
-        },"genre": "posts","keywords": "TIL, 미적분, Docker","wordcount":  634 ,
-        "url": "https:\/\/Jongbin-kr.github.io\/posts\/4_daily\/0_til\/230213_til008_%ED%98%B8%EB%8F%84%EB%B2%95_%EB%8F%84%EC%BB%A4\/","datePublished": "2023-02-13T00:40:00+09:00","dateModified": "2023-02-13T00:40:00+09:00","publisher": {
+            "@id": "https:\/\/Jongbin-kr.github.io\/posts\/4_daily\/0_til\/230214_til009_%EC%88%98%EA%B0%95%EC%8B%A0%EC%B2%AD_%EB%8F%84%EC%BB%A4_-%EC%9A%B0%EB%B6%84%ED%88%AC\/"
+        },"genre": "posts","keywords": "TIL, Docker, Ubuntu","wordcount":  411 ,
+        "url": "https:\/\/Jongbin-kr.github.io\/posts\/4_daily\/0_til\/230214_til009_%EC%88%98%EA%B0%95%EC%8B%A0%EC%B2%AD_%EB%8F%84%EC%BB%A4_-%EC%9A%B0%EB%B6%84%ED%88%AC\/","datePublished": "2023-02-15T23:28:45+09:00","dateModified": "2023-02-15T23:28:45+09:00","publisher": {
             "@type": "Organization",
             "name": ""},"author": {
                 "@type": "Person",
@@ -114,10 +114,10 @@ if (!doNotTrack) {
                 <div class="container"><div class="toc" id="toc-auto">
             <h2 class="toc-title">Contents</h2>
             <div class="toc-content" id="toc-content-auto"></div>
-        </div><article class="page single"><h1 class="single-title animate__animated animate__flipInX">[TIL008] 도 커 조 아</h1><div class="post-meta">
+        </div><article class="page single"><h1 class="single-title animate__animated animate__flipInX">[TIL009] 선형대수, 인공지능, 기호학, let's go.</h1><div class="post-meta">
             <div class="post-meta-line"><span class="post-author"><a href="/" title="Author" rel="author" class="author"><i class="fas fa-user-circle fa-fw" aria-hidden="true"></i>Jongbin Won</a></span>&nbsp;<span class="post-category">included in <a href="/categories/daily/"><i class="far fa-folder fa-fw" aria-hidden="true"></i>Daily</a></span></div>
-            <div class="post-meta-line"><i class="far fa-calendar-alt fa-fw" aria-hidden="true"></i>&nbsp;<time datetime="2023-02-13">2023-02-13</time>&nbsp;<i class="fas fa-pencil-alt fa-fw" aria-hidden="true"></i>&nbsp;634 words&nbsp;
-                <i class="far fa-clock fa-fw" aria-hidden="true"></i>&nbsp;2 minutes&nbsp;</div>
+            <div class="post-meta-line"><i class="far fa-calendar-alt fa-fw" aria-hidden="true"></i>&nbsp;<time datetime="2023-02-15">2023-02-15</time>&nbsp;<i class="fas fa-pencil-alt fa-fw" aria-hidden="true"></i>&nbsp;411 words&nbsp;
+                <i class="far fa-clock fa-fw" aria-hidden="true"></i>&nbsp;One minute&nbsp;</div>
         </div><div class="details toc" id="toc-static"  data-kept="true">
                 <div class="details-summary toc-title">
                     <span>Contents</span>
@@ -133,104 +133,90 @@ if (!doNotTrack) {
             </div><div class="content" id="content"><br>
 <h2 id="today-i-learned">Today I Learned&hellip;</h2>
 <ul>
-<li>도커🐳를 열심히 공부했다.
+<li>어제 공부하던 도커를 이어서 공부했다.
 <ul>
-<li>원래는 <code>얄팍한 코딩사전</code>님의 <a href="https://youtu.be/hWPv9LMlme8" target="_blank" rel="noopener noreffer ">가장 쉽게 배우는 도커</a>로 공부를 시작했는데, 영상으로만 공부하다보니 불편한 점이 많아,</li>
-<li><a href="https://subicura.com/2017/01/19/docker-guide-for-beginners-1.html" target="_blank" rel="noopener noreffer ">초보를 위한 도커 안내서</a>라는 글을 많이 참고해가며 공부했다.
-<ul>
-<li><strong>이미지는 컨테이너를 만들어내는 불변의 틀이다.</strong></li>
-<li><strong>이미지는 여러 층의 레이어로 이뤄지며, 같은 이미지의 경우 컨테이너끼리 공유하기도 한다.</strong></li>
-<li><strong>도커는 하나의 시스템처럼 보이지만, <code>Clinet-End</code>와 <code>Host-End(Docker Daemon)</code>로 나뉘어 있다.</strong></li>
-<li><strong>❗ 도커의 마스코트인 고래🐳의 이름은 <code>Moby Dock</code>이다. <del>귀여워</del></strong></li>
-</ul>
-</li>
-<li>도커는 정말 훌륭한 기술인 것 같다.</li>
+<li><a href="https://subicura.com/2017/01/19/docker-guide-for-beginners-2.html" target="_blank" rel="noopener noreffer ">도커 기본 사용법</a>을 공부했다. 근데 이미지 만드는 것은 당장은 필요없을 것 같아 미뤄두었다.</li>
 </ul>
 </li>
 </ul>
 <br>
 <ul>
-<li>오늘도 즐겁게 수학의 문화에 대해 배웠다.
+<li>미적분학의 첫걸음 <code>3. 함수의 극한</code>파트 공부를 시작했다.
 <ul>
-<li><strong>호도법의 기저원리와 의의.</strong>
-<ul>
-<li><strong>호도법은 기존의 육십분법(0~360도)에서 탈피해, 오직 $\pi$만을 활용해 원을 표현하고, 쉽게 계산할 수 있다는 점에서 그 의의가 있다.</strong></li>
-<li><strong>한편, 라디안(radian)에 대해서 따로 단위를 표시하지 않는 것은, 라디안은 호의 길이에 대한 중심각의 비율이기 때문이다.</strong>
-<ul>
-<li><strong>곧, 이전에는 길이와 각이라는 서로 이질적인 단위를, 호도법과 라디안을 통해서 같은 차원에서 생각하고 계산할 수 있게 된 것이다.</strong></li>
-</ul>
-</li>
-</ul>
-</li>
-<li><strong>정의, 공리, 정리.</strong>
-<ul>
-<li><strong>수렴한다는 것의 정의는 $\epsilon$ 논법을 통해 정의한 것이지만,</strong></li>
-<li><strong><code>완비성 공리</code>는 실수의 정의에서 파생된 일종의 속성이다.</strong></li>
-<li><strong>이러한 정의와 공리들을 잘 구워삶아 <code>샌드위치 정리</code>, <code>비교판정법</code>등의 정리가 나오는 것.</strong></li>
-</ul>
-</li>
+<li>강의 자체도 길이가 꽤 있고, 난도도 좀 있다&hellip;</li>
 </ul>
 </li>
 </ul>
 <br>
-<p><figure><img src="20230213_010059.jpg"/>
-</figure>
-<br>
-<figure><img src="20230213_010111.jpg"/>
-</figure>
-<br>
-<figure><img src="20230213_010123.jpg"/>
-</figure>
-</p>
-<br>
+<ul>
+<li>연구실 소유의 GPU머신 <code>릴리</code>에 원격접속하여 뭐가 있나 훑어보았다.
+<ul>
+<li>용량이 상당히 부족하다&hellip;SSD가 16GB정도 밖에 여분이 안남았다니&hellip;
+<ul>
+<li>당장 개인 파일은 함부로 건드리기 조심스러우니, 그 외에 삭제할 수 있는 파일들을 찾아봐야겠다.</li>
+</ul>
+</li>
+<li>HDD는 마운트가 된건지? OS는 어디에 깔린건지? 전혀 감이 안잡힌다.</li>
+<li>다만 릴리의 기본 스펙들은 이제 얼추 파악한 것 같다.</li>
+</ul>
+</li>
+</ul>
 <br>
 <br>
 <h2 id="today-i-did">Today I Did&hellip;</h2>
 <ul>
-<li>해장</li>
-<li>논문 스터디</li>
-<li>미적분 스터디</li>
+<li>수강신청. 다행히 원하는 대로 다 넣었다.
+<ul>
+<li><code>선형대수</code>, <code>인공지능</code>, <code>기호학</code>, let&rsquo;s go.</li>
+</ul>
+</li>
+</ul>
+<br>
+<figure><img src="Screenshot_20230214_101710_Everytime.jpg"/>
+</figure>
+
+<br>
+<ul>
+<li>관장님과 PT.
+<ul>
+<li>이전 트레이너님과 스타일이 확실히 많이 다르다.
+<ul>
+<li>좀 더 해가면서 배워야지.</li>
+</ul>
+</li>
+<li>운동은 좀 더 많이 해야지&hellip;</li>
+</ul>
+</li>
 </ul>
 <br>
 <br>
 <h2 id="today-i-thought--felt">Today I Thought &amp; Felt&hellip;</h2>
-<blockquote>
-<p>어디에서, 어떻게, 누구와 보는가가 영화의 완성이다. -왕가위</p>
-</blockquote>
-<br>
-<blockquote>
-<p>인간은 망각의 동물이다.</p>
-</blockquote>
 <ul>
-<li>하지만 인간의 망각은 <strong>흔적</strong>을 남긴다.
-<ul>
-<li>과연 인공지능의 망각 역시 인간과 비슷한 <strong>흔적</strong>을 남기는가?</li>
-</ul>
-</li>
+<li>인간은, 자신의 생각을 온전히 공유할 수 없다는 점에서, 필연적으로 고독하다.</li>
 </ul>
 </div><div class="post-footer" id="post-footer">
     <div class="post-info">
         <div class="post-info-line">
             <div class="post-info-mod">
-                <span>Updated on 2023-02-13</span>
+                <span>Updated on 2023-02-15</span>
             </div></div>
         <div class="post-info-line">
             <div class="post-info-md"></div>
             <div class="post-info-share">
-                <span><a href="javascript:void(0);" title="Share on Twitter" data-sharer="twitter" data-url="https://Jongbin-kr.github.io/posts/4_daily/0_til/230213_til008_%ED%98%B8%EB%8F%84%EB%B2%95_%EB%8F%84%EC%BB%A4/" data-title="[TIL008] 도 커 조 아" data-hashtags="TIL,미적분,Docker"><i class="fab fa-twitter fa-fw" aria-hidden="true"></i></a><a href="javascript:void(0);" title="Share on Facebook" data-sharer="facebook" data-url="https://Jongbin-kr.github.io/posts/4_daily/0_til/230213_til008_%ED%98%B8%EB%8F%84%EB%B2%95_%EB%8F%84%EC%BB%A4/" data-hashtag="TIL"><i class="fab fa-facebook-square fa-fw" aria-hidden="true"></i></a><a href="javascript:void(0);" title="Share on Linkedin" data-sharer="linkedin" data-url="https://Jongbin-kr.github.io/posts/4_daily/0_til/230213_til008_%ED%98%B8%EB%8F%84%EB%B2%95_%EB%8F%84%EC%BB%A4/"><i class="fab fa-linkedin fa-fw" aria-hidden="true"></i></a><a href="javascript:void(0);" title="Share on Reddit" data-sharer="reddit" data-url="https://Jongbin-kr.github.io/posts/4_daily/0_til/230213_til008_%ED%98%B8%EB%8F%84%EB%B2%95_%EB%8F%84%EC%BB%A4/"><i class="fab fa-reddit fa-fw" aria-hidden="true"></i></a><a href="javascript:void(0);" title="Share on Blogger" data-sharer="blogger" data-url="https://Jongbin-kr.github.io/posts/4_daily/0_til/230213_til008_%ED%98%B8%EB%8F%84%EB%B2%95_%EB%8F%84%EC%BB%A4/" data-title="[TIL008] 도 커 조 아" data-description=""><i class="fab fa-blogger fa-fw" aria-hidden="true"></i></a></span>
+                <span><a href="javascript:void(0);" title="Share on Twitter" data-sharer="twitter" data-url="https://Jongbin-kr.github.io/posts/4_daily/0_til/230214_til009_%EC%88%98%EA%B0%95%EC%8B%A0%EC%B2%AD_%EB%8F%84%EC%BB%A4_-%EC%9A%B0%EB%B6%84%ED%88%AC/" data-title="[TIL009] 선형대수, 인공지능, 기호학, let&#39;s go." data-hashtags="TIL,Docker,Ubuntu"><i class="fab fa-twitter fa-fw" aria-hidden="true"></i></a><a href="javascript:void(0);" title="Share on Facebook" data-sharer="facebook" data-url="https://Jongbin-kr.github.io/posts/4_daily/0_til/230214_til009_%EC%88%98%EA%B0%95%EC%8B%A0%EC%B2%AD_%EB%8F%84%EC%BB%A4_-%EC%9A%B0%EB%B6%84%ED%88%AC/" data-hashtag="TIL"><i class="fab fa-facebook-square fa-fw" aria-hidden="true"></i></a><a href="javascript:void(0);" title="Share on Linkedin" data-sharer="linkedin" data-url="https://Jongbin-kr.github.io/posts/4_daily/0_til/230214_til009_%EC%88%98%EA%B0%95%EC%8B%A0%EC%B2%AD_%EB%8F%84%EC%BB%A4_-%EC%9A%B0%EB%B6%84%ED%88%AC/"><i class="fab fa-linkedin fa-fw" aria-hidden="true"></i></a><a href="javascript:void(0);" title="Share on Reddit" data-sharer="reddit" data-url="https://Jongbin-kr.github.io/posts/4_daily/0_til/230214_til009_%EC%88%98%EA%B0%95%EC%8B%A0%EC%B2%AD_%EB%8F%84%EC%BB%A4_-%EC%9A%B0%EB%B6%84%ED%88%AC/"><i class="fab fa-reddit fa-fw" aria-hidden="true"></i></a><a href="javascript:void(0);" title="Share on Blogger" data-sharer="blogger" data-url="https://Jongbin-kr.github.io/posts/4_daily/0_til/230214_til009_%EC%88%98%EA%B0%95%EC%8B%A0%EC%B2%AD_%EB%8F%84%EC%BB%A4_-%EC%9A%B0%EB%B6%84%ED%88%AC/" data-title="[TIL009] 선형대수, 인공지능, 기호학, let&#39;s go." data-description=""><i class="fab fa-blogger fa-fw" aria-hidden="true"></i></a></span>
             </div>
         </div>
     </div>
 
     <div class="post-info-more">
-        <section class="post-tags"><i class="fas fa-tags fa-fw" aria-hidden="true"></i>&nbsp;<a href="/tags/til/">TIL</a>,&nbsp;<a href="/tags/%EB%AF%B8%EC%A0%81%EB%B6%84/">미적분</a>,&nbsp;<a href="/tags/docker/">Docker</a></section>
+        <section class="post-tags"><i class="fas fa-tags fa-fw" aria-hidden="true"></i>&nbsp;<a href="/tags/til/">TIL</a>,&nbsp;<a href="/tags/docker/">Docker</a>,&nbsp;<a href="/tags/ubuntu/">Ubuntu</a></section>
         <section>
             <span><a href="javascript:void(0);" onclick="window.history.back();">Back</a></span>&nbsp;|&nbsp;<span><a href="/">Home</a></span>
         </section>
     </div>
 
-    <div class="post-nav"><a href="/posts/4_daily/0_til/230210_til_%EB%AF%B8%EC%A0%81%EB%B6%84_%EB%8F%84%EC%BB%A4_%EB%85%BC%EB%A6%AC%ED%95%99/" class="prev" rel="prev" title="[TIL007] 자연상수 e, 비교판정법, 논리학 입문, Docker"><i class="fas fa-angle-left fa-fw" aria-hidden="true"></i>[TIL007] 자연상수 e, 비교판정법, 논리학 입문, Docker</a>
-            <a href="/posts/4_daily/0_til/230214_til009_%EC%88%98%EA%B0%95%EC%8B%A0%EC%B2%AD_%EB%8F%84%EC%BB%A4_-%EC%9A%B0%EB%B6%84%ED%88%AC/" class="next" rel="next" title="[TIL009] 선형대수, 인공지능, 기호학, let&#39;s go.">[TIL009] 선형대수, 인공지능, 기호학, let's go.<i class="fas fa-angle-right fa-fw" aria-hidden="true"></i></a></div>
+    <div class="post-nav"><a href="/posts/4_daily/0_til/230213_til008_%ED%98%B8%EB%8F%84%EB%B2%95_%EB%8F%84%EC%BB%A4/" class="prev" rel="prev" title="[TIL008] 도 커 조 아"><i class="fas fa-angle-left fa-fw" aria-hidden="true"></i>[TIL008] 도 커 조 아</a>
+            <a href="/posts/4_daily/0_til/230215_til010_%EB%AF%B8%EC%A0%81%EB%B6%84_%EC%9A%B0%EB%B6%84%ED%88%AC/" class="next" rel="next" title="[TIL010] 함수의 극한, 리눅스머신 사고싶다">[TIL010] 함수의 극한, 리눅스머신 사고싶다<i class="fas fa-angle-right fa-fw" aria-hidden="true"></i></a></div>
 </div>
 <div id="comments"><div id="disqus_thread" class="comment"></div><noscript>
                 Please enable JavaScript to view the comments powered by <a href="https://disqus.com/?ref_noscript">Disqus</a>.

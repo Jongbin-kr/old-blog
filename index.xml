@@ -4,9 +4,25 @@
         <link>https://Jongbin-kr.github.io/</link>
         <description>welcome to Jongbin Won&#39;s Blog!</description>
         <generator>Hugo -- gohugo.io</generator><language>en-us</language><managingEditor>wonjb001@naver.com (Jongbin Won)</managingEditor>
-            <webMaster>wonjb001@naver.com (Jongbin Won)</webMaster><lastBuildDate>Mon, 13 Feb 2023 00:40:00 &#43;0900</lastBuildDate>
+            <webMaster>wonjb001@naver.com (Jongbin Won)</webMaster><lastBuildDate>Wed, 15 Feb 2023 23:38:31 &#43;0900</lastBuildDate>
             <atom:link href="https://Jongbin-kr.github.io/index.xml" rel="self" type="application/rss+xml" />
         <item>
+    <title>[TIL010] 함수의 극한, 리눅스머신 사고싶다</title>
+    <link>https://Jongbin-kr.github.io/posts/4_daily/0_til/230215_til010_%EB%AF%B8%EC%A0%81%EB%B6%84_%EC%9A%B0%EB%B6%84%ED%88%AC/</link>
+    <pubDate>Wed, 15 Feb 2023 23:38:31 &#43;0900</pubDate>
+    <author>Jongbin Won</author>
+    <guid>https://Jongbin-kr.github.io/posts/4_daily/0_til/230215_til010_%EB%AF%B8%EC%A0%81%EB%B6%84_%EC%9A%B0%EB%B6%84%ED%88%AC/</guid>
+    <description><![CDATA[Today I Learned&hellip; 어제에 이어 미적분 공부. 3. 함수의 극한을 처음부터 다시 복습했다. 이제 조금 이해가 된다. 수학은 직관적으로 당연한 것을 엄밀히 증명함으로써, 어디서든 써]]></description>
+</item>
+<item>
+    <title>[TIL009] 선형대수, 인공지능, 기호학, let&#39;s go.</title>
+    <link>https://Jongbin-kr.github.io/posts/4_daily/0_til/230214_til009_%EC%88%98%EA%B0%95%EC%8B%A0%EC%B2%AD_%EB%8F%84%EC%BB%A4_-%EC%9A%B0%EB%B6%84%ED%88%AC/</link>
+    <pubDate>Wed, 15 Feb 2023 23:28:45 &#43;0900</pubDate>
+    <author>Jongbin Won</author>
+    <guid>https://Jongbin-kr.github.io/posts/4_daily/0_til/230214_til009_%EC%88%98%EA%B0%95%EC%8B%A0%EC%B2%AD_%EB%8F%84%EC%BB%A4_-%EC%9A%B0%EB%B6%84%ED%88%AC/</guid>
+    <description><![CDATA[Today I Learned&hellip; 어제 공부하던 도커를 이어서 공부했다. 도커 기본 사용법을 공부했다. 근데 이미지 만드는 것은 당장은 필요없을 것 같아 미뤄두었다. 미적분학의 첫걸음 3. 함수]]></description>
+</item>
+<item>
     <title>[TIL008] 도 커 조 아</title>
     <link>https://Jongbin-kr.github.io/posts/4_daily/0_til/230213_til008_%ED%98%B8%EB%8F%84%EB%B2%95_%EB%8F%84%EC%BB%A4/</link>
     <pubDate>Mon, 13 Feb 2023 00:40:00 &#43;0900</pubDate>
@@ -69,22 +85,6 @@
     <author>Jongbin Won</author>
     <guid>https://Jongbin-kr.github.io/posts/4_daily/0_til/230202_til_%EA%B3%A0%EB%93%B1%EB%AF%B8%EC%A0%81%EB%B6%84_%EB%9F%AC%EB%8B%9D%ED%8C%8C%EC%9D%B4%EC%8D%AC/</guid>
     <description><![CDATA[Today I Learned&hellip; 대학미적분 스터디 전에 고등 미적분2 공부하는 중&hellip; (학창시절 문과를 택했던 것에 대한 작은 후회는 덤.) 오랜만에 그려본 그래프들. 빨간펜]]></description>
-</item>
-<item>
-    <title>빅스비는 wake-up words부터 잘못되었다.</title>
-    <link>https://Jongbin-kr.github.io/posts/3_thoughts/230201_%EB%B9%85%EC%8A%A4%EB%B9%84%EB%8A%94-wake-up-words%EB%B6%80%ED%84%B0-%EC%9E%98%EB%AA%BB%EB%90%98%EC%97%88%EB%8B%A4/</link>
-    <pubDate>Wed, 01 Feb 2023 23:15:03 &#43;0900</pubDate>
-    <author>Jongbin Won</author>
-    <guid>https://Jongbin-kr.github.io/posts/3_thoughts/230201_%EB%B9%85%EC%8A%A4%EB%B9%84%EB%8A%94-wake-up-words%EB%B6%80%ED%84%B0-%EC%9E%98%EB%AA%BB%EB%90%98%EC%97%88%EB%8B%A4/</guid>
-    <description><![CDATA[친구은(는) 빅스비 친구이(가) 있어요! 나는 빅스비를 자주 이용한다. 나처럼 외로운 자취생들에게 빅스비와 같은 인공지능 비서들은 소중한 말벗이며, 때때로 꽤]]></description>
-</item>
-<item>
-    <title>새벽녘에 지하철을 타며 든 생각</title>
-    <link>https://Jongbin-kr.github.io/posts/4_daily/230120_%EC%83%88%EB%B2%BD%EB%85%98%EC%97%90-%EC%A7%80%ED%95%98%EC%B2%A0%EC%9D%84-%ED%83%80%EB%A9%B0-%EB%93%A0-%EC%83%9D%EA%B0%81/</link>
-    <pubDate>Fri, 20 Jan 2023 13:20:53 &#43;0900</pubDate>
-    <author>Jongbin Won</author>
-    <guid>https://Jongbin-kr.github.io/posts/4_daily/230120_%EC%83%88%EB%B2%BD%EB%85%98%EC%97%90-%EC%A7%80%ED%95%98%EC%B2%A0%EC%9D%84-%ED%83%80%EB%A9%B0-%EB%93%A0-%EC%83%9D%EA%B0%81/</guid>
-    <description><![CDATA[아슬하게 죽음으로 내모는 졸음을 마주하며, 나는 생각했다. 잠자릴 함께할 순 있어도, 꿈조차 같이 꿀 순 없는1 기구한 운명. 과연 나는 언제까지 혼자여야하고, 또 언]]></description>
 </item>
 </channel>
 </rss>
