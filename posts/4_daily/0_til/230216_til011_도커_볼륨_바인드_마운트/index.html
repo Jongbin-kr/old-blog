@@ -4,7 +4,7 @@
         <meta charset="utf-8">
         <meta name="viewport" content="width=device-width, initial-scale=1">
         <meta name="robots" content="noodp" />
-        <title>[TIL010] 함수의 극한, 리눅스머신 사고싶다 - Jongbin&#39;s Blog</title>
+        <title>[TIL011] 도커의 볼륨과 바인드 마운트에 대한 이해 - Jongbin&#39;s Blog</title>
             
 <script type="application/javascript">
 var doNotTrack = false;
@@ -17,33 +17,33 @@ if (!doNotTrack) {
 	
 	ga('send', 'pageview');
 }
-</script><meta name="Description" content="welcome to Jongbin Won&#39;s Blog!"><meta property="og:title" content="[TIL010] 함수의 극한, 리눅스머신 사고싶다" />
-<meta property="og:description" content="Today I Learned&hellip; 어제에 이어 미적분 공부. 3. 함수의 극한을 처음부터 다시 복습했다. 이제 조금 이해가 된다. 수학은 직관적으로 당연한 것을 엄밀히 증명함으로써, 어디서든 써" />
+</script><meta name="Description" content="welcome to Jongbin Won&#39;s Blog!"><meta property="og:title" content="[TIL011] 도커의 볼륨과 바인드 마운트에 대한 이해" />
+<meta property="og:description" content="Today I Learned&hellip; 미적분 스터디. 수렴과 발산에 대한 정리 (by 승혀니햄) 0. L은 실수집합의 원소다. 1. 극한값이 L로 존재한다 == (좌극한값은 L and 우극한값도 L) == L로 수렴한" />
 <meta property="og:type" content="article" />
-<meta property="og:url" content="https://Jongbin-kr.github.io/posts/4_daily/0_til/230215_til010_%EB%AF%B8%EC%A0%81%EB%B6%84_%EC%9A%B0%EB%B6%84%ED%88%AC/" /><meta property="og:image" content="https://Jongbin-kr.github.io/logo.png"/><meta property="article:section" content="posts" />
-<meta property="article:published_time" content="2023-02-15T23:38:31+09:00" />
-<meta property="article:modified_time" content="2023-02-15T23:38:31+09:00" /><meta property="og:site_name" content="Jongbin&#39;s Blog" />
+<meta property="og:url" content="https://Jongbin-kr.github.io/posts/4_daily/0_til/230216_til011_%EB%8F%84%EC%BB%A4_%EB%B3%BC%EB%A5%A8_%EB%B0%94%EC%9D%B8%EB%93%9C_%EB%A7%88%EC%9A%B4%ED%8A%B8/" /><meta property="og:image" content="https://Jongbin-kr.github.io/logo.png"/><meta property="article:section" content="posts" />
+<meta property="article:published_time" content="2023-02-16T22:41:37+09:00" />
+<meta property="article:modified_time" content="2023-02-16T22:41:37+09:00" /><meta property="og:site_name" content="Jongbin&#39;s Blog" />
 <meta name="twitter:card" content="summary_large_image"/>
 <meta name="twitter:image" content="https://Jongbin-kr.github.io/logo.png"/>
 
-<meta name="twitter:title" content="[TIL010] 함수의 극한, 리눅스머신 사고싶다"/>
-<meta name="twitter:description" content="Today I Learned&hellip; 어제에 이어 미적분 공부. 3. 함수의 극한을 처음부터 다시 복습했다. 이제 조금 이해가 된다. 수학은 직관적으로 당연한 것을 엄밀히 증명함으로써, 어디서든 써"/>
+<meta name="twitter:title" content="[TIL011] 도커의 볼륨과 바인드 마운트에 대한 이해"/>
+<meta name="twitter:description" content="Today I Learned&hellip; 미적분 스터디. 수렴과 발산에 대한 정리 (by 승혀니햄) 0. L은 실수집합의 원소다. 1. 극한값이 L로 존재한다 == (좌극한값은 L and 우극한값도 L) == L로 수렴한"/>
 <meta name="application-name" content="My cool site">
 <meta name="apple-mobile-web-app-title" content="My cool site"><meta name="theme-color" content="#ffffff"><meta name="msapplication-TileColor" content="#da532c"><link rel="shortcut icon" type="image/x-icon" href="/favicon.ico" />
         <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
-        <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png"><link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png"><link rel="mask-icon" href="/safari-pinned-tab.svg" color="#5bbad5"><link rel="manifest" href="/site.webmanifest"><link rel="canonical" href="https://Jongbin-kr.github.io/posts/4_daily/0_til/230215_til010_%EB%AF%B8%EC%A0%81%EB%B6%84_%EC%9A%B0%EB%B6%84%ED%88%AC/" /><link rel="prev" href="https://Jongbin-kr.github.io/posts/4_daily/0_til/230214_til009_%EC%88%98%EA%B0%95%EC%8B%A0%EC%B2%AD_%EB%8F%84%EC%BB%A4_-%EC%9A%B0%EB%B6%84%ED%88%AC/" /><link rel="next" href="https://Jongbin-kr.github.io/posts/4_daily/0_til/230216_til011_%EB%8F%84%EC%BB%A4_%EB%B3%BC%EB%A5%A8_%EB%B0%94%EC%9D%B8%EB%93%9C_%EB%A7%88%EC%9A%B4%ED%8A%B8/" /><link rel="stylesheet" href="/css/style.min.css"><link rel="preload" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.1.1/css/all.min.css" as="style" onload="this.onload=null;this.rel='stylesheet'">
+        <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png"><link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png"><link rel="mask-icon" href="/safari-pinned-tab.svg" color="#5bbad5"><link rel="manifest" href="/site.webmanifest"><link rel="canonical" href="https://Jongbin-kr.github.io/posts/4_daily/0_til/230216_til011_%EB%8F%84%EC%BB%A4_%EB%B3%BC%EB%A5%A8_%EB%B0%94%EC%9D%B8%EB%93%9C_%EB%A7%88%EC%9A%B4%ED%8A%B8/" /><link rel="prev" href="https://Jongbin-kr.github.io/posts/4_daily/0_til/230215_til010_%EB%AF%B8%EC%A0%81%EB%B6%84_%EC%9A%B0%EB%B6%84%ED%88%AC/" /><link rel="stylesheet" href="/css/style.min.css"><link rel="preload" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.1.1/css/all.min.css" as="style" onload="this.onload=null;this.rel='stylesheet'">
         <noscript><link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.1.1/css/all.min.css"></noscript><link rel="preload" href="https://cdn.jsdelivr.net/npm/animate.css@4.1.1/animate.min.css" as="style" onload="this.onload=null;this.rel='stylesheet'">
         <noscript><link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/animate.css@4.1.1/animate.min.css"></noscript><script type="application/ld+json">
     {
         "@context": "http://schema.org",
         "@type": "BlogPosting",
-        "headline": "[TIL010] 함수의 극한, 리눅스머신 사고싶다",
+        "headline": "[TIL011] 도커의 볼륨과 바인드 마운트에 대한 이해",
         "inLanguage": "en-us",
         "mainEntityOfPage": {
             "@type": "WebPage",
-            "@id": "https:\/\/Jongbin-kr.github.io\/posts\/4_daily\/0_til\/230215_til010_%EB%AF%B8%EC%A0%81%EB%B6%84_%EC%9A%B0%EB%B6%84%ED%88%AC\/"
-        },"genre": "posts","keywords": "TIL, Ubuntu, Docker, 미적분","wordcount":  367 ,
-        "url": "https:\/\/Jongbin-kr.github.io\/posts\/4_daily\/0_til\/230215_til010_%EB%AF%B8%EC%A0%81%EB%B6%84_%EC%9A%B0%EB%B6%84%ED%88%AC\/","datePublished": "2023-02-15T23:38:31+09:00","dateModified": "2023-02-15T23:38:31+09:00","publisher": {
+            "@id": "https:\/\/Jongbin-kr.github.io\/posts\/4_daily\/0_til\/230216_til011_%EB%8F%84%EC%BB%A4_%EB%B3%BC%EB%A5%A8_%EB%B0%94%EC%9D%B8%EB%93%9C_%EB%A7%88%EC%9A%B4%ED%8A%B8\/"
+        },"genre": "posts","keywords": "TIL, Docker, 미적분","wordcount":  912 ,
+        "url": "https:\/\/Jongbin-kr.github.io\/posts\/4_daily\/0_til\/230216_til011_%EB%8F%84%EC%BB%A4_%EB%B3%BC%EB%A5%A8_%EB%B0%94%EC%9D%B8%EB%93%9C_%EB%A7%88%EC%9A%B4%ED%8A%B8\/","datePublished": "2023-02-16T22:41:37+09:00","dateModified": "2023-02-16T22:41:37+09:00","publisher": {
             "@type": "Organization",
             "name": ""},"author": {
                 "@type": "Person",
@@ -114,10 +114,10 @@ if (!doNotTrack) {
                 <div class="container"><div class="toc" id="toc-auto">
             <h2 class="toc-title">Contents</h2>
             <div class="toc-content" id="toc-content-auto"></div>
-        </div><article class="page single"><h1 class="single-title animate__animated animate__flipInX">[TIL010] 함수의 극한, 리눅스머신 사고싶다</h1><div class="post-meta">
+        </div><article class="page single"><h1 class="single-title animate__animated animate__flipInX">[TIL011] 도커의 볼륨과 바인드 마운트에 대한 이해</h1><div class="post-meta">
             <div class="post-meta-line"><span class="post-author"><a href="/" title="Author" rel="author" class="author"><i class="fas fa-user-circle fa-fw" aria-hidden="true"></i>Jongbin Won</a></span>&nbsp;<span class="post-category">included in <a href="/categories/daily/"><i class="far fa-folder fa-fw" aria-hidden="true"></i>Daily</a></span></div>
-            <div class="post-meta-line"><i class="far fa-calendar-alt fa-fw" aria-hidden="true"></i>&nbsp;<time datetime="2023-02-15">2023-02-15</time>&nbsp;<i class="fas fa-pencil-alt fa-fw" aria-hidden="true"></i>&nbsp;367 words&nbsp;
-                <i class="far fa-clock fa-fw" aria-hidden="true"></i>&nbsp;One minute&nbsp;</div>
+            <div class="post-meta-line"><i class="far fa-calendar-alt fa-fw" aria-hidden="true"></i>&nbsp;<time datetime="2023-02-16">2023-02-16</time>&nbsp;<i class="fas fa-pencil-alt fa-fw" aria-hidden="true"></i>&nbsp;912 words&nbsp;
+                <i class="far fa-clock fa-fw" aria-hidden="true"></i>&nbsp;2 minutes&nbsp;</div>
         </div><div class="details toc" id="toc-static"  data-kept="true">
                 <div class="details-summary toc-title">
                     <span>Contents</span>
@@ -125,7 +125,11 @@ if (!doNotTrack) {
                 </div>
                 <div class="details-content toc-content" id="toc-content-static"><nav id="TableOfContents">
   <ul>
-    <li><a href="#today-i-learned">Today I Learned&hellip;</a></li>
+    <li><a href="#today-i-learned">Today I Learned&hellip;</a>
+      <ul>
+        <li><a href="#도커의-볼륨-바인드-마운트에-대한-이해-참고httpsvelogiohaeny01docker-eb8db0ec9db4ed84b0-eab480eba6ac1-volume-eab3bc-bind-mounts">도커의 볼륨, 바인드 마운트에 대한 이해 (<a href="https://velog.io/@haeny01/Docker-%EB%8D%B0%EC%9D%B4%ED%84%B0-%EA%B4%80%EB%A6%AC1-Volume-%EA%B3%BC-Bind-mounts">참고</a>)</a></li>
+      </ul>
+    </li>
     <li><a href="#today-i-did">Today I Did&hellip;</a></li>
     <li><a href="#today-i-thought--felt">Today I Thought &amp; Felt&hellip;</a></li>
   </ul>
@@ -133,108 +137,105 @@ if (!doNotTrack) {
             </div><div class="content" id="content"><br>
 <h2 id="today-i-learned">Today I Learned&hellip;</h2>
 <ul>
-<li>어제에 이어 미적분 공부.
+<li>미적분 스터디.
 <ul>
-<li><code>3. 함수의 극한</code>을 처음부터 다시 복습했다. 이제 조금 이해가 된다.
-<blockquote>
-<p>수학은 직관적으로 당연한 것을 엄밀히 증명함으로써, 어디서든 써먹을 수 있게 하는 것이다.</p>
-</blockquote>
-</li>
+<li>수렴과 발산에 대한 정리 (by 승혀니햄)
+<pre tabindex="0"><code>0. L은 실수집합의 원소다.
+1. 극한값이 L로 존재한다 == (좌극한값은 L and 우극한값도 L) == L로 수렴한다. (단, 함수값은 다를 수 있다.)
+2. not (극한값이 L로 존재한다) == 극한값이 L로 존재하지 않는다 == 극한값이 L이 아닌 실수로 존재하거나 발산한다
+3. 발산한다 == 극한값이 존재하지 않는다 == (좌극한값과 우극한값이 다르다 or (좌극한 또는 우극한값이 존재하지 않는다))
+4-1. 극한값이 무한대이다 != 극한값이 존재하지 않는다
+4-2. 극한값이 무한대이다 (충분조건) ==&gt; 극한값이 존재하지 않는다 (필요조건)
+</code></pre></li>
+<li>함수의 극한과 수열의 극한을 전환하는 과정에 대한 이해.</li>
+<li>$\delta$ 논법과 $\epsilon$ 논법에 대한 이해.
+<ul>
+<li>$\delta$는 입력값(x축)에 대한 제약이고, $\epsilon$은 출력값에 대한 제약이다.</li>
 </ul>
 </li>
 </ul>
-<br>
-<p><figure><img src="20230216_000217.jpg"/>
-</figure>
-<br>
-<figure><img src="20230216_000231.jpg"/>
-</figure>
-<br>
-<figure><img src="20230216_000217.jpg"/>
-</figure>
-<br>
-<figure><img src="20230216_000240.jpg"/>
-</figure>
-<br>
-<figure><img src="20230216_000252.jpg"/>
-</figure>
-<br>
-<figure><img src="20230216_000301.jpg"/>
-</figure>
-<br>
-<figure><img src="20230216_000317.jpg"/>
-</figure>
-<br>
-<figure><img src="20230216_000322.jpg"/>
-</figure>
-<br>
-<figure><img src="20230216_000338.jpg"/>
-</figure>
-</p>
+</li>
+</ul>
 <br>
 <ul>
-<li>다시금 GPU머신과 친해지기&hellip;
+<li>논문 미팅.
 <ul>
-<li>근데 단순히 도커 컨테이너를 돌린다고 GPU를 쓸 수 있는건 아니다?
+<li>컨테이너 내에서 GPU를 쓰려면 <code>NVIDIDA Docker</code>라는 걸 따로 깔아야한다. (참고로 <code>NVIDIA Docker</code>는 리눅스 OS만 지원한다.)
 <ul>
-<li><a href="https://velog.io/@inthecode/Windows-10WSL%EC%97%90%EC%84%9C-Docker%EB%A5%BC-%ED%99%9C%EC%9A%A9%ED%95%98%EC%97%AC-Tensorflow-GPU%EB%A5%BC-%EC%82%AC%EC%9A%A9%ED%95%98%EA%B8%B0" target="_blank" rel="noopener noreffer ">이 글</a>에 따르면 <code>NVIDIA Docker</code>라는 걸 깔아야하는 것 같다&hellip;!
+<li><a href="https://dongle94.github.io/docker/docker-nvidia-docker-install/" target="_blank" rel="noopener noreffer ">이 글</a>을 참고해서 하니까 무난히 설치되었다!</li>
+</ul>
+</li>
+<li><code>SCP</code>를 활용해 SSH 원격접속한 컴퓨터에 파일을 전송할 수 있다! 그것도 꽤나 빠른 속도로!</li>
+<li>도커에 대해 새로이 알게 된 것
 <ul>
-<li>근데 <code>NVIDIA Docker</code>는 리눅스만 지원하네&hellip;?
+<li><strong>도커의 컨테이너는 가상머신이 아니다!</strong>
 <ul>
-<li><strong>역시 리눅스 머신을 하나 사야겠다. 최소한 SSD라도 하나 사서 덧붙여야지&hellip;</strong></li>
+<li><strong>즉, 새로운 OS가 올라가는 것이 아니며, 단지 주어진 동작을 실행하고 종료될 뿐이다.</strong></li>
+<li>따라서 컨테이너가 자동으로 종료되는 것을 막기 위해서는 <code>docker run -it</code> 혹은 <code>docker start -i</code> 옵션을 주어야 한다!</li>
 </ul>
 </li>
 </ul>
 </li>
 </ul>
 </li>
-<li>리눅스 전반에 대한 공부.
+</ul>
+<br>
+<h3 id="도커의-볼륨-바인드-마운트에-대한-이해-참고httpsvelogiohaeny01docker-eb8db0ec9db4ed84b0-eab480eba6ac1-volume-eab3bc-bind-mounts">도커의 볼륨, 바인드 마운트에 대한 이해 (<a href="https://velog.io/@haeny01/Docker-%EB%8D%B0%EC%9D%B4%ED%84%B0-%EA%B4%80%EB%A6%AC1-Volume-%EA%B3%BC-Bind-mounts" target="_blank" rel="noopener noreffer ">참고</a>)</h3>
 <ul>
-<li><code>swapfile</code>이라는 친구가 있네&hellip;메모리가 부족할 때 보조기억장치를 메모리처럼 쓰는 기술이라나 뭐라나~</li>
+<li>볼륨
+<ul>
+<li><strong>호스트 OS의 특정 부분을 도커 컨테이너를 위한 저장소로 따로 할당</strong>하는 것.</li>
+<li>따라서 <strong>호스트 OS에서 볼륨 내의 파일들을 탐색할 수 없다.</strong></li>
+<li>하지만 그만큼 완전히 가상화되어있기에, <strong>성능도 빠르고 안정적이다!</strong></li>
 </ul>
 </li>
+<li>바인드 마운트
+<ul>
+<li><strong>호스트 OS의 특정 부분을 도커 컨테이너와 공유</strong>하는 것이다.</li>
+<li>따라서 <strong>호스트 OS에서도 해당 파일들을 탐색하고 수정할 수는 있다.</strong></li>
+<li>그러나 그만큼 가상화가 덜 되어있음을 의미하기에, 볼륨에 비해 <strong>성능이 느리고 안정성도 떨어진다.</strong></li>
 </ul>
 </li>
+<li><strong>결론: 그니까 가능하면 볼륨을 쓰자~</strong></li>
 </ul>
 <br>
 <br>
 <h2 id="today-i-did">Today I Did&hellip;</h2>
 <ul>
-<li>운동. 5*5로 벤치프레스. 만년 헬린입니다.</li>
+<li>3일 연속 운동. 오늘은 하체 5*5.</li>
 </ul>
 <br>
 <br>
 <h2 id="today-i-thought--felt">Today I Thought &amp; Felt&hellip;</h2>
 <ul>
-<li>요새 공부를 너무 번잡하게 한다. 선택하고 집중하자.</li>
-</ul>
-<br>
+<li>로컬에서 GPU에 맞는 쿠다 버전 찾고&hellip; 또 쿠다 버전에 맞는 pytorch깔고&hellip; 해야하는데 도커에서는 이런 과정들을 단번에 끝내준다니&hellip;역시 도.커.조.아🐳
 <ul>
-<li>과연 챗봇이 검색엔진을 대체할 수 있을까?</li>
+<li><strong>근데 그럼 굳이 리눅스 머신을 살 이유가 없나?</strong></li>
+</ul>
+</li>
 </ul>
 </div><div class="post-footer" id="post-footer">
     <div class="post-info">
         <div class="post-info-line">
             <div class="post-info-mod">
-                <span>Updated on 2023-02-15</span>
+                <span>Updated on 2023-02-16</span>
             </div></div>
         <div class="post-info-line">
             <div class="post-info-md"></div>
             <div class="post-info-share">
-                <span><a href="javascript:void(0);" title="Share on Twitter" data-sharer="twitter" data-url="https://Jongbin-kr.github.io/posts/4_daily/0_til/230215_til010_%EB%AF%B8%EC%A0%81%EB%B6%84_%EC%9A%B0%EB%B6%84%ED%88%AC/" data-title="[TIL010] 함수의 극한, 리눅스머신 사고싶다" data-hashtags="TIL,Ubuntu,Docker,미적분"><i class="fab fa-twitter fa-fw" aria-hidden="true"></i></a><a href="javascript:void(0);" title="Share on Facebook" data-sharer="facebook" data-url="https://Jongbin-kr.github.io/posts/4_daily/0_til/230215_til010_%EB%AF%B8%EC%A0%81%EB%B6%84_%EC%9A%B0%EB%B6%84%ED%88%AC/" data-hashtag="TIL"><i class="fab fa-facebook-square fa-fw" aria-hidden="true"></i></a><a href="javascript:void(0);" title="Share on Linkedin" data-sharer="linkedin" data-url="https://Jongbin-kr.github.io/posts/4_daily/0_til/230215_til010_%EB%AF%B8%EC%A0%81%EB%B6%84_%EC%9A%B0%EB%B6%84%ED%88%AC/"><i class="fab fa-linkedin fa-fw" aria-hidden="true"></i></a><a href="javascript:void(0);" title="Share on Reddit" data-sharer="reddit" data-url="https://Jongbin-kr.github.io/posts/4_daily/0_til/230215_til010_%EB%AF%B8%EC%A0%81%EB%B6%84_%EC%9A%B0%EB%B6%84%ED%88%AC/"><i class="fab fa-reddit fa-fw" aria-hidden="true"></i></a><a href="javascript:void(0);" title="Share on Blogger" data-sharer="blogger" data-url="https://Jongbin-kr.github.io/posts/4_daily/0_til/230215_til010_%EB%AF%B8%EC%A0%81%EB%B6%84_%EC%9A%B0%EB%B6%84%ED%88%AC/" data-title="[TIL010] 함수의 극한, 리눅스머신 사고싶다" data-description=""><i class="fab fa-blogger fa-fw" aria-hidden="true"></i></a></span>
+                <span><a href="javascript:void(0);" title="Share on Twitter" data-sharer="twitter" data-url="https://Jongbin-kr.github.io/posts/4_daily/0_til/230216_til011_%EB%8F%84%EC%BB%A4_%EB%B3%BC%EB%A5%A8_%EB%B0%94%EC%9D%B8%EB%93%9C_%EB%A7%88%EC%9A%B4%ED%8A%B8/" data-title="[TIL011] 도커의 볼륨과 바인드 마운트에 대한 이해" data-hashtags="TIL,Docker,미적분"><i class="fab fa-twitter fa-fw" aria-hidden="true"></i></a><a href="javascript:void(0);" title="Share on Facebook" data-sharer="facebook" data-url="https://Jongbin-kr.github.io/posts/4_daily/0_til/230216_til011_%EB%8F%84%EC%BB%A4_%EB%B3%BC%EB%A5%A8_%EB%B0%94%EC%9D%B8%EB%93%9C_%EB%A7%88%EC%9A%B4%ED%8A%B8/" data-hashtag="TIL"><i class="fab fa-facebook-square fa-fw" aria-hidden="true"></i></a><a href="javascript:void(0);" title="Share on Linkedin" data-sharer="linkedin" data-url="https://Jongbin-kr.github.io/posts/4_daily/0_til/230216_til011_%EB%8F%84%EC%BB%A4_%EB%B3%BC%EB%A5%A8_%EB%B0%94%EC%9D%B8%EB%93%9C_%EB%A7%88%EC%9A%B4%ED%8A%B8/"><i class="fab fa-linkedin fa-fw" aria-hidden="true"></i></a><a href="javascript:void(0);" title="Share on Reddit" data-sharer="reddit" data-url="https://Jongbin-kr.github.io/posts/4_daily/0_til/230216_til011_%EB%8F%84%EC%BB%A4_%EB%B3%BC%EB%A5%A8_%EB%B0%94%EC%9D%B8%EB%93%9C_%EB%A7%88%EC%9A%B4%ED%8A%B8/"><i class="fab fa-reddit fa-fw" aria-hidden="true"></i></a><a href="javascript:void(0);" title="Share on Blogger" data-sharer="blogger" data-url="https://Jongbin-kr.github.io/posts/4_daily/0_til/230216_til011_%EB%8F%84%EC%BB%A4_%EB%B3%BC%EB%A5%A8_%EB%B0%94%EC%9D%B8%EB%93%9C_%EB%A7%88%EC%9A%B4%ED%8A%B8/" data-title="[TIL011] 도커의 볼륨과 바인드 마운트에 대한 이해" data-description=""><i class="fab fa-blogger fa-fw" aria-hidden="true"></i></a></span>
             </div>
         </div>
     </div>
 
     <div class="post-info-more">
-        <section class="post-tags"><i class="fas fa-tags fa-fw" aria-hidden="true"></i>&nbsp;<a href="/tags/til/">TIL</a>,&nbsp;<a href="/tags/ubuntu/">Ubuntu</a>,&nbsp;<a href="/tags/docker/">Docker</a>,&nbsp;<a href="/tags/%EB%AF%B8%EC%A0%81%EB%B6%84/">미적분</a></section>
+        <section class="post-tags"><i class="fas fa-tags fa-fw" aria-hidden="true"></i>&nbsp;<a href="/tags/til/">TIL</a>,&nbsp;<a href="/tags/docker/">Docker</a>,&nbsp;<a href="/tags/%EB%AF%B8%EC%A0%81%EB%B6%84/">미적분</a></section>
         <section>
             <span><a href="javascript:void(0);" onclick="window.history.back();">Back</a></span>&nbsp;|&nbsp;<span><a href="/">Home</a></span>
         </section>
     </div>
 
-    <div class="post-nav"><a href="/posts/4_daily/0_til/230214_til009_%EC%88%98%EA%B0%95%EC%8B%A0%EC%B2%AD_%EB%8F%84%EC%BB%A4_-%EC%9A%B0%EB%B6%84%ED%88%AC/" class="prev" rel="prev" title="[TIL009] 선형대수, 인공지능, 기호학, let&#39;s go."><i class="fas fa-angle-left fa-fw" aria-hidden="true"></i>[TIL009] 선형대수, 인공지능, 기호학, let's go.</a>
-            <a href="/posts/4_daily/0_til/230216_til011_%EB%8F%84%EC%BB%A4_%EB%B3%BC%EB%A5%A8_%EB%B0%94%EC%9D%B8%EB%93%9C_%EB%A7%88%EC%9A%B4%ED%8A%B8/" class="next" rel="next" title="[TIL011] 도커의 볼륨과 바인드 마운트에 대한 이해">[TIL011] 도커의 볼륨과 바인드 마운트에 대한 이해<i class="fas fa-angle-right fa-fw" aria-hidden="true"></i></a></div>
+    <div class="post-nav"><a href="/posts/4_daily/0_til/230215_til010_%EB%AF%B8%EC%A0%81%EB%B6%84_%EC%9A%B0%EB%B6%84%ED%88%AC/" class="prev" rel="prev" title="[TIL010] 함수의 극한, 리눅스머신 사고싶다"><i class="fas fa-angle-left fa-fw" aria-hidden="true"></i>[TIL010] 함수의 극한, 리눅스머신 사고싶다</a></div>
 </div>
 <div id="comments"><div id="disqus_thread" class="comment"></div><noscript>
                 Please enable JavaScript to view the comments powered by <a href="https://disqus.com/?ref_noscript">Disqus</a>.

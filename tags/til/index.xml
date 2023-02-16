@@ -4,7 +4,15 @@
         <link>https://Jongbin-kr.github.io/tags/til/</link>
         <description>TIL - Tag - Jongbin&#39;s Blog</description>
         <generator>Hugo -- gohugo.io</generator><language>en-us</language><managingEditor>wonjb001@naver.com (Jongbin Won)</managingEditor>
-            <webMaster>wonjb001@naver.com (Jongbin Won)</webMaster><lastBuildDate>Wed, 15 Feb 2023 23:38:31 &#43;0900</lastBuildDate><atom:link href="https://Jongbin-kr.github.io/tags/til/" rel="self" type="application/rss+xml" /><item>
+            <webMaster>wonjb001@naver.com (Jongbin Won)</webMaster><lastBuildDate>Thu, 16 Feb 2023 22:41:37 &#43;0900</lastBuildDate><atom:link href="https://Jongbin-kr.github.io/tags/til/" rel="self" type="application/rss+xml" /><item>
+    <title>[TIL011] 도커의 볼륨과 바인드 마운트에 대한 이해</title>
+    <link>https://Jongbin-kr.github.io/posts/4_daily/0_til/230216_til011_%EB%8F%84%EC%BB%A4_%EB%B3%BC%EB%A5%A8_%EB%B0%94%EC%9D%B8%EB%93%9C_%EB%A7%88%EC%9A%B4%ED%8A%B8/</link>
+    <pubDate>Thu, 16 Feb 2023 22:41:37 &#43;0900</pubDate>
+    <author>Jongbin Won</author>
+    <guid>https://Jongbin-kr.github.io/posts/4_daily/0_til/230216_til011_%EB%8F%84%EC%BB%A4_%EB%B3%BC%EB%A5%A8_%EB%B0%94%EC%9D%B8%EB%93%9C_%EB%A7%88%EC%9A%B4%ED%8A%B8/</guid>
+    <description><![CDATA[Today I Learned&hellip; 미적분 스터디. 수렴과 발산에 대한 정리 (by 승혀니햄) 0. L은 실수집합의 원소다. 1. 극한값이 L로 존재한다 == (좌극한값은 L and 우극한값도 L) == L로 수렴한]]></description>
+</item>
+<item>
     <title>[TIL010] 함수의 극한, 리눅스머신 사고싶다</title>
     <link>https://Jongbin-kr.github.io/posts/4_daily/0_til/230215_til010_%EB%AF%B8%EC%A0%81%EB%B6%84_%EC%9A%B0%EB%B6%84%ED%88%AC/</link>
     <pubDate>Wed, 15 Feb 2023 23:38:31 &#43;0900</pubDate>
@@ -75,14 +83,6 @@
     <author>Jongbin Won</author>
     <guid>https://Jongbin-kr.github.io/posts/4_daily/0_til/230203_til_%EB%8F%84%EC%84%9C%EA%B4%80_%EB%9F%AC%EB%8B%9D%ED%8C%8C%EC%9D%B4%EC%8D%AC_%EB%85%BC%EB%A6%AC%ED%95%99%EC%9E%85%EB%AC%B8/</guid>
     <description><![CDATA[Todaty I Learned&hellip; 러닝 파이썬 문자열 파트를 조금 읽고, 파이썬 세션 마지막 강의자료를 만들었다. 이번 학기중에 들을 기호논리학 수업을 대비하고자, 논리적 사고의 기초(최원]]></description>
-</item>
-<item>
-    <title>[TIL001] 지수/로그함수와 유니코드</title>
-    <link>https://Jongbin-kr.github.io/posts/4_daily/0_til/230202_til_%EA%B3%A0%EB%93%B1%EB%AF%B8%EC%A0%81%EB%B6%84_%EB%9F%AC%EB%8B%9D%ED%8C%8C%EC%9D%B4%EC%8D%AC/</link>
-    <pubDate>Thu, 02 Feb 2023 23:50:39 &#43;0900</pubDate>
-    <author>Jongbin Won</author>
-    <guid>https://Jongbin-kr.github.io/posts/4_daily/0_til/230202_til_%EA%B3%A0%EB%93%B1%EB%AF%B8%EC%A0%81%EB%B6%84_%EB%9F%AC%EB%8B%9D%ED%8C%8C%EC%9D%B4%EC%8D%AC/</guid>
-    <description><![CDATA[Today I Learned&hellip; 대학미적분 스터디 전에 고등 미적분2 공부하는 중&hellip; (학창시절 문과를 택했던 것에 대한 작은 후회는 덤.) 오랜만에 그려본 그래프들. 빨간펜]]></description>
 </item>
 </channel>
 </rss>
