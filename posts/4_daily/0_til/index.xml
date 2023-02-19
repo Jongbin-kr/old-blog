@@ -4,7 +4,15 @@
         <link>https://Jongbin-kr.github.io/posts/4_daily/0_til/</link>
         <description>All Posts | Jongbin&#39;s Blog</description>
         <generator>Hugo -- gohugo.io</generator><language>en-us</language><managingEditor>wonjb001@naver.com (Jongbin Won)</managingEditor>
-            <webMaster>wonjb001@naver.com (Jongbin Won)</webMaster><lastBuildDate>Thu, 16 Feb 2023 22:41:37 &#43;0900</lastBuildDate><atom:link href="https://Jongbin-kr.github.io/posts/4_daily/0_til/" rel="self" type="application/rss+xml" /><item>
+            <webMaster>wonjb001@naver.com (Jongbin Won)</webMaster><lastBuildDate>Sun, 19 Feb 2023 23:26:25 &#43;0900</lastBuildDate><atom:link href="https://Jongbin-kr.github.io/posts/4_daily/0_til/" rel="self" type="application/rss+xml" /><item>
+    <title>[TIL011] 처음으로 GPU를 조져보았다.</title>
+    <link>https://Jongbin-kr.github.io/posts/4_daily/0_til/230219_til012_%EB%A6%B4%EB%A6%AC%EB%A5%BC_%ED%95%99%EC%8A%B5%EC%8B%9C%EC%BC%9C%EB%B3%B4%EC%95%98%EB%8B%A4/</link>
+    <pubDate>Sun, 19 Feb 2023 23:26:25 &#43;0900</pubDate>
+    <author>Jongbin Won</author>
+    <guid>https://Jongbin-kr.github.io/posts/4_daily/0_til/230219_til012_%EB%A6%B4%EB%A6%AC%EB%A5%BC_%ED%95%99%EC%8A%B5%EC%8B%9C%EC%BC%9C%EB%B3%B4%EC%95%98%EB%8B%A4/</guid>
+    <description><![CDATA[Today I Learned&hellip; 우리가 가진 사진기반 귀추추론 데이터를 활용해서 직접 모델을 학습시켜보았다! 모델로는 klue/roBERTa-large와 koBERT 두 가지를 사용헤 보았]]></description>
+</item>
+<item>
     <title>[TIL011] 도커의 볼륨과 바인드 마운트에 대한 이해</title>
     <link>https://Jongbin-kr.github.io/posts/4_daily/0_til/230216_til011_%EB%8F%84%EC%BB%A4_%EB%B3%BC%EB%A5%A8_%EB%B0%94%EC%9D%B8%EB%93%9C_%EB%A7%88%EC%9A%B4%ED%8A%B8/</link>
     <pubDate>Thu, 16 Feb 2023 22:41:37 &#43;0900</pubDate>
@@ -75,14 +83,6 @@
     <author>Jongbin Won</author>
     <guid>https://Jongbin-kr.github.io/posts/4_daily/0_til/230204_til/</guid>
     <description><![CDATA[Today I Learned&hellip; 서울대학교 미적분학의 첫걸음 1강(수열의 극한) 독파! 수학의 증명 문화는 아직 익숙치 않다. 고등 미적분2 일반각 개념 공부. 근데 왜 각을 잴 때 양수가 반시]]></description>
-</item>
-<item>
-    <title>[TIL002] 오랜만에 도서관, 러닝 파이썬 &amp; 논리학</title>
-    <link>https://Jongbin-kr.github.io/posts/4_daily/0_til/230203_til_%EB%8F%84%EC%84%9C%EA%B4%80_%EB%9F%AC%EB%8B%9D%ED%8C%8C%EC%9D%B4%EC%8D%AC_%EB%85%BC%EB%A6%AC%ED%95%99%EC%9E%85%EB%AC%B8/</link>
-    <pubDate>Fri, 03 Feb 2023 23:56:37 &#43;0900</pubDate>
-    <author>Jongbin Won</author>
-    <guid>https://Jongbin-kr.github.io/posts/4_daily/0_til/230203_til_%EB%8F%84%EC%84%9C%EA%B4%80_%EB%9F%AC%EB%8B%9D%ED%8C%8C%EC%9D%B4%EC%8D%AC_%EB%85%BC%EB%A6%AC%ED%95%99%EC%9E%85%EB%AC%B8/</guid>
-    <description><![CDATA[Todaty I Learned&hellip; 러닝 파이썬 문자열 파트를 조금 읽고, 파이썬 세션 마지막 강의자료를 만들었다. 이번 학기중에 들을 기호논리학 수업을 대비하고자, 논리적 사고의 기초(최원]]></description>
 </item>
 </channel>
 </rss>
