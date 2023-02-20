@@ -42,7 +42,7 @@ if (!doNotTrack) {
         "mainEntityOfPage": {
             "@type": "WebPage",
             "@id": "https:\/\/Jongbin-kr.github.io\/posts\/4_daily\/0_til\/230219_til012_%EB%A6%B4%EB%A6%AC%EB%A5%BC_%ED%95%99%EC%8A%B5%EC%8B%9C%EC%BC%9C%EB%B3%B4%EC%95%98%EB%8B%A4\/"
-        },"genre": "posts","keywords": "TIL, BERT","wordcount":  624 ,
+        },"genre": "posts","keywords": "TIL, BERT","wordcount":  703 ,
         "url": "https:\/\/Jongbin-kr.github.io\/posts\/4_daily\/0_til\/230219_til012_%EB%A6%B4%EB%A6%AC%EB%A5%BC_%ED%95%99%EC%8A%B5%EC%8B%9C%EC%BC%9C%EB%B3%B4%EC%95%98%EB%8B%A4\/","datePublished": "2023-02-19T23:26:25+09:00","dateModified": "2023-02-19T23:26:25+09:00","publisher": {
             "@type": "Organization",
             "name": ""},"author": {
@@ -116,7 +116,7 @@ if (!doNotTrack) {
             <div class="toc-content" id="toc-content-auto"></div>
         </div><article class="page single"><h1 class="single-title animate__animated animate__flipInX">[TIL011] 처음으로 GPU를 조져보았다.</h1><div class="post-meta">
             <div class="post-meta-line"><span class="post-author"><a href="/" title="Author" rel="author" class="author"><i class="fas fa-user-circle fa-fw" aria-hidden="true"></i>Jongbin Won</a></span>&nbsp;<span class="post-category">included in <a href="/categories/daily/"><i class="far fa-folder fa-fw" aria-hidden="true"></i>Daily</a></span></div>
-            <div class="post-meta-line"><i class="far fa-calendar-alt fa-fw" aria-hidden="true"></i>&nbsp;<time datetime="2023-02-19">2023-02-19</time>&nbsp;<i class="fas fa-pencil-alt fa-fw" aria-hidden="true"></i>&nbsp;624 words&nbsp;
+            <div class="post-meta-line"><i class="far fa-calendar-alt fa-fw" aria-hidden="true"></i>&nbsp;<time datetime="2023-02-19">2023-02-19</time>&nbsp;<i class="fas fa-pencil-alt fa-fw" aria-hidden="true"></i>&nbsp;703 words&nbsp;
                 <i class="far fa-clock fa-fw" aria-hidden="true"></i>&nbsp;2 minutes&nbsp;</div>
         </div><div class="details toc" id="toc-static"  data-kept="true">
                 <div class="details-summary toc-title">
@@ -138,7 +138,7 @@ if (!doNotTrack) {
 <li>모델로는 <code>klue/roBERTa-large</code>와 <code>koBERT</code> 두 가지를 사용헤 보았다.
 <ul>
 <li>
-<p>전자는 연구의 모티프로 따온 베이스라인 모델에서 사용한 모델인지라, 과연 우리 데이터에도 잘 맞나 싶어 그냥 자연스레 선태가헥 되었다.</p>
+<p>전자는 연구의 모티프로 따온 베이스라인 모델에서 사용한 모델인지라, 과연 우리 데이터에도 잘 맞나 싶어 그냥 자연스레 선택하게 되었다.</p>
 <ul>
 <li>
 <p>모델 사이즈가 커서인지&hellip;GPU 두 개로 학습을 시켰는데도 40분 가량 걸리다가 오류로 인해 학습이 중단되었다!!!</p>
@@ -158,7 +158,7 @@ if (!doNotTrack) {
 <li><code>SKT-Brain</code>에서 배포한 원본 모델은 허깅페이스랑 뭔가 안맞는 게 있는지 <code>Tokenizer</code> 부분에서 약간의 수정을 거쳐야했고&hellip;</li>
 <li>이후 같은 조건 하에서 학습을 시켰는데, 고작 12분 정도밖에 학습이 안걸리더라&hellip;
 <ul>
-<li>아무래도 <code>koBERT</code>가 벌써 출시된지 4년가량 지났고, 사전 크기 역시 8,002단어로 그다지 크지 않아서 그런 것 같다!</li>
+<li>아무래도 <code>koBERT</code>가 벌써 출시된지 4년가량 지났고, 사전 크기 역시 8,002단어로 그다지 크지 않아서 그런 것 같다.</li>
 </ul>
 </li>
 <li><strong>그만큼 학습을 모두 시켰음에도 정확도 역시 70% 수준으로 부족한 모습을 보였다.</strong></li>
@@ -170,16 +170,24 @@ if (!doNotTrack) {
 </li>
 </ul>
 <br>
-<pre><code>    <figure><img src="1.png"/>
-        </figure>
-
-    <figure><img src="2.png"/>
-        </figure>
-
-    <figure><img src="3.jpg"/>
-        </figure>
-
-</code></pre>
+<p><figure><img src="1.png"
+         alt="오오 학습된다 오오"/><figcaption>
+            <p>오오 학습된다 오오</p>
+        </figcaption>
+</figure>
+<br>
+<figure><img src="2.png"
+         alt="갑자기 오류가 떠서 혹시 내가 뭐 잘못했나&amp;hellip;GPU가 터진건가&amp;hellip;등등 엄청 쫄았었다"/><figcaption>
+            <p>갑자기 오류가 떠서 혹시 내가 뭐 잘못했나&hellip;GPU가 터진건가&hellip;등등 엄청 쫄았었다</p>
+        </figcaption>
+</figure>
+<br>
+<figure><img src="3.png"
+         alt="koBERT는 성능이 너무 낮네&amp;hellip;"/><figcaption>
+            <p>koBERT는 성능이 너무 낮네&hellip;</p>
+        </figcaption>
+</figure>
+</p>
 <br>
 <br>
 <br>
