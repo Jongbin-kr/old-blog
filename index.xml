@@ -4,9 +4,33 @@
         <link>https://Jongbin-kr.github.io/</link>
         <description>welcome to Jongbin Won&#39;s Blog!</description>
         <generator>Hugo -- gohugo.io</generator><language>en-us</language><managingEditor>wonjb001@naver.com (Jongbin Won)</managingEditor>
-            <webMaster>wonjb001@naver.com (Jongbin Won)</webMaster><lastBuildDate>Sun, 19 Feb 2023 23:26:25 &#43;0900</lastBuildDate>
+            <webMaster>wonjb001@naver.com (Jongbin Won)</webMaster><lastBuildDate>Fri, 24 Feb 2023 22:25:24 &#43;0900</lastBuildDate>
             <atom:link href="https://Jongbin-kr.github.io/index.xml" rel="self" type="application/rss+xml" />
         <item>
+    <title>[TIL014] 졸업식, 고등수학 돌아보기</title>
+    <link>https://Jongbin-kr.github.io/posts/4_daily/0_til/230224_til014_%EC%A1%B8%EC%97%85%EC%8B%9D%EA%B3%BC_%EB%8B%A4%EC%8B%9C_%EB%AF%B8%EB%B6%84%EC%A0%81%EB%B6%84/</link>
+    <pubDate>Fri, 24 Feb 2023 22:25:24 &#43;0900</pubDate>
+    <author>Jongbin Won</author>
+    <guid>https://Jongbin-kr.github.io/posts/4_daily/0_til/230224_til014_%EC%A1%B8%EC%97%85%EC%8B%9D%EA%B3%BC_%EB%8B%A4%EC%8B%9C_%EB%AF%B8%EB%B6%84%EC%A0%81%EB%B6%84/</guid>
+    <description><![CDATA[Today I Learned&hellip; 어제 빌렸던 다시 미분적분책을 쭉 훑어봤다! 내용 자체는 고등 미적분1 수준이지만, 미적분학의 첫걸음 강의와 병행하니 새롭게 다가오는 부분들이 아주 많았다]]></description>
+</item>
+<item>
+    <title>[TIL013] 미적분과 Multi-modal</title>
+    <link>https://Jongbin-kr.github.io/posts/4_daily/0_til/230223_til013_%EB%AF%B8%EC%A0%81%EB%B6%84_%EB%A9%80%ED%8B%B0%EB%AA%A8%EB%8B%AC/</link>
+    <pubDate>Fri, 24 Feb 2023 22:24:24 &#43;0900</pubDate>
+    <author>Jongbin Won</author>
+    <guid>https://Jongbin-kr.github.io/posts/4_daily/0_til/230223_til013_%EB%AF%B8%EC%A0%81%EB%B6%84_%EB%A9%80%ED%8B%B0%EB%AA%A8%EB%8B%AC/</guid>
+    <description><![CDATA[Today I Learned&hellip; 미적분 수평/수직점근선, 샌드위치 정리 수평/수직 점근선의 정의에 대해 공부하고, 관련하여 다항식은 항상 점근선이 없다는 사실을 짝함수(even function, 혹]]></description>
+</item>
+<item>
+    <title>[Docker] 도커의 볼륨에 대한 이해와 사용법</title>
+    <link>https://Jongbin-kr.github.io/posts/1_programming/230222_%EB%8F%84%EC%BB%A4_%EB%B3%BC%EB%A5%A8/</link>
+    <pubDate>Wed, 22 Feb 2023 17:13:44 &#43;0900</pubDate>
+    <author>Jongbin Won</author>
+    <guid>https://Jongbin-kr.github.io/posts/1_programming/230222_%EB%8F%84%EC%BB%A4_%EB%B3%BC%EB%A5%A8/</guid>
+    <description><![CDATA[I. 왜 도커 볼륨을 써야하는가? 도커를 열심히 쓰다보면, 그 놀라운 편의성에 놀라다가도 항상 거슬리는 것이 하나 있는데, 바로 컨테이너를 제거해버리면 컨테이너 내에]]></description>
+</item>
+<item>
     <title>[TIL011] 처음으로 GPU를 조져보았다.</title>
     <link>https://Jongbin-kr.github.io/posts/4_daily/0_til/230219_til012_%EB%A6%B4%EB%A6%AC%EB%A5%BC_%ED%95%99%EC%8A%B5%EC%8B%9C%EC%BC%9C%EB%B3%B4%EC%95%98%EB%8B%A4/</link>
     <pubDate>Sun, 19 Feb 2023 23:26:25 &#43;0900</pubDate>
@@ -61,30 +85,6 @@
     <author>Jongbin Won</author>
     <guid>https://Jongbin-kr.github.io/posts/4_daily/0_til/230210_til_var_%EC%9D%B8%EA%B0%84%EA%B4%80%EA%B3%84%EB%A1%A0/</guid>
     <description><![CDATA[Today I Learned&hellip; 베이스라인 모델을 짜신 대학원생분을 만나, 활용법을 배웠다. 그 과정에서 vscode만으로 원격 데스크톱에 들어가는 법을 배웠고, Docker를 쓰면]]></description>
-</item>
-<item>
-    <title>[TIL005] 수학공부, 완비성 공리, BERT공부 해야하는데...</title>
-    <link>https://Jongbin-kr.github.io/posts/4_daily/0_til/230207_til_%EC%88%98%ED%95%99%EA%B3%B5%EB%B6%80/</link>
-    <pubDate>Wed, 08 Feb 2023 00:50:51 &#43;0900</pubDate>
-    <author>Jongbin Won</author>
-    <guid>https://Jongbin-kr.github.io/posts/4_daily/0_til/230207_til_%EC%88%98%ED%95%99%EA%B3%B5%EB%B6%80/</guid>
-    <description><![CDATA[Today I Learned&hellip; 삼각함수 완비성 공리의 정의 Do it! BERT와 GPT로 배우는 자연어 처리 책 샀음. 낼부터는 진짜 꼭 공부한다&hellip; Today I Did&hellip; 잠깐 교수님과의 식사.]]></description>
-</item>
-<item>
-    <title>[TIL004] 처음으로 BERT, 처음으로 미적분 스터디.</title>
-    <link>https://Jongbin-kr.github.io/posts/4_daily/0_til/230205_til_%EB%AF%B8%EC%A0%81%EB%B6%84%EC%8A%A4%ED%84%B0%EB%94%94_%EB%85%BC%EB%AC%B8%EC%8A%A4%ED%84%B0%EB%94%94/</link>
-    <pubDate>Sun, 05 Feb 2023 20:44:08 &#43;0900</pubDate>
-    <author>Jongbin Won</author>
-    <guid>https://Jongbin-kr.github.io/posts/4_daily/0_til/230205_til_%EB%AF%B8%EC%A0%81%EB%B6%84%EC%8A%A4%ED%84%B0%EB%94%94_%EB%85%BC%EB%AC%B8%EC%8A%A4%ED%84%B0%EB%94%94/</guid>
-    <description><![CDATA[Today I Learned&hellip; koVAR 논문 스터디 처음으로 베이스라인 모델(BERT기반 이야기상식 귀추추론 모델) 코드를 보면서, 공부하는 시간을 가졌다! wandb, huggingface, BERT 등의 라이브러리들이 어]]></description>
-</item>
-<item>
-    <title>[TIL003] 미적분학의 첫걸음, 파이썬 세션 끝</title>
-    <link>https://Jongbin-kr.github.io/posts/4_daily/0_til/230204_til/</link>
-    <pubDate>Sun, 05 Feb 2023 00:11:29 &#43;0900</pubDate>
-    <author>Jongbin Won</author>
-    <guid>https://Jongbin-kr.github.io/posts/4_daily/0_til/230204_til/</guid>
-    <description><![CDATA[Today I Learned&hellip; 서울대학교 미적분학의 첫걸음 1강(수열의 극한) 독파! 수학의 증명 문화는 아직 익숙치 않다. 고등 미적분2 일반각 개념 공부. 근데 왜 각을 잴 때 양수가 반시]]></description>
 </item>
 </channel>
 </rss>

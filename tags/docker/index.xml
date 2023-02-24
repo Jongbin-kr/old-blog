@@ -4,7 +4,15 @@
         <link>https://Jongbin-kr.github.io/tags/docker/</link>
         <description>Docker - Tag - Jongbin&#39;s Blog</description>
         <generator>Hugo -- gohugo.io</generator><language>en-us</language><managingEditor>wonjb001@naver.com (Jongbin Won)</managingEditor>
-            <webMaster>wonjb001@naver.com (Jongbin Won)</webMaster><lastBuildDate>Thu, 16 Feb 2023 22:41:37 &#43;0900</lastBuildDate><atom:link href="https://Jongbin-kr.github.io/tags/docker/" rel="self" type="application/rss+xml" /><item>
+            <webMaster>wonjb001@naver.com (Jongbin Won)</webMaster><lastBuildDate>Wed, 22 Feb 2023 17:13:44 &#43;0900</lastBuildDate><atom:link href="https://Jongbin-kr.github.io/tags/docker/" rel="self" type="application/rss+xml" /><item>
+    <title>[Docker] 도커의 볼륨에 대한 이해와 사용법</title>
+    <link>https://Jongbin-kr.github.io/posts/1_programming/230222_%EB%8F%84%EC%BB%A4_%EB%B3%BC%EB%A5%A8/</link>
+    <pubDate>Wed, 22 Feb 2023 17:13:44 &#43;0900</pubDate>
+    <author>Jongbin Won</author>
+    <guid>https://Jongbin-kr.github.io/posts/1_programming/230222_%EB%8F%84%EC%BB%A4_%EB%B3%BC%EB%A5%A8/</guid>
+    <description><![CDATA[I. 왜 도커 볼륨을 써야하는가? 도커를 열심히 쓰다보면, 그 놀라운 편의성에 놀라다가도 항상 거슬리는 것이 하나 있는데, 바로 컨테이너를 제거해버리면 컨테이너 내에]]></description>
+</item>
+<item>
     <title>[TIL011] 도커의 볼륨과 바인드 마운트에 대한 이해</title>
     <link>https://Jongbin-kr.github.io/posts/4_daily/0_til/230216_til011_%EB%8F%84%EC%BB%A4_%EB%B3%BC%EB%A5%A8_%EB%B0%94%EC%9D%B8%EB%93%9C_%EB%A7%88%EC%9A%B4%ED%8A%B8/</link>
     <pubDate>Thu, 16 Feb 2023 22:41:37 &#43;0900</pubDate>

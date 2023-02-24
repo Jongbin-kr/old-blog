@@ -1,7 +1,7 @@
 {
 	"version": 3,
 	"file": "style.min.css",
-	"sourceRoot": "C:/Users/dieyo/OneDrive - 고려대학교/3_Output/1_Blog",
+	"sourceRoot": "D:/OneDrive - 고려대학교/3_Output/1_Blog",
 	"sources": [
 		"themes/LoveIt/assets/css/style.scss",
 		"themes/LoveIt/assets/lib/normalize/normalize.css",
