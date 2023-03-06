@@ -4,13 +4,21 @@
         <link>https://Jongbin-kr.github.io/categories/daily/</link>
         <description>Daily - Category - Jongbin&#39;s Blog</description>
         <generator>Hugo -- gohugo.io</generator><language>en-us</language><managingEditor>wonjb001@naver.com (Jongbin Won)</managingEditor>
-            <webMaster>wonjb001@naver.com (Jongbin Won)</webMaster><lastBuildDate>Fri, 24 Feb 2023 22:25:24 &#43;0900</lastBuildDate><atom:link href="https://Jongbin-kr.github.io/categories/daily/" rel="self" type="application/rss+xml" /><item>
+            <webMaster>wonjb001@naver.com (Jongbin Won)</webMaster><lastBuildDate>Mon, 06 Mar 2023 16:09:30 &#43;0900</lastBuildDate><atom:link href="https://Jongbin-kr.github.io/categories/daily/" rel="self" type="application/rss+xml" /><item>
+    <title>[TIL016] 삼각함수, 선형대수</title>
+    <link>https://Jongbin-kr.github.io/posts/4_daily/0_til/20230306_til016_%EC%82%BC%EA%B0%81%ED%95%A8%EC%88%98/</link>
+    <pubDate>Mon, 06 Mar 2023 16:09:30 &#43;0900</pubDate>
+    <author>Jongbin Won</author>
+    <guid>https://Jongbin-kr.github.io/posts/4_daily/0_til/20230306_til016_%EC%82%BC%EA%B0%81%ED%95%A8%EC%88%98/</guid>
+    <description><![CDATA[Today I Learned&hellip; 다시 미분적분책에서 드디어 삼각함수를 배우기 시작했다! 다만 일반각 개념은 거의 다루지 않아, 이 부분은 교과서를 다시 볼 필요가 있을 것 같다. 연습문제들도]]></description>
+</item>
+<item>
     <title>[TIL014] 졸업식, 고등수학 돌아보기</title>
     <link>https://Jongbin-kr.github.io/posts/4_daily/0_til/230224_til014_%EC%A1%B8%EC%97%85%EC%8B%9D%EA%B3%BC_%EB%8B%A4%EC%8B%9C_%EB%AF%B8%EB%B6%84%EC%A0%81%EB%B6%84/</link>
     <pubDate>Fri, 24 Feb 2023 22:25:24 &#43;0900</pubDate>
     <author>Jongbin Won</author>
     <guid>https://Jongbin-kr.github.io/posts/4_daily/0_til/230224_til014_%EC%A1%B8%EC%97%85%EC%8B%9D%EA%B3%BC_%EB%8B%A4%EC%8B%9C_%EB%AF%B8%EB%B6%84%EC%A0%81%EB%B6%84/</guid>
-    <description><![CDATA[Today I Learned&hellip; 어제 빌렸던 다시 미분적분책을 쭉 훑어봤다! 내용 자체는 고등 미적분1 수준이지만, 미적분학의 첫걸음 강의와 병행하니 새롭게 다가오는 부분들이 아주 많았다]]></description>
+    <description><![CDATA[Today I Learned&hellip; 어제 빌렸던 다시 미분적분 책을 쭉 훑어봤다! 내용 자체는 고등 미적분1 수준이지만, 미적분학의 첫걸음 강의와 병행하니 새롭게 다가오는 부분들이 아주 많았다]]></description>
 </item>
 <item>
     <title>[TIL013] 미적분과 Multi-modal</title>
@@ -50,7 +58,7 @@
     <pubDate>Wed, 15 Feb 2023 23:28:45 &#43;0900</pubDate>
     <author>Jongbin Won</author>
     <guid>https://Jongbin-kr.github.io/posts/4_daily/0_til/230214_til009_%EC%88%98%EA%B0%95%EC%8B%A0%EC%B2%AD_%EB%8F%84%EC%BB%A4_-%EC%9A%B0%EB%B6%84%ED%88%AC/</guid>
-    <description><![CDATA[Today I Learned&hellip; 어제 공부하던 도커를 이어서 공부했다. 도커 기본 사용법을 공부했다. 근데 이미지 만드는 것은 당장은 필요없을 것 같아 미뤄두었다. 미적분학의 첫걸음 3. 함수]]></description>
+    <description><![CDATA[Today I Learned&hellip; 어제 공부하던 도커를 이어서 공부했다. 도커 기본 사용법 을 공부했다. 근데 이미지 만드는 것은 당장은 필요없을 것 같아 미뤄두었다. 미적분학의 첫걸음 3. 함수]]></description>
 </item>
 <item>
     <title>[TIL008] 도 커 조 아</title>
@@ -58,7 +66,7 @@
     <pubDate>Mon, 13 Feb 2023 00:40:00 &#43;0900</pubDate>
     <author>Jongbin Won</author>
     <guid>https://Jongbin-kr.github.io/posts/4_daily/0_til/230213_til008_%ED%98%B8%EB%8F%84%EB%B2%95_%EB%8F%84%EC%BB%A4/</guid>
-    <description><![CDATA[Today I Learned&hellip; 도커🐳를 열심히 공부했다. 원래는 얄팍한 코딩사전님의 가장 쉽게 배우는 도커로 공부를 시작했는데, 영상으로만 공부하다보니 불편한 점이 많아, 초보를 위한]]></description>
+    <description><![CDATA[Today I Learned&hellip; 도커🐳를 열심히 공부했다. 원래는 얄팍한 코딩사전님의 가장 쉽게 배우는 도커 로 공부를 시작했는데, 영상으로만 공부하다보니 불편한 점이 많아, 초보를 위한]]></description>
 </item>
 <item>
     <title>[TIL007] 자연상수 e, 비교판정법, 논리학 입문, Docker</title>
@@ -75,14 +83,6 @@
     <author>Jongbin Won</author>
     <guid>https://Jongbin-kr.github.io/posts/4_daily/0_til/230210_til_var_%EC%9D%B8%EA%B0%84%EA%B4%80%EA%B3%84%EB%A1%A0/</guid>
     <description><![CDATA[Today I Learned&hellip; 베이스라인 모델을 짜신 대학원생분을 만나, 활용법을 배웠다. 그 과정에서 vscode만으로 원격 데스크톱에 들어가는 법을 배웠고, Docker를 쓰면]]></description>
-</item>
-<item>
-    <title>[TIL005] 수학공부, 완비성 공리, BERT공부 해야하는데...</title>
-    <link>https://Jongbin-kr.github.io/posts/4_daily/0_til/230207_til_%EC%88%98%ED%95%99%EA%B3%B5%EB%B6%80/</link>
-    <pubDate>Wed, 08 Feb 2023 00:50:51 &#43;0900</pubDate>
-    <author>Jongbin Won</author>
-    <guid>https://Jongbin-kr.github.io/posts/4_daily/0_til/230207_til_%EC%88%98%ED%95%99%EA%B3%B5%EB%B6%80/</guid>
-    <description><![CDATA[Today I Learned&hellip; 삼각함수 완비성 공리의 정의 Do it! BERT와 GPT로 배우는 자연어 처리 책 샀음. 낼부터는 진짜 꼭 공부한다&hellip; Today I Did&hellip; 잠깐 교수님과의 식사.]]></description>
 </item>
 </channel>
 </rss>
