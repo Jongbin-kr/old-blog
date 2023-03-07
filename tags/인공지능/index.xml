@@ -1,0 +1,16 @@
+<rss xmlns:atom="http://www.w3.org/2005/Atom" version="2.0">
+    <channel>
+        <title>인공지능 - Tag - Jongbin&#39;s Blog</title>
+        <link>https://Jongbin-kr.github.io/tags/%EC%9D%B8%EA%B3%B5%EC%A7%80%EB%8A%A5/</link>
+        <description>인공지능 - Tag - Jongbin&#39;s Blog</description>
+        <generator>Hugo -- gohugo.io</generator><language>en-us</language><managingEditor>wonjb001@naver.com (Jongbin Won)</managingEditor>
+            <webMaster>wonjb001@naver.com (Jongbin Won)</webMaster><lastBuildDate>Tue, 07 Mar 2023 23:04:21 &#43;0900</lastBuildDate><atom:link href="https://Jongbin-kr.github.io/tags/%EC%9D%B8%EA%B3%B5%EC%A7%80%EB%8A%A5/" rel="self" type="application/rss+xml" /><item>
+    <title>[TIL017] 인공지능과 언어학 모두 feature가 중요하다.</title>
+    <link>https://Jongbin-kr.github.io/posts/4_daily/0_til/20230307_til017_%EA%B8%B0%ED%98%B8%ED%95%99_%EC%9D%B8%EA%B3%B5%EC%A7%80%EB%8A%A5/</link>
+    <pubDate>Tue, 07 Mar 2023 23:04:21 &#43;0900</pubDate>
+    <author>Jongbin Won</author>
+    <guid>https://Jongbin-kr.github.io/posts/4_daily/0_til/20230307_til017_%EA%B8%B0%ED%98%B8%ED%95%99_%EC%9D%B8%EA%B3%B5%EC%A7%80%EB%8A%A5/</guid>
+    <description><![CDATA[Today I Learned&hellip; 문법론 현대언어학은 feature를 중심으로 구성된다. 인공지능의 학습 데이터 역시 feature를 잘 설정하는 것이 중요하다! 기호학. 소쉬르 언어]]></description>
+</item>
+</channel>
+</rss>

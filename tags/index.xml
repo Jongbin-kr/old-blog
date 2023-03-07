@@ -4,12 +4,36 @@
         <link>https://Jongbin-kr.github.io/tags/</link>
         <description>Tags - Tag - Jongbin&#39;s Blog</description>
         <generator>Hugo -- gohugo.io</generator><language>en-us</language><managingEditor>wonjb001@naver.com (Jongbin Won)</managingEditor>
-            <webMaster>wonjb001@naver.com (Jongbin Won)</webMaster><lastBuildDate>Mon, 06 Mar 2023 16:09:30 &#43;0900</lastBuildDate><atom:link href="https://Jongbin-kr.github.io/tags/" rel="self" type="application/rss+xml" /><item>
+            <webMaster>wonjb001@naver.com (Jongbin Won)</webMaster><lastBuildDate>Tue, 07 Mar 2023 23:04:21 &#43;0900</lastBuildDate><atom:link href="https://Jongbin-kr.github.io/tags/" rel="self" type="application/rss+xml" /><item>
     <title>TIL</title>
     <link>https://Jongbin-kr.github.io/tags/til/</link>
-    <pubDate>Mon, 06 Mar 2023 16:09:30 &#43;0900</pubDate>
+    <pubDate>Tue, 07 Mar 2023 23:04:21 &#43;0900</pubDate>
     <author>Jongbin Won</author>
     <guid>https://Jongbin-kr.github.io/tags/til/</guid>
+    <description><![CDATA[]]></description>
+</item>
+<item>
+    <title>기호학</title>
+    <link>https://Jongbin-kr.github.io/tags/%EA%B8%B0%ED%98%B8%ED%95%99/</link>
+    <pubDate>Tue, 07 Mar 2023 23:04:21 &#43;0900</pubDate>
+    <author>Jongbin Won</author>
+    <guid>https://Jongbin-kr.github.io/tags/%EA%B8%B0%ED%98%B8%ED%95%99/</guid>
+    <description><![CDATA[]]></description>
+</item>
+<item>
+    <title>인공지능</title>
+    <link>https://Jongbin-kr.github.io/tags/%EC%9D%B8%EA%B3%B5%EC%A7%80%EB%8A%A5/</link>
+    <pubDate>Tue, 07 Mar 2023 23:04:21 &#43;0900</pubDate>
+    <author>Jongbin Won</author>
+    <guid>https://Jongbin-kr.github.io/tags/%EC%9D%B8%EA%B3%B5%EC%A7%80%EB%8A%A5/</guid>
+    <description><![CDATA[]]></description>
+</item>
+<item>
+    <title>Ubuntu</title>
+    <link>https://Jongbin-kr.github.io/tags/ubuntu/</link>
+    <pubDate>Sun, 05 Mar 2023 22:24:02 &#43;0900</pubDate>
+    <author>Jongbin Won</author>
+    <guid>https://Jongbin-kr.github.io/tags/ubuntu/</guid>
     <description><![CDATA[]]></description>
 </item>
 <item>
@@ -53,35 +77,11 @@
     <description><![CDATA[]]></description>
 </item>
 <item>
-    <title>Ubuntu</title>
-    <link>https://Jongbin-kr.github.io/tags/ubuntu/</link>
-    <pubDate>Wed, 15 Feb 2023 23:38:31 &#43;0900</pubDate>
-    <author>Jongbin Won</author>
-    <guid>https://Jongbin-kr.github.io/tags/ubuntu/</guid>
-    <description><![CDATA[]]></description>
-</item>
-<item>
     <title>논리학</title>
     <link>https://Jongbin-kr.github.io/tags/%EB%85%BC%EB%A6%AC%ED%95%99/</link>
     <pubDate>Fri, 10 Feb 2023 23:58:31 &#43;0900</pubDate>
     <author>Jongbin Won</author>
     <guid>https://Jongbin-kr.github.io/tags/%EB%85%BC%EB%A6%AC%ED%95%99/</guid>
-    <description><![CDATA[]]></description>
-</item>
-<item>
-    <title>Python</title>
-    <link>https://Jongbin-kr.github.io/tags/python/</link>
-    <pubDate>Fri, 03 Feb 2023 23:56:37 &#43;0900</pubDate>
-    <author>Jongbin Won</author>
-    <guid>https://Jongbin-kr.github.io/tags/python/</guid>
-    <description><![CDATA[]]></description>
-</item>
-<item>
-    <title>adjacency pair</title>
-    <link>https://Jongbin-kr.github.io/tags/adjacency-pair/</link>
-    <pubDate>Wed, 01 Feb 2023 23:15:03 &#43;0900</pubDate>
-    <author>Jongbin Won</author>
-    <guid>https://Jongbin-kr.github.io/tags/adjacency-pair/</guid>
     <description><![CDATA[]]></description>
 </item>
 </channel>

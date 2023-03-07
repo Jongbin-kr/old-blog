@@ -4,7 +4,15 @@
         <link>https://Jongbin-kr.github.io/tags/ubuntu/</link>
         <description>Ubuntu - Tag - Jongbin&#39;s Blog</description>
         <generator>Hugo -- gohugo.io</generator><language>en-us</language><managingEditor>wonjb001@naver.com (Jongbin Won)</managingEditor>
-            <webMaster>wonjb001@naver.com (Jongbin Won)</webMaster><lastBuildDate>Wed, 15 Feb 2023 23:38:31 &#43;0900</lastBuildDate><atom:link href="https://Jongbin-kr.github.io/tags/ubuntu/" rel="self" type="application/rss+xml" /><item>
+            <webMaster>wonjb001@naver.com (Jongbin Won)</webMaster><lastBuildDate>Sun, 05 Mar 2023 22:24:02 &#43;0900</lastBuildDate><atom:link href="https://Jongbin-kr.github.io/tags/ubuntu/" rel="self" type="application/rss+xml" /><item>
+    <title>[TIL015] 개강, 우분투</title>
+    <link>https://Jongbin-kr.github.io/posts/4_daily/0_til/20230305_til015%EA%B0%9C%EA%B0%95_%EC%9A%B0%EB%B6%84%ED%88%AC/</link>
+    <pubDate>Sun, 05 Mar 2023 22:24:02 &#43;0900</pubDate>
+    <author>Jongbin Won</author>
+    <guid>https://Jongbin-kr.github.io/posts/4_daily/0_til/20230305_til015%EA%B0%9C%EA%B0%95_%EC%9A%B0%EB%B6%84%ED%88%AC/</guid>
+    <description><![CDATA[Today I Learned&hellip; 개강 직전에 데스크탑 환경을 다시 구축했다! 원래는 windows10으로만 돌아가던 일반인스러운 데스크톱에서, nvme SSD에는 windows11을]]></description>
+</item>
+<item>
     <title>[TIL010] 함수의 극한, 리눅스머신 사고싶다</title>
     <link>https://Jongbin-kr.github.io/posts/4_daily/0_til/230215_til010_%EB%AF%B8%EC%A0%81%EB%B6%84_%EC%9A%B0%EB%B6%84%ED%88%AC/</link>
     <pubDate>Wed, 15 Feb 2023 23:38:31 &#43;0900</pubDate>

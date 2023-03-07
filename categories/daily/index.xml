@@ -4,13 +4,29 @@
         <link>https://Jongbin-kr.github.io/categories/daily/</link>
         <description>Daily - Category - Jongbin&#39;s Blog</description>
         <generator>Hugo -- gohugo.io</generator><language>en-us</language><managingEditor>wonjb001@naver.com (Jongbin Won)</managingEditor>
-            <webMaster>wonjb001@naver.com (Jongbin Won)</webMaster><lastBuildDate>Mon, 06 Mar 2023 16:09:30 &#43;0900</lastBuildDate><atom:link href="https://Jongbin-kr.github.io/categories/daily/" rel="self" type="application/rss+xml" /><item>
+            <webMaster>wonjb001@naver.com (Jongbin Won)</webMaster><lastBuildDate>Tue, 07 Mar 2023 23:04:21 &#43;0900</lastBuildDate><atom:link href="https://Jongbin-kr.github.io/categories/daily/" rel="self" type="application/rss+xml" /><item>
+    <title>[TIL017] 인공지능과 언어학 모두 feature가 중요하다.</title>
+    <link>https://Jongbin-kr.github.io/posts/4_daily/0_til/20230307_til017_%EA%B8%B0%ED%98%B8%ED%95%99_%EC%9D%B8%EA%B3%B5%EC%A7%80%EB%8A%A5/</link>
+    <pubDate>Tue, 07 Mar 2023 23:04:21 &#43;0900</pubDate>
+    <author>Jongbin Won</author>
+    <guid>https://Jongbin-kr.github.io/posts/4_daily/0_til/20230307_til017_%EA%B8%B0%ED%98%B8%ED%95%99_%EC%9D%B8%EA%B3%B5%EC%A7%80%EB%8A%A5/</guid>
+    <description><![CDATA[Today I Learned&hellip; 문법론 현대언어학은 feature를 중심으로 구성된다. 인공지능의 학습 데이터 역시 feature를 잘 설정하는 것이 중요하다! 기호학. 소쉬르 언어]]></description>
+</item>
+<item>
     <title>[TIL016] 삼각함수, 선형대수</title>
     <link>https://Jongbin-kr.github.io/posts/4_daily/0_til/20230306_til016_%EC%82%BC%EA%B0%81%ED%95%A8%EC%88%98/</link>
     <pubDate>Mon, 06 Mar 2023 16:09:30 &#43;0900</pubDate>
     <author>Jongbin Won</author>
     <guid>https://Jongbin-kr.github.io/posts/4_daily/0_til/20230306_til016_%EC%82%BC%EA%B0%81%ED%95%A8%EC%88%98/</guid>
     <description><![CDATA[Today I Learned&hellip; 다시 미분적분책에서 드디어 삼각함수를 배우기 시작했다! 다만 일반각 개념은 거의 다루지 않아, 이 부분은 교과서를 다시 볼 필요가 있을 것 같다. 연습문제들도]]></description>
+</item>
+<item>
+    <title>[TIL015] 개강, 우분투</title>
+    <link>https://Jongbin-kr.github.io/posts/4_daily/0_til/20230305_til015%EA%B0%9C%EA%B0%95_%EC%9A%B0%EB%B6%84%ED%88%AC/</link>
+    <pubDate>Sun, 05 Mar 2023 22:24:02 &#43;0900</pubDate>
+    <author>Jongbin Won</author>
+    <guid>https://Jongbin-kr.github.io/posts/4_daily/0_til/20230305_til015%EA%B0%9C%EA%B0%95_%EC%9A%B0%EB%B6%84%ED%88%AC/</guid>
+    <description><![CDATA[Today I Learned&hellip; 개강 직전에 데스크탑 환경을 다시 구축했다! 원래는 windows10으로만 돌아가던 일반인스러운 데스크톱에서, nvme SSD에는 windows11을]]></description>
 </item>
 <item>
     <title>[TIL014] 졸업식, 고등수학 돌아보기</title>
@@ -67,22 +83,6 @@
     <author>Jongbin Won</author>
     <guid>https://Jongbin-kr.github.io/posts/4_daily/0_til/230213_til008_%ED%98%B8%EB%8F%84%EB%B2%95_%EB%8F%84%EC%BB%A4/</guid>
     <description><![CDATA[Today I Learned&hellip; 도커🐳를 열심히 공부했다. 원래는 얄팍한 코딩사전님의 가장 쉽게 배우는 도커 로 공부를 시작했는데, 영상으로만 공부하다보니 불편한 점이 많아, 초보를 위한]]></description>
-</item>
-<item>
-    <title>[TIL007] 자연상수 e, 비교판정법, 논리학 입문, Docker</title>
-    <link>https://Jongbin-kr.github.io/posts/4_daily/0_til/230210_til_%EB%AF%B8%EC%A0%81%EB%B6%84_%EB%8F%84%EC%BB%A4_%EB%85%BC%EB%A6%AC%ED%95%99/</link>
-    <pubDate>Fri, 10 Feb 2023 23:58:31 &#43;0900</pubDate>
-    <author>Jongbin Won</author>
-    <guid>https://Jongbin-kr.github.io/posts/4_daily/0_til/230210_til_%EB%AF%B8%EC%A0%81%EB%B6%84_%EB%8F%84%EC%BB%A4_%EB%85%BC%EB%A6%AC%ED%95%99/</guid>
-    <description><![CDATA[Today I Learned&hellip; 미적분 2강을 마무리했다. 자연상수 $e$의 정의와 증명 비교판정법 논리학 책을 드디어&hellip;펼쳐보았다. 연역추론은 건전한 추론인 경우, 결]]></description>
-</item>
-<item>
-    <title>[TIL006] 원격 연결, Docker, 그리고 인간관계론</title>
-    <link>https://Jongbin-kr.github.io/posts/4_daily/0_til/230210_til_var_%EC%9D%B8%EA%B0%84%EA%B4%80%EA%B3%84%EB%A1%A0/</link>
-    <pubDate>Fri, 10 Feb 2023 00:25:44 &#43;0900</pubDate>
-    <author>Jongbin Won</author>
-    <guid>https://Jongbin-kr.github.io/posts/4_daily/0_til/230210_til_var_%EC%9D%B8%EA%B0%84%EA%B4%80%EA%B3%84%EB%A1%A0/</guid>
-    <description><![CDATA[Today I Learned&hellip; 베이스라인 모델을 짜신 대학원생분을 만나, 활용법을 배웠다. 그 과정에서 vscode만으로 원격 데스크톱에 들어가는 법을 배웠고, Docker를 쓰면]]></description>
 </item>
 </channel>
 </rss>

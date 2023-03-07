@@ -4,10 +4,10 @@
         <link>https://Jongbin-kr.github.io/posts/</link>
         <description>All Posts | Jongbin&#39;s Blog</description>
         <generator>Hugo -- gohugo.io</generator><language>en-us</language><managingEditor>wonjb001@naver.com (Jongbin Won)</managingEditor>
-            <webMaster>wonjb001@naver.com (Jongbin Won)</webMaster><lastBuildDate>Mon, 06 Mar 2023 16:09:30 &#43;0900</lastBuildDate><atom:link href="https://Jongbin-kr.github.io/posts/" rel="self" type="application/rss+xml" /><item>
+            <webMaster>wonjb001@naver.com (Jongbin Won)</webMaster><lastBuildDate>Tue, 07 Mar 2023 23:04:21 &#43;0900</lastBuildDate><atom:link href="https://Jongbin-kr.github.io/posts/" rel="self" type="application/rss+xml" /><item>
     <title></title>
     <link>https://Jongbin-kr.github.io/posts/4_daily/</link>
-    <pubDate>Mon, 06 Mar 2023 16:09:30 &#43;0900</pubDate>
+    <pubDate>Tue, 07 Mar 2023 23:04:21 &#43;0900</pubDate>
     <author>Jongbin Won</author>
     <guid>https://Jongbin-kr.github.io/posts/4_daily/</guid>
     <description><![CDATA[]]></description>
@@ -43,6 +43,14 @@
     <author>Jongbin Won</author>
     <guid>https://Jongbin-kr.github.io/posts/1_programming/1_learning_python/lp001_%ED%8C%8C%EC%9D%B4%EC%8D%AC%EC%9D%80-%EC%96%B4%EB%A0%B5%EB%8B%A4/</guid>
     <description><![CDATA[파이썬은 어렵다. 파이썬 기초를 떼고 가장 먼저 든 생각은 &lsquo;파이썬은 어렵다&lsquo;였다. 정확히 말하자면, 파이썬은 입문하기는 쉽지만 숙달]]></description>
+</item>
+<item>
+    <title></title>
+    <link>https://Jongbin-kr.github.io/posts/2_study/</link>
+    <pubDate>Mon, 01 Jan 0001 00:00:00 &#43;0000</pubDate>
+    <author>Jongbin Won</author>
+    <guid>https://Jongbin-kr.github.io/posts/2_study/</guid>
+    <description><![CDATA[]]></description>
 </item>
 </channel>
 </rss>
