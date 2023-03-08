@@ -4,7 +4,15 @@
         <link>https://Jongbin-kr.github.io/categories/daily/</link>
         <description>Daily - Category - Jongbin&#39;s Blog</description>
         <generator>Hugo -- gohugo.io</generator><language>en-us</language><managingEditor>wonjb001@naver.com (Jongbin Won)</managingEditor>
-            <webMaster>wonjb001@naver.com (Jongbin Won)</webMaster><lastBuildDate>Tue, 07 Mar 2023 23:04:21 &#43;0900</lastBuildDate><atom:link href="https://Jongbin-kr.github.io/categories/daily/" rel="self" type="application/rss+xml" /><item>
+            <webMaster>wonjb001@naver.com (Jongbin Won)</webMaster><lastBuildDate>Wed, 08 Mar 2023 23:23:40 &#43;0900</lastBuildDate><atom:link href="https://Jongbin-kr.github.io/categories/daily/" rel="self" type="application/rss+xml" /><item>
+    <title>[TIL018] 미분계수, 삼각함수, Docker Desktop vs. Docker Engine</title>
+    <link>https://Jongbin-kr.github.io/posts/4_daily/0_til/20230308_til018_%EC%82%BC%EA%B0%81%ED%95%A8%EC%88%98_%EB%8F%84%EC%BB%A4/</link>
+    <pubDate>Wed, 08 Mar 2023 23:23:40 &#43;0900</pubDate>
+    <author>Jongbin Won</author>
+    <guid>https://Jongbin-kr.github.io/posts/4_daily/0_til/20230308_til018_%EC%82%BC%EA%B0%81%ED%95%A8%EC%88%98_%EB%8F%84%EC%BB%A4/</guid>
+    <description><![CDATA[Today I Learned&hellip; 대학미적분. 미분계수. 미분가능하다 == 미분계수가 존재한다 == $f(x)$를 수직이 아닌 직선으로 근사할 수 있다. 근사한다는 말뜻이 잘 이해가 안된다.]]></description>
+</item>
+<item>
     <title>[TIL017] 인공지능과 언어학 모두 feature가 중요하다.</title>
     <link>https://Jongbin-kr.github.io/posts/4_daily/0_til/20230307_til017_%EA%B8%B0%ED%98%B8%ED%95%99_%EC%9D%B8%EA%B3%B5%EC%A7%80%EB%8A%A5/</link>
     <pubDate>Tue, 07 Mar 2023 23:04:21 &#43;0900</pubDate>
@@ -75,14 +83,6 @@
     <author>Jongbin Won</author>
     <guid>https://Jongbin-kr.github.io/posts/4_daily/0_til/230214_til009_%EC%88%98%EA%B0%95%EC%8B%A0%EC%B2%AD_%EB%8F%84%EC%BB%A4_-%EC%9A%B0%EB%B6%84%ED%88%AC/</guid>
     <description><![CDATA[Today I Learned&hellip; 어제 공부하던 도커를 이어서 공부했다. 도커 기본 사용법 을 공부했다. 근데 이미지 만드는 것은 당장은 필요없을 것 같아 미뤄두었다. 미적분학의 첫걸음 3. 함수]]></description>
-</item>
-<item>
-    <title>[TIL008] 도 커 조 아</title>
-    <link>https://Jongbin-kr.github.io/posts/4_daily/0_til/230213_til008_%ED%98%B8%EB%8F%84%EB%B2%95_%EB%8F%84%EC%BB%A4/</link>
-    <pubDate>Mon, 13 Feb 2023 00:40:00 &#43;0900</pubDate>
-    <author>Jongbin Won</author>
-    <guid>https://Jongbin-kr.github.io/posts/4_daily/0_til/230213_til008_%ED%98%B8%EB%8F%84%EB%B2%95_%EB%8F%84%EC%BB%A4/</guid>
-    <description><![CDATA[Today I Learned&hellip; 도커🐳를 열심히 공부했다. 원래는 얄팍한 코딩사전님의 가장 쉽게 배우는 도커 로 공부를 시작했는데, 영상으로만 공부하다보니 불편한 점이 많아, 초보를 위한]]></description>
 </item>
 </channel>
 </rss>
