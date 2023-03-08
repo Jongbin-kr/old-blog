@@ -1,0 +1,16 @@
+<rss xmlns:atom="http://www.w3.org/2005/Atom" version="2.0">
+    <channel>
+        <title>삼각함수 - Tag - Jongbin&#39;s Blog</title>
+        <link>https://Jongbin-kr.github.io/tags/%EC%82%BC%EA%B0%81%ED%95%A8%EC%88%98/</link>
+        <description>삼각함수 - Tag - Jongbin&#39;s Blog</description>
+        <generator>Hugo -- gohugo.io</generator><language>en-us</language><managingEditor>wonjb001@naver.com (Jongbin Won)</managingEditor>
+            <webMaster>wonjb001@naver.com (Jongbin Won)</webMaster><lastBuildDate>Wed, 08 Mar 2023 23:10:06 &#43;0900</lastBuildDate><atom:link href="https://Jongbin-kr.github.io/tags/%EC%82%BC%EA%B0%81%ED%95%A8%EC%88%98/" rel="self" type="application/rss+xml" /><item>
+    <title>[미적분] 삼각함수</title>
+    <link>https://Jongbin-kr.github.io/posts/2_study/mathematics/%EA%B3%A0%EB%93%B1%EB%AF%B8%EC%A0%81_%EC%82%BC%EA%B0%81%ED%95%A8%EC%88%98_%EB%AF%B8%EB%B6%84/</link>
+    <pubDate>Wed, 08 Mar 2023 23:10:06 &#43;0900</pubDate>
+    <author>Jongbin Won</author>
+    <guid>https://Jongbin-kr.github.io/posts/2_study/mathematics/%EA%B3%A0%EB%93%B1%EB%AF%B8%EC%A0%81_%EC%82%BC%EA%B0%81%ED%95%A8%EC%88%98_%EB%AF%B8%EB%B6%84/</guid>
+    <description><![CDATA[내용출처: 다시, 미분적분 삼각함수 삼각함수의 상호관계 빗변: $\cos{\theta}$, 높이: $\sin{\theta}$, 기울기: $\tan{\theta} = \frac{\cos{\theta}}{\sin{{\theta}}}$ $\cos^2{\theta} + \sin^2{\theta} = 1$ 음각-여각 공식 음각: $\cos{-\theta} = \cos{\theta},; \sin{-\theta} = -\sin{\theta}$ 여각: $\cos({\frac{\pi}{2}-\theta}) = \sin{\theta},; \sin({\frac{\pi}{2}-\theta}) = \cos{\theta}$]]></description>
+</item>
+</channel>
+</rss>

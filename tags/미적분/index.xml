@@ -4,7 +4,23 @@
         <link>https://Jongbin-kr.github.io/tags/%EB%AF%B8%EC%A0%81%EB%B6%84/</link>
         <description>미적분 - Tag - Jongbin&#39;s Blog</description>
         <generator>Hugo -- gohugo.io</generator><language>en-us</language><managingEditor>wonjb001@naver.com (Jongbin Won)</managingEditor>
-            <webMaster>wonjb001@naver.com (Jongbin Won)</webMaster><lastBuildDate>Fri, 24 Feb 2023 22:25:24 &#43;0900</lastBuildDate><atom:link href="https://Jongbin-kr.github.io/tags/%EB%AF%B8%EC%A0%81%EB%B6%84/" rel="self" type="application/rss+xml" /><item>
+            <webMaster>wonjb001@naver.com (Jongbin Won)</webMaster><lastBuildDate>Wed, 08 Mar 2023 23:16:51 &#43;0900</lastBuildDate><atom:link href="https://Jongbin-kr.github.io/tags/%EB%AF%B8%EC%A0%81%EB%B6%84/" rel="self" type="application/rss+xml" /><item>
+    <title>[미적분] 수열의 극한, 함수의 극한</title>
+    <link>https://Jongbin-kr.github.io/posts/2_study/mathematics/%EB%8C%80%ED%95%99%EB%AF%B8%EC%A0%81_%EC%88%98%EC%97%B4%EC%9D%98-%EA%B7%B9%ED%95%9C_%ED%95%A8%EC%88%98%EC%9D%98-%EA%B7%B9%ED%95%9C/</link>
+    <pubDate>Wed, 08 Mar 2023 23:16:51 &#43;0900</pubDate>
+    <author>Jongbin Won</author>
+    <guid>https://Jongbin-kr.github.io/posts/2_study/mathematics/%EB%8C%80%ED%95%99%EB%AF%B8%EC%A0%81_%EC%88%98%EC%97%B4%EC%9D%98-%EA%B7%B9%ED%95%9C_%ED%95%A8%EC%88%98%EC%9D%98-%EA%B7%B9%ED%95%9C/</guid>
+    <description><![CDATA[수학은 직관을 거부하고, 증명하는 것이다! 내용출처: 서울대학교, 미적분학의 첫걸음 1~3강 1. 수열의 극한, 완비성공리, 자연상수 e 1.1. 수열의 극한의 정의/]]></description>
+</item>
+<item>
+    <title>[미적분] 삼각함수</title>
+    <link>https://Jongbin-kr.github.io/posts/2_study/mathematics/%EA%B3%A0%EB%93%B1%EB%AF%B8%EC%A0%81_%EC%82%BC%EA%B0%81%ED%95%A8%EC%88%98_%EB%AF%B8%EB%B6%84/</link>
+    <pubDate>Wed, 08 Mar 2023 23:10:06 &#43;0900</pubDate>
+    <author>Jongbin Won</author>
+    <guid>https://Jongbin-kr.github.io/posts/2_study/mathematics/%EA%B3%A0%EB%93%B1%EB%AF%B8%EC%A0%81_%EC%82%BC%EA%B0%81%ED%95%A8%EC%88%98_%EB%AF%B8%EB%B6%84/</guid>
+    <description><![CDATA[내용출처: 다시, 미분적분 삼각함수 삼각함수의 상호관계 빗변: $\cos{\theta}$, 높이: $\sin{\theta}$, 기울기: $\tan{\theta} = \frac{\cos{\theta}}{\sin{{\theta}}}$ $\cos^2{\theta} + \sin^2{\theta} = 1$ 음각-여각 공식 음각: $\cos{-\theta} = \cos{\theta},; \sin{-\theta} = -\sin{\theta}$ 여각: $\cos({\frac{\pi}{2}-\theta}) = \sin{\theta},; \sin({\frac{\pi}{2}-\theta}) = \cos{\theta}$]]></description>
+</item>
+<item>
     <title>[TIL014] 졸업식, 고등수학 돌아보기</title>
     <link>https://Jongbin-kr.github.io/posts/4_daily/0_til/230224_til014_%EC%A1%B8%EC%97%85%EC%8B%9D%EA%B3%BC_%EB%8B%A4%EC%8B%9C_%EB%AF%B8%EB%B6%84%EC%A0%81%EB%B6%84/</link>
     <pubDate>Fri, 24 Feb 2023 22:25:24 &#43;0900</pubDate>
@@ -67,22 +83,6 @@
     <author>Jongbin Won</author>
     <guid>https://Jongbin-kr.github.io/posts/4_daily/0_til/230205_til_%EB%AF%B8%EC%A0%81%EB%B6%84%EC%8A%A4%ED%84%B0%EB%94%94_%EB%85%BC%EB%AC%B8%EC%8A%A4%ED%84%B0%EB%94%94/</guid>
     <description><![CDATA[Today I Learned&hellip; koVAR 논문 스터디 처음으로 베이스라인 모델(BERT기반 이야기상식 귀추추론 모델) 코드를 보면서, 공부하는 시간을 가졌다! wandb, huggingface, BERT 등의 라이브러리들이 어]]></description>
-</item>
-<item>
-    <title>[TIL003] 미적분학의 첫걸음, 파이썬 세션 끝</title>
-    <link>https://Jongbin-kr.github.io/posts/4_daily/0_til/230204_til/</link>
-    <pubDate>Sun, 05 Feb 2023 00:11:29 &#43;0900</pubDate>
-    <author>Jongbin Won</author>
-    <guid>https://Jongbin-kr.github.io/posts/4_daily/0_til/230204_til/</guid>
-    <description><![CDATA[Today I Learned&hellip; 서울대학교 미적분학의 첫걸음 1강(수열의 극한) 독파! 수학의 증명 문화는 아직 익숙치 않다. 고등 미적분2 일반각 개념 공부. 근데 왜 각을 잴 때 양수가 반시]]></description>
-</item>
-<item>
-    <title>[TIL001] 지수/로그함수와 유니코드</title>
-    <link>https://Jongbin-kr.github.io/posts/4_daily/0_til/230202_til_%EA%B3%A0%EB%93%B1%EB%AF%B8%EC%A0%81%EB%B6%84_%EB%9F%AC%EB%8B%9D%ED%8C%8C%EC%9D%B4%EC%8D%AC/</link>
-    <pubDate>Thu, 02 Feb 2023 23:50:39 &#43;0900</pubDate>
-    <author>Jongbin Won</author>
-    <guid>https://Jongbin-kr.github.io/posts/4_daily/0_til/230202_til_%EA%B3%A0%EB%93%B1%EB%AF%B8%EC%A0%81%EB%B6%84_%EB%9F%AC%EB%8B%9D%ED%8C%8C%EC%9D%B4%EC%8D%AC/</guid>
-    <description><![CDATA[Today I Learned&hellip; 대학미적분 스터디 전에 고등 미적분2 공부하는 중&hellip; (학창시절 문과를 택했던 것에 대한 작은 후회는 덤.) 오랜만에 그려본 그래프들. 빨간펜]]></description>
 </item>
 </channel>
 </rss>
