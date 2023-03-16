@@ -23,7 +23,6 @@ if (!doNotTrack) {
 <meta property="og:url" content="https://Jongbin-kr.github.io/posts/1_programming/230222_%EB%8F%84%EC%BB%A4_%EB%B3%BC%EB%A5%A8/" /><meta property="og:image" content="https://Jongbin-kr.github.io/logo.png"/><meta property="article:section" content="posts" />
 <meta property="article:published_time" content="2023-02-22T17:13:44+09:00" />
 <meta property="article:modified_time" content="2023-02-22T17:13:44+09:00" /><meta property="og:site_name" content="Jongbin&#39;s Blog" />
-
 <meta name="twitter:card" content="summary_large_image"/>
 <meta name="twitter:image" content="https://Jongbin-kr.github.io/logo.png"/>
 
@@ -156,19 +155,19 @@ if (!doNotTrack) {
 <h3 id="1-볼륨-만들기">1. 볼륨 만들기</h3>
 <ul>
 <li>먼저 볼륨부터 만들어보자.
-<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-bash" data-lang="bash"><span style="color:#75715e">## 도커 볼륨을 만든다.</span>
-$ docker volume create <span style="color:#f92672">[</span>볼륨이름<span style="color:#f92672">]</span>
-
-<span style="color:#75715e">## 생성된 볼륨들의 목록을 출력한다.</span>
-$ docker volume ls
-
-<span style="color:#75715e">## 만든 볼륨을 살펴본다.</span>
-$ docker volume inspect <span style="color:#f92672">[</span>볼륨이름<span style="color:#f92672">]</span>
-</code></pre></div></li>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-bash" data-lang="bash"><span style="display:flex;"><span><span style="color:#75715e">## 도커 볼륨을 만든다.</span>
+</span></span><span style="display:flex;"><span>$ docker volume create <span style="color:#f92672">[</span>볼륨이름<span style="color:#f92672">]</span>
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span><span style="color:#75715e">## 생성된 볼륨들의 목록을 출력한다.</span>
+</span></span><span style="display:flex;"><span>$ docker volume ls
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span><span style="color:#75715e">## 만든 볼륨을 살펴본다.</span>
+</span></span><span style="display:flex;"><span>$ docker volume inspect <span style="color:#f92672">[</span>볼륨이름<span style="color:#f92672">]</span>
+</span></span></code></pre></div></li>
 </ul>
 <br>
 <figure><img src="1.png"/>
-</figure>
+  </figure>
 
 <br>
 <ul>
@@ -184,13 +183,13 @@ $ docker volume inspect <span style="color:#f92672">[</span>볼륨이름<span st
 <h3 id="2-볼륨을-활용하는-컨테이너-만들기">2. 볼륨을 활용하는 컨테이너 만들기</h3>
 <ul>
 <li>다음으로 이미 생성한 볼륨을 활용하는(마운트하는) 컨테이너를 만들어보자.
-<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-Bash" data-lang="Bash"><span style="color:#75715e">## 볼륨을 마운트한 컨테이너 만들기</span>
-docker run -it --name <span style="color:#f92672">[</span>컨테이너명<span style="color:#f92672">]</span> -v <span style="color:#f92672">[</span>볼륨명<span style="color:#f92672">]</span>:<span style="color:#f92672">[</span>컨테이너 내에서 마운트할 경로<span style="color:#f92672">]</span>
-</code></pre></div></li>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-Bash" data-lang="Bash"><span style="display:flex;"><span><span style="color:#75715e">## 볼륨을 마운트한 컨테이너 만들기</span>
+</span></span><span style="display:flex;"><span>docker run -it --name <span style="color:#f92672">[</span>컨테이너명<span style="color:#f92672">]</span> -v <span style="color:#f92672">[</span>볼륨명<span style="color:#f92672">]</span>:<span style="color:#f92672">[</span>컨테이너 내에서 마운트할 경로<span style="color:#f92672">]</span>
+</span></span></code></pre></div></li>
 </ul>
 <br>
 <figure><img src="2.png"/>
-</figure>
+  </figure>
 
 <br>
 <ul>
@@ -218,17 +217,17 @@ docker run -it --name <span style="color:#f92672">[</span>컨테이너명<span s
 </li>
 <li>
 <p>볼륨을 사용하는 상황을 고려할 때, 보통은 로컬에서 도커 컨테이너로 파일(특히 데이터셋이나 코드 등)을 복사하는 경우가 많을 테지만, 이번 글에서는 간단하게 파일을 만드는 작업을 진행해보자.</p>
-<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-Bash" data-lang="Bash"><span style="color:#75715e">## vscode Docker Extension을 활용해, testCon1을 터미널창에 Attach Shell한 상태로 작업을 진행한다!</span>
-
-<span style="color:#75715e">## 당장 /mnt의 폴더 안에는 아무것도 없지만,</span>
-cd /mnt <span style="color:#f92672">&amp;&amp;</span> ls
-
-<span style="color:#75715e">## touch명령어를 활용해 빈 파일을 만든 뒤,</span>
-touch test.txt
-
-<span style="color:#75715e">## 다시 ls 명령어를 통해 살펴보면, /mnt에 test. txt 파일이 생성된 것을 확인할 수 있다.</span>
-ls
-</code></pre></div></li>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-Bash" data-lang="Bash"><span style="display:flex;"><span><span style="color:#75715e">## vscode Docker Extension을 활용해, testCon1을 터미널창에 Attach Shell한 상태로 작업을 진행한다!</span>
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span><span style="color:#75715e">## 당장 /mnt의 폴더 안에는 아무것도 없지만,</span>
+</span></span><span style="display:flex;"><span>cd /mnt <span style="color:#f92672">&amp;&amp;</span> ls
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span><span style="color:#75715e">## touch명령어를 활용해 빈 파일을 만든 뒤,</span>
+</span></span><span style="display:flex;"><span>touch test.txt
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span><span style="color:#75715e">## 다시 ls 명령어를 통해 살펴보면, /mnt에 test. txt 파일이 생성된 것을 확인할 수 있다.</span>
+</span></span><span style="display:flex;"><span>ls
+</span></span></code></pre></div></li>
 </ul>
 <br>
 <figure><img src="3.png"/>
@@ -238,10 +237,10 @@ ls
 <ul>
 <li>
 <p>그 후, 볼륨이 마운트 된 또 다른 컨테이너에 접속해보면 해당 파일이 동기화된 것을 확인할 수 있다!</p>
-<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-Bash" data-lang="Bash"><span style="color:#75715e">## 이번에는 testCon2를 터미널창에 Attach Shell한 상태로 작업을 진행한다!</span>
-cd /mnt <span style="color:#f92672">&amp;&amp;</span> ls
-</code></pre></div><figure><img src="4.png"/>
-</figure>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-Bash" data-lang="Bash"><span style="display:flex;"><span><span style="color:#75715e">## 이번에는 testCon2를 터미널창에 Attach Shell한 상태로 작업을 진행한다!</span>
+</span></span><span style="display:flex;"><span>cd /mnt <span style="color:#f92672">&amp;&amp;</span> ls
+</span></span></code></pre></div><figure><img src="4.png"/>
+  </figure>
 
 </li>
 </ul>
@@ -264,7 +263,7 @@ cd /mnt <span style="color:#f92672">&amp;&amp;</span> ls
 <ul>
 <li>역시 마소짱짱맨!!<br>
 <figure><img src="windows-desktop.gif"/>
-</figure>
+  </figure>
 </li>
 </ul>
 </li>
@@ -297,7 +296,7 @@ cd /mnt <span style="color:#f92672">&amp;&amp;</span> ls
                 Please enable JavaScript to view the comments powered by <a href="https://disqus.com/?ref_noscript">Disqus</a>.
             </noscript></div></article></div>
             </main><footer class="footer">
-        <div class="footer-container"><div class="footer-line">Powered by <a href="https://gohugo.io/" target="_blank" rel="noopener noreffer" title="Hugo 0.92.2">Hugo</a> | Theme - <a href="https://github.com/dillonzq/LoveIt" target="_blank" rel="noopener noreffer" title="LoveIt 0.2.10"><i class="far fa-kiss-wink-heart fa-fw" aria-hidden="true"></i> LoveIt</a>
+        <div class="footer-container"><div class="footer-line">Powered by <a href="https://gohugo.io/" target="_blank" rel="noopener noreffer" title="Hugo 0.111.1">Hugo</a> | Theme - <a href="https://github.com/dillonzq/LoveIt" target="_blank" rel="noopener noreffer" title="LoveIt 0.2.10"><i class="far fa-kiss-wink-heart fa-fw" aria-hidden="true"></i> LoveIt</a>
                 </div><div class="footer-line" itemscope itemtype="http://schema.org/CreativeWork"><i class="far fa-copyright fa-fw" aria-hidden="true"></i><span itemprop="copyrightYear">2022 - 2023</span><span class="author" itemprop="copyrightHolder">&nbsp;<a href="/" target="_blank">Jongbin Won</a></span>&nbsp;|&nbsp;<span class="license"><a rel="license external nofollow noopener noreffer" href="https://creativecommons.org/licenses/by-nc/4.0/" target="_blank">CC BY-NC 4.0</a></span></div>
         </div>
     </footer></div>

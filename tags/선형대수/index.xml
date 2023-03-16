@@ -4,12 +4,28 @@
         <link>https://Jongbin-kr.github.io/tags/%EC%84%A0%ED%98%95%EB%8C%80%EC%88%98/</link>
         <description>선형대수 - Tag - Jongbin&#39;s Blog</description>
         <generator>Hugo -- gohugo.io</generator><language>en-us</language><managingEditor>wonjb001@naver.com (Jongbin Won)</managingEditor>
-            <webMaster>wonjb001@naver.com (Jongbin Won)</webMaster><lastBuildDate>Mon, 13 Mar 2023 23:35:42 &#43;0900</lastBuildDate><atom:link href="https://Jongbin-kr.github.io/tags/%EC%84%A0%ED%98%95%EB%8C%80%EC%88%98/" rel="self" type="application/rss+xml" /><item>
+            <webMaster>wonjb001@naver.com (Jongbin Won)</webMaster><lastBuildDate>Fri, 17 Mar 2023 00:05:05 &#43;0900</lastBuildDate><atom:link href="https://Jongbin-kr.github.io/tags/%EC%84%A0%ED%98%95%EB%8C%80%EC%88%98/" rel="self" type="application/rss+xml" /><item>
+    <title>[TIL021] VCR, 선형대수</title>
+    <link>https://Jongbin-kr.github.io/posts/4_daily/0_til/230316_til021_vcr-%EC%84%A0%ED%98%95%EB%8C%80%EC%88%98/</link>
+    <pubDate>Fri, 17 Mar 2023 00:05:05 &#43;0900</pubDate>
+    <author>Jongbin Won</author>
+    <guid>https://Jongbin-kr.github.io/posts/4_daily/0_til/230316_til021_vcr-%EC%84%A0%ED%98%95%EB%8C%80%EC%88%98/</guid>
+    <description><![CDATA[Today I Learned&hellip; 최예진 교수님의 Visual Commonsense Reasoning , The Curios Case of Commonsense Intelligence 논문 읽기 Again, the switch to language-based formalisms is the key to benefit from the empirical breakthroughs of deep neural networks, as it allows for powerful transfer learning from language models to knowledge models. 인공지능에게 상식을 주입하는 데]]></description>
+</item>
+<item>
+    <title>[TIL020] 인공지능, 벡터</title>
+    <link>https://Jongbin-kr.github.io/posts/4_daily/0_til/230315_til020_%EC%9D%B8%EA%B3%B5%EC%A7%80%EB%8A%A5_%EC%84%A0%ED%98%95%EB%8C%80%EC%88%98/</link>
+    <pubDate>Thu, 16 Mar 2023 23:39:29 &#43;0900</pubDate>
+    <author>Jongbin Won</author>
+    <guid>https://Jongbin-kr.github.io/posts/4_daily/0_til/230315_til020_%EC%9D%B8%EA%B3%B5%EC%A7%80%EB%8A%A5_%EC%84%A0%ED%98%95%EB%8C%80%EC%88%98/</guid>
+    <description><![CDATA[Today I Learned&hellip; 선형대수 공부를 위한 준비로서 벡터 공부&hellip; 차후 정리해서 한번에 올림&hellip; 인공지능 개념공부 COSE361, based on Aritificial Intelligience: Modern Approach(by Russel) 인공지능에 접근]]></description>
+</item>
+<item>
     <title>[TIL019] 수학공부하는 날</title>
-    <link>https://Jongbin-kr.github.io/posts/4_daily/0_til/20230313_til019_%EB%AF%B8%EC%A0%81%EB%B6%84_%EC%84%A0%ED%98%95%EB%8C%80%EC%88%98/</link>
+    <link>https://Jongbin-kr.github.io/posts/4_daily/0_til/230313_til019_%EB%AF%B8%EC%A0%81%EB%B6%84_%EC%84%A0%ED%98%95%EB%8C%80%EC%88%98/</link>
     <pubDate>Mon, 13 Mar 2023 23:35:42 &#43;0900</pubDate>
     <author>Jongbin Won</author>
-    <guid>https://Jongbin-kr.github.io/posts/4_daily/0_til/20230313_til019_%EB%AF%B8%EC%A0%81%EB%B6%84_%EC%84%A0%ED%98%95%EB%8C%80%EC%88%98/</guid>
+    <guid>https://Jongbin-kr.github.io/posts/4_daily/0_til/230313_til019_%EB%AF%B8%EC%A0%81%EB%B6%84_%EC%84%A0%ED%98%95%EB%8C%80%EC%88%98/</guid>
     <description><![CDATA[Today I Learned&hellip; 선형대수 첫 수업을 듣고, 기초가 부족함을 뼈저리게 느껴 다시 고등수학 책을 폈다. 벡터 기본연산, 벡터 내적, 벡터 분해 등등&hellip; 나중에 한번 싹]]></description>
 </item>
 </channel>
