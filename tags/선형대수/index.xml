@@ -4,7 +4,15 @@
         <link>https://Jongbin-kr.github.io/tags/%EC%84%A0%ED%98%95%EB%8C%80%EC%88%98/</link>
         <description>선형대수 - Tag - Jongbin&#39;s Blog</description>
         <generator>Hugo -- gohugo.io</generator><language>en-us</language><managingEditor>wonjb001@naver.com (Jongbin Won)</managingEditor>
-            <webMaster>wonjb001@naver.com (Jongbin Won)</webMaster><lastBuildDate>Fri, 17 Mar 2023 00:05:05 &#43;0900</lastBuildDate><atom:link href="https://Jongbin-kr.github.io/tags/%EC%84%A0%ED%98%95%EB%8C%80%EC%88%98/" rel="self" type="application/rss+xml" /><item>
+            <webMaster>wonjb001@naver.com (Jongbin Won)</webMaster><lastBuildDate>Sun, 19 Mar 2023 18:43:59 &#43;0900</lastBuildDate><atom:link href="https://Jongbin-kr.github.io/tags/%EC%84%A0%ED%98%95%EB%8C%80%EC%88%98/" rel="self" type="application/rss+xml" /><item>
+    <title>[TIL021] 수학 공부하는 날</title>
+    <link>https://Jongbin-kr.github.io/posts/4_daily/0_til/230319_til021_%EC%88%98%ED%95%99-%EA%B3%B5%EB%B6%80%ED%95%98%EB%8A%94-%EB%82%A0/</link>
+    <pubDate>Sun, 19 Mar 2023 18:43:59 &#43;0900</pubDate>
+    <author>Jongbin Won</author>
+    <guid>https://Jongbin-kr.github.io/posts/4_daily/0_til/230319_til021_%EC%88%98%ED%95%99-%EA%B3%B5%EB%B6%80%ED%95%98%EB%8A%94-%EB%82%A0/</guid>
+    <description><![CDATA[Today I Learned&hellip; 선형대수. 벡터의 기본 연산들 두 벡터간의 내적은 두 벡터간의 각도와 밀접히 연관되어 있다! 두 벡터가 수직으로 만난다면 내적값은 0, 수직보다 큰 각도로 만난다]]></description>
+</item>
+<item>
     <title>[TIL021] VCR, 선형대수</title>
     <link>https://Jongbin-kr.github.io/posts/4_daily/0_til/230316_til021_vcr-%EC%84%A0%ED%98%95%EB%8C%80%EC%88%98/</link>
     <pubDate>Fri, 17 Mar 2023 00:05:05 &#43;0900</pubDate>

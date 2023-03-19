@@ -4,7 +4,15 @@
         <link>https://Jongbin-kr.github.io/posts/4_daily/</link>
         <description>All Posts | Jongbin&#39;s Blog</description>
         <generator>Hugo -- gohugo.io</generator><language>en-us</language><managingEditor>wonjb001@naver.com (Jongbin Won)</managingEditor>
-            <webMaster>wonjb001@naver.com (Jongbin Won)</webMaster><lastBuildDate>Fri, 17 Mar 2023 00:05:05 &#43;0900</lastBuildDate><atom:link href="https://Jongbin-kr.github.io/posts/4_daily/" rel="self" type="application/rss+xml" /><item>
+            <webMaster>wonjb001@naver.com (Jongbin Won)</webMaster><lastBuildDate>Sun, 19 Mar 2023 18:43:59 &#43;0900</lastBuildDate><atom:link href="https://Jongbin-kr.github.io/posts/4_daily/" rel="self" type="application/rss+xml" /><item>
+    <title>[TIL021] 수학 공부하는 날</title>
+    <link>https://Jongbin-kr.github.io/posts/4_daily/0_til/230319_til021_%EC%88%98%ED%95%99-%EA%B3%B5%EB%B6%80%ED%95%98%EB%8A%94-%EB%82%A0/</link>
+    <pubDate>Sun, 19 Mar 2023 18:43:59 &#43;0900</pubDate>
+    <author>Jongbin Won</author>
+    <guid>https://Jongbin-kr.github.io/posts/4_daily/0_til/230319_til021_%EC%88%98%ED%95%99-%EA%B3%B5%EB%B6%80%ED%95%98%EB%8A%94-%EB%82%A0/</guid>
+    <description><![CDATA[Today I Learned&hellip; 선형대수. 벡터의 기본 연산들 두 벡터간의 내적은 두 벡터간의 각도와 밀접히 연관되어 있다! 두 벡터가 수직으로 만난다면 내적값은 0, 수직보다 큰 각도로 만난다]]></description>
+</item>
+<item>
     <title>[TIL021] VCR, 선형대수</title>
     <link>https://Jongbin-kr.github.io/posts/4_daily/0_til/230316_til021_vcr-%EC%84%A0%ED%98%95%EB%8C%80%EC%88%98/</link>
     <pubDate>Fri, 17 Mar 2023 00:05:05 &#43;0900</pubDate>
@@ -75,14 +83,6 @@
     <author>Jongbin Won</author>
     <guid>https://Jongbin-kr.github.io/posts/4_daily/0_til/230223_til013_%EB%AF%B8%EC%A0%81%EB%B6%84_%EB%A9%80%ED%8B%B0%EB%AA%A8%EB%8B%AC/</guid>
     <description><![CDATA[Today I Learned&hellip; 미적분 수평/수직점근선, 샌드위치 정리 수평/수직 점근선의 정의에 대해 공부하고, 관련하여 다항식은 항상 점근선이 없다는 사실을 짝함수(even function, 혹]]></description>
-</item>
-<item>
-    <title>[TIL011] 처음으로 GPU를 조져보았다.</title>
-    <link>https://Jongbin-kr.github.io/posts/4_daily/0_til/230219_til012_%EB%A6%B4%EB%A6%AC%EB%A5%BC_%ED%95%99%EC%8A%B5%EC%8B%9C%EC%BC%9C%EB%B3%B4%EC%95%98%EB%8B%A4/</link>
-    <pubDate>Sun, 19 Feb 2023 23:26:25 &#43;0900</pubDate>
-    <author>Jongbin Won</author>
-    <guid>https://Jongbin-kr.github.io/posts/4_daily/0_til/230219_til012_%EB%A6%B4%EB%A6%AC%EB%A5%BC_%ED%95%99%EC%8A%B5%EC%8B%9C%EC%BC%9C%EB%B3%B4%EC%95%98%EB%8B%A4/</guid>
-    <description><![CDATA[Today I Learned&hellip; 우리가 가진 사진기반 귀추추론 데이터를 활용해서 직접 모델을 학습시켜보았다! 모델로는 klue/roBERTa-large와 koBERT 두 가지를 사용헤 보았]]></description>
 </item>
 </channel>
 </rss>

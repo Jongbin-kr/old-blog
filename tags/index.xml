@@ -4,12 +4,28 @@
         <link>https://Jongbin-kr.github.io/tags/</link>
         <description>Tags - Tag - Jongbin&#39;s Blog</description>
         <generator>Hugo -- gohugo.io</generator><language>en-us</language><managingEditor>wonjb001@naver.com (Jongbin Won)</managingEditor>
-            <webMaster>wonjb001@naver.com (Jongbin Won)</webMaster><lastBuildDate>Fri, 17 Mar 2023 00:05:05 &#43;0900</lastBuildDate><atom:link href="https://Jongbin-kr.github.io/tags/" rel="self" type="application/rss+xml" /><item>
+            <webMaster>wonjb001@naver.com (Jongbin Won)</webMaster><lastBuildDate>Sun, 19 Mar 2023 18:43:59 &#43;0900</lastBuildDate><atom:link href="https://Jongbin-kr.github.io/tags/" rel="self" type="application/rss+xml" /><item>
     <title>TIL</title>
     <link>https://Jongbin-kr.github.io/tags/til/</link>
-    <pubDate>Fri, 17 Mar 2023 00:05:05 &#43;0900</pubDate>
+    <pubDate>Sun, 19 Mar 2023 18:43:59 &#43;0900</pubDate>
     <author>Jongbin Won</author>
     <guid>https://Jongbin-kr.github.io/tags/til/</guid>
+    <description><![CDATA[]]></description>
+</item>
+<item>
+    <title>미적분</title>
+    <link>https://Jongbin-kr.github.io/tags/%EB%AF%B8%EC%A0%81%EB%B6%84/</link>
+    <pubDate>Sun, 19 Mar 2023 18:43:59 &#43;0900</pubDate>
+    <author>Jongbin Won</author>
+    <guid>https://Jongbin-kr.github.io/tags/%EB%AF%B8%EC%A0%81%EB%B6%84/</guid>
+    <description><![CDATA[]]></description>
+</item>
+<item>
+    <title>선형대수</title>
+    <link>https://Jongbin-kr.github.io/tags/%EC%84%A0%ED%98%95%EB%8C%80%EC%88%98/</link>
+    <pubDate>Sun, 19 Mar 2023 18:43:59 &#43;0900</pubDate>
+    <author>Jongbin Won</author>
+    <guid>https://Jongbin-kr.github.io/tags/%EC%84%A0%ED%98%95%EB%8C%80%EC%88%98/</guid>
     <description><![CDATA[]]></description>
 </item>
 <item>
@@ -21,27 +37,11 @@
     <description><![CDATA[]]></description>
 </item>
 <item>
-    <title>선형대수</title>
-    <link>https://Jongbin-kr.github.io/tags/%EC%84%A0%ED%98%95%EB%8C%80%EC%88%98/</link>
-    <pubDate>Fri, 17 Mar 2023 00:05:05 &#43;0900</pubDate>
-    <author>Jongbin Won</author>
-    <guid>https://Jongbin-kr.github.io/tags/%EC%84%A0%ED%98%95%EB%8C%80%EC%88%98/</guid>
-    <description><![CDATA[]]></description>
-</item>
-<item>
     <title>인공지능</title>
     <link>https://Jongbin-kr.github.io/tags/%EC%9D%B8%EA%B3%B5%EC%A7%80%EB%8A%A5/</link>
     <pubDate>Thu, 16 Mar 2023 23:39:29 &#43;0900</pubDate>
     <author>Jongbin Won</author>
     <guid>https://Jongbin-kr.github.io/tags/%EC%9D%B8%EA%B3%B5%EC%A7%80%EB%8A%A5/</guid>
-    <description><![CDATA[]]></description>
-</item>
-<item>
-    <title>미적분</title>
-    <link>https://Jongbin-kr.github.io/tags/%EB%AF%B8%EC%A0%81%EB%B6%84/</link>
-    <pubDate>Mon, 13 Mar 2023 23:35:42 &#43;0900</pubDate>
-    <author>Jongbin Won</author>
-    <guid>https://Jongbin-kr.github.io/tags/%EB%AF%B8%EC%A0%81%EB%B6%84/</guid>
     <description><![CDATA[]]></description>
 </item>
 <item>

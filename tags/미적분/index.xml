@@ -4,7 +4,15 @@
         <link>https://Jongbin-kr.github.io/tags/%EB%AF%B8%EC%A0%81%EB%B6%84/</link>
         <description>미적분 - Tag - Jongbin&#39;s Blog</description>
         <generator>Hugo -- gohugo.io</generator><language>en-us</language><managingEditor>wonjb001@naver.com (Jongbin Won)</managingEditor>
-            <webMaster>wonjb001@naver.com (Jongbin Won)</webMaster><lastBuildDate>Mon, 13 Mar 2023 23:35:42 &#43;0900</lastBuildDate><atom:link href="https://Jongbin-kr.github.io/tags/%EB%AF%B8%EC%A0%81%EB%B6%84/" rel="self" type="application/rss+xml" /><item>
+            <webMaster>wonjb001@naver.com (Jongbin Won)</webMaster><lastBuildDate>Sun, 19 Mar 2023 18:43:59 &#43;0900</lastBuildDate><atom:link href="https://Jongbin-kr.github.io/tags/%EB%AF%B8%EC%A0%81%EB%B6%84/" rel="self" type="application/rss+xml" /><item>
+    <title>[TIL021] 수학 공부하는 날</title>
+    <link>https://Jongbin-kr.github.io/posts/4_daily/0_til/230319_til021_%EC%88%98%ED%95%99-%EA%B3%B5%EB%B6%80%ED%95%98%EB%8A%94-%EB%82%A0/</link>
+    <pubDate>Sun, 19 Mar 2023 18:43:59 &#43;0900</pubDate>
+    <author>Jongbin Won</author>
+    <guid>https://Jongbin-kr.github.io/posts/4_daily/0_til/230319_til021_%EC%88%98%ED%95%99-%EA%B3%B5%EB%B6%80%ED%95%98%EB%8A%94-%EB%82%A0/</guid>
+    <description><![CDATA[Today I Learned&hellip; 선형대수. 벡터의 기본 연산들 두 벡터간의 내적은 두 벡터간의 각도와 밀접히 연관되어 있다! 두 벡터가 수직으로 만난다면 내적값은 0, 수직보다 큰 각도로 만난다]]></description>
+</item>
+<item>
     <title>[TIL019] 수학공부하는 날</title>
     <link>https://Jongbin-kr.github.io/posts/4_daily/0_til/230313_til019_%EB%AF%B8%EC%A0%81%EB%B6%84_%EC%84%A0%ED%98%95%EB%8C%80%EC%88%98/</link>
     <pubDate>Mon, 13 Mar 2023 23:35:42 &#43;0900</pubDate>
@@ -21,7 +29,7 @@
     <description><![CDATA[수학은 직관을 거부하고, 증명하는 것이다! 1. 수열의 극한, 완비성공리, 자연상수 e 1.1. 수열의 극한의 정의/정리 정의 모든 양수 $\epsilon$에 대하여,]]></description>
 </item>
 <item>
-    <title>[미적분] 삼각함수</title>
+    <title>[미적분] 삼각함수 공식과 미분</title>
     <link>https://Jongbin-kr.github.io/posts/2_study/mathematics/1_%EB%AF%B8%EC%A0%81%EB%B6%84/1_%EC%82%BC%EA%B0%81%ED%95%A8%EC%88%98_%EA%B3%B5%EC%8B%9D_%EB%AF%B8%EB%B6%84/</link>
     <pubDate>Wed, 08 Mar 2023 23:10:06 &#43;0900</pubDate>
     <author>Jongbin Won</author>
@@ -75,14 +83,6 @@
     <author>Jongbin Won</author>
     <guid>https://Jongbin-kr.github.io/posts/4_daily/0_til/230210_til_%EB%AF%B8%EC%A0%81%EB%B6%84_%EB%8F%84%EC%BB%A4_%EB%85%BC%EB%A6%AC%ED%95%99/</guid>
     <description><![CDATA[Today I Learned&hellip; 미적분 2강을 마무리했다. 자연상수 $e$의 정의와 증명 비교판정법 논리학 책을 드디어&hellip;펼쳐보았다. 연역추론은 건전한 추론인 경우, 결]]></description>
-</item>
-<item>
-    <title>[TIL005] 수학공부, 완비성 공리, BERT공부 해야하는데...</title>
-    <link>https://Jongbin-kr.github.io/posts/4_daily/0_til/230207_til_%EC%88%98%ED%95%99%EA%B3%B5%EB%B6%80/</link>
-    <pubDate>Wed, 08 Feb 2023 00:50:51 &#43;0900</pubDate>
-    <author>Jongbin Won</author>
-    <guid>https://Jongbin-kr.github.io/posts/4_daily/0_til/230207_til_%EC%88%98%ED%95%99%EA%B3%B5%EB%B6%80/</guid>
-    <description><![CDATA[Today I Learned&hellip; 삼각함수 완비성 공리의 정의 Do it! BERT와 GPT로 배우는 자연어 처리 책 샀음. 낼부터는 진짜 꼭 공부한다&hellip; Today I Did&hellip; 잠깐 교수님과의 식사.]]></description>
 </item>
 </channel>
 </rss>
