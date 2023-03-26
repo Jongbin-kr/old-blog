@@ -4,7 +4,71 @@
         <link>https://Jongbin-kr.github.io/tags/</link>
         <description>Tags - Tag - Jongbin&#39;s Blog</description>
         <generator>Hugo -- gohugo.io</generator><language>en-us</language><managingEditor>wonjb001@naver.com (Jongbin Won)</managingEditor>
-            <webMaster>wonjb001@naver.com (Jongbin Won)</webMaster><lastBuildDate>Sun, 19 Mar 2023 18:43:59 &#43;0900</lastBuildDate><atom:link href="https://Jongbin-kr.github.io/tags/" rel="self" type="application/rss+xml" /><item>
+            <webMaster>wonjb001@naver.com (Jongbin Won)</webMaster><lastBuildDate>Sun, 26 Mar 2023 18:52:31 &#43;0900</lastBuildDate><atom:link href="https://Jongbin-kr.github.io/tags/" rel="self" type="application/rss+xml" /><item>
+    <title>미적분</title>
+    <link>https://Jongbin-kr.github.io/tags/%EB%AF%B8%EC%A0%81%EB%B6%84/</link>
+    <pubDate>Sun, 26 Mar 2023 18:52:31 &#43;0900</pubDate>
+    <author>Jongbin Won</author>
+    <guid>https://Jongbin-kr.github.io/tags/%EB%AF%B8%EC%A0%81%EB%B6%84/</guid>
+    <description><![CDATA[]]></description>
+</item>
+<item>
+    <title>함수의 연속</title>
+    <link>https://Jongbin-kr.github.io/tags/%ED%95%A8%EC%88%98%EC%9D%98-%EC%97%B0%EC%86%8D/</link>
+    <pubDate>Sun, 26 Mar 2023 18:52:31 &#43;0900</pubDate>
+    <author>Jongbin Won</author>
+    <guid>https://Jongbin-kr.github.io/tags/%ED%95%A8%EC%88%98%EC%9D%98-%EC%97%B0%EC%86%8D/</guid>
+    <description><![CDATA[]]></description>
+</item>
+<item>
+    <title>샌드위치 정리</title>
+    <link>https://Jongbin-kr.github.io/tags/%EC%83%8C%EB%93%9C%EC%9C%84%EC%B9%98-%EC%A0%95%EB%A6%AC/</link>
+    <pubDate>Sun, 26 Mar 2023 17:23:29 &#43;0900</pubDate>
+    <author>Jongbin Won</author>
+    <guid>https://Jongbin-kr.github.io/tags/%EC%83%8C%EB%93%9C%EC%9C%84%EC%B9%98-%EC%A0%95%EB%A6%AC/</guid>
+    <description><![CDATA[]]></description>
+</item>
+<item>
+    <title>수직점근선</title>
+    <link>https://Jongbin-kr.github.io/tags/%EC%88%98%EC%A7%81%EC%A0%90%EA%B7%BC%EC%84%A0/</link>
+    <pubDate>Sun, 26 Mar 2023 17:04:59 &#43;0900</pubDate>
+    <author>Jongbin Won</author>
+    <guid>https://Jongbin-kr.github.io/tags/%EC%88%98%EC%A7%81%EC%A0%90%EA%B7%BC%EC%84%A0/</guid>
+    <description><![CDATA[]]></description>
+</item>
+<item>
+    <title>수평점근선</title>
+    <link>https://Jongbin-kr.github.io/tags/%EC%88%98%ED%8F%89%EC%A0%90%EA%B7%BC%EC%84%A0/</link>
+    <pubDate>Sun, 26 Mar 2023 17:04:59 &#43;0900</pubDate>
+    <author>Jongbin Won</author>
+    <guid>https://Jongbin-kr.github.io/tags/%EC%88%98%ED%8F%89%EC%A0%90%EA%B7%BC%EC%84%A0/</guid>
+    <description><![CDATA[]]></description>
+</item>
+<item>
+    <title>정의</title>
+    <link>https://Jongbin-kr.github.io/tags/%EC%A0%95%EC%9D%98/</link>
+    <pubDate>Sun, 26 Mar 2023 17:04:59 &#43;0900</pubDate>
+    <author>Jongbin Won</author>
+    <guid>https://Jongbin-kr.github.io/tags/%EC%A0%95%EC%9D%98/</guid>
+    <description><![CDATA[]]></description>
+</item>
+<item>
+    <title>비교판정법</title>
+    <link>https://Jongbin-kr.github.io/tags/%EB%B9%84%EA%B5%90%ED%8C%90%EC%A0%95%EB%B2%95/</link>
+    <pubDate>Sat, 25 Mar 2023 17:19:42 &#43;0900</pubDate>
+    <author>Jongbin Won</author>
+    <guid>https://Jongbin-kr.github.io/tags/%EB%B9%84%EA%B5%90%ED%8C%90%EC%A0%95%EB%B2%95/</guid>
+    <description><![CDATA[]]></description>
+</item>
+<item>
+    <title>완비성 공리</title>
+    <link>https://Jongbin-kr.github.io/tags/%EC%99%84%EB%B9%84%EC%84%B1-%EA%B3%B5%EB%A6%AC/</link>
+    <pubDate>Sat, 25 Mar 2023 17:19:42 &#43;0900</pubDate>
+    <author>Jongbin Won</author>
+    <guid>https://Jongbin-kr.github.io/tags/%EC%99%84%EB%B9%84%EC%84%B1-%EA%B3%B5%EB%A6%AC/</guid>
+    <description><![CDATA[]]></description>
+</item>
+<item>
     <title>TIL</title>
     <link>https://Jongbin-kr.github.io/tags/til/</link>
     <pubDate>Sun, 19 Mar 2023 18:43:59 &#43;0900</pubDate>
@@ -13,75 +77,11 @@
     <description><![CDATA[]]></description>
 </item>
 <item>
-    <title>미적분</title>
-    <link>https://Jongbin-kr.github.io/tags/%EB%AF%B8%EC%A0%81%EB%B6%84/</link>
-    <pubDate>Sun, 19 Mar 2023 18:43:59 &#43;0900</pubDate>
-    <author>Jongbin Won</author>
-    <guid>https://Jongbin-kr.github.io/tags/%EB%AF%B8%EC%A0%81%EB%B6%84/</guid>
-    <description><![CDATA[]]></description>
-</item>
-<item>
     <title>선형대수</title>
     <link>https://Jongbin-kr.github.io/tags/%EC%84%A0%ED%98%95%EB%8C%80%EC%88%98/</link>
     <pubDate>Sun, 19 Mar 2023 18:43:59 &#43;0900</pubDate>
     <author>Jongbin Won</author>
     <guid>https://Jongbin-kr.github.io/tags/%EC%84%A0%ED%98%95%EB%8C%80%EC%88%98/</guid>
-    <description><![CDATA[]]></description>
-</item>
-<item>
-    <title>VAR</title>
-    <link>https://Jongbin-kr.github.io/tags/var/</link>
-    <pubDate>Fri, 17 Mar 2023 00:05:05 &#43;0900</pubDate>
-    <author>Jongbin Won</author>
-    <guid>https://Jongbin-kr.github.io/tags/var/</guid>
-    <description><![CDATA[]]></description>
-</item>
-<item>
-    <title>인공지능</title>
-    <link>https://Jongbin-kr.github.io/tags/%EC%9D%B8%EA%B3%B5%EC%A7%80%EB%8A%A5/</link>
-    <pubDate>Thu, 16 Mar 2023 23:39:29 &#43;0900</pubDate>
-    <author>Jongbin Won</author>
-    <guid>https://Jongbin-kr.github.io/tags/%EC%9D%B8%EA%B3%B5%EC%A7%80%EB%8A%A5/</guid>
-    <description><![CDATA[]]></description>
-</item>
-<item>
-    <title>Docker</title>
-    <link>https://Jongbin-kr.github.io/tags/docker/</link>
-    <pubDate>Wed, 08 Mar 2023 23:23:40 &#43;0900</pubDate>
-    <author>Jongbin Won</author>
-    <guid>https://Jongbin-kr.github.io/tags/docker/</guid>
-    <description><![CDATA[]]></description>
-</item>
-<item>
-    <title>삼각함수</title>
-    <link>https://Jongbin-kr.github.io/tags/%EC%82%BC%EA%B0%81%ED%95%A8%EC%88%98/</link>
-    <pubDate>Wed, 08 Mar 2023 23:23:40 &#43;0900</pubDate>
-    <author>Jongbin Won</author>
-    <guid>https://Jongbin-kr.github.io/tags/%EC%82%BC%EA%B0%81%ED%95%A8%EC%88%98/</guid>
-    <description><![CDATA[]]></description>
-</item>
-<item>
-    <title>수열의 극한</title>
-    <link>https://Jongbin-kr.github.io/tags/%EC%88%98%EC%97%B4%EC%9D%98-%EA%B7%B9%ED%95%9C/</link>
-    <pubDate>Wed, 08 Mar 2023 23:16:51 &#43;0900</pubDate>
-    <author>Jongbin Won</author>
-    <guid>https://Jongbin-kr.github.io/tags/%EC%88%98%EC%97%B4%EC%9D%98-%EA%B7%B9%ED%95%9C/</guid>
-    <description><![CDATA[]]></description>
-</item>
-<item>
-    <title>함수의 극한</title>
-    <link>https://Jongbin-kr.github.io/tags/%ED%95%A8%EC%88%98%EC%9D%98-%EA%B7%B9%ED%95%9C/</link>
-    <pubDate>Wed, 08 Mar 2023 23:16:51 &#43;0900</pubDate>
-    <author>Jongbin Won</author>
-    <guid>https://Jongbin-kr.github.io/tags/%ED%95%A8%EC%88%98%EC%9D%98-%EA%B7%B9%ED%95%9C/</guid>
-    <description><![CDATA[]]></description>
-</item>
-<item>
-    <title>기호학</title>
-    <link>https://Jongbin-kr.github.io/tags/%EA%B8%B0%ED%98%B8%ED%95%99/</link>
-    <pubDate>Tue, 07 Mar 2023 23:04:21 &#43;0900</pubDate>
-    <author>Jongbin Won</author>
-    <guid>https://Jongbin-kr.github.io/tags/%EA%B8%B0%ED%98%B8%ED%95%99/</guid>
     <description><![CDATA[]]></description>
 </item>
 </channel>

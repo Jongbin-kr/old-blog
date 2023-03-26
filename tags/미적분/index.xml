@@ -4,7 +4,39 @@
         <link>https://Jongbin-kr.github.io/tags/%EB%AF%B8%EC%A0%81%EB%B6%84/</link>
         <description>미적분 - Tag - Jongbin&#39;s Blog</description>
         <generator>Hugo -- gohugo.io</generator><language>en-us</language><managingEditor>wonjb001@naver.com (Jongbin Won)</managingEditor>
-            <webMaster>wonjb001@naver.com (Jongbin Won)</webMaster><lastBuildDate>Sun, 19 Mar 2023 18:43:59 &#43;0900</lastBuildDate><atom:link href="https://Jongbin-kr.github.io/tags/%EB%AF%B8%EC%A0%81%EB%B6%84/" rel="self" type="application/rss+xml" /><item>
+            <webMaster>wonjb001@naver.com (Jongbin Won)</webMaster><lastBuildDate>Sun, 26 Mar 2023 18:52:31 &#43;0900</lastBuildDate><atom:link href="https://Jongbin-kr.github.io/tags/%EB%AF%B8%EC%A0%81%EB%B6%84/" rel="self" type="application/rss+xml" /><item>
+    <title>[미적분005] 함수의 연속의 정의와 정리</title>
+    <link>https://Jongbin-kr.github.io/posts/2_study/mathematics/1_%EB%AF%B8%EC%A0%81%EB%B6%84/5_%ED%95%A8%EC%88%98%EC%9D%98-%EC%97%B0%EC%86%8D_%EC%A0%95%EC%9D%98_%EC%A0%95%EB%A6%AC/</link>
+    <pubDate>Sun, 26 Mar 2023 18:52:31 &#43;0900</pubDate>
+    <author>Jongbin Won</author>
+    <guid>https://Jongbin-kr.github.io/posts/2_study/mathematics/1_%EB%AF%B8%EC%A0%81%EB%B6%84/5_%ED%95%A8%EC%88%98%EC%9D%98-%EC%97%B0%EC%86%8D_%EC%A0%95%EC%9D%98_%EC%A0%95%EB%A6%AC/</guid>
+    <description><![CDATA[1. 함수의 연속의 정의 $y=f(x)$가 $x=a$에서 연속이다. 정의: $lim_{x\to a^+}f(x) = lim_{x\to a^-}f(x) = f(a)$ 의미: 함수의 극한은 그 정의상 $x \to a$라는 말에는 $x \neq a$라는 말이]]></description>
+</item>
+<item>
+    <title>[미적분004] 샌드위치 정리</title>
+    <link>https://Jongbin-kr.github.io/posts/2_study/mathematics/1_%EB%AF%B8%EC%A0%81%EB%B6%84/4_%EC%83%8C%EB%93%9C%EC%9C%84%EC%B9%98-%EC%A0%95%EB%A6%AC/</link>
+    <pubDate>Sun, 26 Mar 2023 17:23:29 &#43;0900</pubDate>
+    <author>Jongbin Won</author>
+    <guid>https://Jongbin-kr.github.io/posts/2_study/mathematics/1_%EB%AF%B8%EC%A0%81%EB%B6%84/4_%EC%83%8C%EB%93%9C%EC%9C%84%EC%B9%98-%EC%A0%95%EB%A6%AC/</guid>
+    <description><![CDATA[1. 수열의 극한에 대한 샌드위치 정리 모든 자연수 $n$에 대하여 $a_n \leq b_n \leq c_n$이 성립하고, $\lim_{n \to \infty}a_n = \lim_{n \to \infty}c_n = L$이면, $\lim_{n \to \infty}b_n = L$이다. 증명 $|b_n -L| = |b_n -a_n]]></description>
+</item>
+<item>
+    <title>[미적분003] 수평점근선, 수직점근선의 정의</title>
+    <link>https://Jongbin-kr.github.io/posts/2_study/mathematics/1_%EB%AF%B8%EC%A0%81%EB%B6%84/3_%EC%88%98%ED%8F%89-%EC%A0%90%EA%B7%BC%EC%84%A0_%EC%88%98%EC%A7%81-%EC%A0%90%EA%B7%BC%EC%84%A0/</link>
+    <pubDate>Sun, 26 Mar 2023 17:04:59 &#43;0900</pubDate>
+    <author>Jongbin Won</author>
+    <guid>https://Jongbin-kr.github.io/posts/2_study/mathematics/1_%EB%AF%B8%EC%A0%81%EB%B6%84/3_%EC%88%98%ED%8F%89-%EC%A0%90%EA%B7%BC%EC%84%A0_%EC%88%98%EC%A7%81-%EC%A0%90%EA%B7%BC%EC%84%A0/</guid>
+    <description><![CDATA[수평점근선, 수직점근선 수평점근선 정의: $\lim_{x \to \pm\infty}{f(x)} = L$일때, 함수 $f(x)$는 수평점근선 $L$을 가진다. 수평점근선은 없거나, 최대 2개까지 있을 수 있]]></description>
+</item>
+<item>
+    <title>[미적분002] 수렴에 관한 생각들: 완비성 공리, 비교판정법</title>
+    <link>https://Jongbin-kr.github.io/posts/2_study/mathematics/1_%EB%AF%B8%EC%A0%81%EB%B6%84/2_%EC%88%98%EB%A0%B4%EC%97%90-%EA%B4%80%ED%95%9C-%EC%83%9D%EA%B0%81%EB%93%A4_%EC%99%84%EB%B9%84%EC%84%B1-%EA%B3%B5%EB%A6%AC_%EB%B9%84%EA%B5%90%ED%8C%90%EC%A0%95%EB%B2%95/</link>
+    <pubDate>Sat, 25 Mar 2023 17:19:42 &#43;0900</pubDate>
+    <author>Jongbin Won</author>
+    <guid>https://Jongbin-kr.github.io/posts/2_study/mathematics/1_%EB%AF%B8%EC%A0%81%EB%B6%84/2_%EC%88%98%EB%A0%B4%EC%97%90-%EA%B4%80%ED%95%9C-%EC%83%9D%EA%B0%81%EB%93%A4_%EC%99%84%EB%B9%84%EC%84%B1-%EA%B3%B5%EB%A6%AC_%EB%B9%84%EA%B5%90%ED%8C%90%EC%A0%95%EB%B2%95/</guid>
+    <description><![CDATA[수렴에 관한 생각들 1. 완비성(completeness) 공리 정의: 증가수열 $a_n$이 위로 유계이면, 반드시 어떤 실수로 수렴한다. $a_n$이 증가수]]></description>
+</item>
+<item>
     <title>[TIL021] 수학 공부하는 날</title>
     <link>https://Jongbin-kr.github.io/posts/4_daily/0_til/230319_til021_%EC%88%98%ED%95%99-%EA%B3%B5%EB%B6%80%ED%95%98%EB%8A%94-%EB%82%A0/</link>
     <pubDate>Sun, 19 Mar 2023 18:43:59 &#43;0900</pubDate>
@@ -21,19 +53,19 @@
     <description><![CDATA[Today I Learned&hellip; 선형대수 첫 수업을 듣고, 기초가 부족함을 뼈저리게 느껴 다시 고등수학 책을 폈다. 벡터 기본연산, 벡터 내적, 벡터 분해 등등&hellip; 나중에 한번 싹]]></description>
 </item>
 <item>
-    <title>[미적분] 수열의 극한, 함수의 극한</title>
-    <link>https://Jongbin-kr.github.io/posts/2_study/mathematics/1_%EB%AF%B8%EC%A0%81%EB%B6%84/2_%EB%8C%80%ED%95%99%EB%AF%B8%EC%A0%81_%EC%88%98%EC%97%B4%EC%9D%98-%EA%B7%B9%ED%95%9C_%ED%95%A8%EC%88%98%EC%9D%98-%EA%B7%B9%ED%95%9C/</link>
+    <title>[미적분001] 수열의 극한과 함수의 극한의 정의, 극한법칙</title>
+    <link>https://Jongbin-kr.github.io/posts/2_study/mathematics/1_%EB%AF%B8%EC%A0%81%EB%B6%84/1_%EC%88%98%EC%97%B4%EC%9D%98-%EA%B7%B9%ED%95%9C%EA%B3%BC-%ED%95%A8%EC%88%98%EC%9D%98-%EA%B7%B9%ED%95%9C%EC%9D%98-%EC%A0%95%EC%9D%98_%EA%B7%B9%ED%95%9C%EB%B2%95%EC%B9%99/</link>
     <pubDate>Wed, 08 Mar 2023 23:16:51 &#43;0900</pubDate>
     <author>Jongbin Won</author>
-    <guid>https://Jongbin-kr.github.io/posts/2_study/mathematics/1_%EB%AF%B8%EC%A0%81%EB%B6%84/2_%EB%8C%80%ED%95%99%EB%AF%B8%EC%A0%81_%EC%88%98%EC%97%B4%EC%9D%98-%EA%B7%B9%ED%95%9C_%ED%95%A8%EC%88%98%EC%9D%98-%EA%B7%B9%ED%95%9C/</guid>
-    <description><![CDATA[수학은 직관을 거부하고, 증명하는 것이다! 1. 수열의 극한, 완비성공리, 자연상수 e 1.1. 수열의 극한의 정의/정리 정의 모든 양수 $\epsilon$에 대하여,]]></description>
+    <guid>https://Jongbin-kr.github.io/posts/2_study/mathematics/1_%EB%AF%B8%EC%A0%81%EB%B6%84/1_%EC%88%98%EC%97%B4%EC%9D%98-%EA%B7%B9%ED%95%9C%EA%B3%BC-%ED%95%A8%EC%88%98%EC%9D%98-%EA%B7%B9%ED%95%9C%EC%9D%98-%EC%A0%95%EC%9D%98_%EA%B7%B9%ED%95%9C%EB%B2%95%EC%B9%99/</guid>
+    <description><![CDATA[수학은 직관을 거부하고, 증명하는 것이다! 1. 수열의 극한의 정의 1.1. 수열의 극한의 정의 정의 모든 양수 $\epsilon$에 대하여, 어떤 자연수 $N$이 존재해]]></description>
 </item>
 <item>
-    <title>[미적분] 삼각함수 공식과 미분</title>
-    <link>https://Jongbin-kr.github.io/posts/2_study/mathematics/1_%EB%AF%B8%EC%A0%81%EB%B6%84/1_%EC%82%BC%EA%B0%81%ED%95%A8%EC%88%98_%EA%B3%B5%EC%8B%9D_%EB%AF%B8%EB%B6%84/</link>
+    <title>[고등수학] 삼각함수 공식과 미분</title>
+    <link>https://Jongbin-kr.github.io/posts/2_study/mathematics/0_%EA%B3%A0%EB%93%B1%EC%88%98%ED%95%99/1_%EC%82%BC%EA%B0%81%ED%95%A8%EC%88%98_%EA%B3%B5%EC%8B%9D_%EB%AF%B8%EB%B6%84/</link>
     <pubDate>Wed, 08 Mar 2023 23:10:06 &#43;0900</pubDate>
     <author>Jongbin Won</author>
-    <guid>https://Jongbin-kr.github.io/posts/2_study/mathematics/1_%EB%AF%B8%EC%A0%81%EB%B6%84/1_%EC%82%BC%EA%B0%81%ED%95%A8%EC%88%98_%EA%B3%B5%EC%8B%9D_%EB%AF%B8%EB%B6%84/</guid>
+    <guid>https://Jongbin-kr.github.io/posts/2_study/mathematics/0_%EA%B3%A0%EB%93%B1%EC%88%98%ED%95%99/1_%EC%82%BC%EA%B0%81%ED%95%A8%EC%88%98_%EA%B3%B5%EC%8B%9D_%EB%AF%B8%EB%B6%84/</guid>
     <description><![CDATA[삼각함수 삼각함수의 상호관계 빗변: $\cos{\theta}$, 높이: $\sin{\theta}$, 기울기: $\tan{\theta} = \frac{\cos{\theta}}{\sin{{\theta}}}$ $\cos^2{\theta} + \sin^2{\theta} = 1$ 음각-여각 공식 음각: $\cos{-\theta} = \cos{\theta},; \sin{-\theta} = -\sin{\theta}$ 여각: $\cos({\frac{\pi}{2}-\theta}) = \sin{\theta},; \sin({\frac{\pi}{2}-\theta}) = \cos{\theta}$ 삼각함수의 덧셈정리 $\sin({\alpha + \beta})]]></description>
 </item>
 <item>
@@ -51,38 +83,6 @@
     <author>Jongbin Won</author>
     <guid>https://Jongbin-kr.github.io/posts/4_daily/0_til/230223_til013_%EB%AF%B8%EC%A0%81%EB%B6%84_%EB%A9%80%ED%8B%B0%EB%AA%A8%EB%8B%AC/</guid>
     <description><![CDATA[Today I Learned&hellip; 미적분 수평/수직점근선, 샌드위치 정리 수평/수직 점근선의 정의에 대해 공부하고, 관련하여 다항식은 항상 점근선이 없다는 사실을 짝함수(even function, 혹]]></description>
-</item>
-<item>
-    <title>[TIL011] 도커의 볼륨과 바인드 마운트에 대한 이해</title>
-    <link>https://Jongbin-kr.github.io/posts/4_daily/0_til/230216_til011_%EB%8F%84%EC%BB%A4_%EB%B3%BC%EB%A5%A8_%EB%B0%94%EC%9D%B8%EB%93%9C_%EB%A7%88%EC%9A%B4%ED%8A%B8/</link>
-    <pubDate>Thu, 16 Feb 2023 22:41:37 &#43;0900</pubDate>
-    <author>Jongbin Won</author>
-    <guid>https://Jongbin-kr.github.io/posts/4_daily/0_til/230216_til011_%EB%8F%84%EC%BB%A4_%EB%B3%BC%EB%A5%A8_%EB%B0%94%EC%9D%B8%EB%93%9C_%EB%A7%88%EC%9A%B4%ED%8A%B8/</guid>
-    <description><![CDATA[Today I Learned&hellip; 미적분 스터디. 수렴과 발산에 대한 정리 (by 승혀니햄) 0. L은 실수집합의 원소다. 1. 극한값이 L로 존재한다 == (좌극한값은 L and 우극한값도 L) == L로 수렴한]]></description>
-</item>
-<item>
-    <title>[TIL010] 함수의 극한, 리눅스머신 사고싶다</title>
-    <link>https://Jongbin-kr.github.io/posts/4_daily/0_til/230215_til010_%EB%AF%B8%EC%A0%81%EB%B6%84_%EC%9A%B0%EB%B6%84%ED%88%AC/</link>
-    <pubDate>Wed, 15 Feb 2023 23:38:31 &#43;0900</pubDate>
-    <author>Jongbin Won</author>
-    <guid>https://Jongbin-kr.github.io/posts/4_daily/0_til/230215_til010_%EB%AF%B8%EC%A0%81%EB%B6%84_%EC%9A%B0%EB%B6%84%ED%88%AC/</guid>
-    <description><![CDATA[Today I Learned&hellip; 어제에 이어 미적분 공부. 3. 함수의 극한을 처음부터 다시 복습했다. 이제 조금 이해가 된다. 수학은 직관적으로 당연한 것을 엄밀히 증명함으로써, 어디서든 써]]></description>
-</item>
-<item>
-    <title>[TIL008] 도 커 조 아</title>
-    <link>https://Jongbin-kr.github.io/posts/4_daily/0_til/230213_til008_%ED%98%B8%EB%8F%84%EB%B2%95_%EB%8F%84%EC%BB%A4/</link>
-    <pubDate>Mon, 13 Feb 2023 00:40:00 &#43;0900</pubDate>
-    <author>Jongbin Won</author>
-    <guid>https://Jongbin-kr.github.io/posts/4_daily/0_til/230213_til008_%ED%98%B8%EB%8F%84%EB%B2%95_%EB%8F%84%EC%BB%A4/</guid>
-    <description><![CDATA[Today I Learned&hellip; 도커🐳를 열심히 공부했다. 원래는 얄팍한 코딩사전님의 가장 쉽게 배우는 도커 로 공부를 시작했는데, 영상으로만 공부하다보니 불편한 점이 많아, 초보를 위한]]></description>
-</item>
-<item>
-    <title>[TIL007] 자연상수 e, 비교판정법, 논리학 입문, Docker</title>
-    <link>https://Jongbin-kr.github.io/posts/4_daily/0_til/230210_til_%EB%AF%B8%EC%A0%81%EB%B6%84_%EB%8F%84%EC%BB%A4_%EB%85%BC%EB%A6%AC%ED%95%99/</link>
-    <pubDate>Fri, 10 Feb 2023 23:58:31 &#43;0900</pubDate>
-    <author>Jongbin Won</author>
-    <guid>https://Jongbin-kr.github.io/posts/4_daily/0_til/230210_til_%EB%AF%B8%EC%A0%81%EB%B6%84_%EB%8F%84%EC%BB%A4_%EB%85%BC%EB%A6%AC%ED%95%99/</guid>
-    <description><![CDATA[Today I Learned&hellip; 미적분 2강을 마무리했다. 자연상수 $e$의 정의와 증명 비교판정법 논리학 책을 드디어&hellip;펼쳐보았다. 연역추론은 건전한 추론인 경우, 결]]></description>
 </item>
 </channel>
 </rss>
