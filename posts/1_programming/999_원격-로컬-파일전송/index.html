@@ -1,0 +1,220 @@
+<!DOCTYPE html>
+<html lang="en-us">
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <meta name="robots" content="noodp" />
+        <title>[Docker] 로컬 파일을 원격 및 도커 컨테이너로 옮기기 - Jongbin&#39;s Blog</title>
+            
+<script type="application/javascript">
+var doNotTrack = false;
+if (!doNotTrack) {
+	(function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+	(i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+	m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+	})(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+	ga('create', 'UA-253164009-1', 'auto');
+	
+	ga('send', 'pageview');
+}
+</script><meta name="Description" content="welcome to Jongbin Won&#39;s Blog!"><meta property="og:title" content="[Docker] 로컬 파일을 원격 및 도커 컨테이너로 옮기기" />
+<meta property="og:description" content="통신 공부 좀 더 하고 와라~~ 왜 로컬 &lt;-&gt; 원격간 파일공유를 공부하게 되었느냐면&hellip; GPU머신에 원격으로 접속해, 모델이 들어있는 도커 컨테이너에 학" />
+<meta property="og:type" content="article" />
+<meta property="og:url" content="https://Jongbin-kr.github.io/posts/1_programming/999_%EC%9B%90%EA%B2%A9-%EB%A1%9C%EC%BB%AC-%ED%8C%8C%EC%9D%BC%EC%A0%84%EC%86%A1/" /><meta property="og:image" content="https://Jongbin-kr.github.io/logo.png"/><meta property="article:section" content="posts" />
+<meta property="article:published_time" content="2023-02-20T13:55:11+09:00" />
+<meta property="article:modified_time" content="2023-02-20T13:55:11+09:00" /><meta property="og:site_name" content="Jongbin&#39;s Blog" />
+<meta name="twitter:card" content="summary_large_image"/>
+<meta name="twitter:image" content="https://Jongbin-kr.github.io/logo.png"/>
+
+<meta name="twitter:title" content="[Docker] 로컬 파일을 원격 및 도커 컨테이너로 옮기기"/>
+<meta name="twitter:description" content="통신 공부 좀 더 하고 와라~~ 왜 로컬 &lt;-&gt; 원격간 파일공유를 공부하게 되었느냐면&hellip; GPU머신에 원격으로 접속해, 모델이 들어있는 도커 컨테이너에 학"/>
+<meta name="application-name" content="My cool site">
+<meta name="apple-mobile-web-app-title" content="My cool site"><meta name="theme-color" content="#ffffff"><meta name="msapplication-TileColor" content="#da532c"><link rel="shortcut icon" type="image/x-icon" href="/favicon.ico" />
+        <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
+        <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png"><link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png"><link rel="mask-icon" href="/safari-pinned-tab.svg" color="#5bbad5"><link rel="manifest" href="/site.webmanifest"><link rel="canonical" href="https://Jongbin-kr.github.io/posts/1_programming/999_%EC%9B%90%EA%B2%A9-%EB%A1%9C%EC%BB%AC-%ED%8C%8C%EC%9D%BC%EC%A0%84%EC%86%A1/" /><link rel="prev" href="https://Jongbin-kr.github.io/posts/3_thoughts/230201_%EB%B9%85%EC%8A%A4%EB%B9%84%EB%8A%94-wake-up-words%EB%B6%80%ED%84%B0-%EC%9E%98%EB%AA%BB%EB%90%98%EC%97%88%EB%8B%A4/" /><link rel="next" href="https://Jongbin-kr.github.io/posts/1_programming/230222_%EB%8F%84%EC%BB%A4_%EB%B3%BC%EB%A5%A8/" /><link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/normalize.css@8.0.1/normalize.min.css"><link rel="stylesheet" href="/css/style.min.css"><link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.1.1/css/all.min.css"><link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/animate.css@4.1.1/animate.min.css"><script type="application/ld+json">
+    {
+        "@context": "http://schema.org",
+        "@type": "BlogPosting",
+        "headline": "[Docker] 로컬 파일을 원격 및 도커 컨테이너로 옮기기",
+        "inLanguage": "en-us",
+        "mainEntityOfPage": {
+            "@type": "WebPage",
+            "@id": "https:\/\/Jongbin-kr.github.io\/posts\/1_programming\/999_%EC%9B%90%EA%B2%A9-%EB%A1%9C%EC%BB%AC-%ED%8C%8C%EC%9D%BC%EC%A0%84%EC%86%A1\/"
+        },"genre": "posts","keywords": "Docker, SCP, 파일전송","wordcount":  865 ,
+        "url": "https:\/\/Jongbin-kr.github.io\/posts\/1_programming\/999_%EC%9B%90%EA%B2%A9-%EB%A1%9C%EC%BB%AC-%ED%8C%8C%EC%9D%BC%EC%A0%84%EC%86%A1\/","datePublished": "2023-02-20T13:55:11+09:00","dateModified": "2023-02-20T13:55:11+09:00","publisher": {
+            "@type": "Organization",
+            "name": ""},"author": {
+                "@type": "Person",
+                "name": "Jongbin Won"
+            },"description": ""
+    }
+    </script></head>
+    <body data-header-desktop="fixed" data-header-mobile="auto"><script type="text/javascript">(window.localStorage && localStorage.getItem('theme') ? localStorage.getItem('theme') === 'dark' : ('auto' === 'auto' ? window.matchMedia('(prefers-color-scheme: dark)').matches : 'auto' === 'dark')) && document.body.setAttribute('theme', 'dark');</script>
+
+        <div id="mask"></div><div class="wrapper"><header class="desktop" id="header-desktop">
+    <div class="header-wrapper">
+        <div class="header-title">
+            <a href="/" title="Jongbin&#39;s Blog">Jongbin&#39;s Blog</a>
+        </div>
+        <div class="menu">
+            <div class="menu-inner"><a class="menu-item" href="/about_me" title="Jongbin&#39;s Rrofile"> About </a><a class="menu-item" href="/posts/" title="Show All Posts by Timeline"> Posts </a><a class="menu-item" href="/tags/" title="Show All Posts by Tags"> Tags </a><a class="menu-item" href="/categories/" title="Show All Posts by Categories"> Categories </a><span class="menu-item delimiter"></span><span class="menu-item search" id="search-desktop">
+                        <input type="text" placeholder="Search titles or contents..." id="search-input-desktop">
+                        <a href="javascript:void(0);" class="search-button search-toggle" id="search-toggle-desktop" title="Search">
+                            <i class="fas fa-search fa-fw" aria-hidden="true"></i>
+                        </a>
+                        <a href="javascript:void(0);" class="search-button search-clear" id="search-clear-desktop" title="Clear">
+                            <i class="fas fa-times-circle fa-fw" aria-hidden="true"></i>
+                        </a>
+                        <span class="search-button search-loading" id="search-loading-desktop">
+                            <i class="fas fa-spinner fa-fw fa-spin" aria-hidden="true"></i>
+                        </span>
+                    </span><a href="javascript:void(0);" class="menu-item theme-switch" title="Switch Theme">
+                    <i class="fas fa-adjust fa-fw" aria-hidden="true"></i>
+                </a>
+            </div>
+        </div>
+    </div>
+</header><header class="mobile" id="header-mobile">
+    <div class="header-container">
+        <div class="header-wrapper">
+            <div class="header-title">
+                <a href="/" title="Jongbin&#39;s Blog">Jongbin&#39;s Blog</a>
+            </div>
+            <div class="menu-toggle" id="menu-toggle-mobile">
+                <span></span><span></span><span></span>
+            </div>
+        </div>
+        <div class="menu" id="menu-mobile"><div class="search-wrapper">
+                    <div class="search mobile" id="search-mobile">
+                        <input type="text" placeholder="Search titles or contents..." id="search-input-mobile">
+                        <a href="javascript:void(0);" class="search-button search-toggle" id="search-toggle-mobile" title="Search">
+                            <i class="fas fa-search fa-fw" aria-hidden="true"></i>
+                        </a>
+                        <a href="javascript:void(0);" class="search-button search-clear" id="search-clear-mobile" title="Clear">
+                            <i class="fas fa-times-circle fa-fw" aria-hidden="true"></i>
+                        </a>
+                        <span class="search-button search-loading" id="search-loading-mobile">
+                            <i class="fas fa-spinner fa-fw fa-spin" aria-hidden="true"></i>
+                        </span>
+                    </div>
+                    <a href="javascript:void(0);" class="search-cancel" id="search-cancel-mobile">
+                        Cancel
+                    </a>
+                </div><a class="menu-item" href="/about_me" title="Jongbin&#39;s Rrofile">About</a><a class="menu-item" href="/posts/" title="Show All Posts by Timeline">Posts</a><a class="menu-item" href="/tags/" title="Show All Posts by Tags">Tags</a><a class="menu-item" href="/categories/" title="Show All Posts by Categories">Categories</a><a href="javascript:void(0);" class="menu-item theme-switch" title="Switch Theme">
+                <i class="fas fa-adjust fa-fw" aria-hidden="true"></i>
+            </a></div>
+    </div>
+</header><div class="search-dropdown desktop">
+        <div id="search-dropdown-desktop"></div>
+    </div>
+    <div class="search-dropdown mobile">
+        <div id="search-dropdown-mobile"></div>
+    </div><main class="main">
+                <div class="container"><div class="toc" id="toc-auto">
+            <h2 class="toc-title">Contents</h2>
+            <div class="toc-content" id="toc-content-auto"></div>
+        </div><article class="page single"><h1 class="single-title animate__animated animate__flipInX">[Docker] 로컬 파일을 원격 및 도커 컨테이너로 옮기기</h1><div class="post-meta">
+            <div class="post-meta-line"><span class="post-author"><a href="/" title="Author" rel=" author" class="author"><i class="fas fa-user-circle fa-fw" aria-hidden="true"></i>Jongbin Won</a>
+</span>&nbsp;<span class="post-category">included in <a href="/categories/programming/"><i class="far fa-folder fa-fw" aria-hidden="true"></i>Programming</a></span></div>
+            <div class="post-meta-line"><i class="far fa-calendar-alt fa-fw" aria-hidden="true"></i>&nbsp;<time datetime="2023-02-20">2023-02-20</time>&nbsp;<i class="fas fa-pencil-alt fa-fw" aria-hidden="true"></i>&nbsp;865 words&nbsp;
+                <i class="far fa-clock fa-fw" aria-hidden="true"></i>&nbsp;2 minutes&nbsp;</div>
+        </div><div class="details toc" id="toc-static"  data-kept="true">
+                <div class="details-summary toc-title">
+                    <span>Contents</span>
+                    <span><i class="details-icon fas fa-angle-right" aria-hidden="true"></i></span>
+                </div>
+                <div class="details-content toc-content" id="toc-content-static"><nav id="TableOfContents">
+  <ul>
+    <li><a href="#통신-공부-좀-더-하고-와라">통신 공부 좀 더 하고 와라~~</a></li>
+    <li><a href="#왜-로컬---원격간-파일공유를-공부하게-되었느냐면">왜 로컬 &lt;-&gt; 원격간 파일공유를 공부하게 되었느냐면&hellip;</a></li>
+    <li><a href="#scp를-활용한-원격---로컬간-파일-공유"><code>SCP</code>를 활용한 원격 &lt;-&gt; 로컬간 파일 공유</a></li>
+    <li><a href="#로컬-windows11wsl-ubuntu----원격-ubuntu로-파일-보내기">로컬 windows11(WSL Ubuntu) &ndash;&gt; 원격 Ubuntu로 파일 보내기</a></li>
+  </ul>
+</nav></div>
+            </div><div class="content" id="content"><h2 id="통신-공부-좀-더-하고-와라">통신 공부 좀 더 하고 와라~~</h2>
+<br>
+<h2 id="왜-로컬---원격간-파일공유를-공부하게-되었느냐면">왜 로컬 &lt;-&gt; 원격간 파일공유를 공부하게 되었느냐면&hellip;</h2>
+<p>GPU머신에 원격으로 접속해, 모델이 들어있는 도커 컨테이너에 학습 데이터들을 넣어야할 일이 생겼다.</p>
+<p>평소 같으면 구글드라이브, 원드라이브 등을 통해서 파일을 주고받거나, 대용량의 파일이면 USB를 활용해 직접 전달하겠지만, 지금은 저 멀리 떨어진 원격 머신, 그것도 익숙치 않은 <code>Ubuntu OS</code>기반의 GPU머신에 파일을 넣어야하기에 문제가 되는 부분들이 있었다.</p>
+<p>GPU머신이 내 소유가 아니기에 개인 클라우드 서비스를 연결하기도 애매하고, (보통은 VSCODE내에서만 작업하기에) GUI 환경도 지원이 안되어, 인터넷 브라우저를 사용하기도 어렵고, 그렇다고 대학원생을 잡고&hellip;연구실 문 좀 열어달라기에는&hellip;괜히 대학원생들을 건드리고 싶지 않았다&hellip;</p>
+<p>그래서 방법을 찾다보니 <code>SCP(SecureCoPy)</code>라는 친구가 있더라!</p>
+<p><strong>이번 글에서는 SCP를 사용해 로컬의 파일들을 원격으로 옮기고, 또 해당 파일들을 도커 컨테이너에 넣는 방법들을 정리해보았다.</strong></p>
+<br>
+<br>
+<h2 id="scp를-활용한-원격---로컬간-파일-공유"><code>SCP</code>를 활용한 원격 &lt;-&gt; 로컬간 파일 공유</h2>
+<ul>
+<li><code>SCP</code>란, <code>SSH(Secure SHell)</code>기반의 파일전송 프로토콜 혹은 프로그램이라고 한다.<sup id="fnref:1"><a href="#fn:1" class="footnote-ref" role="doc-noteref">1</a></sup> <del>절대 괴생명체들을 다루는 SCP재단을 뜻하는 것이 아니다. 나무위키 꺼라.</del>
+<ul>
+<li>통신을 공부한 것이 아니라, 나도 잘은 모르지만, 22번 포트를 사용하기에 안전하고 빠르다고 한다.</li>
+<li><strong>무엇보다 중요한 것은, 우분투의 <code>Bash</code>는 물론이고 <code>Powershell</code>, <code>CMD</code>, <code>Git Bash</code>에서도 기본으로 지원을 한다는 것이다!(windwos 11 22H2 기준)</strong>
+<ul>
+<li>그러나 잘 아시다시피, 윈도우OS와 유닉스OS간 파일경로 표기에 있어 혼란스러운 부분이 있기에 나는 그냥 <code>WSL2</code>를 활용해 작업을 진행하였다. <del>빨리 탈 윈도우 해야지&hellip;</del></li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+<br>
+<br>
+<h2 id="로컬-windows11wsl-ubuntu----원격-ubuntu로-파일-보내기">로컬 windows11(WSL Ubuntu) &ndash;&gt; 원격 Ubuntu로 파일 보내기</h2>
+<ul>
+<li>
+<p>SCP의 기본문법은 다음과 같다.</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-Bash" data-lang="Bash"><span style="display:flex;"><span>scp <span style="color:#f92672">[</span>로컬에서 보낼 파일의 위치<span style="color:#f92672">]</span> <span style="color:#f92672">[</span>사용자명<span style="color:#f92672">]</span>@<span style="color:#f92672">[</span>호스트IP<span style="color:#f92672">]</span>:<span style="color:#f92672">[</span>원격에서 파일을 받을 위치<span style="color:#f92672">]</span>
+</span></span><span style="display:flex;"><span>scp -r <span style="color:#f92672">[</span>로컬에서 보낼 디렉토리의 위치<span style="color:#f92672">]</span> <span style="color:#f92672">[</span>사용자명<span style="color:#f92672">]</span>@<span style="color:#f92672">[</span>호스트IP<span style="color:#f92672">]</span>:<span style="color:#f92672">[</span>원격에서 디렉토리를 받을 위치<span style="color:#f92672">]</span>
+</span></span></code></pre></div></li>
+<li>
+<p>윈도우11 WSL Ubuntu에서 작업을 진행한 내 사례를 기반으로 예시를 들자면,</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-Bash" data-lang="Bash"><span style="display:flex;"><span>scp /mnt/c/test.txt user1@123.123.12.1 /home/user1/
+</span></span></code></pre></div></li>
+</ul>
+<hr>
+<div class="footnotes" role="doc-endnotes">
+<hr>
+<ol>
+<li id="fn:1">
+<p><a href="https://ko.wikipedia.org/wiki/%EC%8B%9C%ED%81%90%EC%96%B4_%EC%B9%B4%ED%94%BC" target="_blank" rel="noopener noreffer">https://ko.wikipedia.org/wiki/%EC%8B%9C%ED%81%90%EC%96%B4_%EC%B9%B4%ED%94%BC</a>
+&#160;<a href="#fnref:1" class="footnote-backref" role="doc-backlink">&#x21a9;&#xfe0e;</a></p>
+</li>
+</ol>
+</div>
+</div><div class="post-footer" id="post-footer">
+    <div class="post-info">
+        <div class="post-info-line">
+            <div class="post-info-mod">
+                <span>Updated on 2023-02-20</span>
+            </div></div>
+        <div class="post-info-line">
+            <div class="post-info-md"></div>
+            <div class="post-info-share">
+                <span><a href="javascript:void(0);" title="Share on Twitter" data-sharer="twitter" data-url="https://Jongbin-kr.github.io/posts/1_programming/999_%EC%9B%90%EA%B2%A9-%EB%A1%9C%EC%BB%AC-%ED%8C%8C%EC%9D%BC%EC%A0%84%EC%86%A1/" data-title="[Docker] 로컬 파일을 원격 및 도커 컨테이너로 옮기기" data-hashtags="Docker,SCP,파일전송"><i class="fab fa-twitter fa-fw" aria-hidden="true"></i></a><a href="javascript:void(0);" title="Share on Facebook" data-sharer="facebook" data-url="https://Jongbin-kr.github.io/posts/1_programming/999_%EC%9B%90%EA%B2%A9-%EB%A1%9C%EC%BB%AC-%ED%8C%8C%EC%9D%BC%EC%A0%84%EC%86%A1/" data-hashtag="Docker"><i class="fab fa-facebook-square fa-fw" aria-hidden="true"></i></a><a href="javascript:void(0);" title="Share on Linkedin" data-sharer="linkedin" data-url="https://Jongbin-kr.github.io/posts/1_programming/999_%EC%9B%90%EA%B2%A9-%EB%A1%9C%EC%BB%AC-%ED%8C%8C%EC%9D%BC%EC%A0%84%EC%86%A1/"><i class="fab fa-linkedin fa-fw" aria-hidden="true"></i></a><a href="javascript:void(0);" title="Share on Reddit" data-sharer="reddit" data-url="https://Jongbin-kr.github.io/posts/1_programming/999_%EC%9B%90%EA%B2%A9-%EB%A1%9C%EC%BB%AC-%ED%8C%8C%EC%9D%BC%EC%A0%84%EC%86%A1/"><i class="fab fa-reddit fa-fw" aria-hidden="true"></i></a><a href="javascript:void(0);" title="Share on Blogger" data-sharer="blogger" data-url="https://Jongbin-kr.github.io/posts/1_programming/999_%EC%9B%90%EA%B2%A9-%EB%A1%9C%EC%BB%AC-%ED%8C%8C%EC%9D%BC%EC%A0%84%EC%86%A1/" data-title="[Docker] 로컬 파일을 원격 및 도커 컨테이너로 옮기기" data-description=""><i class="fab fa-blogger fa-fw" aria-hidden="true"></i></a></span>
+            </div>
+        </div>
+    </div>
+
+    <div class="post-info-more">
+        <section class="post-tags"><i class="fas fa-tags fa-fw" aria-hidden="true"></i>&nbsp;<a href="/tags/docker/">Docker</a>,&nbsp;<a href="/tags/scp/">SCP</a>,&nbsp;<a href="/tags/%ED%8C%8C%EC%9D%BC%EC%A0%84%EC%86%A1/">파일전송</a></section>
+        <section>
+            <span><a href="javascript:void(0);" onclick="window.history.back();">Back</a></span>&nbsp;|&nbsp;<span><a href="/">Home</a></span>
+        </section>
+    </div>
+
+    <div class="post-nav"><a href="/posts/3_thoughts/230201_%EB%B9%85%EC%8A%A4%EB%B9%84%EB%8A%94-wake-up-words%EB%B6%80%ED%84%B0-%EC%9E%98%EB%AA%BB%EB%90%98%EC%97%88%EB%8B%A4/" class="prev" rel="prev" title="빅스비는 wake-up words부터 잘못되었다."><i class="fas fa-angle-left fa-fw" aria-hidden="true"></i>빅스비는 wake-up words부터 잘못되었다.</a>
+            <a href="/posts/1_programming/230222_%EB%8F%84%EC%BB%A4_%EB%B3%BC%EB%A5%A8/" class="next" rel="next" title="[Docker] 도커의 볼륨에 대한 이해와 사용법">[Docker] 도커의 볼륨에 대한 이해와 사용법<i class="fas fa-angle-right fa-fw" aria-hidden="true"></i></a></div>
+</div>
+<div id="comments"><div id="disqus_thread" class="comment"></div><noscript>
+                Please enable JavaScript to view the comments powered by <a href="https://disqus.com/?ref_noscript">Disqus</a>.
+            </noscript></div></article></div>
+            </main><footer class="footer">
+        <div class="footer-container"><div class="footer-line">Powered by <a href="https://gohugo.io/" target="_blank" rel="noopener noreffer" title="Hugo 0.111.1">Hugo</a> | Theme - <a href="https://github.com/dillonzq/LoveIt" target="_blank" rel="noopener noreffer" title="LoveIt 0.2.10"><i class="far fa-kiss-wink-heart fa-fw" aria-hidden="true"></i> LoveIt</a>
+                </div><div class="footer-line" itemscope itemtype="http://schema.org/CreativeWork"><i class="far fa-copyright fa-fw" aria-hidden="true"></i><span itemprop="copyrightYear">2022 - 2023</span><span class="author" itemprop="copyrightHolder">&nbsp;<a href="/" target="_blank">Jongbin Won</a></span>&nbsp;|&nbsp;<span class="license"><a rel="license external nofollow noopener noreffer" href="https://creativecommons.org/licenses/by-nc/4.0/" target="_blank">CC BY-NC 4.0</a></span></div>
+        </div>
+    </footer></div>
+
+        <div id="fixed-buttons"><a href="#" id="back-to-top" class="fixed-button" title="Back to Top">
+                <i class="fas fa-arrow-up fa-fw" aria-hidden="true"></i>
+            </a><a href="#" id="view-comments" class="fixed-button" title="View Comments">
+                <i class="fas fa-comment fa-fw" aria-hidden="true"></i>
+            </a>
+        </div><link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/katex@0.15.3/dist/katex.min.css"><link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/katex@0.15.3/dist/contrib/copy-tex.min.css"><script type="text/javascript" src="https://Jongbin.disqus.com/embed.js" defer></script><script type="text/javascript" src="https://cdn.jsdelivr.net/npm/autocomplete.js@0.38.1/dist/autocomplete.min.js"></script><script type="text/javascript" src="https://cdn.jsdelivr.net/npm/lunr@2.3.9/lunr.min.js"></script><script type="text/javascript" src="https://cdn.jsdelivr.net/npm/lazysizes@5.3.1/lazysizes.min.js"></script><script type="text/javascript" src="https://cdn.jsdelivr.net/npm/clipboard@2.0.11/dist/clipboard.min.js"></script><script type="text/javascript" src="https://cdn.jsdelivr.net/npm/sharer.js@0.5.1/sharer.min.js"></script><script type="text/javascript" src="https://cdn.jsdelivr.net/npm/katex@0.15.3/dist/katex.min.js"></script><script type="text/javascript" src="https://cdn.jsdelivr.net/npm/katex@0.15.3/dist/contrib/auto-render.min.js"></script><script type="text/javascript" src="https://cdn.jsdelivr.net/npm/katex@0.15.3/dist/contrib/copy-tex.min.js"></script><script type="text/javascript" src="https://cdn.jsdelivr.net/npm/katex@0.15.3/dist/contrib/mhchem.min.js"></script><script type="text/javascript">window.config={"code":{"copyTitle":"Copy to clipboard","maxShownLines":50},"comment":{},"math":{"delimiters":[{"display":true,"left":"$$","right":"$$"},{"display":true,"left":"\\[","right":"\\]"},{"display":true,"left":"\\begin{equation}","right":"\\end{equation}"},{"display":true,"left":"\\begin{equation*}","right":"\\end{equation*}"},{"display":true,"left":"\\begin{align}","right":"\\end{align}"},{"display":true,"left":"\\begin{align*}","right":"\\end{align*}"},{"display":true,"left":"\\begin{alignat}","right":"\\end{alignat}"},{"display":true,"left":"\\begin{alignat*}","right":"\\end{alignat*}"},{"display":true,"left":"\\begin{gather}","right":"\\end{gather}"},{"display":true,"left":"\\begin{CD}","right":"\\end{CD}"},{"display":true,"left":"$$","right":"$$"},{"display":false,"left":"$","right":"$"},{"display":false,"left":"\\(","right":"\\)"},{"display":false,"left":"$","right":"$"}],"strict":false},"search":{"highlightTag":"em","lunrIndexURL":"/index.json","maxResultLength":10,"noResultsFound":"No results found","snippetLength":30,"type":"lunr"}};</script><script type="text/javascript" src="/js/theme.min.js"></script></body>
+</html>

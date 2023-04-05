@@ -4,85 +4,37 @@
         <link>https://Jongbin-kr.github.io/categories/daily/</link>
         <description>Daily - Category - Jongbin&#39;s Blog</description>
         <generator>Hugo -- gohugo.io</generator><language>en-us</language><managingEditor>wonjb001@naver.com (Jongbin Won)</managingEditor>
-            <webMaster>wonjb001@naver.com (Jongbin Won)</webMaster><lastBuildDate>Sun, 19 Mar 2023 18:43:59 &#43;0900</lastBuildDate><atom:link href="https://Jongbin-kr.github.io/categories/daily/" rel="self" type="application/rss+xml" /><item>
-    <title>[TIL021] 수학 공부하는 날</title>
-    <link>https://Jongbin-kr.github.io/posts/4_daily/0_til/230319_til021_%EC%88%98%ED%95%99-%EA%B3%B5%EB%B6%80%ED%95%98%EB%8A%94-%EB%82%A0/</link>
-    <pubDate>Sun, 19 Mar 2023 18:43:59 &#43;0900</pubDate>
+            <webMaster>wonjb001@naver.com (Jongbin Won)</webMaster><lastBuildDate>Fri, 20 Jan 2023 13:20:53 &#43;0900</lastBuildDate><atom:link href="https://Jongbin-kr.github.io/categories/daily/" rel="self" type="application/rss+xml" /><item>
+    <title>새벽녘에 지하철을 타며 든 생각</title>
+    <link>https://Jongbin-kr.github.io/posts/4_daily/230120_%EC%83%88%EB%B2%BD%EB%85%98%EC%97%90-%EC%A7%80%ED%95%98%EC%B2%A0%EC%9D%84-%ED%83%80%EB%A9%B0-%EB%93%A0-%EC%83%9D%EA%B0%81/</link>
+    <pubDate>Fri, 20 Jan 2023 13:20:53 &#43;0900</pubDate>
     <author>Jongbin Won</author>
-    <guid>https://Jongbin-kr.github.io/posts/4_daily/0_til/230319_til021_%EC%88%98%ED%95%99-%EA%B3%B5%EB%B6%80%ED%95%98%EB%8A%94-%EB%82%A0/</guid>
-    <description><![CDATA[Today I Learned&hellip; 선형대수. 벡터의 기본 연산들 두 벡터간의 내적은 두 벡터간의 각도와 밀접히 연관되어 있다! 두 벡터가 수직으로 만난다면 내적값은 0, 수직보다 큰 각도로 만난다]]></description>
+    <guid>https://Jongbin-kr.github.io/posts/4_daily/230120_%EC%83%88%EB%B2%BD%EB%85%98%EC%97%90-%EC%A7%80%ED%95%98%EC%B2%A0%EC%9D%84-%ED%83%80%EB%A9%B0-%EB%93%A0-%EC%83%9D%EA%B0%81/</guid>
+    <description><![CDATA[아슬하게 죽음으로 내모는 졸음을 마주하며, 나는 생각했다. 잠자릴 함께할 순 있어도, 꿈조차 같이 꿀 순 없는1 기구한 운명. 과연 나는 언제까지 혼자여야하고, 또 언]]></description>
 </item>
 <item>
-    <title>[TIL021] VCR, 선형대수</title>
-    <link>https://Jongbin-kr.github.io/posts/4_daily/0_til/230316_til021_vcr-%EC%84%A0%ED%98%95%EB%8C%80%EC%88%98/</link>
-    <pubDate>Fri, 17 Mar 2023 00:05:05 &#43;0900</pubDate>
+    <title>2022년에 대한 나의 짧은 회고와 바램</title>
+    <link>https://Jongbin-kr.github.io/posts/4_daily/230102_2022%EB%85%84%EC%97%90-%EB%8C%80%ED%95%9C-%EB%82%98%EC%9D%98-%EC%A7%A7%EC%9D%80-%ED%9A%8C%EA%B3%A0%EC%99%80-%EB%B0%94%EB%9E%A8/</link>
+    <pubDate>Mon, 02 Jan 2023 00:59:13 &#43;0900</pubDate>
     <author>Jongbin Won</author>
-    <guid>https://Jongbin-kr.github.io/posts/4_daily/0_til/230316_til021_vcr-%EC%84%A0%ED%98%95%EB%8C%80%EC%88%98/</guid>
-    <description><![CDATA[Today I Learned&hellip; 최예진 교수님의 Visual Commonsense Reasoning , The Curios Case of Commonsense Intelligence 논문 읽기 Again, the switch to language-based formalisms is the key to benefit from the empirical breakthroughs of deep neural networks, as it allows for powerful transfer learning from language models to knowledge models. 인공지능에게 상식을 주입하는 데]]></description>
+    <guid>https://Jongbin-kr.github.io/posts/4_daily/230102_2022%EB%85%84%EC%97%90-%EB%8C%80%ED%95%9C-%EB%82%98%EC%9D%98-%EC%A7%A7%EC%9D%80-%ED%9A%8C%EA%B3%A0%EC%99%80-%EB%B0%94%EB%9E%A8/</guid>
+    <description><![CDATA[지난 2022년은 코로나로 빼았겼던 많은 것들을 조금씩 되찾아가는 한 해였던 것 같다. 많은 사람들이 그동안 상실한 것들을 대하여 아파하고, 돌아온 것들을 즐기기도]]></description>
 </item>
 <item>
-    <title>[TIL020] 인공지능, 벡터</title>
-    <link>https://Jongbin-kr.github.io/posts/4_daily/0_til/230315_til020_%EC%9D%B8%EA%B3%B5%EC%A7%80%EB%8A%A5_%EC%84%A0%ED%98%95%EB%8C%80%EC%88%98/</link>
-    <pubDate>Thu, 16 Mar 2023 23:39:29 &#43;0900</pubDate>
+    <title>[LP001] 파이썬은 어렵다. 그래서 공부해야한다.</title>
+    <link>https://Jongbin-kr.github.io/posts/1_programming/1_learning_python/lp001_%ED%8C%8C%EC%9D%B4%EC%8D%AC%EC%9D%80-%EC%96%B4%EB%A0%B5%EB%8B%A4/</link>
+    <pubDate>Fri, 30 Dec 2022 22:23:35 &#43;0900</pubDate>
     <author>Jongbin Won</author>
-    <guid>https://Jongbin-kr.github.io/posts/4_daily/0_til/230315_til020_%EC%9D%B8%EA%B3%B5%EC%A7%80%EB%8A%A5_%EC%84%A0%ED%98%95%EB%8C%80%EC%88%98/</guid>
-    <description><![CDATA[Today I Learned&hellip; 선형대수 공부를 위한 준비로서 벡터 공부&hellip; 차후 정리해서 한번에 올림&hellip; 인공지능 개념공부 COSE361, based on Aritificial Intelligience: Modern Approach(by Russel) 인공지능에 접근]]></description>
+    <guid>https://Jongbin-kr.github.io/posts/1_programming/1_learning_python/lp001_%ED%8C%8C%EC%9D%B4%EC%8D%AC%EC%9D%80-%EC%96%B4%EB%A0%B5%EB%8B%A4/</guid>
+    <description><![CDATA[파이썬은 어렵다. 파이썬 기초를 떼고 가장 먼저 든 생각은 &lsquo;파이썬은 어렵다&lsquo;였다. 정확히 말하자면, 파이썬은 입문하기는 쉽지만 숙달]]></description>
 </item>
 <item>
-    <title>[TIL019] 수학공부하는 날</title>
-    <link>https://Jongbin-kr.github.io/posts/4_daily/0_til/230313_til019_%EB%AF%B8%EC%A0%81%EB%B6%84_%EC%84%A0%ED%98%95%EB%8C%80%EC%88%98/</link>
-    <pubDate>Mon, 13 Mar 2023 23:35:42 &#43;0900</pubDate>
+    <title>블로그를 시작했다.</title>
+    <link>https://Jongbin-kr.github.io/posts/4_daily/221228_%EB%B8%94%EB%A1%9C%EA%B7%B8%EB%A5%BC-%EC%8B%9C%EC%9E%91%ED%96%88%EB%8B%A4/</link>
+    <pubDate>Wed, 28 Dec 2022 13:52:54 &#43;0900</pubDate>
     <author>Jongbin Won</author>
-    <guid>https://Jongbin-kr.github.io/posts/4_daily/0_til/230313_til019_%EB%AF%B8%EC%A0%81%EB%B6%84_%EC%84%A0%ED%98%95%EB%8C%80%EC%88%98/</guid>
-    <description><![CDATA[Today I Learned&hellip; 선형대수 첫 수업을 듣고, 기초가 부족함을 뼈저리게 느껴 다시 고등수학 책을 폈다. 벡터 기본연산, 벡터 내적, 벡터 분해 등등&hellip; 나중에 한번 싹]]></description>
-</item>
-<item>
-    <title>[TIL018] 미분계수, 삼각함수, Docker Desktop vs. Docker Engine</title>
-    <link>https://Jongbin-kr.github.io/posts/4_daily/0_til/230308_til018_%EC%82%BC%EA%B0%81%ED%95%A8%EC%88%98_%EB%8F%84%EC%BB%A4/</link>
-    <pubDate>Wed, 08 Mar 2023 23:23:40 &#43;0900</pubDate>
-    <author>Jongbin Won</author>
-    <guid>https://Jongbin-kr.github.io/posts/4_daily/0_til/230308_til018_%EC%82%BC%EA%B0%81%ED%95%A8%EC%88%98_%EB%8F%84%EC%BB%A4/</guid>
-    <description><![CDATA[Today I Learned&hellip; 대학미적분. 미분계수. 미분가능하다 == 미분계수가 존재한다 == $f(x)$를 수직이 아닌 직선으로 근사할 수 있다. 근사한다는 말뜻이 잘 이해가 안된다.]]></description>
-</item>
-<item>
-    <title>[TIL017] 인공지능과 언어학 모두 feature가 중요하다.</title>
-    <link>https://Jongbin-kr.github.io/posts/4_daily/0_til/230307_til017_%EA%B8%B0%ED%98%B8%ED%95%99_%EC%9D%B8%EA%B3%B5%EC%A7%80%EB%8A%A5/</link>
-    <pubDate>Tue, 07 Mar 2023 23:04:21 &#43;0900</pubDate>
-    <author>Jongbin Won</author>
-    <guid>https://Jongbin-kr.github.io/posts/4_daily/0_til/230307_til017_%EA%B8%B0%ED%98%B8%ED%95%99_%EC%9D%B8%EA%B3%B5%EC%A7%80%EB%8A%A5/</guid>
-    <description><![CDATA[Today I Learned&hellip; 문법론 현대언어학은 feature를 중심으로 구성된다. 인공지능의 학습 데이터 역시 feature를 잘 설정하는 것이 중요하다! 기호학. 소쉬르 언어]]></description>
-</item>
-<item>
-    <title>[TIL016] 삼각함수, 선형대수</title>
-    <link>https://Jongbin-kr.github.io/posts/4_daily/0_til/230306_til016_%EC%82%BC%EA%B0%81%ED%95%A8%EC%88%98/</link>
-    <pubDate>Mon, 06 Mar 2023 16:09:30 &#43;0900</pubDate>
-    <author>Jongbin Won</author>
-    <guid>https://Jongbin-kr.github.io/posts/4_daily/0_til/230306_til016_%EC%82%BC%EA%B0%81%ED%95%A8%EC%88%98/</guid>
-    <description><![CDATA[Today I Learned&hellip; 다시 미분적분책에서 드디어 삼각함수를 배우기 시작했다! 다만 일반각 개념은 거의 다루지 않아, 이 부분은 교과서를 다시 볼 필요가 있을 것 같다. 연습문제들도]]></description>
-</item>
-<item>
-    <title>[TIL015] 개강, 우분투</title>
-    <link>https://Jongbin-kr.github.io/posts/4_daily/0_til/230305_til015%EA%B0%9C%EA%B0%95_%EC%9A%B0%EB%B6%84%ED%88%AC/</link>
-    <pubDate>Sun, 05 Mar 2023 22:24:02 &#43;0900</pubDate>
-    <author>Jongbin Won</author>
-    <guid>https://Jongbin-kr.github.io/posts/4_daily/0_til/230305_til015%EA%B0%9C%EA%B0%95_%EC%9A%B0%EB%B6%84%ED%88%AC/</guid>
-    <description><![CDATA[Today I Learned&hellip; 개강 직전에 데스크탑 환경을 다시 구축했다! 원래는 windows10으로만 돌아가던 일반인스러운 데스크톱에서, nvme SSD에는 windows11을]]></description>
-</item>
-<item>
-    <title>[TIL014] 졸업식, 고등수학 돌아보기</title>
-    <link>https://Jongbin-kr.github.io/posts/4_daily/0_til/230224_til014_%EC%A1%B8%EC%97%85%EC%8B%9D%EA%B3%BC_%EB%8B%A4%EC%8B%9C_%EB%AF%B8%EB%B6%84%EC%A0%81%EB%B6%84/</link>
-    <pubDate>Fri, 24 Feb 2023 22:25:24 &#43;0900</pubDate>
-    <author>Jongbin Won</author>
-    <guid>https://Jongbin-kr.github.io/posts/4_daily/0_til/230224_til014_%EC%A1%B8%EC%97%85%EC%8B%9D%EA%B3%BC_%EB%8B%A4%EC%8B%9C_%EB%AF%B8%EB%B6%84%EC%A0%81%EB%B6%84/</guid>
-    <description><![CDATA[Today I Learned&hellip; 어제 빌렸던 다시 미분적분 책을 쭉 훑어봤다! 내용 자체는 고등 미적분1 수준이지만, 미적분학의 첫걸음 강의와 병행하니 새롭게 다가오는 부분들이 아주 많았다]]></description>
-</item>
-<item>
-    <title>[TIL013] 미적분과 Multi-modal</title>
-    <link>https://Jongbin-kr.github.io/posts/4_daily/0_til/230223_til013_%EB%AF%B8%EC%A0%81%EB%B6%84_%EB%A9%80%ED%8B%B0%EB%AA%A8%EB%8B%AC/</link>
-    <pubDate>Fri, 24 Feb 2023 22:24:24 &#43;0900</pubDate>
-    <author>Jongbin Won</author>
-    <guid>https://Jongbin-kr.github.io/posts/4_daily/0_til/230223_til013_%EB%AF%B8%EC%A0%81%EB%B6%84_%EB%A9%80%ED%8B%B0%EB%AA%A8%EB%8B%AC/</guid>
-    <description><![CDATA[Today I Learned&hellip; 미적분 수평/수직점근선, 샌드위치 정리 수평/수직 점근선의 정의에 대해 공부하고, 관련하여 다항식은 항상 점근선이 없다는 사실을 짝함수(even function, 혹]]></description>
+    <guid>https://Jongbin-kr.github.io/posts/4_daily/221228_%EB%B8%94%EB%A1%9C%EA%B7%B8%EB%A5%BC-%EC%8B%9C%EC%9E%91%ED%96%88%EB%8B%A4/</guid>
+    <description><![CDATA[블로그를 시작했다. 이번 학기부터 본격적으로 컴퓨터학과 전공수업들을 들으면서, 깃허브를 관리하면 좋겠다는 생각이 들었고, 이왕 깃허브를 관리하는 김에 &ls]]></description>
 </item>
 </channel>
 </rss>

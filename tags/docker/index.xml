@@ -4,61 +4,13 @@
         <link>https://Jongbin-kr.github.io/tags/docker/</link>
         <description>Docker - Tag - Jongbin&#39;s Blog</description>
         <generator>Hugo -- gohugo.io</generator><language>en-us</language><managingEditor>wonjb001@naver.com (Jongbin Won)</managingEditor>
-            <webMaster>wonjb001@naver.com (Jongbin Won)</webMaster><lastBuildDate>Wed, 08 Mar 2023 23:23:40 &#43;0900</lastBuildDate><atom:link href="https://Jongbin-kr.github.io/tags/docker/" rel="self" type="application/rss+xml" /><item>
-    <title>[TIL018] 미분계수, 삼각함수, Docker Desktop vs. Docker Engine</title>
-    <link>https://Jongbin-kr.github.io/posts/4_daily/0_til/230308_til018_%EC%82%BC%EA%B0%81%ED%95%A8%EC%88%98_%EB%8F%84%EC%BB%A4/</link>
-    <pubDate>Wed, 08 Mar 2023 23:23:40 &#43;0900</pubDate>
-    <author>Jongbin Won</author>
-    <guid>https://Jongbin-kr.github.io/posts/4_daily/0_til/230308_til018_%EC%82%BC%EA%B0%81%ED%95%A8%EC%88%98_%EB%8F%84%EC%BB%A4/</guid>
-    <description><![CDATA[Today I Learned&hellip; 대학미적분. 미분계수. 미분가능하다 == 미분계수가 존재한다 == $f(x)$를 수직이 아닌 직선으로 근사할 수 있다. 근사한다는 말뜻이 잘 이해가 안된다.]]></description>
-</item>
-<item>
+            <webMaster>wonjb001@naver.com (Jongbin Won)</webMaster><lastBuildDate>Wed, 22 Feb 2023 17:13:44 &#43;0900</lastBuildDate><atom:link href="https://Jongbin-kr.github.io/tags/docker/" rel="self" type="application/rss+xml" /><item>
     <title>[Docker] 도커의 볼륨에 대한 이해와 사용법</title>
     <link>https://Jongbin-kr.github.io/posts/1_programming/230222_%EB%8F%84%EC%BB%A4_%EB%B3%BC%EB%A5%A8/</link>
     <pubDate>Wed, 22 Feb 2023 17:13:44 &#43;0900</pubDate>
     <author>Jongbin Won</author>
     <guid>https://Jongbin-kr.github.io/posts/1_programming/230222_%EB%8F%84%EC%BB%A4_%EB%B3%BC%EB%A5%A8/</guid>
     <description><![CDATA[I. 왜 도커 볼륨을 써야하는가? 도커를 열심히 쓰다보면, 그 놀라운 편의성에 놀라다가도 항상 거슬리는 것이 하나 있는데, 바로 컨테이너를 제거해버리면 컨테이너 내에]]></description>
-</item>
-<item>
-    <title>[TIL011] 도커의 볼륨과 바인드 마운트에 대한 이해</title>
-    <link>https://Jongbin-kr.github.io/posts/4_daily/0_til/230216_til011_%EB%8F%84%EC%BB%A4_%EB%B3%BC%EB%A5%A8_%EB%B0%94%EC%9D%B8%EB%93%9C_%EB%A7%88%EC%9A%B4%ED%8A%B8/</link>
-    <pubDate>Thu, 16 Feb 2023 22:41:37 &#43;0900</pubDate>
-    <author>Jongbin Won</author>
-    <guid>https://Jongbin-kr.github.io/posts/4_daily/0_til/230216_til011_%EB%8F%84%EC%BB%A4_%EB%B3%BC%EB%A5%A8_%EB%B0%94%EC%9D%B8%EB%93%9C_%EB%A7%88%EC%9A%B4%ED%8A%B8/</guid>
-    <description><![CDATA[Today I Learned&hellip; 미적분 스터디. 수렴과 발산에 대한 정리 (by 승혀니햄) 0. L은 실수집합의 원소다. 1. 극한값이 L로 존재한다 == (좌극한값은 L and 우극한값도 L) == L로 수렴한]]></description>
-</item>
-<item>
-    <title>[TIL010] 함수의 극한, 리눅스머신 사고싶다</title>
-    <link>https://Jongbin-kr.github.io/posts/4_daily/0_til/230215_til010_%EB%AF%B8%EC%A0%81%EB%B6%84_%EC%9A%B0%EB%B6%84%ED%88%AC/</link>
-    <pubDate>Wed, 15 Feb 2023 23:38:31 &#43;0900</pubDate>
-    <author>Jongbin Won</author>
-    <guid>https://Jongbin-kr.github.io/posts/4_daily/0_til/230215_til010_%EB%AF%B8%EC%A0%81%EB%B6%84_%EC%9A%B0%EB%B6%84%ED%88%AC/</guid>
-    <description><![CDATA[Today I Learned&hellip; 어제에 이어 미적분 공부. 3. 함수의 극한을 처음부터 다시 복습했다. 이제 조금 이해가 된다. 수학은 직관적으로 당연한 것을 엄밀히 증명함으로써, 어디서든 써]]></description>
-</item>
-<item>
-    <title>[TIL009] 선형대수, 인공지능, 기호학, let&#39;s go.</title>
-    <link>https://Jongbin-kr.github.io/posts/4_daily/0_til/230214_til009_%EC%88%98%EA%B0%95%EC%8B%A0%EC%B2%AD_%EB%8F%84%EC%BB%A4_-%EC%9A%B0%EB%B6%84%ED%88%AC/</link>
-    <pubDate>Wed, 15 Feb 2023 23:28:45 &#43;0900</pubDate>
-    <author>Jongbin Won</author>
-    <guid>https://Jongbin-kr.github.io/posts/4_daily/0_til/230214_til009_%EC%88%98%EA%B0%95%EC%8B%A0%EC%B2%AD_%EB%8F%84%EC%BB%A4_-%EC%9A%B0%EB%B6%84%ED%88%AC/</guid>
-    <description><![CDATA[Today I Learned&hellip; 어제 공부하던 도커를 이어서 공부했다. 도커 기본 사용법 을 공부했다. 근데 이미지 만드는 것은 당장은 필요없을 것 같아 미뤄두었다. 미적분학의 첫걸음 3. 함수]]></description>
-</item>
-<item>
-    <title>[TIL008] 도 커 조 아</title>
-    <link>https://Jongbin-kr.github.io/posts/4_daily/0_til/230213_til008_%ED%98%B8%EB%8F%84%EB%B2%95_%EB%8F%84%EC%BB%A4/</link>
-    <pubDate>Mon, 13 Feb 2023 00:40:00 &#43;0900</pubDate>
-    <author>Jongbin Won</author>
-    <guid>https://Jongbin-kr.github.io/posts/4_daily/0_til/230213_til008_%ED%98%B8%EB%8F%84%EB%B2%95_%EB%8F%84%EC%BB%A4/</guid>
-    <description><![CDATA[Today I Learned&hellip; 도커🐳를 열심히 공부했다. 원래는 얄팍한 코딩사전님의 가장 쉽게 배우는 도커 로 공부를 시작했는데, 영상으로만 공부하다보니 불편한 점이 많아, 초보를 위한]]></description>
-</item>
-<item>
-    <title>[TIL007] 자연상수 e, 비교판정법, 논리학 입문, Docker</title>
-    <link>https://Jongbin-kr.github.io/posts/4_daily/0_til/230210_til_%EB%AF%B8%EC%A0%81%EB%B6%84_%EB%8F%84%EC%BB%A4_%EB%85%BC%EB%A6%AC%ED%95%99/</link>
-    <pubDate>Fri, 10 Feb 2023 23:58:31 &#43;0900</pubDate>
-    <author>Jongbin Won</author>
-    <guid>https://Jongbin-kr.github.io/posts/4_daily/0_til/230210_til_%EB%AF%B8%EC%A0%81%EB%B6%84_%EB%8F%84%EC%BB%A4_%EB%85%BC%EB%A6%AC%ED%95%99/</guid>
-    <description><![CDATA[Today I Learned&hellip; 미적분 2강을 마무리했다. 자연상수 $e$의 정의와 증명 비교판정법 논리학 책을 드디어&hellip;펼쳐보았다. 연역추론은 건전한 추론인 경우, 결]]></description>
 </item>
 </channel>
 </rss>

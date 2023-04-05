@@ -1,0 +1,16 @@
+<rss xmlns:atom="http://www.w3.org/2005/Atom" version="2.0">
+    <channel>
+        <title>SCP - Tag - Jongbin&#39;s Blog</title>
+        <link>https://Jongbin-kr.github.io/tags/scp/</link>
+        <description>SCP - Tag - Jongbin&#39;s Blog</description>
+        <generator>Hugo -- gohugo.io</generator><language>en-us</language><managingEditor>wonjb001@naver.com (Jongbin Won)</managingEditor>
+            <webMaster>wonjb001@naver.com (Jongbin Won)</webMaster><lastBuildDate>Mon, 20 Feb 2023 13:55:11 &#43;0900</lastBuildDate><atom:link href="https://Jongbin-kr.github.io/tags/scp/" rel="self" type="application/rss+xml" /><item>
+    <title>[Docker] 로컬 파일을 원격 및 도커 컨테이너로 옮기기</title>
+    <link>https://Jongbin-kr.github.io/posts/1_programming/999_%EC%9B%90%EA%B2%A9-%EB%A1%9C%EC%BB%AC-%ED%8C%8C%EC%9D%BC%EC%A0%84%EC%86%A1/</link>
+    <pubDate>Mon, 20 Feb 2023 13:55:11 &#43;0900</pubDate>
+    <author>Jongbin Won</author>
+    <guid>https://Jongbin-kr.github.io/posts/1_programming/999_%EC%9B%90%EA%B2%A9-%EB%A1%9C%EC%BB%AC-%ED%8C%8C%EC%9D%BC%EC%A0%84%EC%86%A1/</guid>
+    <description><![CDATA[통신 공부 좀 더 하고 와라~~ 왜 로컬 &lt;-&gt; 원격간 파일공유를 공부하게 되었느냐면&hellip; GPU머신에 원격으로 접속해, 모델이 들어있는 도커 컨테이너에 학]]></description>
+</item>
+</channel>
+</rss>

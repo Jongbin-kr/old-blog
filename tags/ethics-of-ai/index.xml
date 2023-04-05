@@ -1,0 +1,16 @@
+<rss xmlns:atom="http://www.w3.org/2005/Atom" version="2.0">
+    <channel>
+        <title>Ethics of AI - Tag - Jongbin&#39;s Blog</title>
+        <link>https://Jongbin-kr.github.io/tags/ethics-of-ai/</link>
+        <description>Ethics of AI - Tag - Jongbin&#39;s Blog</description>
+        <generator>Hugo -- gohugo.io</generator><language>en-us</language><managingEditor>wonjb001@naver.com (Jongbin Won)</managingEditor>
+            <webMaster>wonjb001@naver.com (Jongbin Won)</webMaster><lastBuildDate>Tue, 07 Mar 2023 23:34:24 &#43;0900</lastBuildDate><atom:link href="https://Jongbin-kr.github.io/tags/ethics-of-ai/" rel="self" type="application/rss+xml" /><item>
+    <title>[EAI001] 인공지능의 신뢰성</title>
+    <link>https://Jongbin-kr.github.io/posts/2_study/ethics-of-ai/eai001_%EC%9D%B8%EA%B3%B5%EC%A7%80%EB%8A%A5%EC%9D%98-%EC%8B%A0%EB%A2%B0%EC%84%B1/</link>
+    <pubDate>Tue, 07 Mar 2023 23:34:24 &#43;0900</pubDate>
+    <author>Jongbin Won</author>
+    <guid>https://Jongbin-kr.github.io/posts/2_study/ethics-of-ai/eai001_%EC%9D%B8%EA%B3%B5%EC%A7%80%EB%8A%A5%EC%9D%98-%EC%8B%A0%EB%A2%B0%EC%84%B1/</guid>
+    <description><![CDATA[인공지능의 신뢰성은 갖추면 좋은 것이 아니라, 반드시 갖추어야 하는 것이다. _ 마르그레테 베스타게르, 유럽연합 집행위원회 부의장 1. 신뢰할 수 있는 인공지능의 개]]></description>
+</item>
+</channel>
+</rss>

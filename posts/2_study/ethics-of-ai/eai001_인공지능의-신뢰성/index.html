@@ -1,0 +1,455 @@
+<!DOCTYPE html>
+<html lang="en-us">
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <meta name="robots" content="noodp" />
+        <title>[EAI001] 인공지능의 신뢰성 - Jongbin&#39;s Blog</title>
+            
+<script type="application/javascript">
+var doNotTrack = false;
+if (!doNotTrack) {
+	(function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+	(i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+	m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+	})(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+	ga('create', 'UA-253164009-1', 'auto');
+	
+	ga('send', 'pageview');
+}
+</script><meta name="Description" content="welcome to Jongbin Won&#39;s Blog!"><meta property="og:title" content="[EAI001] 인공지능의 신뢰성" />
+<meta property="og:description" content="인공지능의 신뢰성은 갖추면 좋은 것이 아니라, 반드시 갖추어야 하는 것이다. _ 마르그레테 베스타게르, 유럽연합 집행위원회 부의장 1. 신뢰할 수 있는 인공지능의 개" />
+<meta property="og:type" content="article" />
+<meta property="og:url" content="https://Jongbin-kr.github.io/posts/2_study/ethics-of-ai/eai001_%EC%9D%B8%EA%B3%B5%EC%A7%80%EB%8A%A5%EC%9D%98-%EC%8B%A0%EB%A2%B0%EC%84%B1/" /><meta property="og:image" content="https://Jongbin-kr.github.io/logo.png"/><meta property="article:section" content="posts" />
+<meta property="article:published_time" content="2023-03-07T23:34:24+09:00" />
+<meta property="article:modified_time" content="2023-03-07T23:34:24+09:00" /><meta property="og:site_name" content="Jongbin&#39;s Blog" />
+<meta name="twitter:card" content="summary_large_image"/>
+<meta name="twitter:image" content="https://Jongbin-kr.github.io/logo.png"/>
+
+<meta name="twitter:title" content="[EAI001] 인공지능의 신뢰성"/>
+<meta name="twitter:description" content="인공지능의 신뢰성은 갖추면 좋은 것이 아니라, 반드시 갖추어야 하는 것이다. _ 마르그레테 베스타게르, 유럽연합 집행위원회 부의장 1. 신뢰할 수 있는 인공지능의 개"/>
+<meta name="application-name" content="My cool site">
+<meta name="apple-mobile-web-app-title" content="My cool site"><meta name="theme-color" content="#ffffff"><meta name="msapplication-TileColor" content="#da532c"><link rel="shortcut icon" type="image/x-icon" href="/favicon.ico" />
+        <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
+        <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png"><link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png"><link rel="mask-icon" href="/safari-pinned-tab.svg" color="#5bbad5"><link rel="manifest" href="/site.webmanifest"><link rel="canonical" href="https://Jongbin-kr.github.io/posts/2_study/ethics-of-ai/eai001_%EC%9D%B8%EA%B3%B5%EC%A7%80%EB%8A%A5%EC%9D%98-%EC%8B%A0%EB%A2%B0%EC%84%B1/" /><link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/normalize.css@8.0.1/normalize.min.css"><link rel="stylesheet" href="/css/style.min.css"><link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.1.1/css/all.min.css"><link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/animate.css@4.1.1/animate.min.css"><script type="application/ld+json">
+    {
+        "@context": "http://schema.org",
+        "@type": "BlogPosting",
+        "headline": "[EAI001] 인공지능의 신뢰성",
+        "inLanguage": "en-us",
+        "mainEntityOfPage": {
+            "@type": "WebPage",
+            "@id": "https:\/\/Jongbin-kr.github.io\/posts\/2_study\/ethics-of-ai\/eai001_%EC%9D%B8%EA%B3%B5%EC%A7%80%EB%8A%A5%EC%9D%98-%EC%8B%A0%EB%A2%B0%EC%84%B1\/"
+        },"genre": "posts","keywords": "Ethics of AI","wordcount":  2890 ,
+        "url": "https:\/\/Jongbin-kr.github.io\/posts\/2_study\/ethics-of-ai\/eai001_%EC%9D%B8%EA%B3%B5%EC%A7%80%EB%8A%A5%EC%9D%98-%EC%8B%A0%EB%A2%B0%EC%84%B1\/","datePublished": "2023-03-07T23:34:24+09:00","dateModified": "2023-03-07T23:34:24+09:00","publisher": {
+            "@type": "Organization",
+            "name": ""},"author": {
+                "@type": "Person",
+                "name": "Jongbin Won"
+            },"description": ""
+    }
+    </script></head>
+    <body data-header-desktop="fixed" data-header-mobile="auto"><script type="text/javascript">(window.localStorage && localStorage.getItem('theme') ? localStorage.getItem('theme') === 'dark' : ('auto' === 'auto' ? window.matchMedia('(prefers-color-scheme: dark)').matches : 'auto' === 'dark')) && document.body.setAttribute('theme', 'dark');</script>
+
+        <div id="mask"></div><div class="wrapper"><header class="desktop" id="header-desktop">
+    <div class="header-wrapper">
+        <div class="header-title">
+            <a href="/" title="Jongbin&#39;s Blog">Jongbin&#39;s Blog</a>
+        </div>
+        <div class="menu">
+            <div class="menu-inner"><a class="menu-item" href="/about_me" title="Jongbin&#39;s Rrofile"> About </a><a class="menu-item" href="/posts/" title="Show All Posts by Timeline"> Posts </a><a class="menu-item" href="/tags/" title="Show All Posts by Tags"> Tags </a><a class="menu-item" href="/categories/" title="Show All Posts by Categories"> Categories </a><span class="menu-item delimiter"></span><span class="menu-item search" id="search-desktop">
+                        <input type="text" placeholder="Search titles or contents..." id="search-input-desktop">
+                        <a href="javascript:void(0);" class="search-button search-toggle" id="search-toggle-desktop" title="Search">
+                            <i class="fas fa-search fa-fw" aria-hidden="true"></i>
+                        </a>
+                        <a href="javascript:void(0);" class="search-button search-clear" id="search-clear-desktop" title="Clear">
+                            <i class="fas fa-times-circle fa-fw" aria-hidden="true"></i>
+                        </a>
+                        <span class="search-button search-loading" id="search-loading-desktop">
+                            <i class="fas fa-spinner fa-fw fa-spin" aria-hidden="true"></i>
+                        </span>
+                    </span><a href="javascript:void(0);" class="menu-item theme-switch" title="Switch Theme">
+                    <i class="fas fa-adjust fa-fw" aria-hidden="true"></i>
+                </a>
+            </div>
+        </div>
+    </div>
+</header><header class="mobile" id="header-mobile">
+    <div class="header-container">
+        <div class="header-wrapper">
+            <div class="header-title">
+                <a href="/" title="Jongbin&#39;s Blog">Jongbin&#39;s Blog</a>
+            </div>
+            <div class="menu-toggle" id="menu-toggle-mobile">
+                <span></span><span></span><span></span>
+            </div>
+        </div>
+        <div class="menu" id="menu-mobile"><div class="search-wrapper">
+                    <div class="search mobile" id="search-mobile">
+                        <input type="text" placeholder="Search titles or contents..." id="search-input-mobile">
+                        <a href="javascript:void(0);" class="search-button search-toggle" id="search-toggle-mobile" title="Search">
+                            <i class="fas fa-search fa-fw" aria-hidden="true"></i>
+                        </a>
+                        <a href="javascript:void(0);" class="search-button search-clear" id="search-clear-mobile" title="Clear">
+                            <i class="fas fa-times-circle fa-fw" aria-hidden="true"></i>
+                        </a>
+                        <span class="search-button search-loading" id="search-loading-mobile">
+                            <i class="fas fa-spinner fa-fw fa-spin" aria-hidden="true"></i>
+                        </span>
+                    </div>
+                    <a href="javascript:void(0);" class="search-cancel" id="search-cancel-mobile">
+                        Cancel
+                    </a>
+                </div><a class="menu-item" href="/about_me" title="Jongbin&#39;s Rrofile">About</a><a class="menu-item" href="/posts/" title="Show All Posts by Timeline">Posts</a><a class="menu-item" href="/tags/" title="Show All Posts by Tags">Tags</a><a class="menu-item" href="/categories/" title="Show All Posts by Categories">Categories</a><a href="javascript:void(0);" class="menu-item theme-switch" title="Switch Theme">
+                <i class="fas fa-adjust fa-fw" aria-hidden="true"></i>
+            </a></div>
+    </div>
+</header><div class="search-dropdown desktop">
+        <div id="search-dropdown-desktop"></div>
+    </div>
+    <div class="search-dropdown mobile">
+        <div id="search-dropdown-mobile"></div>
+    </div><main class="main">
+                <div class="container"><div class="toc" id="toc-auto">
+            <h2 class="toc-title">Contents</h2>
+            <div class="toc-content" id="toc-content-auto"></div>
+        </div><article class="page single"><h1 class="single-title animate__animated animate__flipInX">[EAI001] 인공지능의 신뢰성</h1><div class="post-meta">
+            <div class="post-meta-line"><span class="post-author"><a href="/" title="Author" rel=" author" class="author"><i class="fas fa-user-circle fa-fw" aria-hidden="true"></i>Jongbin Won</a>
+</span>&nbsp;<span class="post-category">included in <a href="/categories/study/"><i class="far fa-folder fa-fw" aria-hidden="true"></i>Study</a></span></div>
+            <div class="post-meta-line"><i class="far fa-calendar-alt fa-fw" aria-hidden="true"></i>&nbsp;<time datetime="2023-03-07">2023-03-07</time>&nbsp;<i class="fas fa-pencil-alt fa-fw" aria-hidden="true"></i>&nbsp;2890 words&nbsp;
+                <i class="far fa-clock fa-fw" aria-hidden="true"></i>&nbsp;6 minutes&nbsp;</div>
+        </div><div class="details toc" id="toc-static"  data-kept="true">
+                <div class="details-summary toc-title">
+                    <span>Contents</span>
+                    <span><i class="details-icon fas fa-angle-right" aria-hidden="true"></i></span>
+                </div>
+                <div class="details-content toc-content" id="toc-content-static"><nav id="TableOfContents">
+  <ul>
+    <li><a href="#1-신뢰할-수-있는-인공지능의-개념">1. 신뢰할 수 있는 인공지능의 개념</a></li>
+    <li><a href="#2-인공지능의-신뢰성에-관한-원칙들">2. 인공지능의 신뢰성에 관한 원칙들</a>
+      <ul>
+        <li><a href="#1-생명미래연구소-아실로마-23원칙">1) 생명미래연구소, 아실로마 23원칙</a></li>
+        <li><a href="#2-유럽연합-집행위원회의-프레임워크--유럽연합의-인공지능-법-초안">2) 유럽연합 집행위원회의 프레임워크 &amp; 유럽연합의 인공지능 법 초안</a></li>
+        <li><a href="#3-경제협력-개발기구의-윤리원칙">3) 경제협력 개발기구의 윤리원칙</a></li>
+        <li><a href="#4-국내의-접근">4) 국내의 접근</a></li>
+      </ul>
+    </li>
+    <li><a href="#3-인공지능의-신뢰성에-대한-기업들의-대응">3. 인공지능의 신뢰성에 대한 기업들의 대응</a>
+      <ul>
+        <li><a href="#1-구글">1) 구글</a></li>
+        <li><a href="#2-마이크로소프트">2) 마이크로소프트</a></li>
+        <li><a href="#3-ibm">3) IBM</a></li>
+        <li><a href="#4-페이스북">4) 페이스북</a></li>
+        <li><a href="#5-국내-기업들의-경우">5) 국내 기업들의 경우</a></li>
+      </ul>
+    </li>
+    <li><a href="#4-인공지능의-신뢰성에-관한-나의-생각들">4. 인공지능의 신뢰성에 관한 나의 생각들</a></li>
+  </ul>
+</nav></div>
+            </div><div class="content" id="content"><br>
+<blockquote>
+<p>인공지능의 신뢰성은 갖추면 좋은 것이 아니라, 반드시 갖추어야 하는 것이다. _ 마르그레테 베스타게르, 유럽연합 집행위원회 부의장</p>
+</blockquote>
+<h2 id="1-신뢰할-수-있는-인공지능의-개념">1. 신뢰할 수 있는 인공지능의 개념</h2>
+<ul>
+<li>인공지능 연구가이자 작가인 엘리저 유드코프스키, <code>우호적인 인공지능</code>의 개념 제시.
+<ul>
+<li>인공지능의 목적과 <strong>우리 사회의 목적</strong>이 일치해야한다!</li>
+<li>인공지능은 <strong>그 개발 초기부터</strong> 인간에게 우호적으로 개발되어야한다.</li>
+</ul>
+</li>
+</ul>
+<br>
+<ul>
+<li>MIT의 물리학자 맥스 테그마크, <code>우호적인 인공지능</code>의 연구가 말만큼 쉽지 않다!
+<ul>
+<li>인공지능이 어떻게 <strong>우리 사회의 목적</strong>을 1) 학습하고, 2) 채택하고, 3) 유지할 수 있는가?
+<ul>
+<li>사실상 <strong>우리 사회의 목적</strong>이라는 것 자체도 인류 전체가 동의하기 쉬운 개념이 아니다&hellip;</li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+<br> 
+<ul>
+<li>스튜어트 러셀 교수, &ldquo;기계의 행동이 우리 목적을 달성할 것이라고 기대할 수 있는 한 유익하다.&rdquo;
+<ul>
+<li>유익한 기계를 개발하는 3가지 원칙
+<ul>
+<li>기계의 유일한 목적은 <strong>인간이 선호하는 것</strong>을 최대로 실현하는 것이다.</li>
+<li>기계는 초기에 인간이 선호하는 것이 무엇인지를 명확히 알지 못한다.</li>
+<li>인간 선호에 대한 정보를 얻을 수 있는 궁극적인 소스는 <strong>인간 행위</strong>다.
+<blockquote>
+<p>결국 인공지능은 인간 행동의 거울이다.</p>
+</blockquote>
+</li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+<br> 
+<ul>
+<li>이상의 논의들을 거치면서 우호적인 인공지능 개념을 넘어서, <strong>신뢰할 수 있느 인공지능</strong>이라는 좀 더 큰 개념으로 발전되었다.
+<ul>
+<li>인공지능의 신뢰성을 구성하는 요소들
+<ul>
+<li>공정성(2장)</li>
+<li>윤리성(3장)</li>
+<li>투명성/설명가능성(4장)</li>
+<li>견고성/안정성(5장)</li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+<br>
+<br>
+<h2 id="2-인공지능의-신뢰성에-관한-원칙들">2. 인공지능의 신뢰성에 관한 원칙들</h2>
+<ul>
+<li>신뢰할 수 있는 인공지능의 개념에 대한 접근은 연구기관, 단체, 국가 등이 기준을 선언하고, 이를 정책집행자, 기업등이 준수할 것을 촉구하는 식으로 이뤄져왔다.
+<ul>
+<li>그러나 너무 많은 가이드라인과 원칙들. 일일이 찾아보기에도 어려울 정도다!
+<ul>
+<li>그래서 독일의 비영리단체인 <a href="https://algorithmwatch.org/en/" target="_blank" rel="noopener noreffer">알고리즘 와치</a>
+는 이를 정리해서 하나의 디렉토리를 만들기까지 했다.</li>
+</ul>
+</li>
+</ul>
+</li>
+<li>모든 원칙들을 살펴볼 수는 없으니, 주요한 가이드라인들만 살펴보자.</li>
+</ul>
+<br>
+<br>
+<h3 id="1-생명미래연구소-아실로마-23원칙">1) 생명미래연구소, 아실로마 23원칙</h3>
+<ul>
+<li>게놈 프로젝트의 윤리원칙을 발표했던 생명미래연구소.</li>
+<li>3가지 범주와 원칙들
+<ul>
+<li>연구이슈: 인간에게 유용한 인공지능을 연구하고, 유익한 이용을 보장하는 문제에 투자해야하고, 개발자간에는 교류하고 신뢰해야한다.</li>
+<li>윤리와 가치: 안전, 사법적 투명성, 인간의 가치, 개인정보, 자유, 평화(비파괴, 무기경쟁 금지)</li>
+<li>장기 이슈: 인공지능의 능력에 관한 주의, 인공지능 스스로 개선하는 것에 대한 통제</li>
+</ul>
+</li>
+<li>문제점: 내용이 포괄적이고 각각의 개념들(인간의 가치 등)에 대한 정의가 없다.</li>
+</ul>
+<br>
+<h3 id="2-유럽연합-집행위원회의-프레임워크--유럽연합의-인공지능-법-초안">2) 유럽연합 집행위원회의 프레임워크 &amp; 유럽연합의 인공지능 법 초안</h3>
+<blockquote>
+<p>미국이 기업을 통해 인공지능 기술을 개발한다면, 유럽은 (EU라는 시장을 바탕으로) 제재를 통해 기술들을 견제한다.</p>
+</blockquote>
+<ul>
+<li>가장 체계적이고, 구체적이다.<br>
+<figure><img src="EU_framework.jpg"/>
+  </figure>
+</li>
+<li>인공지능의 신뢰성 문제가 미치는 영향을 단계별로 구분
+<ul>
+<li>용납할 수 없는 위험: 안전/자유의지를 저해, 행동을 조작</li>
+<li>고위험: 인프라,사법-행정, 서비스, 기본권 등등&hellip;</li>
+<li>제한된 위험: 챗봇 등 인공지능 시스템
+<ul>
+<li><strong>인공지능이 수행하고 있음을 투명하게 밝혀야 한다!</strong>
+<blockquote>
+<p>chatGPT가 공개되었을 때, 어린 아이들이 마치 친구와 대화하듯 chatGPT를 사용한다는 기사를 본 적이 있다.<br>
+만약 아이들이 자신의 대화상대가 인공지능인지 모른다면, 어떤 문제점을 낳을까?</p>
+</blockquote>
+</li>
+</ul>
+</li>
+<li>최소 위험: 게임, 스팸필터 등</li>
+</ul>
+</li>
+</ul>
+<br>
+<h3 id="3-경제협력-개발기구의-윤리원칙">3) 경제협력 개발기구의 윤리원칙</h3>
+<ul>
+<li><strong>최초의 국제 수준의 합의가 이뤄진 인공지능 권고안</strong>이라는 데 의이가 있다.</li>
+<li>윤리원칙의 구성
+<ul>
+<li>5가지 일반원칙
+<ul>
+<li>포용성과 지속가능성</li>
+<li>인간가치와 공정성</li>
+<li>투명성과 설명가능성</li>
+<li>견고성과 안전성</li>
+<li>잠재적 위험에 대한 지속적 평가</li>
+</ul>
+</li>
+<li>정책적 권고사항
+<ul>
+<li>연구개발에 대한 투자</li>
+<li>디지털 생태계 조성</li>
+<li>혁신을 위한 유연한 정책환경</li>
+<li>인적 인력 배양 및 일자리 변혁 대응</li>
+<li>국제 협력의 필요</li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+<br>
+<h3 id="4-국내의-접근">4) 국내의 접근</h3>
+<ul>
+<li>한국지능정보사회진흥원(NIA), 전문가와 심층인터뷰 및 국내 공공기관 중 최초로 윤리원칙 발표<br>
+<figure><img src="NIA.jpg"/>
+  </figure>
+</li>
+</ul>
+<br>
+<ul>
+<li>2020년 12월, 과학기술정보통신부의 윤리원칙 발표
+<ul>
+<li>3대 기본원칙: 인간 존엄성, 사회의 공공선, 기술의 합목적성</li>
+<li>10대 핵심요건: 인권 보장, 프라이버스 보호, 다양성 존중, 침해금지, 공공성, 연대성, 데이터관리, 책임성, 안전ㅅ넝, 투평성</li>
+<li><strong>아직은 구속력있는 법안이 아니라, 도덕적 자율규범이라는 한계점</strong></li>
+</ul>
+</li>
+</ul>
+<br>
+<br>
+<h2 id="3-인공지능의-신뢰성에-대한-기업들의-대응">3. 인공지능의 신뢰성에 대한 기업들의 대응</h2>
+<blockquote>
+<p>국가/정부가 제재를 가하면, 기업들은 1) 요구를 맞추고, 2) 윤리적인 기업임을 이미지메이킹하여 기업가치를 높인다.(상품으로서 윤리)</p>
+</blockquote>
+<br>
+<h3 id="1-구글">1) 구글</h3>
+<ul>
+<li>2018년 7월, 자체적으로 인공지능 원칙 발표(7가지 목적과 4가지 기준)
+<blockquote>
+<p>Don&rsquo;t be evil!</p>
+</blockquote>
+</li>
+<li>이후 구체적으로 실현하기 위해서 &ldquo;책임감잇는 인공지능&rdquo; 실천방안까지 발표.</li>
+<li>그러나 기업의 경제적 이익이 걸린 문제에 있어서도 윤리적 원칙을 우선시 할 수 있는가?
+<ul>
+<li><a href="https://zdnet.co.kr/view/?no=20201207160006" target="_blank" rel="noopener noreffer">게브루 박사 해고사건</a>
+
+<blockquote>
+<p>겉으로는 윤리성을 논하지만, 정작 내부 비판과 기업의 이익에 대해서는 민감하게 반응한다.</p>
+</blockquote>
+</li>
+</ul>
+</li>
+</ul>
+<br>
+<h3 id="2-마이크로소프트">2) 마이크로소프트</h3>
+<ul>
+<li>책임감있는 인공지능을 선언하고, 이를 구현하고자 1) 책임감있는 인공지능 사무국, 2) 이서 위원회(Aether Committee)를 설립.</li>
+<li>6가지의 핵심 주제: 공정성, 포용성, 신뢰성과 안전, 프라이버시와 보안, 투명성, 책임성</li>
+<li>단순히 원칙 외에도 <strong>비즈니스 스쿨</strong>을 운영하며, 다양한 툴킷들(<a href="https://fairlearn.org/" target="_blank" rel="noopener noreffer">Fairlearn</a>
+, <a href="https://microsoft.github.io/presidio/" target="_blank" rel="noopener noreffer">Presidio</a>
+)을 오픈소스로공개하고 있다.</li>
+</ul>
+<br>
+<h3 id="3-ibm">3) IBM</h3>
+<ul>
+<li>인공지능 시스템과의 협업이 늘어남에 따라서, 인공지능의 결정을 신뢰할 수 있어야한다!</li>
+<li>인공지능의 신뢰성에 관한 툴킷들.(AI Fairness 360, Explainability 360, Adversarial Robustness 360)</li>
+<li>신뢰성과 투명성의 원칙들
+<ul>
+<li>인공지능의 목적은 인간지능을 강화하는 것이다.
+<blockquote>
+<p>인간지능을 대체하는 것이 아님에 주목하자!!</p>
+</blockquote>
+</li>
+<li>인공지능 데이터와 인사이트는 <strong>만든 사람</strong>에게 귀속된다.
+<blockquote>
+<p>그렇다면 수익은 기업이 모두 가져가는가? 학습 데이터 제공자들은?</p>
+</blockquote>
+</li>
+<li>인공지능 시스템을 포함한 새로운 기술은 투명하고 설명가능해야 한다.</li>
+</ul>
+</li>
+</ul>
+<br>
+<h3 id="4-페이스북">4) 페이스북</h3>
+<ul>
+<li>SNS기업인 만큼 윤리에 민감하다!</li>
+<li>그러나 사진에 태깅 오류의 문제(흑인 얼굴을 고릴라로 태깅하는 등&hellip;), 가짜뉴스의 확산 등등 되려 여러 윤리적 문제들을 겪었다.</li>
+<li>페이스북 인공지능 연구소의 핵심 원칙: 개발, 협업, 우월성, 스케일</li>
+<li>개발자 콘퍼런스 F8에서 <strong>인공지능의 윤리적 결정을 보장하는 소프트웨어</strong>를 개발하겠다고 말했다.
+<blockquote>
+<p>인공지능의 윤리성을 또 다른 인공지능이 평가한다?! 그럼 평가하는 인공지능의 윤리성은 또 어떻게 결정되는가?</p>
+</blockquote>
+</li>
+<li>특히 모든 집단에서 최소한의 성능이 보장되어야 한다! 집단별로 인공지능 성능의 차이가 많이 나면 안된다!
+<ul>
+<li>공정성의 문제. (3장)</li>
+</ul>
+</li>
+</ul>
+<br>
+<br>
+<h3 id="5-국내-기업들의-경우">5) 국내 기업들의 경우</h3>
+<ul>
+<li>카카오. 국내 최초로 <a href="https://www.kakaocorp.com/page/responsible/detail/algorithm" target="_blank" rel="noopener noreffer">인공지능 윤리헌장</a>
+ 발표</li>
+<li>네이버, AI 윤리준칙을 발표. 서울대학교 인공지능정책 이니셔티브와 협업.</li>
+<li>LG전자, AIX보고서.</li>
+<li>엔씨소프트, <a href="https://about.ncsoft.com/news/featured/ai-framework" target="_blank" rel="noopener noreffer">AI FRAMEWORK 시리즈</a>
+</li>
+</ul>
+<br>
+<br>
+<h2 id="4-인공지능의-신뢰성에-관한-나의-생각들">4. 인공지능의 신뢰성에 관한 나의 생각들</h2>
+<ul>
+<li>chatGPT에 몇 가지 질문을 던져보고 느낀 것은, 대답을 온전히 신뢰할 수 없다는 것이다.
+<ul>
+<li>심지어 답변의 출처 역시 명확히 알려주지 않기에, 우리가 신뢰성을 평가하기도 어렵다.</li>
+<li><strong>설사 자연스러운 대답일지라도, 답의 출처나 작성자에 대한 정보가 하나도 없다면, 그래서 그 정보를 온전히 신뢰할 수 없다면, 과연 그 정보가 유용하다고 할 수 있을까? 과연 그 답변을 바탕으로, 인간이 추가적인 가치를 창출할 수 있을까?</strong><br>
+<figure><img src="amored-taejong.png"/>
+  </figure>
+</li>
+</ul>
+</li>
+</ul>
+<br>
+<ul>
+<li>chatGPT를 사용하면서 입력한 데이터들에 대한 권리는 누가 가지고 있는가? 당장은 chatGPT를 개발한 openAI사가 모두 가져가는 것으로 보이는데, 그렇다면 과연 개인정보와 같은 보안이 중요한 정보들을 다루는 시스템을 개발하는 데 chatGPT를 사용할 수 있을까?<br>
+
+  <div style="position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;">
+    <iframe src="https://www.youtube.com/embed/ryD-CVRPXrE" style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; border:0;" allowfullscreen title="YouTube Video"></iframe>
+  </div>
+</li>
+</ul>
+</div><div class="post-footer" id="post-footer">
+    <div class="post-info">
+        <div class="post-info-line">
+            <div class="post-info-mod">
+                <span>Updated on 2023-03-07</span>
+            </div></div>
+        <div class="post-info-line">
+            <div class="post-info-md"></div>
+            <div class="post-info-share">
+                <span><a href="javascript:void(0);" title="Share on Twitter" data-sharer="twitter" data-url="https://Jongbin-kr.github.io/posts/2_study/ethics-of-ai/eai001_%EC%9D%B8%EA%B3%B5%EC%A7%80%EB%8A%A5%EC%9D%98-%EC%8B%A0%EB%A2%B0%EC%84%B1/" data-title="[EAI001] 인공지능의 신뢰성" data-hashtags="Ethics of AI"><i class="fab fa-twitter fa-fw" aria-hidden="true"></i></a><a href="javascript:void(0);" title="Share on Facebook" data-sharer="facebook" data-url="https://Jongbin-kr.github.io/posts/2_study/ethics-of-ai/eai001_%EC%9D%B8%EA%B3%B5%EC%A7%80%EB%8A%A5%EC%9D%98-%EC%8B%A0%EB%A2%B0%EC%84%B1/" data-hashtag="Ethics of AI"><i class="fab fa-facebook-square fa-fw" aria-hidden="true"></i></a><a href="javascript:void(0);" title="Share on Linkedin" data-sharer="linkedin" data-url="https://Jongbin-kr.github.io/posts/2_study/ethics-of-ai/eai001_%EC%9D%B8%EA%B3%B5%EC%A7%80%EB%8A%A5%EC%9D%98-%EC%8B%A0%EB%A2%B0%EC%84%B1/"><i class="fab fa-linkedin fa-fw" aria-hidden="true"></i></a><a href="javascript:void(0);" title="Share on Reddit" data-sharer="reddit" data-url="https://Jongbin-kr.github.io/posts/2_study/ethics-of-ai/eai001_%EC%9D%B8%EA%B3%B5%EC%A7%80%EB%8A%A5%EC%9D%98-%EC%8B%A0%EB%A2%B0%EC%84%B1/"><i class="fab fa-reddit fa-fw" aria-hidden="true"></i></a><a href="javascript:void(0);" title="Share on Blogger" data-sharer="blogger" data-url="https://Jongbin-kr.github.io/posts/2_study/ethics-of-ai/eai001_%EC%9D%B8%EA%B3%B5%EC%A7%80%EB%8A%A5%EC%9D%98-%EC%8B%A0%EB%A2%B0%EC%84%B1/" data-title="[EAI001] 인공지능의 신뢰성" data-description=""><i class="fab fa-blogger fa-fw" aria-hidden="true"></i></a></span>
+            </div>
+        </div>
+    </div>
+
+    <div class="post-info-more">
+        <section class="post-tags"><i class="fas fa-tags fa-fw" aria-hidden="true"></i>&nbsp;<a href="/tags/ethics-of-ai/">Ethics of AI</a></section>
+        <section>
+            <span><a href="javascript:void(0);" onclick="window.history.back();">Back</a></span>&nbsp;|&nbsp;<span><a href="/">Home</a></span>
+        </section>
+    </div>
+
+    <div class="post-nav"></div>
+</div>
+<div id="comments"><div id="disqus_thread" class="comment"></div><noscript>
+                Please enable JavaScript to view the comments powered by <a href="https://disqus.com/?ref_noscript">Disqus</a>.
+            </noscript></div></article></div>
+            </main><footer class="footer">
+        <div class="footer-container"><div class="footer-line">Powered by <a href="https://gohugo.io/" target="_blank" rel="noopener noreffer" title="Hugo 0.111.1">Hugo</a> | Theme - <a href="https://github.com/dillonzq/LoveIt" target="_blank" rel="noopener noreffer" title="LoveIt 0.2.10"><i class="far fa-kiss-wink-heart fa-fw" aria-hidden="true"></i> LoveIt</a>
+                </div><div class="footer-line" itemscope itemtype="http://schema.org/CreativeWork"><i class="far fa-copyright fa-fw" aria-hidden="true"></i><span itemprop="copyrightYear">2022 - 2023</span><span class="author" itemprop="copyrightHolder">&nbsp;<a href="/" target="_blank">Jongbin Won</a></span>&nbsp;|&nbsp;<span class="license"><a rel="license external nofollow noopener noreffer" href="https://creativecommons.org/licenses/by-nc/4.0/" target="_blank">CC BY-NC 4.0</a></span></div>
+        </div>
+    </footer></div>
+
+        <div id="fixed-buttons"><a href="#" id="back-to-top" class="fixed-button" title="Back to Top">
+                <i class="fas fa-arrow-up fa-fw" aria-hidden="true"></i>
+            </a><a href="#" id="view-comments" class="fixed-button" title="View Comments">
+                <i class="fas fa-comment fa-fw" aria-hidden="true"></i>
+            </a>
+        </div><link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/katex@0.15.3/dist/katex.min.css"><link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/katex@0.15.3/dist/contrib/copy-tex.min.css"><script type="text/javascript" src="https://Jongbin.disqus.com/embed.js" defer></script><script type="text/javascript" src="https://cdn.jsdelivr.net/npm/autocomplete.js@0.38.1/dist/autocomplete.min.js"></script><script type="text/javascript" src="https://cdn.jsdelivr.net/npm/lunr@2.3.9/lunr.min.js"></script><script type="text/javascript" src="https://cdn.jsdelivr.net/npm/lazysizes@5.3.1/lazysizes.min.js"></script><script type="text/javascript" src="https://cdn.jsdelivr.net/npm/clipboard@2.0.11/dist/clipboard.min.js"></script><script type="text/javascript" src="https://cdn.jsdelivr.net/npm/sharer.js@0.5.1/sharer.min.js"></script><script type="text/javascript" src="https://cdn.jsdelivr.net/npm/katex@0.15.3/dist/katex.min.js"></script><script type="text/javascript" src="https://cdn.jsdelivr.net/npm/katex@0.15.3/dist/contrib/auto-render.min.js"></script><script type="text/javascript" src="https://cdn.jsdelivr.net/npm/katex@0.15.3/dist/contrib/copy-tex.min.js"></script><script type="text/javascript" src="https://cdn.jsdelivr.net/npm/katex@0.15.3/dist/contrib/mhchem.min.js"></script><script type="text/javascript">window.config={"code":{"copyTitle":"Copy to clipboard","maxShownLines":50},"comment":{},"math":{"delimiters":[{"display":true,"left":"$$","right":"$$"},{"display":true,"left":"\\[","right":"\\]"},{"display":true,"left":"\\begin{equation}","right":"\\end{equation}"},{"display":true,"left":"\\begin{equation*}","right":"\\end{equation*}"},{"display":true,"left":"\\begin{align}","right":"\\end{align}"},{"display":true,"left":"\\begin{align*}","right":"\\end{align*}"},{"display":true,"left":"\\begin{alignat}","right":"\\end{alignat}"},{"display":true,"left":"\\begin{alignat*}","right":"\\end{alignat*}"},{"display":true,"left":"\\begin{gather}","right":"\\end{gather}"},{"display":true,"left":"\\begin{CD}","right":"\\end{CD}"},{"display":true,"left":"$$","right":"$$"},{"display":false,"left":"$","right":"$"},{"display":false,"left":"\\(","right":"\\)"},{"display":false,"left":"$","right":"$"}],"strict":false},"search":{"highlightTag":"em","lunrIndexURL":"/index.json","maxResultLength":10,"noResultsFound":"No results found","snippetLength":30,"type":"lunr"}};</script><script type="text/javascript" src="/js/theme.min.js"></script></body>
+</html>
