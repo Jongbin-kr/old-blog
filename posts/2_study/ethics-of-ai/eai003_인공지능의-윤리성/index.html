@@ -1,0 +1,544 @@
+<!DOCTYPE html>
+<html lang="en-us">
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <meta name="robots" content="noodp" />
+        <title>[EAI003] 인공지능의 윤리성 - Jongbin&#39;s Blog</title>
+            
+<script type="application/javascript">
+var doNotTrack = false;
+if (!doNotTrack) {
+	(function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+	(i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+	m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+	})(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+	ga('create', 'UA-253164009-1', 'auto');
+	
+	ga('send', 'pageview');
+}
+</script><meta name="Description" content="welcome to Jongbin Won&#39;s Blog!"><meta property="og:title" content="[EAI003] 인공지능의 윤리성" />
+<meta property="og:description" content="자율주행 자동차의 윤리 문제. 기계가 알고리즘에 따라서 내린 윤리적 판단 vs. 인간이 개입해서 내린 윤리적 판단. 과연 둘 중 어느 것을 따르는 것이 맞을까? 테슬라는 인간" />
+<meta property="og:type" content="article" />
+<meta property="og:url" content="https://Jongbin-kr.github.io/posts/2_study/ethics-of-ai/eai003_%EC%9D%B8%EA%B3%B5%EC%A7%80%EB%8A%A5%EC%9D%98-%EC%9C%A4%EB%A6%AC%EC%84%B1/" /><meta property="og:image" content="https://Jongbin-kr.github.io/logo.png"/><meta property="article:section" content="posts" />
+<meta property="article:published_time" content="2023-04-04T22:42:36+09:00" />
+<meta property="article:modified_time" content="2023-04-04T22:42:36+09:00" /><meta property="og:site_name" content="Jongbin&#39;s Blog" />
+<meta name="twitter:card" content="summary_large_image"/>
+<meta name="twitter:image" content="https://Jongbin-kr.github.io/logo.png"/>
+
+<meta name="twitter:title" content="[EAI003] 인공지능의 윤리성"/>
+<meta name="twitter:description" content="자율주행 자동차의 윤리 문제. 기계가 알고리즘에 따라서 내린 윤리적 판단 vs. 인간이 개입해서 내린 윤리적 판단. 과연 둘 중 어느 것을 따르는 것이 맞을까? 테슬라는 인간"/>
+<meta name="application-name" content="My cool site">
+<meta name="apple-mobile-web-app-title" content="My cool site"><meta name="theme-color" content="#ffffff"><meta name="msapplication-TileColor" content="#da532c"><link rel="shortcut icon" type="image/x-icon" href="/favicon.ico" />
+        <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
+        <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png"><link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png"><link rel="mask-icon" href="/safari-pinned-tab.svg" color="#5bbad5"><link rel="manifest" href="/site.webmanifest"><link rel="canonical" href="https://Jongbin-kr.github.io/posts/2_study/ethics-of-ai/eai003_%EC%9D%B8%EA%B3%B5%EC%A7%80%EB%8A%A5%EC%9D%98-%EC%9C%A4%EB%A6%AC%EC%84%B1/" /><link rel="prev" href="https://Jongbin-kr.github.io/posts/2_study/ethics-of-ai/eai002_%EC%9D%B8%EA%B3%B5%EC%A7%80%EB%8A%A5%EC%9D%98-%EA%B3%B5%EC%A0%95%EC%84%B1/" /><link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/normalize.css@8.0.1/normalize.min.css"><link rel="stylesheet" href="/css/style.min.css"><link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.1.1/css/all.min.css"><link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/animate.css@4.1.1/animate.min.css"><script type="application/ld+json">
+    {
+        "@context": "http://schema.org",
+        "@type": "BlogPosting",
+        "headline": "[EAI003] 인공지능의 윤리성",
+        "inLanguage": "en-us",
+        "mainEntityOfPage": {
+            "@type": "WebPage",
+            "@id": "https:\/\/Jongbin-kr.github.io\/posts\/2_study\/ethics-of-ai\/eai003_%EC%9D%B8%EA%B3%B5%EC%A7%80%EB%8A%A5%EC%9D%98-%EC%9C%A4%EB%A6%AC%EC%84%B1\/"
+        },"genre": "posts","keywords": "Ethics of AI","wordcount":  2691 ,
+        "url": "https:\/\/Jongbin-kr.github.io\/posts\/2_study\/ethics-of-ai\/eai003_%EC%9D%B8%EA%B3%B5%EC%A7%80%EB%8A%A5%EC%9D%98-%EC%9C%A4%EB%A6%AC%EC%84%B1\/","datePublished": "2023-04-04T22:42:36+09:00","dateModified": "2023-04-04T22:42:36+09:00","publisher": {
+            "@type": "Organization",
+            "name": ""},"author": {
+                "@type": "Person",
+                "name": "Jongbin Won"
+            },"description": ""
+    }
+    </script></head>
+    <body data-header-desktop="fixed" data-header-mobile="auto"><script type="text/javascript">(window.localStorage && localStorage.getItem('theme') ? localStorage.getItem('theme') === 'dark' : ('auto' === 'auto' ? window.matchMedia('(prefers-color-scheme: dark)').matches : 'auto' === 'dark')) && document.body.setAttribute('theme', 'dark');</script>
+
+        <div id="mask"></div><div class="wrapper"><header class="desktop" id="header-desktop">
+    <div class="header-wrapper">
+        <div class="header-title">
+            <a href="/" title="Jongbin&#39;s Blog">Jongbin&#39;s Blog</a>
+        </div>
+        <div class="menu">
+            <div class="menu-inner"><a class="menu-item" href="/about_me" title="Jongbin&#39;s Rrofile"> About </a><a class="menu-item" href="/posts/" title="Show All Posts by Timeline"> Posts </a><a class="menu-item" href="/tags/" title="Show All Posts by Tags"> Tags </a><a class="menu-item" href="/categories/" title="Show All Posts by Categories"> Categories </a><span class="menu-item delimiter"></span><span class="menu-item search" id="search-desktop">
+                        <input type="text" placeholder="Search titles or contents..." id="search-input-desktop">
+                        <a href="javascript:void(0);" class="search-button search-toggle" id="search-toggle-desktop" title="Search">
+                            <i class="fas fa-search fa-fw" aria-hidden="true"></i>
+                        </a>
+                        <a href="javascript:void(0);" class="search-button search-clear" id="search-clear-desktop" title="Clear">
+                            <i class="fas fa-times-circle fa-fw" aria-hidden="true"></i>
+                        </a>
+                        <span class="search-button search-loading" id="search-loading-desktop">
+                            <i class="fas fa-spinner fa-fw fa-spin" aria-hidden="true"></i>
+                        </span>
+                    </span><a href="javascript:void(0);" class="menu-item theme-switch" title="Switch Theme">
+                    <i class="fas fa-adjust fa-fw" aria-hidden="true"></i>
+                </a>
+            </div>
+        </div>
+    </div>
+</header><header class="mobile" id="header-mobile">
+    <div class="header-container">
+        <div class="header-wrapper">
+            <div class="header-title">
+                <a href="/" title="Jongbin&#39;s Blog">Jongbin&#39;s Blog</a>
+            </div>
+            <div class="menu-toggle" id="menu-toggle-mobile">
+                <span></span><span></span><span></span>
+            </div>
+        </div>
+        <div class="menu" id="menu-mobile"><div class="search-wrapper">
+                    <div class="search mobile" id="search-mobile">
+                        <input type="text" placeholder="Search titles or contents..." id="search-input-mobile">
+                        <a href="javascript:void(0);" class="search-button search-toggle" id="search-toggle-mobile" title="Search">
+                            <i class="fas fa-search fa-fw" aria-hidden="true"></i>
+                        </a>
+                        <a href="javascript:void(0);" class="search-button search-clear" id="search-clear-mobile" title="Clear">
+                            <i class="fas fa-times-circle fa-fw" aria-hidden="true"></i>
+                        </a>
+                        <span class="search-button search-loading" id="search-loading-mobile">
+                            <i class="fas fa-spinner fa-fw fa-spin" aria-hidden="true"></i>
+                        </span>
+                    </div>
+                    <a href="javascript:void(0);" class="search-cancel" id="search-cancel-mobile">
+                        Cancel
+                    </a>
+                </div><a class="menu-item" href="/about_me" title="Jongbin&#39;s Rrofile">About</a><a class="menu-item" href="/posts/" title="Show All Posts by Timeline">Posts</a><a class="menu-item" href="/tags/" title="Show All Posts by Tags">Tags</a><a class="menu-item" href="/categories/" title="Show All Posts by Categories">Categories</a><a href="javascript:void(0);" class="menu-item theme-switch" title="Switch Theme">
+                <i class="fas fa-adjust fa-fw" aria-hidden="true"></i>
+            </a></div>
+    </div>
+</header><div class="search-dropdown desktop">
+        <div id="search-dropdown-desktop"></div>
+    </div>
+    <div class="search-dropdown mobile">
+        <div id="search-dropdown-mobile"></div>
+    </div><main class="main">
+                <div class="container"><div class="toc" id="toc-auto">
+            <h2 class="toc-title">Contents</h2>
+            <div class="toc-content" id="toc-content-auto"></div>
+        </div><article class="page single"><h1 class="single-title animate__animated animate__flipInX">[EAI003] 인공지능의 윤리성</h1><div class="post-meta">
+            <div class="post-meta-line"><span class="post-author"><a href="/" title="Author" rel=" author" class="author"><i class="fas fa-user-circle fa-fw" aria-hidden="true"></i>Jongbin Won</a>
+</span>&nbsp;<span class="post-category">included in <a href="/categories/study/"><i class="far fa-folder fa-fw" aria-hidden="true"></i>Study</a></span></div>
+            <div class="post-meta-line"><i class="far fa-calendar-alt fa-fw" aria-hidden="true"></i>&nbsp;<time datetime="2023-04-04">2023-04-04</time>&nbsp;<i class="fas fa-pencil-alt fa-fw" aria-hidden="true"></i>&nbsp;2691 words&nbsp;
+                <i class="far fa-clock fa-fw" aria-hidden="true"></i>&nbsp;6 minutes&nbsp;</div>
+        </div><div class="details toc" id="toc-static"  data-kept="true">
+                <div class="details-summary toc-title">
+                    <span>Contents</span>
+                    <span><i class="details-icon fas fa-angle-right" aria-hidden="true"></i></span>
+                </div>
+                <div class="details-content toc-content" id="toc-content-static"><nav id="TableOfContents">
+  <ul>
+    <li><a href="#1-윤리에-대한-다양한-철학적-접근법">1. 윤리에 대한 다양한 철학적 접근법</a>
+      <ul>
+        <li><a href="#11-인공지능에-대한-윤리적-접근법">1.1. 인공지능에 대한 윤리적 접근법</a></li>
+        <li><a href="#12-로봇에-대한-윤리적-기준">1.2. 로봇에 대한 윤리적 기준</a></li>
+      </ul>
+    </li>
+    <li><a href="#2-인공지능의-윤리적-연구">2. 인공지능의 윤리적 연구</a>
+      <ul>
+        <li><a href="#21-초기의-연구들">2.1. 초기의 연구들</a></li>
+        <li><a href="#22-윤리적-딜레마-상황에서-인공지능-연구">2.2. 윤리적 딜레마 상황에서 인공지능 연구</a></li>
+        <li><a href="#23-개별적-윤리-결정에-대한-연구들">2.3. 개별적 윤리 결정에 대한 연구들</a></li>
+        <li><a href="#24-집단적-윤리결정에-대한-연구들">2.4. 집단적 윤리결정에 대한 연구들</a></li>
+      </ul>
+    </li>
+    <li><a href="#3-인공지능-윤리-연구의-주요-그룹들">3. 인공지능 윤리 연구의 주요 그룹들</a></li>
+    <li><a href="#4-최신-근황에-관한-얘기들ai-index-report-2023">4. 최신 근황에 관한 얘기들(AI INDEX REPORT 2023)</a></li>
+  </ul>
+</nav></div>
+            </div><div class="content" id="content"><br>
+<ul>
+<li>자율주행 자동차의 윤리 문제.
+<ul>
+<li>기계가 알고리즘에 따라서 내린 윤리적 판단 vs. 인간이 개입해서 내린 윤리적 판단. 과연 둘 중 어느 것을 따르는 것이 맞을까?
+<ul>
+<li>테슬라는 인간이 개입하면 되려 더 문제가 된다고 말한다!</li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+<br>
+<br>
+<h2 id="1-윤리에-대한-다양한-철학적-접근법">1. 윤리에 대한 다양한 철학적 접근법</h2>
+<ul>
+<li>
+<ol>
+<li>칸트의 의무론: 무조건 지켜야할 윤리적 기준이 있다.</li>
+</ol>
+</li>
+<li>
+<ol start="2">
+<li>벤담의 공리주의: 결과주의. 최대다수의 최대행복을 위한 효용(utility)의 극대화</li>
+</ol>
+</li>
+<li>
+<ol start="3">
+<li>아리스토텔레스의 덕 윤리: 행위자의 성품 중시.</li>
+</ol>
+</li>
+<li>
+<ol start="4">
+<li>존 롤스의 자유주의적 평등주의/사회주의: 개개인의 자유를 보장하되, 거기서 발생하는 문제는 사회가 보완한다.</li>
+</ol>
+<ul>
+<li>대부분의 국가들이 자유주의적 평등주의/사회주의의 기조를 취한다.</li>
+</ul>
+</li>
+<li>
+<ol start="5">
+<li>조너선 하이트의 사회적 직관주의 이론: 도덕적 추론에 따라 도덕적 판단이 이뤄지는 것이 아니라, 먼저 도덕적 직관에 관한 빠르고 자동적인 평가가 이뤄지고, 그 결과로 도덕적 판단이 이뤄진다.</li>
+</ol>
+<ul>
+<li>즉, 도덕적 판단이 이뤄지고 난 뒤인 사후에 합리화하는 도덕적 추론이 구성된다.</li>
+<li>개인에 의한 추론보다는 사회적, 문화적 영향력의 중요성.</li>
+</ul>
+</li>
+</ul>
+<br>
+<h3 id="11-인공지능에-대한-윤리적-접근법">1.1. 인공지능에 대한 윤리적 접근법</h3>
+<ul>
+<li>
+<ol>
+<li>의무론적 접근법</li>
+</ol>
+<ul>
+<li>규칙을 정해두고, 그 규칙을 어기지 못하게 프로그래밍한다.
+<ul>
+<li>예) chatGPT.</li>
+</ul>
+</li>
+<li>문제점: 규칙은 누가 정하는가? 그 규칙이면 충분한가?</li>
+</ul>
+</li>
+<li>
+<ol start="2">
+<li>공리주의적 접근법</li>
+</ol>
+<ul>
+<li>결과적으로 총 효용(utility)가 가장 높은 것이 도덕적인 판단이라는 식으로 구현한다.
+<ul>
+<li>예) 카카오택시의 배차 알고리즘. 모든 택시가 받는 이득이 최대가 되도록!</li>
+</ul>
+</li>
+<li>문제점: 행복을 어떻게 정량화할 것인가? 또 계산은 어떻게 할 것인가?</li>
+</ul>
+</li>
+<li>
+<ol start="3">
+<li>덕 윤리관</li>
+</ol>
+<ul>
+<li>문제점: 덕이 뭔지, 윤리가 뭔지 구현하기 어렵다.
+<ul>
+<li>인공지능이 인간의 도덕적 행동을 바탕으로 윤리규칙을 학습하는 식으로 강화학습으로 구현할 수 있다.</li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+<p>==&gt; 따라서 보통은 1)의무론적 접근법과 2) 공리주의적 접근법을 결합하여 프로그래밍한다.</p>
+<br>
+<h3 id="12-로봇에-대한-윤리적-기준">1.2. 로봇에 대한 윤리적 기준</h3>
+<p>인공지능 이전에 로봇에 대한 윤리적 기준들이 있었다!</p>
+<ul>
+<li>
+<ol>
+<li>전문가적 윤리</li>
+</ol>
+<ul>
+<li>윤리적 기준</li>
+</ul>
+</li>
+<li>
+<ol start="2">
+<li>프로그래밍된 모럴 코드(moral code)</li>
+</ol>
+<ul>
+<li>의무론적 접근방법
+<ul>
+<li>아이작 아시모프의 로봇 3원칙
+<blockquote>
+<p>1원칙. 로봇은 인간에게 해를 가하거나 혹은 행동을 하지 않음으로써 인간에게 해가 가도록 해서는 안된다.<br>
+2원칙. 로봇은 1원칙에 어긋나지 않는 한 인간의 명령에 복종해야 한다.<br>
+3원칙. 로봇은 1, 2원칙에 어긋나지 않는 한 자기 존재를 보호해야 한다.</p>
+</blockquote>
+<ul>
+<li>&ldquo;인간&quot;을 어떻게 정의할 것인가? &ldquo;해를 가한다&quot;는 것은 또 어떻게 판단할 것인가?</li>
+</ul>
+</li>
+</ul>
+</li>
+<li>결과주의적 접근법</li>
+</ul>
+</li>
+<li>
+<ol start="3">
+<li>도덕적 추론</li>
+</ol>
+</li>
+</ul>
+<br>
+<br>
+<h2 id="2-인공지능의-윤리적-연구">2. 인공지능의 윤리적 연구</h2>
+<ul>
+<li>인간 윤리 시스템에 대한 모델을 가지고 있어야 한다.
+<ul>
+<li>상향식 접근법
+<ul>
+<li>
+<ol>
+<li>내부 알고리즘</li>
+</ol>
+<ul>
+<li>institutional AI: 모든 법과 규칙들을 정해두고, 인공지능은 그 안에서만 학습하도록 하자!</li>
+</ul>
+</li>
+</ul>
+</li>
+<li>하향식 접근법
+<ul>
+<li>
+<ol>
+<li>데이터</li>
+</ol>
+</li>
+<li>
+<ol start="2">
+<li>인간 행동을 관찰하며 강화학습</li>
+</ol>
+<ul>
+<li>문제점: 관찰대상이 되는 사람의 행동은 과연 도덕적인가?</li>
+</ul>
+</li>
+<li>
+<ol start="3">
+<li>인공지능끼리 서로 협업하고 도덕적인 결점을 지적</li>
+</ol>
+</li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+<br>
+<h3 id="21-초기의-연구들">2.1. 초기의 연구들</h3>
+<ul>
+<li>논리 기반 접근법: 규범 논리를 통해서 행위자가 무엇을 해야 할지를 추론하자.
+<ul>
+<li>미국 인공지능학회, MedEthEx.</li>
+</ul>
+</li>
+<li>사례기반 접근법
+<ul>
+<li>카네기멜런대학교, Truth-Teller.</li>
+</ul>
+</li>
+<li>이상의 2가지 시스템들을 개발하면서 얻은 교훈
+<ul>
+<li>
+<ol>
+<li>윤리적 추론의 문제는 정형화된 도메인에서의 추론과 다르다.</li>
+</ol>
+</li>
+<li>
+<ol start="2">
+<li>주어진 규칙은 개념적 단계에서만 가능하다.</li>
+</ol>
+</li>
+<li>
+<ol start="3">
+<li>추상적 규칙은 종종 특정 상황에서 서로 충돌되고, 이를 해결할 연역적 방법이 없다.</li>
+</ol>
+</li>
+</ul>
+</li>
+<li>키호테 시스템, 인공 행위자가 이야기를 읽고 각 사건의 바람직한 결과를 학습해 인간 사회의 성공적인 행동을 이해하도록 훈련하자!<br>
+<figure><img src="kihote.jpg"/>
+</figure>
+</li>
+</ul>
+<br>
+<h3 id="22-윤리적-딜레마-상황에서-인공지능-연구">2.2. 윤리적 딜레마 상황에서 인공지능 연구</h3>
+<ul>
+<li>
+<ol>
+<li><a href="https://www.moralmachine.net/hl/kr" target="_blank" rel="noopener noreffer">MIT의 모럴 머신 프로젝트.</a>
+</li>
+</ol>
+<ul>
+<li>자율주행자동차가 인명사고를 낼 수 밖에 없는 상황에서 사람들이 어떻게 판단하는지에 대한 데이터를 수집.</li>
+<li>국가와 지역에 따라 의사결정이 달랐다!
+<blockquote>
+<p>우리나라의 경우, 동물보다 사람, 거동이 자유로운 사람보다 불편한 사람, 차량 탑승자보다는 보행자의 생명을 중시하지만, 몸이 약한 사람, 사회적 지위가 있는 사람, 젊은 사람, 다수의 사람에 대한 중요도는 글로벌 평균보다 낮게 생각하는 것으로 분석되었다.</p>
+</blockquote>
+</li>
+<li>연구에 대한 비판점
+<ul>
+<li>답변과 실제 행동이 같다고 할 수 있을까?</li>
+<li>다수의 사람이 옳다고 하는 것이 정말 도덕적인가?</li>
+<li>문화적 차이는 어떻게 반영할 것인가?</li>
+</ul>
+</li>
+</ul>
+</li>
+<li>
+<ol start="2">
+<li>마이굿니스 프로젝트</li>
+</ol>
+<ul>
+<li>어느 쪽에 기부금을 내는 것이 더 좋은가?</li>
+</ul>
+</li>
+<li>
+<ol start="3">
+<li>의료분야에서의 윤리적 딜레마</li>
+</ol>
+<ul>
+<li><a href="https://www.cs.cmu.edu/~sandholm/futurematch.aaai15.pdf" target="_blank" rel="noopener noreffer">FutureMatch</a>
+
+<ul>
+<li>기증받은 신장이 환자에게 적합하지 않을 경우, 수여 대상자를 어떻게 변경할 것인가?</li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+<br>
+<h3 id="23-개별적-윤리-결정에-대한-연구들">2.3. 개별적 윤리 결정에 대한 연구들</h3>
+<p>하나의 에이전트를 기반으로 해서 윤리적 판단을 내린다!</p>
+<ul>
+<li>
+<ol>
+<li>빈센트 코니처, 특정 행위가 도덕적으로 옳은지 아닌지를 명시할 수 있는 정량적인 이론이 필요하다.</li>
+</ol>
+<ul>
+<li>행위판단 구조를 표현할 수 있는 언어</li>
+<li>도덕판단에 영향을 미치는 규칙</li>
+</ul>
+</li>
+<li>
+<ol start="2">
+<li>자연어가 아니라 추상적인 표현(특징이나 속성)으로 표현하는 방식</li>
+</ol>
+<blockquote>
+<p><a href="https://direct.mit.edu/daed/article/151/2/139/110627/The-Curious-Case-of-Commonsense-Intelligence" target="_blank" rel="noopener noreffer">최유진 교수님의 논문</a>
+에 따르면, 상식 추론을 위해서는 논리보다는 자연어가 필수적이다. 도덕 추론/판단에서는 되려 자연어가 아니라 추상화된 논리가 더 유리한가? 왜?</p>
+</blockquote>
+</li>
+<li>
+<ol start="3">
+<li>역강화학습(IRL, Inverse Reinforcement Learning)</li>
+</ol>
+<ul>
+<li>사람들의 데이터에 기반해 reward(여기서는 윤리적 옳고 그름)을 정하고, 해당 방향으로 기계를  강화학습시킨다.
+<ul>
+<li>사람의 피드백에 기반한 역강화학습(RLHF)</li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+<br>
+<h3 id="24-집단적-윤리결정에-대한-연구들">2.4. 집단적 윤리결정에 대한 연구들</h3>
+<ul>
+<li>내가 가진 윤리 규범에 의해 단독적으로 결정하기보다는, 다른 사회 구성원의 행동이나 판단을 같이 고려하면서 결정하는 경우가 많다.</li>
+<li>따라서 각각 다른 윤리원칙을 가진 에이전트들이 합의해(투표?) 윤리결정을 내리자!
+<ul>
+<li>중앙 집중 기관이 없는 분산구조. 각 에이전트의 자율성!</li>
+</ul>
+<blockquote>
+<p>앙상블(ensemble) 기법과도 관련이 있을 수 있겠구나!</p>
+</blockquote>
+</li>
+</ul>
+<br>
+<ul>
+<li>구체적인 접근방법들
+<ul>
+<li>하버드 대학교, 조슈아 그린. 인간과 기계가 같이 일하면서 동의하는 방식.</li>
+<li>카네기멜런 &amp; MIT. 투표에 기반하여 집단적으로 윤리결저을 내리자.
+<ul>
+<li>데이터 수집 -&gt; 각 참여자가 모든 가능한 대안에 대한 선호 모델을 학습 -&gt; 모든 가능한 대안에 대해 모든 참가자의 선호도를 통합해 하나의 모델로 요약 -&gt; 대안의 특정 부분 집합을 포함한 딜레마에 마주쳤을 떄, 요약 모델을 적용해 통합적으로 결정.</li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+<br>
+<br>
+<h2 id="3-인공지능-윤리-연구의-주요-그룹들">3. 인공지능 윤리 연구의 주요 그룹들</h2>
+<ul>
+<li>학제적 연구가 필요한 경우가 많고, 공학자와 철학자가 협력하는 것을 요구하기에, 기업과 대학교가 공동으로 연구하는 경우가 많다.</li>
+</ul>
+<br>
+<ul>
+<li>법률회사 K&amp;L 게이츠와 카네기멜런 대학교, 윤리와 인공지능에 관한 컨퍼런스.</li>
+<li>뉴욕대학교, 마음, 뇌, 그리고 의식 연구소에서 개최한 인공지능 윤리 컨퍼런스에서 제시한 주제들
+<ul>
+<li>인공지능 연구자들이 따라야하는 윤리원칙은?</li>
+<li>인공지능의 윤리적 사용에는 제약이 있는가?</li>
+<li>인공지능 시스템 자체가 도덕적 우려의 잠재적 개체인가?</li>
+<li>인공지능 시스템이 이익이 되거나 해를 끼칠 떄 누가 도덕적으로 책임질 것인가?</li>
+</ul>
+</li>
+<li>페이스북과 뮌헨 공과대학, 인공지능 윤리 연구소.</li>
+<li>인간을 위한 인공지능 포럼</li>
+<li>몬트리올 인공지능 연구소.</li>
+</ul>
+<h2 id="4-최신-근황에-관한-얘기들ai-index-report-2023">4. 최신 근황에 관한 얘기들(AI INDEX REPORT 2023)</h2>
+<ul>
+<li><a href="https://aiindex.stanford.edu/report/#individual-chapters" target="_blank" rel="noopener noreffer">출처</a>
+
+<ul>
+<li>데이터만 가지고 연구하는 것은 비윤리적이다. 학습 이후 적절한 지도 과정을 거치면 더욱 윤리적 모델을 만들 수 있다.<br>
+<figure><img src="generative.jpg"/>
+	</figure>
+</li>
+<li>stable diffusion의 인종적 편향성의 문제.<br>
+<figure><img src="stable-diffusion.png"/>
+	</figure>
+</li>
+<li>팩트제크 모델들도 편향된/잘못된 결과들을 내놓는다.<br>
+<figure><img src="fact_check.jpg"/>
+	</figure>
+</li>
+</ul>
+</li>
+</ul>
+</div><div class="post-footer" id="post-footer">
+    <div class="post-info">
+        <div class="post-info-line">
+            <div class="post-info-mod">
+                <span>Updated on 2023-04-04</span>
+            </div></div>
+        <div class="post-info-line">
+            <div class="post-info-md"></div>
+            <div class="post-info-share">
+                <span><a href="javascript:void(0);" title="Share on Twitter" data-sharer="twitter" data-url="https://Jongbin-kr.github.io/posts/2_study/ethics-of-ai/eai003_%EC%9D%B8%EA%B3%B5%EC%A7%80%EB%8A%A5%EC%9D%98-%EC%9C%A4%EB%A6%AC%EC%84%B1/" data-title="[EAI003] 인공지능의 윤리성" data-hashtags="Ethics of AI"><i class="fab fa-twitter fa-fw" aria-hidden="true"></i></a><a href="javascript:void(0);" title="Share on Facebook" data-sharer="facebook" data-url="https://Jongbin-kr.github.io/posts/2_study/ethics-of-ai/eai003_%EC%9D%B8%EA%B3%B5%EC%A7%80%EB%8A%A5%EC%9D%98-%EC%9C%A4%EB%A6%AC%EC%84%B1/" data-hashtag="Ethics of AI"><i class="fab fa-facebook-square fa-fw" aria-hidden="true"></i></a><a href="javascript:void(0);" title="Share on Linkedin" data-sharer="linkedin" data-url="https://Jongbin-kr.github.io/posts/2_study/ethics-of-ai/eai003_%EC%9D%B8%EA%B3%B5%EC%A7%80%EB%8A%A5%EC%9D%98-%EC%9C%A4%EB%A6%AC%EC%84%B1/"><i class="fab fa-linkedin fa-fw" aria-hidden="true"></i></a><a href="javascript:void(0);" title="Share on Reddit" data-sharer="reddit" data-url="https://Jongbin-kr.github.io/posts/2_study/ethics-of-ai/eai003_%EC%9D%B8%EA%B3%B5%EC%A7%80%EB%8A%A5%EC%9D%98-%EC%9C%A4%EB%A6%AC%EC%84%B1/"><i class="fab fa-reddit fa-fw" aria-hidden="true"></i></a><a href="javascript:void(0);" title="Share on Blogger" data-sharer="blogger" data-url="https://Jongbin-kr.github.io/posts/2_study/ethics-of-ai/eai003_%EC%9D%B8%EA%B3%B5%EC%A7%80%EB%8A%A5%EC%9D%98-%EC%9C%A4%EB%A6%AC%EC%84%B1/" data-title="[EAI003] 인공지능의 윤리성" data-description=""><i class="fab fa-blogger fa-fw" aria-hidden="true"></i></a></span>
+            </div>
+        </div>
+    </div>
+
+    <div class="post-info-more">
+        <section class="post-tags"><i class="fas fa-tags fa-fw" aria-hidden="true"></i>&nbsp;<a href="/tags/ethics-of-ai/">Ethics of AI</a></section>
+        <section>
+            <span><a href="javascript:void(0);" onclick="window.history.back();">Back</a></span>&nbsp;|&nbsp;<span><a href="/">Home</a></span>
+        </section>
+    </div>
+
+    <div class="post-nav"><a href="/posts/2_study/ethics-of-ai/eai002_%EC%9D%B8%EA%B3%B5%EC%A7%80%EB%8A%A5%EC%9D%98-%EA%B3%B5%EC%A0%95%EC%84%B1/" class="prev" rel="prev" title="[EAI002] 인공지능의 공정성"><i class="fas fa-angle-left fa-fw" aria-hidden="true"></i>[EAI002] 인공지능의 공정성</a></div>
+</div>
+<div id="comments"><div id="disqus_thread" class="comment"></div><noscript>
+                Please enable JavaScript to view the comments powered by <a href="https://disqus.com/?ref_noscript">Disqus</a>.
+            </noscript></div></article></div>
+            </main><footer class="footer">
+        <div class="footer-container"><div class="footer-line">Powered by <a href="https://gohugo.io/" target="_blank" rel="noopener noreffer" title="Hugo 0.111.1">Hugo</a> | Theme - <a href="https://github.com/dillonzq/LoveIt" target="_blank" rel="noopener noreffer" title="LoveIt 0.2.10"><i class="far fa-kiss-wink-heart fa-fw" aria-hidden="true"></i> LoveIt</a>
+                </div><div class="footer-line" itemscope itemtype="http://schema.org/CreativeWork"><i class="far fa-copyright fa-fw" aria-hidden="true"></i><span itemprop="copyrightYear">2022 - 2023</span><span class="author" itemprop="copyrightHolder">&nbsp;<a href="/" target="_blank">Jongbin Won</a></span>&nbsp;|&nbsp;<span class="license"><a rel="license external nofollow noopener noreffer" href="https://creativecommons.org/licenses/by-nc/4.0/" target="_blank">CC BY-NC 4.0</a></span></div>
+        </div>
+    </footer></div>
+
+        <div id="fixed-buttons"><a href="#" id="back-to-top" class="fixed-button" title="Back to Top">
+                <i class="fas fa-arrow-up fa-fw" aria-hidden="true"></i>
+            </a><a href="#" id="view-comments" class="fixed-button" title="View Comments">
+                <i class="fas fa-comment fa-fw" aria-hidden="true"></i>
+            </a>
+        </div><link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/katex@0.15.3/dist/katex.min.css"><link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/katex@0.15.3/dist/contrib/copy-tex.min.css"><script type="text/javascript" src="https://Jongbin.disqus.com/embed.js" defer></script><script type="text/javascript" src="https://cdn.jsdelivr.net/npm/autocomplete.js@0.38.1/dist/autocomplete.min.js"></script><script type="text/javascript" src="https://cdn.jsdelivr.net/npm/lunr@2.3.9/lunr.min.js"></script><script type="text/javascript" src="https://cdn.jsdelivr.net/npm/lazysizes@5.3.1/lazysizes.min.js"></script><script type="text/javascript" src="https://cdn.jsdelivr.net/npm/clipboard@2.0.11/dist/clipboard.min.js"></script><script type="text/javascript" src="https://cdn.jsdelivr.net/npm/sharer.js@0.5.1/sharer.min.js"></script><script type="text/javascript" src="https://cdn.jsdelivr.net/npm/katex@0.15.3/dist/katex.min.js"></script><script type="text/javascript" src="https://cdn.jsdelivr.net/npm/katex@0.15.3/dist/contrib/auto-render.min.js"></script><script type="text/javascript" src="https://cdn.jsdelivr.net/npm/katex@0.15.3/dist/contrib/copy-tex.min.js"></script><script type="text/javascript" src="https://cdn.jsdelivr.net/npm/katex@0.15.3/dist/contrib/mhchem.min.js"></script><script type="text/javascript">window.config={"code":{"copyTitle":"Copy to clipboard","maxShownLines":50},"comment":{},"math":{"delimiters":[{"display":true,"left":"$$","right":"$$"},{"display":true,"left":"\\[","right":"\\]"},{"display":true,"left":"\\begin{equation}","right":"\\end{equation}"},{"display":true,"left":"\\begin{equation*}","right":"\\end{equation*}"},{"display":true,"left":"\\begin{align}","right":"\\end{align}"},{"display":true,"left":"\\begin{align*}","right":"\\end{align*}"},{"display":true,"left":"\\begin{alignat}","right":"\\end{alignat}"},{"display":true,"left":"\\begin{alignat*}","right":"\\end{alignat*}"},{"display":true,"left":"\\begin{gather}","right":"\\end{gather}"},{"display":true,"left":"\\begin{CD}","right":"\\end{CD}"},{"display":true,"left":"$$","right":"$$"},{"display":false,"left":"$","right":"$"},{"display":false,"left":"\\(","right":"\\)"},{"display":false,"left":"$","right":"$"}],"strict":false},"search":{"highlightTag":"em","lunrIndexURL":"/index.json","maxResultLength":10,"noResultsFound":"No results found","snippetLength":30,"type":"lunr"}};</script><script type="text/javascript" src="/js/theme.min.js"></script></body>
+</html>

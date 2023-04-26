@@ -4,9 +4,17 @@
         <link>https://Jongbin-kr.github.io/</link>
         <description>welcome to Jongbin Won&#39;s Blog!</description>
         <generator>Hugo -- gohugo.io</generator><language>en-us</language><managingEditor>wonjb001@naver.com (Jongbin Won)</managingEditor>
-            <webMaster>wonjb001@naver.com (Jongbin Won)</webMaster><lastBuildDate>Sun, 26 Mar 2023 18:52:31 &#43;0900</lastBuildDate>
+            <webMaster>wonjb001@naver.com (Jongbin Won)</webMaster><lastBuildDate>Tue, 04 Apr 2023 22:42:36 &#43;0900</lastBuildDate>
             <atom:link href="https://Jongbin-kr.github.io/index.xml" rel="self" type="application/rss+xml" />
         <item>
+    <title>[EAI003] 인공지능의 윤리성</title>
+    <link>https://Jongbin-kr.github.io/posts/2_study/ethics-of-ai/eai003_%EC%9D%B8%EA%B3%B5%EC%A7%80%EB%8A%A5%EC%9D%98-%EC%9C%A4%EB%A6%AC%EC%84%B1/</link>
+    <pubDate>Tue, 04 Apr 2023 22:42:36 &#43;0900</pubDate>
+    <author>Jongbin Won</author>
+    <guid>https://Jongbin-kr.github.io/posts/2_study/ethics-of-ai/eai003_%EC%9D%B8%EA%B3%B5%EC%A7%80%EB%8A%A5%EC%9D%98-%EC%9C%A4%EB%A6%AC%EC%84%B1/</guid>
+    <description><![CDATA[자율주행 자동차의 윤리 문제. 기계가 알고리즘에 따라서 내린 윤리적 판단 vs. 인간이 개입해서 내린 윤리적 판단. 과연 둘 중 어느 것을 따르는 것이 맞을까? 테슬라는 인간]]></description>
+</item>
+<item>
     <title>[미적분005] 함수의 연속의 정의와 정리</title>
     <link>https://Jongbin-kr.github.io/posts/2_study/mathematics/1_%EB%AF%B8%EC%A0%81%EB%B6%84/5_%ED%95%A8%EC%88%98%EC%9D%98-%EC%97%B0%EC%86%8D_%EC%A0%95%EC%9D%98_%EC%A0%95%EB%A6%AC/</link>
     <pubDate>Sun, 26 Mar 2023 18:52:31 &#43;0900</pubDate>
@@ -39,20 +47,20 @@
     <description><![CDATA[수렴에 관한 생각들 1. 완비성(completeness) 공리 정의: 증가수열 $a_n$이 위로 유계이면, 반드시 어떤 실수로 수렴한다. $a_n$이 증가수]]></description>
 </item>
 <item>
+    <title>[EAI002] 인공지능의 공정성</title>
+    <link>https://Jongbin-kr.github.io/posts/2_study/ethics-of-ai/eai002_%EC%9D%B8%EA%B3%B5%EC%A7%80%EB%8A%A5%EC%9D%98-%EA%B3%B5%EC%A0%95%EC%84%B1/</link>
+    <pubDate>Sat, 25 Mar 2023 00:21:44 &#43;0900</pubDate>
+    <author>Jongbin Won</author>
+    <guid>https://Jongbin-kr.github.io/posts/2_study/ethics-of-ai/eai002_%EC%9D%B8%EA%B3%B5%EC%A7%80%EB%8A%A5%EC%9D%98-%EA%B3%B5%EC%A0%95%EC%84%B1/</guid>
+    <description><![CDATA[0. 공정성의 문제 공공성의 문제는 공공재의 문제와 관련된다. 어디까지가 공공재인가? 나아가, 인공지능은 공공재가 되어야 할까? 다행히도 현재까지의 인공지능은]]></description>
+</item>
+<item>
     <title>[미적분001] 수열의 극한과 함수의 극한의 정의, 극한법칙</title>
     <link>https://Jongbin-kr.github.io/posts/2_study/mathematics/1_%EB%AF%B8%EC%A0%81%EB%B6%84/1_%EC%88%98%EC%97%B4%EC%9D%98-%EA%B7%B9%ED%95%9C%EA%B3%BC-%ED%95%A8%EC%88%98%EC%9D%98-%EA%B7%B9%ED%95%9C%EC%9D%98-%EC%A0%95%EC%9D%98_%EA%B7%B9%ED%95%9C%EB%B2%95%EC%B9%99/</link>
     <pubDate>Wed, 08 Mar 2023 23:16:51 &#43;0900</pubDate>
     <author>Jongbin Won</author>
     <guid>https://Jongbin-kr.github.io/posts/2_study/mathematics/1_%EB%AF%B8%EC%A0%81%EB%B6%84/1_%EC%88%98%EC%97%B4%EC%9D%98-%EA%B7%B9%ED%95%9C%EA%B3%BC-%ED%95%A8%EC%88%98%EC%9D%98-%EA%B7%B9%ED%95%9C%EC%9D%98-%EC%A0%95%EC%9D%98_%EA%B7%B9%ED%95%9C%EB%B2%95%EC%B9%99/</guid>
     <description><![CDATA[수학은 직관을 거부하고, 증명하는 것이다! 1. 수열의 극한의 정의 1.1. 수열의 극한의 정의 정의 모든 양수 $\epsilon$에 대하여, 어떤 자연수 $N$이 존재해]]></description>
-</item>
-<item>
-    <title>[고등수학] 삼각함수 공식과 미분</title>
-    <link>https://Jongbin-kr.github.io/posts/2_study/mathematics/0_%EA%B3%A0%EB%93%B1%EC%88%98%ED%95%99/1_%EC%82%BC%EA%B0%81%ED%95%A8%EC%88%98_%EA%B3%B5%EC%8B%9D_%EB%AF%B8%EB%B6%84/</link>
-    <pubDate>Wed, 08 Mar 2023 23:10:06 &#43;0900</pubDate>
-    <author>Jongbin Won</author>
-    <guid>https://Jongbin-kr.github.io/posts/2_study/mathematics/0_%EA%B3%A0%EB%93%B1%EC%88%98%ED%95%99/1_%EC%82%BC%EA%B0%81%ED%95%A8%EC%88%98_%EA%B3%B5%EC%8B%9D_%EB%AF%B8%EB%B6%84/</guid>
-    <description><![CDATA[삼각함수 삼각함수의 상호관계 빗변: $\cos{\theta}$, 높이: $\sin{\theta}$, 기울기: $\tan{\theta} = \frac{\cos{\theta}}{\sin{{\theta}}}$ $\cos^2{\theta} + \sin^2{\theta} = 1$ 음각-여각 공식 음각: $\cos{-\theta} = \cos{\theta},; \sin{-\theta} = -\sin{\theta}$ 여각: $\cos({\frac{\pi}{2}-\theta}) = \sin{\theta},; \sin({\frac{\pi}{2}-\theta}) = \cos{\theta}$ 삼각함수의 덧셈정리 $\sin({\alpha + \beta})]]></description>
 </item>
 <item>
     <title>[고등수학] 삼각함수 공식과 미분</title>
@@ -63,28 +71,20 @@
     <description><![CDATA[삼각함수 삼각함수의 상호관계 빗변: $\cos{\theta}$, 높이: $\sin{\theta}$, 기울기: $\tan{\theta} = \frac{\cos{\theta}}{\sin{{\theta}}}$ $\cos^2{\theta} + \sin^2{\theta} = 1$ 음각-여각 공식 음각: $\cos{-\theta} = \cos{\theta},; \sin{-\theta} = -\sin{\theta}$ 여각: $\cos({\frac{\pi}{2}-\theta}) = \sin{\theta},; \sin({\frac{\pi}{2}-\theta}) = \cos{\theta}$ 삼각함수의 덧셈정리 $\sin({\alpha + \beta})]]></description>
 </item>
 <item>
+    <title>[미적분] 삼각함수 공식과 미분</title>
+    <link>https://Jongbin-kr.github.io/posts/2_study/mathematics/0_%EA%B3%A0%EB%93%B1%EC%88%98%ED%95%99/1_%EC%82%BC%EA%B0%81%ED%95%A8%EC%88%98_%EA%B3%B5%EC%8B%9D_%EB%AF%B8%EB%B6%84/</link>
+    <pubDate>Wed, 08 Mar 2023 23:10:06 &#43;0900</pubDate>
+    <author>Jongbin Won</author>
+    <guid>https://Jongbin-kr.github.io/posts/2_study/mathematics/0_%EA%B3%A0%EB%93%B1%EC%88%98%ED%95%99/1_%EC%82%BC%EA%B0%81%ED%95%A8%EC%88%98_%EA%B3%B5%EC%8B%9D_%EB%AF%B8%EB%B6%84/</guid>
+    <description><![CDATA[삼각함수 삼각함수의 상호관계 빗변: $\cos{\theta}$, 높이: $\sin{\theta}$, 기울기: $\tan{\theta} = \frac{\cos{\theta}}{\sin{{\theta}}}$ $\cos^2{\theta} + \sin^2{\theta} = 1$ 음각-여각 공식 음각: $\cos{-\theta} = \cos{\theta},; \sin{-\theta} = -\sin{\theta}$ 여각: $\cos({\frac{\pi}{2}-\theta}) = \sin{\theta},; \sin({\frac{\pi}{2}-\theta}) = \cos{\theta}$ 삼각함수의 덧셈정리 $\sin({\alpha + \beta})]]></description>
+</item>
+<item>
     <title>[EAI001] 인공지능의 신뢰성</title>
     <link>https://Jongbin-kr.github.io/posts/2_study/ethics-of-ai/eai001_%EC%9D%B8%EA%B3%B5%EC%A7%80%EB%8A%A5%EC%9D%98-%EC%8B%A0%EB%A2%B0%EC%84%B1/</link>
     <pubDate>Tue, 07 Mar 2023 23:34:24 &#43;0900</pubDate>
     <author>Jongbin Won</author>
     <guid>https://Jongbin-kr.github.io/posts/2_study/ethics-of-ai/eai001_%EC%9D%B8%EA%B3%B5%EC%A7%80%EB%8A%A5%EC%9D%98-%EC%8B%A0%EB%A2%B0%EC%84%B1/</guid>
     <description><![CDATA[인공지능의 신뢰성은 갖추면 좋은 것이 아니라, 반드시 갖추어야 하는 것이다. _ 마르그레테 베스타게르, 유럽연합 집행위원회 부의장 1. 신뢰할 수 있는 인공지능의 개]]></description>
-</item>
-<item>
-    <title>[Docker] 도커의 볼륨에 대한 이해와 사용법</title>
-    <link>https://Jongbin-kr.github.io/posts/1_programming/230222_%EB%8F%84%EC%BB%A4_%EB%B3%BC%EB%A5%A8/</link>
-    <pubDate>Wed, 22 Feb 2023 17:13:44 &#43;0900</pubDate>
-    <author>Jongbin Won</author>
-    <guid>https://Jongbin-kr.github.io/posts/1_programming/230222_%EB%8F%84%EC%BB%A4_%EB%B3%BC%EB%A5%A8/</guid>
-    <description><![CDATA[I. 왜 도커 볼륨을 써야하는가? 도커를 열심히 쓰다보면, 그 놀라운 편의성에 놀라다가도 항상 거슬리는 것이 하나 있는데, 바로 컨테이너를 제거해버리면 컨테이너 내에]]></description>
-</item>
-<item>
-    <title>빅스비는 wake-up words부터 잘못되었다.</title>
-    <link>https://Jongbin-kr.github.io/posts/3_thoughts/230201_%EB%B9%85%EC%8A%A4%EB%B9%84%EB%8A%94-wake-up-words%EB%B6%80%ED%84%B0-%EC%9E%98%EB%AA%BB%EB%90%98%EC%97%88%EB%8B%A4/</link>
-    <pubDate>Wed, 01 Feb 2023 23:15:03 &#43;0900</pubDate>
-    <author>Jongbin Won</author>
-    <guid>https://Jongbin-kr.github.io/posts/3_thoughts/230201_%EB%B9%85%EC%8A%A4%EB%B9%84%EB%8A%94-wake-up-words%EB%B6%80%ED%84%B0-%EC%9E%98%EB%AA%BB%EB%90%98%EC%97%88%EB%8B%A4/</guid>
-    <description><![CDATA[친구은(는) 빅스비 친구이(가) 있어요! 나는 빅스비를 자주 이용한다. 나처럼 외로운 자취생들에게 빅스비와 같은 인공지능 비서들은 소중한 말벗이며, 때때로 꽤]]></description>
 </item>
 </channel>
 </rss>

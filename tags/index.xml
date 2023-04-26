@@ -4,7 +4,15 @@
         <link>https://Jongbin-kr.github.io/tags/</link>
         <description>Tags - Tag - Jongbin&#39;s Blog</description>
         <generator>Hugo -- gohugo.io</generator><language>en-us</language><managingEditor>wonjb001@naver.com (Jongbin Won)</managingEditor>
-            <webMaster>wonjb001@naver.com (Jongbin Won)</webMaster><lastBuildDate>Sun, 26 Mar 2023 18:52:31 &#43;0900</lastBuildDate><atom:link href="https://Jongbin-kr.github.io/tags/" rel="self" type="application/rss+xml" /><item>
+            <webMaster>wonjb001@naver.com (Jongbin Won)</webMaster><lastBuildDate>Tue, 04 Apr 2023 22:42:36 &#43;0900</lastBuildDate><atom:link href="https://Jongbin-kr.github.io/tags/" rel="self" type="application/rss+xml" /><item>
+    <title>Ethics of AI</title>
+    <link>https://Jongbin-kr.github.io/tags/ethics-of-ai/</link>
+    <pubDate>Tue, 04 Apr 2023 22:42:36 &#43;0900</pubDate>
+    <author>Jongbin Won</author>
+    <guid>https://Jongbin-kr.github.io/tags/ethics-of-ai/</guid>
+    <description><![CDATA[]]></description>
+</item>
+<item>
     <title>미적분</title>
     <link>https://Jongbin-kr.github.io/tags/%EB%AF%B8%EC%A0%81%EB%B6%84/</link>
     <pubDate>Sun, 26 Mar 2023 18:52:31 &#43;0900</pubDate>
@@ -74,14 +82,6 @@
     <pubDate>Wed, 08 Mar 2023 23:16:51 &#43;0900</pubDate>
     <author>Jongbin Won</author>
     <guid>https://Jongbin-kr.github.io/tags/%EA%B7%B9%ED%95%9C%EB%B2%95%EC%B9%99/</guid>
-    <description><![CDATA[]]></description>
-</item>
-<item>
-    <title>수열의 극한</title>
-    <link>https://Jongbin-kr.github.io/tags/%EC%88%98%EC%97%B4%EC%9D%98-%EA%B7%B9%ED%95%9C/</link>
-    <pubDate>Wed, 08 Mar 2023 23:16:51 &#43;0900</pubDate>
-    <author>Jongbin Won</author>
-    <guid>https://Jongbin-kr.github.io/tags/%EC%88%98%EC%97%B4%EC%9D%98-%EA%B7%B9%ED%95%9C/</guid>
     <description><![CDATA[]]></description>
 </item>
 </channel>

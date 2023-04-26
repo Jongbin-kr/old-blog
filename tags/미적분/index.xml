@@ -46,18 +46,18 @@
 </item>
 <item>
     <title>[고등수학] 삼각함수 공식과 미분</title>
-    <link>https://Jongbin-kr.github.io/posts/2_study/mathematics/0_%EA%B3%A0%EB%93%B1%EC%88%98%ED%95%99/1_%EC%82%BC%EA%B0%81%ED%95%A8%EC%88%98_%EA%B3%B5%EC%8B%9D_%EB%AF%B8%EB%B6%84/</link>
-    <pubDate>Wed, 08 Mar 2023 23:10:06 &#43;0900</pubDate>
-    <author>Jongbin Won</author>
-    <guid>https://Jongbin-kr.github.io/posts/2_study/mathematics/0_%EA%B3%A0%EB%93%B1%EC%88%98%ED%95%99/1_%EC%82%BC%EA%B0%81%ED%95%A8%EC%88%98_%EA%B3%B5%EC%8B%9D_%EB%AF%B8%EB%B6%84/</guid>
-    <description><![CDATA[삼각함수 삼각함수의 상호관계 빗변: $\cos{\theta}$, 높이: $\sin{\theta}$, 기울기: $\tan{\theta} = \frac{\cos{\theta}}{\sin{{\theta}}}$ $\cos^2{\theta} + \sin^2{\theta} = 1$ 음각-여각 공식 음각: $\cos{-\theta} = \cos{\theta},; \sin{-\theta} = -\sin{\theta}$ 여각: $\cos({\frac{\pi}{2}-\theta}) = \sin{\theta},; \sin({\frac{\pi}{2}-\theta}) = \cos{\theta}$ 삼각함수의 덧셈정리 $\sin({\alpha + \beta})]]></description>
-</item>
-<item>
-    <title>[고등수학] 삼각함수 공식과 미분</title>
     <link>https://Jongbin-kr.github.io/posts/2_study/mathematics/1_%EB%AF%B8%EC%A0%81%EB%B6%84/1_%EC%82%BC%EA%B0%81%ED%95%A8%EC%88%98_%EA%B3%B5%EC%8B%9D_%EB%AF%B8%EB%B6%84/</link>
     <pubDate>Wed, 08 Mar 2023 23:10:06 &#43;0900</pubDate>
     <author>Jongbin Won</author>
     <guid>https://Jongbin-kr.github.io/posts/2_study/mathematics/1_%EB%AF%B8%EC%A0%81%EB%B6%84/1_%EC%82%BC%EA%B0%81%ED%95%A8%EC%88%98_%EA%B3%B5%EC%8B%9D_%EB%AF%B8%EB%B6%84/</guid>
+    <description><![CDATA[삼각함수 삼각함수의 상호관계 빗변: $\cos{\theta}$, 높이: $\sin{\theta}$, 기울기: $\tan{\theta} = \frac{\cos{\theta}}{\sin{{\theta}}}$ $\cos^2{\theta} + \sin^2{\theta} = 1$ 음각-여각 공식 음각: $\cos{-\theta} = \cos{\theta},; \sin{-\theta} = -\sin{\theta}$ 여각: $\cos({\frac{\pi}{2}-\theta}) = \sin{\theta},; \sin({\frac{\pi}{2}-\theta}) = \cos{\theta}$ 삼각함수의 덧셈정리 $\sin({\alpha + \beta})]]></description>
+</item>
+<item>
+    <title>[미적분] 삼각함수 공식과 미분</title>
+    <link>https://Jongbin-kr.github.io/posts/2_study/mathematics/0_%EA%B3%A0%EB%93%B1%EC%88%98%ED%95%99/1_%EC%82%BC%EA%B0%81%ED%95%A8%EC%88%98_%EA%B3%B5%EC%8B%9D_%EB%AF%B8%EB%B6%84/</link>
+    <pubDate>Wed, 08 Mar 2023 23:10:06 &#43;0900</pubDate>
+    <author>Jongbin Won</author>
+    <guid>https://Jongbin-kr.github.io/posts/2_study/mathematics/0_%EA%B3%A0%EB%93%B1%EC%88%98%ED%95%99/1_%EC%82%BC%EA%B0%81%ED%95%A8%EC%88%98_%EA%B3%B5%EC%8B%9D_%EB%AF%B8%EB%B6%84/</guid>
     <description><![CDATA[삼각함수 삼각함수의 상호관계 빗변: $\cos{\theta}$, 높이: $\sin{\theta}$, 기울기: $\tan{\theta} = \frac{\cos{\theta}}{\sin{{\theta}}}$ $\cos^2{\theta} + \sin^2{\theta} = 1$ 음각-여각 공식 음각: $\cos{-\theta} = \cos{\theta},; \sin{-\theta} = -\sin{\theta}$ 여각: $\cos({\frac{\pi}{2}-\theta}) = \sin{\theta},; \sin({\frac{\pi}{2}-\theta}) = \cos{\theta}$ 삼각함수의 덧셈정리 $\sin({\alpha + \beta})]]></description>
 </item>
 </channel>

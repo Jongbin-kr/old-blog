@@ -4,7 +4,23 @@
         <link>https://Jongbin-kr.github.io/tags/ethics-of-ai/</link>
         <description>Ethics of AI - Tag - Jongbin&#39;s Blog</description>
         <generator>Hugo -- gohugo.io</generator><language>en-us</language><managingEditor>wonjb001@naver.com (Jongbin Won)</managingEditor>
-            <webMaster>wonjb001@naver.com (Jongbin Won)</webMaster><lastBuildDate>Tue, 07 Mar 2023 23:34:24 &#43;0900</lastBuildDate><atom:link href="https://Jongbin-kr.github.io/tags/ethics-of-ai/" rel="self" type="application/rss+xml" /><item>
+            <webMaster>wonjb001@naver.com (Jongbin Won)</webMaster><lastBuildDate>Tue, 04 Apr 2023 22:42:36 &#43;0900</lastBuildDate><atom:link href="https://Jongbin-kr.github.io/tags/ethics-of-ai/" rel="self" type="application/rss+xml" /><item>
+    <title>[EAI003] 인공지능의 윤리성</title>
+    <link>https://Jongbin-kr.github.io/posts/2_study/ethics-of-ai/eai003_%EC%9D%B8%EA%B3%B5%EC%A7%80%EB%8A%A5%EC%9D%98-%EC%9C%A4%EB%A6%AC%EC%84%B1/</link>
+    <pubDate>Tue, 04 Apr 2023 22:42:36 &#43;0900</pubDate>
+    <author>Jongbin Won</author>
+    <guid>https://Jongbin-kr.github.io/posts/2_study/ethics-of-ai/eai003_%EC%9D%B8%EA%B3%B5%EC%A7%80%EB%8A%A5%EC%9D%98-%EC%9C%A4%EB%A6%AC%EC%84%B1/</guid>
+    <description><![CDATA[자율주행 자동차의 윤리 문제. 기계가 알고리즘에 따라서 내린 윤리적 판단 vs. 인간이 개입해서 내린 윤리적 판단. 과연 둘 중 어느 것을 따르는 것이 맞을까? 테슬라는 인간]]></description>
+</item>
+<item>
+    <title>[EAI002] 인공지능의 공정성</title>
+    <link>https://Jongbin-kr.github.io/posts/2_study/ethics-of-ai/eai002_%EC%9D%B8%EA%B3%B5%EC%A7%80%EB%8A%A5%EC%9D%98-%EA%B3%B5%EC%A0%95%EC%84%B1/</link>
+    <pubDate>Sat, 25 Mar 2023 00:21:44 &#43;0900</pubDate>
+    <author>Jongbin Won</author>
+    <guid>https://Jongbin-kr.github.io/posts/2_study/ethics-of-ai/eai002_%EC%9D%B8%EA%B3%B5%EC%A7%80%EB%8A%A5%EC%9D%98-%EA%B3%B5%EC%A0%95%EC%84%B1/</guid>
+    <description><![CDATA[0. 공정성의 문제 공공성의 문제는 공공재의 문제와 관련된다. 어디까지가 공공재인가? 나아가, 인공지능은 공공재가 되어야 할까? 다행히도 현재까지의 인공지능은]]></description>
+</item>
+<item>
     <title>[EAI001] 인공지능의 신뢰성</title>
     <link>https://Jongbin-kr.github.io/posts/2_study/ethics-of-ai/eai001_%EC%9D%B8%EA%B3%B5%EC%A7%80%EB%8A%A5%EC%9D%98-%EC%8B%A0%EB%A2%B0%EC%84%B1/</link>
     <pubDate>Tue, 07 Mar 2023 23:34:24 &#43;0900</pubDate>
