@@ -13,20 +13,20 @@
     <description><![CDATA[네이버의 인공지능 추천시스템 에어스(AIRS)의 설명문 AiRS의 기술은 크게 2가지를 바탕에 두고 있습니다. CF(Collaborative Filtering, 협력 필터) 기술과 인공신경망 기술인 RNN(Recurrent Neural]]></description>
 </item>
 <item>
+    <title></title>
+    <link>https://Jongbin-kr.github.io/posts/2_study/mathematics/</link>
+    <pubDate>Sun, 30 Apr 2023 16:29:48 &#43;0900</pubDate>
+    <author>Jongbin Won</author>
+    <guid>https://Jongbin-kr.github.io/posts/2_study/mathematics/</guid>
+    <description><![CDATA[]]></description>
+</item>
+<item>
     <title>[EAI003] 인공지능의 윤리성</title>
     <link>https://Jongbin-kr.github.io/posts/2_study/ethics-of-ai/eai003_%EC%9D%B8%EA%B3%B5%EC%A7%80%EB%8A%A5%EC%9D%98-%EC%9C%A4%EB%A6%AC%EC%84%B1/</link>
     <pubDate>Tue, 04 Apr 2023 22:42:36 &#43;0900</pubDate>
     <author>Jongbin Won</author>
     <guid>https://Jongbin-kr.github.io/posts/2_study/ethics-of-ai/eai003_%EC%9D%B8%EA%B3%B5%EC%A7%80%EB%8A%A5%EC%9D%98-%EC%9C%A4%EB%A6%AC%EC%84%B1/</guid>
     <description><![CDATA[자율주행 자동차의 윤리 문제. 기계가 알고리즘에 따라서 내린 윤리적 판단 vs. 인간이 개입해서 내린 윤리적 판단. 과연 둘 중 어느 것을 따르는 것이 맞을까? 테슬라는 인간]]></description>
-</item>
-<item>
-    <title></title>
-    <link>https://Jongbin-kr.github.io/posts/2_study/mathematics/</link>
-    <pubDate>Sun, 26 Mar 2023 18:52:31 &#43;0900</pubDate>
-    <author>Jongbin Won</author>
-    <guid>https://Jongbin-kr.github.io/posts/2_study/mathematics/</guid>
-    <description><![CDATA[]]></description>
 </item>
 <item>
     <title>[EAI002] 인공지능의 공정성</title>
