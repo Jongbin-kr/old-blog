@@ -4,7 +4,15 @@
         <link>https://Jongbin-kr.github.io/tags/ethics-of-ai/</link>
         <description>Ethics of AI - Tag - Jongbin&#39;s Blog</description>
         <generator>Hugo -- gohugo.io</generator><language>en-us</language><managingEditor>wonjb001@naver.com (Jongbin Won)</managingEditor>
-            <webMaster>wonjb001@naver.com (Jongbin Won)</webMaster><lastBuildDate>Tue, 04 Apr 2023 22:42:36 &#43;0900</lastBuildDate><atom:link href="https://Jongbin-kr.github.io/tags/ethics-of-ai/" rel="self" type="application/rss+xml" /><item>
+            <webMaster>wonjb001@naver.com (Jongbin Won)</webMaster><lastBuildDate>Sun, 30 Apr 2023 21:16:44 &#43;0900</lastBuildDate><atom:link href="https://Jongbin-kr.github.io/tags/ethics-of-ai/" rel="self" type="application/rss+xml" /><item>
+    <title>[EAI004] 인공지능의 투명성</title>
+    <link>https://Jongbin-kr.github.io/posts/2_study/ethics-of-ai/eai004_%EC%9D%B8%EA%B3%B5%EC%A7%80%EB%8A%A5%EC%9D%98-%ED%88%AC%EB%AA%85%EC%84%B1/</link>
+    <pubDate>Sun, 30 Apr 2023 21:16:44 &#43;0900</pubDate>
+    <author>Jongbin Won</author>
+    <guid>https://Jongbin-kr.github.io/posts/2_study/ethics-of-ai/eai004_%EC%9D%B8%EA%B3%B5%EC%A7%80%EB%8A%A5%EC%9D%98-%ED%88%AC%EB%AA%85%EC%84%B1/</guid>
+    <description><![CDATA[네이버의 인공지능 추천시스템 에어스(AIRS)의 설명문 AiRS의 기술은 크게 2가지를 바탕에 두고 있습니다. CF(Collaborative Filtering, 협력 필터) 기술과 인공신경망 기술인 RNN(Recurrent Neural]]></description>
+</item>
+<item>
     <title>[EAI003] 인공지능의 윤리성</title>
     <link>https://Jongbin-kr.github.io/posts/2_study/ethics-of-ai/eai003_%EC%9D%B8%EA%B3%B5%EC%A7%80%EB%8A%A5%EC%9D%98-%EC%9C%A4%EB%A6%AC%EC%84%B1/</link>
     <pubDate>Tue, 04 Apr 2023 22:42:36 &#43;0900</pubDate>
