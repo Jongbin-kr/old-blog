@@ -4,9 +4,17 @@
         <link>https://Jongbin-kr.github.io/</link>
         <description>welcome to Jongbin Won&#39;s Blog!</description>
         <generator>Hugo -- gohugo.io</generator><language>en-us</language><managingEditor>wonjb001@naver.com (Jongbin Won)</managingEditor>
-            <webMaster>wonjb001@naver.com (Jongbin Won)</webMaster><lastBuildDate>Sun, 30 Apr 2023 21:16:44 &#43;0900</lastBuildDate>
+            <webMaster>wonjb001@naver.com (Jongbin Won)</webMaster><lastBuildDate>Fri, 05 May 2023 21:47:44 &#43;0900</lastBuildDate>
             <atom:link href="https://Jongbin-kr.github.io/index.xml" rel="self" type="application/rss+xml" />
         <item>
+    <title>[EAI005] 인공지능의 견고성/안정성</title>
+    <link>https://Jongbin-kr.github.io/posts/2_study/ethics-of-ai/eai005_%EC%9D%B8%EA%B3%B5%EC%A7%80%EB%8A%A5%EC%9D%98-%EA%B2%AC%EA%B3%A0%EC%84%B1-%EC%95%88%EC%A0%95%EC%84%B1/</link>
+    <pubDate>Fri, 05 May 2023 21:47:44 &#43;0900</pubDate>
+    <author>Jongbin Won</author>
+    <guid>https://Jongbin-kr.github.io/posts/2_study/ethics-of-ai/eai005_%EC%9D%B8%EA%B3%B5%EC%A7%80%EB%8A%A5%EC%9D%98-%EA%B2%AC%EA%B3%A0%EC%84%B1-%EC%95%88%EC%A0%95%EC%84%B1/</guid>
+    <description><![CDATA[2016년 자율주행차의 데이터와 프라이버시에 대한 청문회가 열렸을 때 기업 대표들은 기업의 자율에 맡기면 문제가 해결된다고 하였다. 이에 민주당 의원은 다음과 같]]></description>
+</item>
+<item>
     <title>[EAI004] 인공지능의 투명성</title>
     <link>https://Jongbin-kr.github.io/posts/2_study/ethics-of-ai/eai004_%EC%9D%B8%EA%B3%B5%EC%A7%80%EB%8A%A5%EC%9D%98-%ED%88%AC%EB%AA%85%EC%84%B1/</link>
     <pubDate>Sun, 30 Apr 2023 21:16:44 &#43;0900</pubDate>
@@ -77,14 +85,6 @@
     <author>Jongbin Won</author>
     <guid>https://Jongbin-kr.github.io/posts/2_study/mathematics/1_%EB%AF%B8%EC%A0%81%EB%B6%84/1_%EC%88%98%EC%97%B4%EC%9D%98-%EA%B7%B9%ED%95%9C%EA%B3%BC-%ED%95%A8%EC%88%98%EC%9D%98-%EA%B7%B9%ED%95%9C%EC%9D%98-%EC%A0%95%EC%9D%98_%EA%B7%B9%ED%95%9C%EB%B2%95%EC%B9%99/</guid>
     <description><![CDATA[수학은 직관을 거부하고, 증명하는 것이다! 1. 수열의 극한의 정의 1.1. 수열의 극한의 정의 정의 모든 양수 $\epsilon$에 대하여, 어떤 자연수 $N$이 존재해]]></description>
-</item>
-<item>
-    <title>[고등수학] 삼각함수 공식과 미분</title>
-    <link>https://Jongbin-kr.github.io/posts/2_study/mathematics/1_%EB%AF%B8%EC%A0%81%EB%B6%84/1_%EC%82%BC%EA%B0%81%ED%95%A8%EC%88%98_%EA%B3%B5%EC%8B%9D_%EB%AF%B8%EB%B6%84/</link>
-    <pubDate>Wed, 08 Mar 2023 23:10:06 &#43;0900</pubDate>
-    <author>Jongbin Won</author>
-    <guid>https://Jongbin-kr.github.io/posts/2_study/mathematics/1_%EB%AF%B8%EC%A0%81%EB%B6%84/1_%EC%82%BC%EA%B0%81%ED%95%A8%EC%88%98_%EA%B3%B5%EC%8B%9D_%EB%AF%B8%EB%B6%84/</guid>
-    <description><![CDATA[삼각함수 삼각함수의 상호관계 빗변: $\cos{\theta}$, 높이: $\sin{\theta}$, 기울기: $\tan{\theta} = \frac{\cos{\theta}}{\sin{{\theta}}}$ $\cos^2{\theta} + \sin^2{\theta} = 1$ 음각-여각 공식 음각: $\cos{-\theta} = \cos{\theta},; \sin{-\theta} = -\sin{\theta}$ 여각: $\cos({\frac{\pi}{2}-\theta}) = \sin{\theta},; \sin({\frac{\pi}{2}-\theta}) = \cos{\theta}$ 삼각함수의 덧셈정리 $\sin({\alpha + \beta})]]></description>
 </item>
 </channel>
 </rss>
