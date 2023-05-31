@@ -4,7 +4,7 @@
         <meta charset="utf-8">
         <meta name="viewport" content="width=device-width, initial-scale=1">
         <meta name="robots" content="noodp" />
-        <title>2022년에 대한 나의 짧은 회고와 바램 - Jongbin&#39;s Blog</title>
+        <title>[미적분009] 미분가능성에 관한 정리들 - Jongbin&#39;s Blog</title>
             
 <script type="application/javascript">
 var doNotTrack = false;
@@ -17,31 +17,31 @@ if (!doNotTrack) {
 	
 	ga('send', 'pageview');
 }
-</script><meta name="Description" content="welcome to Jongbin Won&#39;s Blog!"><meta property="og:title" content="2022년에 대한 나의 짧은 회고와 바램" />
-<meta property="og:description" content="지난 2022년은 코로나로 빼았겼던 많은 것들을 조금씩 되찾아가는 한 해였던 것 같다. 많은 사람들이 그동안 상실한 것들을 대하여 아파하고, 돌아온 것들을 즐기기도" />
+</script><meta name="Description" content="welcome to Jongbin Won&#39;s Blog!"><meta property="og:title" content="[미적분009] 미분가능성에 관한 정리들" />
+<meta property="og:description" content="1. 미분가능성에 대한 정리 미분가능하면 연속이다. 미분가능한 함수들끼리 사칙연산해도 미분가능하다.(곱의 미분/몫의 미분) 미분가능한 함수들끼리 합성해도" />
 <meta property="og:type" content="article" />
-<meta property="og:url" content="https://Jongbin-kr.github.io/posts/4_daily/230102_2022%EB%85%84%EC%97%90-%EB%8C%80%ED%95%9C-%EB%82%98%EC%9D%98-%EC%A7%A7%EC%9D%80-%ED%9A%8C%EA%B3%A0%EC%99%80-%EB%B0%94%EB%9E%A8/" /><meta property="og:image" content="https://Jongbin-kr.github.io/logo.png"/><meta property="article:section" content="posts" />
-<meta property="article:published_time" content="2023-01-02T00:59:13+09:00" />
-<meta property="article:modified_time" content="2023-01-02T00:59:13+09:00" /><meta property="og:site_name" content="Jongbin&#39;s Blog" />
+<meta property="og:url" content="https://Jongbin-kr.github.io/posts/2_study/mathematics/1_%EB%AF%B8%EC%A0%81%EB%B6%84/9_%EB%AF%B8%EB%B6%84%EA%B0%80%EB%8A%A5%EC%84%B1%EC%97%90-%EA%B4%80%ED%95%9C-%EC%A0%95%EB%A6%AC%EB%93%A4/" /><meta property="og:image" content="https://Jongbin-kr.github.io/logo.png"/><meta property="article:section" content="posts" />
+<meta property="article:published_time" content="2023-05-21T16:49:29+09:00" />
+<meta property="article:modified_time" content="2023-05-21T16:49:29+09:00" /><meta property="og:site_name" content="Jongbin&#39;s Blog" />
 <meta name="twitter:card" content="summary_large_image"/>
 <meta name="twitter:image" content="https://Jongbin-kr.github.io/logo.png"/>
 
-<meta name="twitter:title" content="2022년에 대한 나의 짧은 회고와 바램"/>
-<meta name="twitter:description" content="지난 2022년은 코로나로 빼았겼던 많은 것들을 조금씩 되찾아가는 한 해였던 것 같다. 많은 사람들이 그동안 상실한 것들을 대하여 아파하고, 돌아온 것들을 즐기기도"/>
+<meta name="twitter:title" content="[미적분009] 미분가능성에 관한 정리들"/>
+<meta name="twitter:description" content="1. 미분가능성에 대한 정리 미분가능하면 연속이다. 미분가능한 함수들끼리 사칙연산해도 미분가능하다.(곱의 미분/몫의 미분) 미분가능한 함수들끼리 합성해도"/>
 <meta name="application-name" content="My cool site">
 <meta name="apple-mobile-web-app-title" content="My cool site"><meta name="theme-color" content="#ffffff"><meta name="msapplication-TileColor" content="#da532c"><link rel="shortcut icon" type="image/x-icon" href="/favicon.ico" />
         <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
-        <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png"><link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png"><link rel="mask-icon" href="/safari-pinned-tab.svg" color="#5bbad5"><link rel="manifest" href="/site.webmanifest"><link rel="canonical" href="https://Jongbin-kr.github.io/posts/4_daily/230102_2022%EB%85%84%EC%97%90-%EB%8C%80%ED%95%9C-%EB%82%98%EC%9D%98-%EC%A7%A7%EC%9D%80-%ED%9A%8C%EA%B3%A0%EC%99%80-%EB%B0%94%EB%9E%A8/" /><link rel="prev" href="https://Jongbin-kr.github.io/posts/4_daily/221228_%EB%B8%94%EB%A1%9C%EA%B7%B8%EB%A5%BC-%EC%8B%9C%EC%9E%91%ED%96%88%EB%8B%A4/" /><link rel="next" href="https://Jongbin-kr.github.io/posts/4_daily/230120_%EC%83%88%EB%B2%BD%EB%85%98%EC%97%90-%EC%A7%80%ED%95%98%EC%B2%A0%EC%9D%84-%ED%83%80%EB%A9%B0-%EB%93%A0-%EC%83%9D%EA%B0%81/" /><link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/normalize.css@8.0.1/normalize.min.css"><link rel="stylesheet" href="/css/style.min.css"><link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.1.1/css/all.min.css"><link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/animate.css@4.1.1/animate.min.css"><script type="application/ld+json">
+        <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png"><link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png"><link rel="mask-icon" href="/safari-pinned-tab.svg" color="#5bbad5"><link rel="manifest" href="/site.webmanifest"><link rel="canonical" href="https://Jongbin-kr.github.io/posts/2_study/mathematics/1_%EB%AF%B8%EC%A0%81%EB%B6%84/9_%EB%AF%B8%EB%B6%84%EA%B0%80%EB%8A%A5%EC%84%B1%EC%97%90-%EA%B4%80%ED%95%9C-%EC%A0%95%EB%A6%AC%EB%93%A4/" /><link rel="prev" href="https://Jongbin-kr.github.io/posts/2_study/mathematics/1_%EB%AF%B8%EC%A0%81%EB%B6%84/8_%EB%8F%84%ED%95%A8%EC%88%98%EC%99%80-%EB%AF%B8%EB%B6%84%EA%B3%B5%EC%8B%9D/" /><link rel="next" href="https://Jongbin-kr.github.io/posts/2_study/mathematics/1_%EB%AF%B8%EC%A0%81%EB%B6%84/13_%ED%95%A8%EC%88%98%EC%9D%98-%EA%B7%B9%EB%8C%80-%EA%B7%B9%EC%86%8C-%EC%9E%84%EA%B3%84%EC%A0%90/" /><link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/normalize.css@8.0.1/normalize.min.css"><link rel="stylesheet" href="/css/style.min.css"><link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.1.1/css/all.min.css"><link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/animate.css@4.1.1/animate.min.css"><script type="application/ld+json">
     {
         "@context": "http://schema.org",
         "@type": "BlogPosting",
-        "headline": "2022년에 대한 나의 짧은 회고와 바램",
+        "headline": "[미적분009] 미분가능성에 관한 정리들",
         "inLanguage": "en-us",
         "mainEntityOfPage": {
             "@type": "WebPage",
-            "@id": "https:\/\/Jongbin-kr.github.io\/posts\/4_daily\/230102_2022%EB%85%84%EC%97%90-%EB%8C%80%ED%95%9C-%EB%82%98%EC%9D%98-%EC%A7%A7%EC%9D%80-%ED%9A%8C%EA%B3%A0%EC%99%80-%EB%B0%94%EB%9E%A8\/"
-        },"genre": "posts","wordcount":  1007 ,
-        "url": "https:\/\/Jongbin-kr.github.io\/posts\/4_daily\/230102_2022%EB%85%84%EC%97%90-%EB%8C%80%ED%95%9C-%EB%82%98%EC%9D%98-%EC%A7%A7%EC%9D%80-%ED%9A%8C%EA%B3%A0%EC%99%80-%EB%B0%94%EB%9E%A8\/","datePublished": "2023-01-02T00:59:13+09:00","dateModified": "2023-01-02T00:59:13+09:00","publisher": {
+            "@id": "https:\/\/Jongbin-kr.github.io\/posts\/2_study\/mathematics\/1_%EB%AF%B8%EC%A0%81%EB%B6%84\/9_%EB%AF%B8%EB%B6%84%EA%B0%80%EB%8A%A5%EC%84%B1%EC%97%90-%EA%B4%80%ED%95%9C-%EC%A0%95%EB%A6%AC%EB%93%A4\/"
+        },"genre": "posts","keywords": "미적분","wordcount":  948 ,
+        "url": "https:\/\/Jongbin-kr.github.io\/posts\/2_study\/mathematics\/1_%EB%AF%B8%EC%A0%81%EB%B6%84\/9_%EB%AF%B8%EB%B6%84%EA%B0%80%EB%8A%A5%EC%84%B1%EC%97%90-%EA%B4%80%ED%95%9C-%EC%A0%95%EB%A6%AC%EB%93%A4\/","datePublished": "2023-05-21T16:49:29+09:00","dateModified": "2023-05-21T16:49:29+09:00","publisher": {
             "@type": "Organization",
             "name": ""},"author": {
                 "@type": "Person",
@@ -113,80 +113,117 @@ if (!doNotTrack) {
                 <div class="container"><div class="toc" id="toc-auto">
             <h2 class="toc-title">Contents</h2>
             <div class="toc-content" id="toc-content-auto"></div>
-        </div><article class="page single"><h1 class="single-title animate__animated animate__flipInX">2022년에 대한 나의 짧은 회고와 바램</h1><div class="post-meta">
+        </div><article class="page single"><h1 class="single-title animate__animated animate__flipInX">[미적분009] 미분가능성에 관한 정리들</h1><div class="post-meta">
             <div class="post-meta-line"><span class="post-author"><a href="/" title="Author" rel=" author" class="author"><i class="fas fa-user-circle fa-fw" aria-hidden="true"></i>Jongbin Won</a>
-</span>&nbsp;<span class="post-category">included in <a href="/categories/daily/"><i class="far fa-folder fa-fw" aria-hidden="true"></i>Daily</a></span></div>
-            <div class="post-meta-line"><i class="far fa-calendar-alt fa-fw" aria-hidden="true"></i>&nbsp;<time datetime="2023-01-02">2023-01-02</time>&nbsp;<i class="fas fa-pencil-alt fa-fw" aria-hidden="true"></i>&nbsp;1007 words&nbsp;
-                <i class="far fa-clock fa-fw" aria-hidden="true"></i>&nbsp;3 minutes&nbsp;</div>
+</span>&nbsp;<span class="post-category">included in <a href="/categories/study/"><i class="far fa-folder fa-fw" aria-hidden="true"></i>Study</a></span></div>
+            <div class="post-meta-line"><i class="far fa-calendar-alt fa-fw" aria-hidden="true"></i>&nbsp;<time datetime="2023-05-21">2023-05-21</time>&nbsp;<i class="fas fa-pencil-alt fa-fw" aria-hidden="true"></i>&nbsp;948 words&nbsp;
+                <i class="far fa-clock fa-fw" aria-hidden="true"></i>&nbsp;2 minutes&nbsp;</div>
         </div><div class="details toc" id="toc-static"  data-kept="true">
                 <div class="details-summary toc-title">
                     <span>Contents</span>
                     <span><i class="details-icon fas fa-angle-right" aria-hidden="true"></i></span>
                 </div>
-                <div class="details-content toc-content" id="toc-content-static"><nav id="TableOfContents"></nav></div>
+                <div class="details-content toc-content" id="toc-content-static"><nav id="TableOfContents">
+  <ul>
+    <li><a href="#1-미분가능성에-대한-정리">1. 미분가능성에 대한 정리</a></li>
+    <li><a href="#2-역함수-정리">2. 역함수 정리</a></li>
+  </ul>
+</nav></div>
             </div><div class="content" id="content"><br>
-<p><strong>지난 2022년은 코로나로 빼았겼던 많은 것들을 조금씩 되찾아가는 한 해</strong>였던 것 같다.</p>
-<p><strong>많은 사람들이 그동안 상실한 것들을 대하여 아파하고, 돌아온 것들을 즐기기도 하고, 2년만에 돌아온 일상이 어색해 실수하는 모습을 보이기도 했던 것 같다.</strong></p>
-<p><strong>나 또한 이러한 흐름을 따라, 유달리 의미있는 한 해를 보냈기에, 처음으로 이렇게 회고록을 써본다.</strong></p>
+<h2 id="1-미분가능성에-대한-정리">1. 미분가능성에 대한 정리</h2>
+<ul>
+<li>미분가능하면 연속이다.</li>
+</ul>
+<ol>
+<li><strong>미분가능한 함수들끼리 사칙연산해도 미분가능하다.</strong>(곱의 미분/몫의 미분)</li>
+<li><strong>미분가능한 함수들끼리 합성해도 미분가능하다.</strong> (합성함수의 미분)</li>
+<li><strong>미분가능한 함수의 역함수가 존재하면, 그 역함수 역시 미분가능하다.</strong>(단, 원함수에서 미분계수가 0이었던 점은 미분 불가능하다.) (역함수 정리)</li>
+</ol>
 <br>
 <br>
-<p><strong>첫째,</strong></p>
-<p><strong>지난 일 년간 무수히 많은 선택들을 했고, 개중에는 아쉽고 실수했던 부분들도 많았다고 회고한다.</strong></p>
-<p><strong>한편, 정말 남에게 자랑하고 싶을 정도로 좋은 선택들도 많이 했다고 믿는다.</strong></p>
-<p><strong>다가올 한 해에는 좋은 선택들을 더욱 더 많이 할 수 있는 지혜를 기를 수 있기를 바란다.</strong></p>
+<h2 id="2-역함수-정리">2. 역함수 정리</h2>
+<ul>
+<li>어떤 개구간에서 정의된 $y = f(x)$가 미분가능하고, 그 구간의 모든 $x$에 대해서 $f^{\prime}(x) \neq 0$이면, (== 원함수에서 수평접선이 없어 역함수에서 수직접선, 즉 미분가능하지 않은 점이 존재하지 않으면)
+<ol>
+<li>$g(x) = f^{-1}(x)$인 $g(x)$가 존재하고,<br>
+<details>
+  <summary>증명</summary>
+  <ul>
+<li>$f(x)$의 역함수가 존재한다는 것은, $f(x)$가 일대일 함수라는 말과 같다.</li>
+<li>따라서 $f(x)$가 일대일함수가 아니라고 가정하자.</li>
+<li>그러면 $f(x_1) = f(x_2)$인 $x_1 \neq x_2$가 존재한다.</li>
+<li>사잇값 정리에 의해서 이때 $\frac{f(x_2) - f(x_1)}{x2 - x1} = f^{\prime}(c)$가 존재하는데, 이 값은 0이다.</li>
+<li>이는 구간내의 모든 $x$에 대해서 $f^{\prime}(x) \neq 0$이라는 전제와 모순된다.</li>
+<li>따라서 $f(x)$는 일대일함수이고, 역함수 역시 존재한다. {{ /details }}<br>
+2. $g(x)$는 미분가능하고,<br>
+3. $b = f(a)$라면, $g(b) = \frac{1}{f^{\prime}(a)}$이다.</li>
+</ul>
 <br>
 <br>
-<p><strong>둘째,</strong></p>
-<p><strong>주변 사람들로부터 각양각색의 영향을 받았고, 나 또한 그들에게 무수한 영향을 주었으리라 회고한다.</strong></p>
-<p>때로는 서로의 생각이 맞아 기뻐하고 행복해하기도, 맞지 않아 서운해하기도 했다.</p>
+<h2 id="3-평균값-정리">3. 평균값 정리</h2>
+<ul>
+<li>$[a,b]$에서 연속이고, $(a,b)$에서 미분가능한 함수 $f(x)$에 대해서, $f^{\prime}(c) = \frac{f(b)-f(a)}{b-a}$인 $c \in (a,b)$이다.</li>
+</ul>
 <br>
-<p><strong>앞으로도 범지구적으로 힘들고 바쁜 시기가 계속되리라 감히 예측한다.</strong></p>
-<p>그러나, &ldquo;<strong>중요한 것은 꺾이지 않는 마음</strong>&ldquo;이라는 시쳇말처럼 <strong>모두가 같은 마음을 공유하기만 한다면, 비록 현재는 너무 힘들어 어쩔 수 없이 서로를 증오하고 싶을지라도, 언젠가는 마음을 함께하며 다시금 뭉칠 수 있을리라 믿는다.</strong></p>
+<ul>
+<li>롤의 정리
+<ul>
+<li>$[a,b]$에서 연속이고, $(a,b)$에서 미분가능한 함수 $f(x)$에 대해서, $f(a) = f(b)$이면, $f^{\prime}(c) = \frac{f(b)-f(a)}{b-a} = 0$인 $c \in (a,b)$이다.</li>
+</ul>
+</li>
+</ul>
 <br>
-<p><strong>다가올 한 해에는 아쉬움과 미움은 각자의 마음 한 켠에 고이 접어둔 채, 모두의 마음을 공유할 수 있기를 바란다.</strong></p>
+<ul>
+<li>코시의 평균값 정리
+<ul>
+<li>$[a,b]$에서 연속이고, $(a,b)$에서 미분가능한 함수 $f(x), g(x)$에 대해서, $f(b) - f(a) : g(b) - g(a) = f^{\prime}(c) : g^{\prime}(c)$인 $c \in (a,b)$이다.</li>
+</ul>
+</li>
+</ul>
 <br>
 <br>
-<p><strong>마지막으로,</strong></p>
-<p><strong>나 자신이 지적으로 성장했던 한 해였다고 회고한다.</strong></p>
-<br>
-<p>오랫동안 미뤄왔던 <strong>글쓰기를 시작했고, 그러면서 앞으로 내가 연구하고싶은 방향성도 더욱 명료해졌다.</strong></p>
-<p><strong>평생 내가 고민하고 찾으려 노력했던, 단 하나의 핵심적인 연결고리를 이제야 발견한 것 같다.</strong></p>
-<br>
-<p>비록 그 끝이 어떻게 될지는 정말 예상조차도 할 수 없으나, 앞서 언급했듯이 <strong>좋은 선택을 하고, 마음을 함께한다면 분명 가공할만한 성과를 이뤄낼 수 있을 것이라는 느낌이 온다.</strong></p>
-<p><strong>다가올 한 해에는 나의 이러한 느낌이 구체화될 수 있기를, 정말, 간절히, 바란다.</strong></p>
-<br>
-<br>
-<hr>
-<br>
-<p>마지막으로 뱀발을 덧붙이자면, <strong>소망을 뜻하는 &lsquo;바램&rsquo;은 &lsquo;바람&rsquo;의 비표준어이다.</strong></p>
-<p>따라서 <strong>원칙적으로는 &lsquo;바람&rsquo;이라는 표준어를 사용하는 것이 규범문법적으로는 적확할 것이다.</strong></p>
-<p>그러나 <strong>그 단어가 워낙 동음이의적인 표현인지라, &lsquo;바램&rsquo;이라는 비표준어를 의도적으로 사용하였다.</strong></p>
-<br>
-<p><strong>나는, 언어의 본질적인 목적이 의미의 명확한 전달에 있다고 생각한다.</strong></p>
-<p><strong>그리고 그러한 본질을 위해서는, 제 아무리 훌륭한 규범문법(Prescriptive grammar)일지라도, 과감히 깨부술 필요가 있다고 믿는다.</strong></p>
+<h2 id="4-로피탈-정리">4. 로피탈 정리</h2>
+<ul>
+<li>함수 $f(x), g(x)$가 $(a,b) \to R$로 미분가능할 때,
+<ul>
+<li>$\lim_{x \to a}\frac{f(x)}{g(x)}$가 $\frac{0}{0}$ 혹은 $\frac{\pm \infty}{\pm\infty}$꼴이고,</li>
+<li>$\lim_{x \to a}\frac{f^{\prime}(x)}{g^{\prime}(x)}$가 수렴하거나, $\pm \infty$로 발산하면,
+<ul>
+<li>$\lim_{x \to a}\frac{f(x)}{g(x)} = \lim_{x \to a}\frac{f^{\prime}(x)}{g^{\prime}(x)}$</li>
+</ul>
+</li>
+</ul>
+</li>
+<li>(단, 이때 $x \to a$가 아니라, $x \to a^{\pm}$ 혹은 $x \to \pm \infty$인 경우에도 모두 성립한다.)</li>
+</ul>
+
+</details></li>
+</ol>
+</li>
+</ul>
 </div><div class="post-footer" id="post-footer">
     <div class="post-info">
         <div class="post-info-line">
             <div class="post-info-mod">
-                <span>Updated on 2023-01-02</span>
+                <span>Updated on 2023-05-21</span>
             </div></div>
         <div class="post-info-line">
             <div class="post-info-md"></div>
             <div class="post-info-share">
-                <span><a href="javascript:void(0);" title="Share on Twitter" data-sharer="twitter" data-url="https://Jongbin-kr.github.io/posts/4_daily/230102_2022%EB%85%84%EC%97%90-%EB%8C%80%ED%95%9C-%EB%82%98%EC%9D%98-%EC%A7%A7%EC%9D%80-%ED%9A%8C%EA%B3%A0%EC%99%80-%EB%B0%94%EB%9E%A8/" data-title="2022년에 대한 나의 짧은 회고와 바램"><i class="fab fa-twitter fa-fw" aria-hidden="true"></i></a><a href="javascript:void(0);" title="Share on Facebook" data-sharer="facebook" data-url="https://Jongbin-kr.github.io/posts/4_daily/230102_2022%EB%85%84%EC%97%90-%EB%8C%80%ED%95%9C-%EB%82%98%EC%9D%98-%EC%A7%A7%EC%9D%80-%ED%9A%8C%EA%B3%A0%EC%99%80-%EB%B0%94%EB%9E%A8/"><i class="fab fa-facebook-square fa-fw" aria-hidden="true"></i></a><a href="javascript:void(0);" title="Share on Linkedin" data-sharer="linkedin" data-url="https://Jongbin-kr.github.io/posts/4_daily/230102_2022%EB%85%84%EC%97%90-%EB%8C%80%ED%95%9C-%EB%82%98%EC%9D%98-%EC%A7%A7%EC%9D%80-%ED%9A%8C%EA%B3%A0%EC%99%80-%EB%B0%94%EB%9E%A8/"><i class="fab fa-linkedin fa-fw" aria-hidden="true"></i></a><a href="javascript:void(0);" title="Share on Reddit" data-sharer="reddit" data-url="https://Jongbin-kr.github.io/posts/4_daily/230102_2022%EB%85%84%EC%97%90-%EB%8C%80%ED%95%9C-%EB%82%98%EC%9D%98-%EC%A7%A7%EC%9D%80-%ED%9A%8C%EA%B3%A0%EC%99%80-%EB%B0%94%EB%9E%A8/"><i class="fab fa-reddit fa-fw" aria-hidden="true"></i></a><a href="javascript:void(0);" title="Share on Blogger" data-sharer="blogger" data-url="https://Jongbin-kr.github.io/posts/4_daily/230102_2022%EB%85%84%EC%97%90-%EB%8C%80%ED%95%9C-%EB%82%98%EC%9D%98-%EC%A7%A7%EC%9D%80-%ED%9A%8C%EA%B3%A0%EC%99%80-%EB%B0%94%EB%9E%A8/" data-title="2022년에 대한 나의 짧은 회고와 바램" data-description=""><i class="fab fa-blogger fa-fw" aria-hidden="true"></i></a></span>
+                <span><a href="javascript:void(0);" title="Share on Twitter" data-sharer="twitter" data-url="https://Jongbin-kr.github.io/posts/2_study/mathematics/1_%EB%AF%B8%EC%A0%81%EB%B6%84/9_%EB%AF%B8%EB%B6%84%EA%B0%80%EB%8A%A5%EC%84%B1%EC%97%90-%EA%B4%80%ED%95%9C-%EC%A0%95%EB%A6%AC%EB%93%A4/" data-title="[미적분009] 미분가능성에 관한 정리들" data-hashtags="미적분"><i class="fab fa-twitter fa-fw" aria-hidden="true"></i></a><a href="javascript:void(0);" title="Share on Facebook" data-sharer="facebook" data-url="https://Jongbin-kr.github.io/posts/2_study/mathematics/1_%EB%AF%B8%EC%A0%81%EB%B6%84/9_%EB%AF%B8%EB%B6%84%EA%B0%80%EB%8A%A5%EC%84%B1%EC%97%90-%EA%B4%80%ED%95%9C-%EC%A0%95%EB%A6%AC%EB%93%A4/" data-hashtag="미적분"><i class="fab fa-facebook-square fa-fw" aria-hidden="true"></i></a><a href="javascript:void(0);" title="Share on Linkedin" data-sharer="linkedin" data-url="https://Jongbin-kr.github.io/posts/2_study/mathematics/1_%EB%AF%B8%EC%A0%81%EB%B6%84/9_%EB%AF%B8%EB%B6%84%EA%B0%80%EB%8A%A5%EC%84%B1%EC%97%90-%EA%B4%80%ED%95%9C-%EC%A0%95%EB%A6%AC%EB%93%A4/"><i class="fab fa-linkedin fa-fw" aria-hidden="true"></i></a><a href="javascript:void(0);" title="Share on Reddit" data-sharer="reddit" data-url="https://Jongbin-kr.github.io/posts/2_study/mathematics/1_%EB%AF%B8%EC%A0%81%EB%B6%84/9_%EB%AF%B8%EB%B6%84%EA%B0%80%EB%8A%A5%EC%84%B1%EC%97%90-%EA%B4%80%ED%95%9C-%EC%A0%95%EB%A6%AC%EB%93%A4/"><i class="fab fa-reddit fa-fw" aria-hidden="true"></i></a><a href="javascript:void(0);" title="Share on Blogger" data-sharer="blogger" data-url="https://Jongbin-kr.github.io/posts/2_study/mathematics/1_%EB%AF%B8%EC%A0%81%EB%B6%84/9_%EB%AF%B8%EB%B6%84%EA%B0%80%EB%8A%A5%EC%84%B1%EC%97%90-%EA%B4%80%ED%95%9C-%EC%A0%95%EB%A6%AC%EB%93%A4/" data-title="[미적분009] 미분가능성에 관한 정리들" data-description=""><i class="fab fa-blogger fa-fw" aria-hidden="true"></i></a></span>
             </div>
         </div>
     </div>
 
     <div class="post-info-more">
-        <section class="post-tags"></section>
+        <section class="post-tags"><i class="fas fa-tags fa-fw" aria-hidden="true"></i>&nbsp;<a href="/tags/%EB%AF%B8%EC%A0%81%EB%B6%84/">미적분</a></section>
         <section>
             <span><a href="javascript:void(0);" onclick="window.history.back();">Back</a></span>&nbsp;|&nbsp;<span><a href="/">Home</a></span>
         </section>
     </div>
 
-    <div class="post-nav"><a href="/posts/4_daily/221228_%EB%B8%94%EB%A1%9C%EA%B7%B8%EB%A5%BC-%EC%8B%9C%EC%9E%91%ED%96%88%EB%8B%A4/" class="prev" rel="prev" title="블로그를 시작했다."><i class="fas fa-angle-left fa-fw" aria-hidden="true"></i>블로그를 시작했다.</a>
-            <a href="/posts/4_daily/230120_%EC%83%88%EB%B2%BD%EB%85%98%EC%97%90-%EC%A7%80%ED%95%98%EC%B2%A0%EC%9D%84-%ED%83%80%EB%A9%B0-%EB%93%A0-%EC%83%9D%EA%B0%81/" class="next" rel="next" title="새벽녘에 지하철을 타며 든 생각">새벽녘에 지하철을 타며 든 생각<i class="fas fa-angle-right fa-fw" aria-hidden="true"></i></a></div>
+    <div class="post-nav"><a href="/posts/2_study/mathematics/1_%EB%AF%B8%EC%A0%81%EB%B6%84/8_%EB%8F%84%ED%95%A8%EC%88%98%EC%99%80-%EB%AF%B8%EB%B6%84%EA%B3%B5%EC%8B%9D/" class="prev" rel="prev" title="[미적분008] 도함수와 미분공식"><i class="fas fa-angle-left fa-fw" aria-hidden="true"></i>[미적분008] 도함수와 미분공식</a>
+            <a href="/posts/2_study/mathematics/1_%EB%AF%B8%EC%A0%81%EB%B6%84/13_%ED%95%A8%EC%88%98%EC%9D%98-%EA%B7%B9%EB%8C%80-%EA%B7%B9%EC%86%8C-%EC%9E%84%EA%B3%84%EC%A0%90/" class="next" rel="next" title="[미적분013] 함수의 극대, 극소, 임계점">[미적분013] 함수의 극대, 극소, 임계점<i class="fas fa-angle-right fa-fw" aria-hidden="true"></i></a></div>
 </div>
 <div id="comments"><div id="disqus_thread" class="comment"></div><noscript>
                 Please enable JavaScript to view the comments powered by <a href="https://disqus.com/?ref_noscript">Disqus</a>.
