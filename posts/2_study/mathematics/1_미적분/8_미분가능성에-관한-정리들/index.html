@@ -1,0 +1,245 @@
+<!DOCTYPE html>
+<html lang="en-us">
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <meta name="robots" content="noodp" />
+        <title>[미적분008] 미분가능성에 관한 정리들(역함수정리, 평균값정리, 로피탈정리) - Jongbin&#39;s Blog</title>
+            
+<script type="application/javascript">
+var doNotTrack = false;
+if (!doNotTrack) {
+	(function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+	(i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+	m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+	})(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+	ga('create', 'UA-253164009-1', 'auto');
+	
+	ga('send', 'pageview');
+}
+</script><meta name="Description" content="welcome to Jongbin Won&#39;s Blog!"><meta property="og:title" content="[미적분008] 미분가능성에 관한 정리들(역함수정리, 평균값정리, 로피탈정리)" />
+<meta property="og:description" content="1. 미분가능성에 대한 정리 미분가능하면 연속이다. 미분가능한 함수들끼리 사칙연산해도 미분가능하다.(곱의 미분/몫의 미분) 미분가능한 함수들끼리 합성해도" />
+<meta property="og:type" content="article" />
+<meta property="og:url" content="https://Jongbin-kr.github.io/posts/2_study/mathematics/1_%EB%AF%B8%EC%A0%81%EB%B6%84/8_%EB%AF%B8%EB%B6%84%EA%B0%80%EB%8A%A5%EC%84%B1%EC%97%90-%EA%B4%80%ED%95%9C-%EC%A0%95%EB%A6%AC%EB%93%A4/" /><meta property="og:image" content="https://Jongbin-kr.github.io/logo.png"/><meta property="article:section" content="posts" />
+<meta property="article:published_time" content="2023-05-21T16:49:29+09:00" />
+<meta property="article:modified_time" content="2023-05-21T16:49:29+09:00" /><meta property="og:site_name" content="Jongbin&#39;s Blog" />
+<meta name="twitter:card" content="summary_large_image"/>
+<meta name="twitter:image" content="https://Jongbin-kr.github.io/logo.png"/>
+
+<meta name="twitter:title" content="[미적분008] 미분가능성에 관한 정리들(역함수정리, 평균값정리, 로피탈정리)"/>
+<meta name="twitter:description" content="1. 미분가능성에 대한 정리 미분가능하면 연속이다. 미분가능한 함수들끼리 사칙연산해도 미분가능하다.(곱의 미분/몫의 미분) 미분가능한 함수들끼리 합성해도"/>
+<meta name="application-name" content="My cool site">
+<meta name="apple-mobile-web-app-title" content="My cool site"><meta name="theme-color" content="#ffffff"><meta name="msapplication-TileColor" content="#da532c"><link rel="shortcut icon" type="image/x-icon" href="/favicon.ico" />
+        <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
+        <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png"><link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png"><link rel="mask-icon" href="/safari-pinned-tab.svg" color="#5bbad5"><link rel="manifest" href="/site.webmanifest"><link rel="canonical" href="https://Jongbin-kr.github.io/posts/2_study/mathematics/1_%EB%AF%B8%EC%A0%81%EB%B6%84/8_%EB%AF%B8%EB%B6%84%EA%B0%80%EB%8A%A5%EC%84%B1%EC%97%90-%EA%B4%80%ED%95%9C-%EC%A0%95%EB%A6%AC%EB%93%A4/" /><link rel="prev" href="https://Jongbin-kr.github.io/posts/2_study/mathematics/1_%EB%AF%B8%EC%A0%81%EB%B6%84/7_%EB%AF%B8%EB%B6%84%EA%B3%84%EC%88%98-%EB%AF%B8%EB%B6%84%EA%B0%80%EB%8A%A5%EC%84%B1%EC%9D%98-%EC%A0%95%EC%9D%98/" /><link rel="next" href="https://Jongbin-kr.github.io/posts/2_study/mathematics/1_%EB%AF%B8%EC%A0%81%EB%B6%84/13_%ED%95%A8%EC%88%98%EC%9D%98-%EA%B7%B9%EB%8C%80-%EA%B7%B9%EC%86%8C-%EC%9E%84%EA%B3%84%EC%A0%90/" /><link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/normalize.css@8.0.1/normalize.min.css"><link rel="stylesheet" href="/css/style.min.css"><link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.1.1/css/all.min.css"><link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/animate.css@4.1.1/animate.min.css"><script type="application/ld+json">
+    {
+        "@context": "http://schema.org",
+        "@type": "BlogPosting",
+        "headline": "[미적분008] 미분가능성에 관한 정리들(역함수정리, 평균값정리, 로피탈정리)",
+        "inLanguage": "en-us",
+        "mainEntityOfPage": {
+            "@type": "WebPage",
+            "@id": "https:\/\/Jongbin-kr.github.io\/posts\/2_study\/mathematics\/1_%EB%AF%B8%EC%A0%81%EB%B6%84\/8_%EB%AF%B8%EB%B6%84%EA%B0%80%EB%8A%A5%EC%84%B1%EC%97%90-%EA%B4%80%ED%95%9C-%EC%A0%95%EB%A6%AC%EB%93%A4\/"
+        },"genre": "posts","keywords": "미적분, 미분가능성, 역함수정리, 평균값정리, 로피탈정리","wordcount":  943 ,
+        "url": "https:\/\/Jongbin-kr.github.io\/posts\/2_study\/mathematics\/1_%EB%AF%B8%EC%A0%81%EB%B6%84\/8_%EB%AF%B8%EB%B6%84%EA%B0%80%EB%8A%A5%EC%84%B1%EC%97%90-%EA%B4%80%ED%95%9C-%EC%A0%95%EB%A6%AC%EB%93%A4\/","datePublished": "2023-05-21T16:49:29+09:00","dateModified": "2023-05-21T16:49:29+09:00","publisher": {
+            "@type": "Organization",
+            "name": ""},"author": {
+                "@type": "Person",
+                "name": "Jongbin Won"
+            },"description": ""
+    }
+    </script></head>
+    <body data-header-desktop="fixed" data-header-mobile="auto"><script type="text/javascript">(window.localStorage && localStorage.getItem('theme') ? localStorage.getItem('theme') === 'dark' : ('auto' === 'auto' ? window.matchMedia('(prefers-color-scheme: dark)').matches : 'auto' === 'dark')) && document.body.setAttribute('theme', 'dark');</script>
+
+        <div id="mask"></div><div class="wrapper"><header class="desktop" id="header-desktop">
+    <div class="header-wrapper">
+        <div class="header-title">
+            <a href="/" title="Jongbin&#39;s Blog">Jongbin&#39;s Blog</a>
+        </div>
+        <div class="menu">
+            <div class="menu-inner"><a class="menu-item" href="/about_me" title="Jongbin&#39;s Rrofile"> About </a><a class="menu-item" href="/posts/" title="Show All Posts by Timeline"> Posts </a><a class="menu-item" href="/tags/" title="Show All Posts by Tags"> Tags </a><a class="menu-item" href="/categories/" title="Show All Posts by Categories"> Categories </a><span class="menu-item delimiter"></span><span class="menu-item search" id="search-desktop">
+                        <input type="text" placeholder="Search titles or contents..." id="search-input-desktop">
+                        <a href="javascript:void(0);" class="search-button search-toggle" id="search-toggle-desktop" title="Search">
+                            <i class="fas fa-search fa-fw" aria-hidden="true"></i>
+                        </a>
+                        <a href="javascript:void(0);" class="search-button search-clear" id="search-clear-desktop" title="Clear">
+                            <i class="fas fa-times-circle fa-fw" aria-hidden="true"></i>
+                        </a>
+                        <span class="search-button search-loading" id="search-loading-desktop">
+                            <i class="fas fa-spinner fa-fw fa-spin" aria-hidden="true"></i>
+                        </span>
+                    </span><a href="javascript:void(0);" class="menu-item theme-switch" title="Switch Theme">
+                    <i class="fas fa-adjust fa-fw" aria-hidden="true"></i>
+                </a>
+            </div>
+        </div>
+    </div>
+</header><header class="mobile" id="header-mobile">
+    <div class="header-container">
+        <div class="header-wrapper">
+            <div class="header-title">
+                <a href="/" title="Jongbin&#39;s Blog">Jongbin&#39;s Blog</a>
+            </div>
+            <div class="menu-toggle" id="menu-toggle-mobile">
+                <span></span><span></span><span></span>
+            </div>
+        </div>
+        <div class="menu" id="menu-mobile"><div class="search-wrapper">
+                    <div class="search mobile" id="search-mobile">
+                        <input type="text" placeholder="Search titles or contents..." id="search-input-mobile">
+                        <a href="javascript:void(0);" class="search-button search-toggle" id="search-toggle-mobile" title="Search">
+                            <i class="fas fa-search fa-fw" aria-hidden="true"></i>
+                        </a>
+                        <a href="javascript:void(0);" class="search-button search-clear" id="search-clear-mobile" title="Clear">
+                            <i class="fas fa-times-circle fa-fw" aria-hidden="true"></i>
+                        </a>
+                        <span class="search-button search-loading" id="search-loading-mobile">
+                            <i class="fas fa-spinner fa-fw fa-spin" aria-hidden="true"></i>
+                        </span>
+                    </div>
+                    <a href="javascript:void(0);" class="search-cancel" id="search-cancel-mobile">
+                        Cancel
+                    </a>
+                </div><a class="menu-item" href="/about_me" title="Jongbin&#39;s Rrofile">About</a><a class="menu-item" href="/posts/" title="Show All Posts by Timeline">Posts</a><a class="menu-item" href="/tags/" title="Show All Posts by Tags">Tags</a><a class="menu-item" href="/categories/" title="Show All Posts by Categories">Categories</a><a href="javascript:void(0);" class="menu-item theme-switch" title="Switch Theme">
+                <i class="fas fa-adjust fa-fw" aria-hidden="true"></i>
+            </a></div>
+    </div>
+</header><div class="search-dropdown desktop">
+        <div id="search-dropdown-desktop"></div>
+    </div>
+    <div class="search-dropdown mobile">
+        <div id="search-dropdown-mobile"></div>
+    </div><main class="main">
+                <div class="container"><div class="toc" id="toc-auto">
+            <h2 class="toc-title">Contents</h2>
+            <div class="toc-content" id="toc-content-auto"></div>
+        </div><article class="page single"><h1 class="single-title animate__animated animate__flipInX">[미적분008] 미분가능성에 관한 정리들(역함수정리, 평균값정리, 로피탈정리)</h1><div class="post-meta">
+            <div class="post-meta-line"><span class="post-author"><a href="/" title="Author" rel=" author" class="author"><i class="fas fa-user-circle fa-fw" aria-hidden="true"></i>Jongbin Won</a>
+</span>&nbsp;<span class="post-category">included in <a href="/categories/mathematics/"><i class="far fa-folder fa-fw" aria-hidden="true"></i>Mathematics</a></span></div>
+            <div class="post-meta-line"><i class="far fa-calendar-alt fa-fw" aria-hidden="true"></i>&nbsp;<time datetime="2023-05-21">2023-05-21</time>&nbsp;<i class="fas fa-pencil-alt fa-fw" aria-hidden="true"></i>&nbsp;943 words&nbsp;
+                <i class="far fa-clock fa-fw" aria-hidden="true"></i>&nbsp;2 minutes&nbsp;</div>
+        </div><div class="details toc" id="toc-static"  data-kept="true">
+                <div class="details-summary toc-title">
+                    <span>Contents</span>
+                    <span><i class="details-icon fas fa-angle-right" aria-hidden="true"></i></span>
+                </div>
+                <div class="details-content toc-content" id="toc-content-static"><nav id="TableOfContents">
+  <ul>
+    <li><a href="#1-미분가능성에-대한-정리">1. 미분가능성에 대한 정리</a></li>
+    <li><a href="#2-역함수-정리">2. 역함수 정리</a></li>
+    <li><a href="#3-평균값-정리">3. 평균값 정리</a></li>
+    <li><a href="#4-로피탈-정리">4. 로피탈 정리</a></li>
+  </ul>
+</nav></div>
+            </div><div class="content" id="content"><br>
+<h2 id="1-미분가능성에-대한-정리">1. 미분가능성에 대한 정리</h2>
+<ul>
+<li>미분가능하면 연속이다.</li>
+</ul>
+<ol>
+<li><strong>미분가능한 함수들끼리 사칙연산해도 미분가능하다.</strong>(곱의 미분/몫의 미분)</li>
+<li><strong>미분가능한 함수들끼리 합성해도 미분가능하다.</strong> (합성함수의 미분)</li>
+<li><strong>미분가능한 함수의 역함수가 존재하면, 그 역함수 역시 미분가능하다.</strong>(단, 원함수에서 미분계수가 0이었던 점은 미분 불가능하다.) (역함수 정리)</li>
+</ol>
+<br>
+<br>
+<h2 id="2-역함수-정리">2. 역함수 정리</h2>
+<ul>
+<li>어떤 개구간에서 정의된 $y = f(x)$가 미분가능하고, 그 구간의 모든 $x$에 대해서 $f^{\prime}(x) \neq 0$이면, (== 원함수에서 수평접선이 없어 역함수에서 수직접선, 즉 미분가능하지 않은 점이 존재하지 않으면)
+<ol>
+<li>$g(x) = f^{-1}(x)$인 $g(x)$가 존재하고,<br>
+<details>
+  <summary>증명</summary>
+  <ul>
+<li>$f(x)$의 역함수가 존재한다는 것은, $f(x)$가 일대일 함수라는 말과 같다.</li>
+<li>따라서 $f(x)$가 일대일함수가 아니라고 가정하자.</li>
+<li>그러면 $f(x_1) = f(x_2)$인 $x_1 \neq x_2$가 존재한다.</li>
+<li>사잇값 정리에 의해서 이때 $\frac{f(x_2) - f(x_1)}{x2 - x1} = f^{\prime}(c)$가 존재하는데, 이 값은 0이다.</li>
+<li>이는 구간내의 모든 $x$에 대해서 $f^{\prime}(x) \neq 0$이라는 전제와 모순된다.</li>
+<li>따라서 $f(x)$는 일대일함수이고, 역함수 역시 존재한다.</li>
+</ul>
+
+</details></li>
+<li>$g(x)$는 미분가능하고,</li>
+<li>$b = f(a)$라면, $g(b) = \frac{1}{f^{\prime}(a)}$이다.</li>
+</ol>
+</li>
+</ul>
+<br>
+<br>
+<h2 id="3-평균값-정리">3. 평균값 정리</h2>
+<ul>
+<li>$[a,b]$에서 연속이고, $(a,b)$에서 미분가능한 함수 $f(x)$에 대해서, $f^{\prime}(c) = \frac{f(b)-f(a)}{b-a}$인 $c \in (a,b)$이다.</li>
+</ul>
+<br>
+<ul>
+<li>롤의 정리
+<ul>
+<li>$[a,b]$에서 연속이고, $(a,b)$에서 미분가능한 함수 $f(x)$에 대해서, $f(a) = f(b)$이면, $f^{\prime}(c) = \frac{f(b)-f(a)}{b-a} = 0$인 $c \in (a,b)$이다.</li>
+</ul>
+</li>
+</ul>
+<br>
+<ul>
+<li>코시의 평균값 정리
+<ul>
+<li>$[a,b]$에서 연속이고, $(a,b)$에서 미분가능한 함수 $f(x), g(x)$에 대해서, $f(b) - f(a) : g(b) - g(a) = f^{\prime}(c) : g^{\prime}(c)$인 $c \in (a,b)$이다.</li>
+</ul>
+</li>
+</ul>
+<br>
+<br>
+<h2 id="4-로피탈-정리">4. 로피탈 정리</h2>
+<ul>
+<li>함수 $f(x), g(x)$가 $(a,b) \to R$로 미분가능할 때,
+<ul>
+<li>$\lim_{x \to a}\frac{f(x)}{g(x)}$가 $\frac{0}{0}$ 혹은 $\frac{\pm \infty}{\pm\infty}$꼴이고,</li>
+<li>$\lim_{x \to a}\frac{f^{\prime}(x)}{g^{\prime}(x)}$가 수렴하거나, $\pm \infty$로 발산하면,
+<ul>
+<li>$\lim_{x \to a}\frac{f(x)}{g(x)} = \lim_{x \to a}\frac{f^{\prime}(x)}{g^{\prime}(x)}$</li>
+</ul>
+</li>
+</ul>
+</li>
+<li>(단, 이때 $x \to a$가 아니라, $x \to a^{\pm}$ 혹은 $x \to \pm \infty$인 경우에도 모두 성립한다.)</li>
+</ul>
+</div><div class="post-footer" id="post-footer">
+    <div class="post-info">
+        <div class="post-info-line">
+            <div class="post-info-mod">
+                <span>Updated on 2023-05-21</span>
+            </div></div>
+        <div class="post-info-line">
+            <div class="post-info-md"></div>
+            <div class="post-info-share">
+                <span><a href="javascript:void(0);" title="Share on Twitter" data-sharer="twitter" data-url="https://Jongbin-kr.github.io/posts/2_study/mathematics/1_%EB%AF%B8%EC%A0%81%EB%B6%84/8_%EB%AF%B8%EB%B6%84%EA%B0%80%EB%8A%A5%EC%84%B1%EC%97%90-%EA%B4%80%ED%95%9C-%EC%A0%95%EB%A6%AC%EB%93%A4/" data-title="[미적분008] 미분가능성에 관한 정리들(역함수정리, 평균값정리, 로피탈정리)" data-hashtags="미적분,미분가능성,역함수정리,평균값정리,로피탈정리"><i class="fab fa-twitter fa-fw" aria-hidden="true"></i></a><a href="javascript:void(0);" title="Share on Facebook" data-sharer="facebook" data-url="https://Jongbin-kr.github.io/posts/2_study/mathematics/1_%EB%AF%B8%EC%A0%81%EB%B6%84/8_%EB%AF%B8%EB%B6%84%EA%B0%80%EB%8A%A5%EC%84%B1%EC%97%90-%EA%B4%80%ED%95%9C-%EC%A0%95%EB%A6%AC%EB%93%A4/" data-hashtag="미적분"><i class="fab fa-facebook-square fa-fw" aria-hidden="true"></i></a><a href="javascript:void(0);" title="Share on Linkedin" data-sharer="linkedin" data-url="https://Jongbin-kr.github.io/posts/2_study/mathematics/1_%EB%AF%B8%EC%A0%81%EB%B6%84/8_%EB%AF%B8%EB%B6%84%EA%B0%80%EB%8A%A5%EC%84%B1%EC%97%90-%EA%B4%80%ED%95%9C-%EC%A0%95%EB%A6%AC%EB%93%A4/"><i class="fab fa-linkedin fa-fw" aria-hidden="true"></i></a><a href="javascript:void(0);" title="Share on Reddit" data-sharer="reddit" data-url="https://Jongbin-kr.github.io/posts/2_study/mathematics/1_%EB%AF%B8%EC%A0%81%EB%B6%84/8_%EB%AF%B8%EB%B6%84%EA%B0%80%EB%8A%A5%EC%84%B1%EC%97%90-%EA%B4%80%ED%95%9C-%EC%A0%95%EB%A6%AC%EB%93%A4/"><i class="fab fa-reddit fa-fw" aria-hidden="true"></i></a><a href="javascript:void(0);" title="Share on Blogger" data-sharer="blogger" data-url="https://Jongbin-kr.github.io/posts/2_study/mathematics/1_%EB%AF%B8%EC%A0%81%EB%B6%84/8_%EB%AF%B8%EB%B6%84%EA%B0%80%EB%8A%A5%EC%84%B1%EC%97%90-%EA%B4%80%ED%95%9C-%EC%A0%95%EB%A6%AC%EB%93%A4/" data-title="[미적분008] 미분가능성에 관한 정리들(역함수정리, 평균값정리, 로피탈정리)" data-description=""><i class="fab fa-blogger fa-fw" aria-hidden="true"></i></a></span>
+            </div>
+        </div>
+    </div>
+
+    <div class="post-info-more">
+        <section class="post-tags"><i class="fas fa-tags fa-fw" aria-hidden="true"></i>&nbsp;<a href="/tags/%EB%AF%B8%EC%A0%81%EB%B6%84/">미적분</a>,&nbsp;<a href="/tags/%EB%AF%B8%EB%B6%84%EA%B0%80%EB%8A%A5%EC%84%B1/">미분가능성</a>,&nbsp;<a href="/tags/%EC%97%AD%ED%95%A8%EC%88%98%EC%A0%95%EB%A6%AC/">역함수정리</a>,&nbsp;<a href="/tags/%ED%8F%89%EA%B7%A0%EA%B0%92%EC%A0%95%EB%A6%AC/">평균값정리</a>,&nbsp;<a href="/tags/%EB%A1%9C%ED%94%BC%ED%83%88%EC%A0%95%EB%A6%AC/">로피탈정리</a></section>
+        <section>
+            <span><a href="javascript:void(0);" onclick="window.history.back();">Back</a></span>&nbsp;|&nbsp;<span><a href="/">Home</a></span>
+        </section>
+    </div>
+
+    <div class="post-nav"><a href="/posts/2_study/mathematics/1_%EB%AF%B8%EC%A0%81%EB%B6%84/7_%EB%AF%B8%EB%B6%84%EA%B3%84%EC%88%98-%EB%AF%B8%EB%B6%84%EA%B0%80%EB%8A%A5%EC%84%B1%EC%9D%98-%EC%A0%95%EC%9D%98/" class="prev" rel="prev" title="[미적분007] 미분계수, 미분가능성, 도함수의 정의"><i class="fas fa-angle-left fa-fw" aria-hidden="true"></i>[미적분007] 미분계수, 미분가능성, 도함수의 정의</a>
+            <a href="/posts/2_study/mathematics/1_%EB%AF%B8%EC%A0%81%EB%B6%84/13_%ED%95%A8%EC%88%98%EC%9D%98-%EA%B7%B9%EB%8C%80-%EA%B7%B9%EC%86%8C-%EC%9E%84%EA%B3%84%EC%A0%90/" class="next" rel="next" title="[미적분013] 함수의 극대, 극소, 임계점">[미적분013] 함수의 극대, 극소, 임계점<i class="fas fa-angle-right fa-fw" aria-hidden="true"></i></a></div>
+</div>
+<div id="comments"><div id="disqus_thread" class="comment"></div><noscript>
+                Please enable JavaScript to view the comments powered by <a href="https://disqus.com/?ref_noscript">Disqus</a>.
+            </noscript></div></article></div>
+            </main><footer class="footer">
+        <div class="footer-container"><div class="footer-line">Powered by <a href="https://gohugo.io/" target="_blank" rel="noopener noreffer" title="Hugo 0.110.0">Hugo</a> | Theme - <a href="https://github.com/dillonzq/LoveIt" target="_blank" rel="noopener noreffer" title="LoveIt 0.2.10"><i class="far fa-kiss-wink-heart fa-fw" aria-hidden="true"></i> LoveIt</a>
+                </div><div class="footer-line" itemscope itemtype="http://schema.org/CreativeWork"><i class="far fa-copyright fa-fw" aria-hidden="true"></i><span itemprop="copyrightYear">2022 - 2023</span><span class="author" itemprop="copyrightHolder">&nbsp;<a href="/" target="_blank">Jongbin Won</a></span>&nbsp;|&nbsp;<span class="license"><a rel="license external nofollow noopener noreffer" href="https://creativecommons.org/licenses/by-nc/4.0/" target="_blank">CC BY-NC 4.0</a></span></div>
+        </div>
+    </footer></div>
+
+        <div id="fixed-buttons"><a href="#" id="back-to-top" class="fixed-button" title="Back to Top">
+                <i class="fas fa-arrow-up fa-fw" aria-hidden="true"></i>
+            </a><a href="#" id="view-comments" class="fixed-button" title="View Comments">
+                <i class="fas fa-comment fa-fw" aria-hidden="true"></i>
+            </a>
+        </div><link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/katex@0.15.3/dist/katex.min.css"><link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/katex@0.15.3/dist/contrib/copy-tex.min.css"><script type="text/javascript" src="https://Jongbin.disqus.com/embed.js" defer></script><script type="text/javascript" src="https://cdn.jsdelivr.net/npm/autocomplete.js@0.38.1/dist/autocomplete.min.js"></script><script type="text/javascript" src="https://cdn.jsdelivr.net/npm/lunr@2.3.9/lunr.min.js"></script><script type="text/javascript" src="https://cdn.jsdelivr.net/npm/lazysizes@5.3.1/lazysizes.min.js"></script><script type="text/javascript" src="https://cdn.jsdelivr.net/npm/clipboard@2.0.11/dist/clipboard.min.js"></script><script type="text/javascript" src="https://cdn.jsdelivr.net/npm/sharer.js@0.5.1/sharer.min.js"></script><script type="text/javascript" src="https://cdn.jsdelivr.net/npm/katex@0.15.3/dist/katex.min.js"></script><script type="text/javascript" src="https://cdn.jsdelivr.net/npm/katex@0.15.3/dist/contrib/auto-render.min.js"></script><script type="text/javascript" src="https://cdn.jsdelivr.net/npm/katex@0.15.3/dist/contrib/copy-tex.min.js"></script><script type="text/javascript" src="https://cdn.jsdelivr.net/npm/katex@0.15.3/dist/contrib/mhchem.min.js"></script><script type="text/javascript">window.config={"code":{"copyTitle":"Copy to clipboard","maxShownLines":50},"comment":{},"math":{"delimiters":[{"display":true,"left":"$$","right":"$$"},{"display":true,"left":"\\[","right":"\\]"},{"display":true,"left":"\\begin{equation}","right":"\\end{equation}"},{"display":true,"left":"\\begin{equation*}","right":"\\end{equation*}"},{"display":true,"left":"\\begin{align}","right":"\\end{align}"},{"display":true,"left":"\\begin{align*}","right":"\\end{align*}"},{"display":true,"left":"\\begin{alignat}","right":"\\end{alignat}"},{"display":true,"left":"\\begin{alignat*}","right":"\\end{alignat*}"},{"display":true,"left":"\\begin{gather}","right":"\\end{gather}"},{"display":true,"left":"\\begin{CD}","right":"\\end{CD}"},{"display":true,"left":"$$","right":"$$"},{"display":false,"left":"$","right":"$"},{"display":false,"left":"\\(","right":"\\)"},{"display":false,"left":"$","right":"$"}],"strict":false},"search":{"highlightTag":"em","lunrIndexURL":"/index.json","maxResultLength":10,"noResultsFound":"No results found","snippetLength":30,"type":"lunr"}};</script><script type="text/javascript" src="/js/theme.min.js"></script></body>
+</html>

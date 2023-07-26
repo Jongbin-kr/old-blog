@@ -4,7 +4,7 @@
         <meta charset="utf-8">
         <meta name="viewport" content="width=device-width, initial-scale=1">
         <meta name="robots" content="noodp" />
-        <title>[미적분007] 미분계수, 미분가능성의 정의 - Jongbin&#39;s Blog</title>
+        <title>[미적분007] 미분계수, 미분가능성, 도함수의 정의 - Jongbin&#39;s Blog</title>
             
 <script type="application/javascript">
 var doNotTrack = false;
@@ -17,7 +17,7 @@ if (!doNotTrack) {
 	
 	ga('send', 'pageview');
 }
-</script><meta name="Description" content="welcome to Jongbin Won&#39;s Blog!"><meta property="og:title" content="[미적분007] 미분계수, 미분가능성의 정의" />
+</script><meta name="Description" content="welcome to Jongbin Won&#39;s Blog!"><meta property="og:title" content="[미적분007] 미분계수, 미분가능성, 도함수의 정의" />
 <meta property="og:description" content="1. 미분계수의 정의 수학적 정의: $f^{\prime}(a) = \lim_{x \to a}\frac{f(x) - f(a)}{x - a} = \lim_{h \to 0}\frac{f(a&#43;h) - f(a)}{h}$ 해석 평균변화율의 극한. 즉, 순간변화율 $(a, f(a))$에서의 접선의 기울기 2. $y=f(x" />
 <meta property="og:type" content="article" />
 <meta property="og:url" content="https://Jongbin-kr.github.io/posts/2_study/mathematics/1_%EB%AF%B8%EC%A0%81%EB%B6%84/7_%EB%AF%B8%EB%B6%84%EA%B3%84%EC%88%98-%EB%AF%B8%EB%B6%84%EA%B0%80%EB%8A%A5%EC%84%B1%EC%9D%98-%EC%A0%95%EC%9D%98/" /><meta property="og:image" content="https://Jongbin-kr.github.io/logo.png"/><meta property="article:section" content="posts" />
@@ -26,21 +26,21 @@ if (!doNotTrack) {
 <meta name="twitter:card" content="summary_large_image"/>
 <meta name="twitter:image" content="https://Jongbin-kr.github.io/logo.png"/>
 
-<meta name="twitter:title" content="[미적분007] 미분계수, 미분가능성의 정의"/>
+<meta name="twitter:title" content="[미적분007] 미분계수, 미분가능성, 도함수의 정의"/>
 <meta name="twitter:description" content="1. 미분계수의 정의 수학적 정의: $f^{\prime}(a) = \lim_{x \to a}\frac{f(x) - f(a)}{x - a} = \lim_{h \to 0}\frac{f(a&#43;h) - f(a)}{h}$ 해석 평균변화율의 극한. 즉, 순간변화율 $(a, f(a))$에서의 접선의 기울기 2. $y=f(x"/>
 <meta name="application-name" content="My cool site">
 <meta name="apple-mobile-web-app-title" content="My cool site"><meta name="theme-color" content="#ffffff"><meta name="msapplication-TileColor" content="#da532c"><link rel="shortcut icon" type="image/x-icon" href="/favicon.ico" />
         <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
-        <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png"><link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png"><link rel="mask-icon" href="/safari-pinned-tab.svg" color="#5bbad5"><link rel="manifest" href="/site.webmanifest"><link rel="canonical" href="https://Jongbin-kr.github.io/posts/2_study/mathematics/1_%EB%AF%B8%EC%A0%81%EB%B6%84/7_%EB%AF%B8%EB%B6%84%EA%B3%84%EC%88%98-%EB%AF%B8%EB%B6%84%EA%B0%80%EB%8A%A5%EC%84%B1%EC%9D%98-%EC%A0%95%EC%9D%98/" /><link rel="prev" href="https://Jongbin-kr.github.io/posts/2_study/mathematics/1_%EB%AF%B8%EC%A0%81%EB%B6%84/6_%ED%95%A8%EC%88%98%EC%9D%98-%EC%97%B0%EC%86%8D%EC%97%90-%EA%B4%80%ED%95%9C-%EC%A0%95%EB%A6%AC%EB%93%A4/" /><link rel="next" href="https://Jongbin-kr.github.io/posts/2_study/mathematics/1_%EB%AF%B8%EC%A0%81%EB%B6%84/8_%EB%8F%84%ED%95%A8%EC%88%98%EC%99%80-%EB%AF%B8%EB%B6%84%EA%B3%B5%EC%8B%9D/" /><link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/normalize.css@8.0.1/normalize.min.css"><link rel="stylesheet" href="/css/style.min.css"><link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.1.1/css/all.min.css"><link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/animate.css@4.1.1/animate.min.css"><script type="application/ld+json">
+        <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png"><link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png"><link rel="mask-icon" href="/safari-pinned-tab.svg" color="#5bbad5"><link rel="manifest" href="/site.webmanifest"><link rel="canonical" href="https://Jongbin-kr.github.io/posts/2_study/mathematics/1_%EB%AF%B8%EC%A0%81%EB%B6%84/7_%EB%AF%B8%EB%B6%84%EA%B3%84%EC%88%98-%EB%AF%B8%EB%B6%84%EA%B0%80%EB%8A%A5%EC%84%B1%EC%9D%98-%EC%A0%95%EC%9D%98/" /><link rel="prev" href="https://Jongbin-kr.github.io/posts/2_study/mathematics/1_%EB%AF%B8%EC%A0%81%EB%B6%84/6_%ED%95%A8%EC%88%98%EC%9D%98-%EC%97%B0%EC%86%8D%EC%97%90-%EA%B4%80%ED%95%9C-%EC%A0%95%EB%A6%AC%EB%93%A4/" /><link rel="next" href="https://Jongbin-kr.github.io/posts/2_study/mathematics/1_%EB%AF%B8%EC%A0%81%EB%B6%84/8_%EB%AF%B8%EB%B6%84%EA%B0%80%EB%8A%A5%EC%84%B1%EC%97%90-%EA%B4%80%ED%95%9C-%EC%A0%95%EB%A6%AC%EB%93%A4/" /><link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/normalize.css@8.0.1/normalize.min.css"><link rel="stylesheet" href="/css/style.min.css"><link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.1.1/css/all.min.css"><link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/animate.css@4.1.1/animate.min.css"><script type="application/ld+json">
     {
         "@context": "http://schema.org",
         "@type": "BlogPosting",
-        "headline": "[미적분007] 미분계수, 미분가능성의 정의",
+        "headline": "[미적분007] 미분계수, 미분가능성, 도함수의 정의",
         "inLanguage": "en-us",
         "mainEntityOfPage": {
             "@type": "WebPage",
             "@id": "https:\/\/Jongbin-kr.github.io\/posts\/2_study\/mathematics\/1_%EB%AF%B8%EC%A0%81%EB%B6%84\/7_%EB%AF%B8%EB%B6%84%EA%B3%84%EC%88%98-%EB%AF%B8%EB%B6%84%EA%B0%80%EB%8A%A5%EC%84%B1%EC%9D%98-%EC%A0%95%EC%9D%98\/"
-        },"genre": "posts","keywords": "미적분","wordcount":  407 ,
+        },"genre": "posts","keywords": "미적분, 미분계수, 미분가능성, 도함수","wordcount":  485 ,
         "url": "https:\/\/Jongbin-kr.github.io\/posts\/2_study\/mathematics\/1_%EB%AF%B8%EC%A0%81%EB%B6%84\/7_%EB%AF%B8%EB%B6%84%EA%B3%84%EC%88%98-%EB%AF%B8%EB%B6%84%EA%B0%80%EB%8A%A5%EC%84%B1%EC%9D%98-%EC%A0%95%EC%9D%98\/","datePublished": "2023-05-21T14:32:50+09:00","dateModified": "2023-05-21T14:32:50+09:00","publisher": {
             "@type": "Organization",
             "name": ""},"author": {
@@ -113,10 +113,10 @@ if (!doNotTrack) {
                 <div class="container"><div class="toc" id="toc-auto">
             <h2 class="toc-title">Contents</h2>
             <div class="toc-content" id="toc-content-auto"></div>
-        </div><article class="page single"><h1 class="single-title animate__animated animate__flipInX">[미적분007] 미분계수, 미분가능성의 정의</h1><div class="post-meta">
+        </div><article class="page single"><h1 class="single-title animate__animated animate__flipInX">[미적분007] 미분계수, 미분가능성, 도함수의 정의</h1><div class="post-meta">
             <div class="post-meta-line"><span class="post-author"><a href="/" title="Author" rel=" author" class="author"><i class="fas fa-user-circle fa-fw" aria-hidden="true"></i>Jongbin Won</a>
-</span>&nbsp;<span class="post-category">included in <a href="/categories/study/"><i class="far fa-folder fa-fw" aria-hidden="true"></i>Study</a></span></div>
-            <div class="post-meta-line"><i class="far fa-calendar-alt fa-fw" aria-hidden="true"></i>&nbsp;<time datetime="2023-05-21">2023-05-21</time>&nbsp;<i class="fas fa-pencil-alt fa-fw" aria-hidden="true"></i>&nbsp;407 words&nbsp;
+</span>&nbsp;<span class="post-category">included in <a href="/categories/mathematics/"><i class="far fa-folder fa-fw" aria-hidden="true"></i>Mathematics</a></span></div>
+            <div class="post-meta-line"><i class="far fa-calendar-alt fa-fw" aria-hidden="true"></i>&nbsp;<time datetime="2023-05-21">2023-05-21</time>&nbsp;<i class="fas fa-pencil-alt fa-fw" aria-hidden="true"></i>&nbsp;485 words&nbsp;
                 <i class="far fa-clock fa-fw" aria-hidden="true"></i>&nbsp;One minute&nbsp;</div>
         </div><div class="details toc" id="toc-static"  data-kept="true">
                 <div class="details-summary toc-title">
@@ -126,8 +126,12 @@ if (!doNotTrack) {
                 <div class="details-content toc-content" id="toc-content-static"><nav id="TableOfContents">
   <ul>
     <li><a href="#1-미분계수의-정의">1. 미분계수의 정의</a></li>
-    <li><a href="#2-yfx가-xa에서-미분가능하다">2. $y=f(x)$가 $x=a$에서 미분가능하다.</a></li>
-    <li><a href="#3-미분가능하면-연속이다">3. 미분가능하면 연속이다.</a></li>
+    <li><a href="#2-yfx가-xa에서-미분가능하다">2. $y=f(x)$가 $x=a$에서 미분가능하다.</a>
+      <ul>
+        <li><a href="#21-미분가능하면-연속이다">2.1. 미분가능하면 연속이다.</a></li>
+      </ul>
+    </li>
+    <li><a href="#3-도함수의-정의">3. 도함수의 정의</a></li>
   </ul>
 </nav></div>
             </div><div class="content" id="content"><br>
@@ -145,7 +149,6 @@ if (!doNotTrack) {
 </li>
 </ul>
 <br>
-<br>
 <h2 id="2-yfx가-xa에서-미분가능하다">2. $y=f(x)$가 $x=a$에서 미분가능하다.</h2>
 <ul>
 <li>해석 1. 미분계수 $f^{\prime}(a)$가 존재한다.
@@ -160,7 +163,8 @@ if (!doNotTrack) {
 </ul>
 </li>
 </ul>
-<h2 id="3-미분가능하면-연속이다">3. 미분가능하면 연속이다.</h2>
+<br>
+<h3 id="21-미분가능하면-연속이다">2.1. 미분가능하면 연속이다.</h3>
 <ul>
 <li>$f(x)$가 $x = a$에서 미분가능하면, 연속이다.<br>
 <details>
@@ -174,6 +178,15 @@ if (!doNotTrack) {
 
 </details></li>
 </ul>
+<br>
+<h2 id="3-도함수의-정의">3. 도함수의 정의</h2>
+<ul>
+<li>수학적 정의: $f^{\prime}(x) = \lim_{x \to 0}\frac{f(x+h) - f(x)}{h} = \lim_{t \to x}\frac{f(t) - f(x)}{t - x}$
+<ul>
+<li><strong>폐구간에서 정의된 함수일지라도, 도함수는 개구간에서 정의한다. (끝점에서는 좌 혹은 우 미분계수가 없기 때문.)</strong></li>
+</ul>
+</li>
+</ul>
 </div><div class="post-footer" id="post-footer">
     <div class="post-info">
         <div class="post-info-line">
@@ -183,20 +196,20 @@ if (!doNotTrack) {
         <div class="post-info-line">
             <div class="post-info-md"></div>
             <div class="post-info-share">
-                <span><a href="javascript:void(0);" title="Share on Twitter" data-sharer="twitter" data-url="https://Jongbin-kr.github.io/posts/2_study/mathematics/1_%EB%AF%B8%EC%A0%81%EB%B6%84/7_%EB%AF%B8%EB%B6%84%EA%B3%84%EC%88%98-%EB%AF%B8%EB%B6%84%EA%B0%80%EB%8A%A5%EC%84%B1%EC%9D%98-%EC%A0%95%EC%9D%98/" data-title="[미적분007] 미분계수, 미분가능성의 정의" data-hashtags="미적분"><i class="fab fa-twitter fa-fw" aria-hidden="true"></i></a><a href="javascript:void(0);" title="Share on Facebook" data-sharer="facebook" data-url="https://Jongbin-kr.github.io/posts/2_study/mathematics/1_%EB%AF%B8%EC%A0%81%EB%B6%84/7_%EB%AF%B8%EB%B6%84%EA%B3%84%EC%88%98-%EB%AF%B8%EB%B6%84%EA%B0%80%EB%8A%A5%EC%84%B1%EC%9D%98-%EC%A0%95%EC%9D%98/" data-hashtag="미적분"><i class="fab fa-facebook-square fa-fw" aria-hidden="true"></i></a><a href="javascript:void(0);" title="Share on Linkedin" data-sharer="linkedin" data-url="https://Jongbin-kr.github.io/posts/2_study/mathematics/1_%EB%AF%B8%EC%A0%81%EB%B6%84/7_%EB%AF%B8%EB%B6%84%EA%B3%84%EC%88%98-%EB%AF%B8%EB%B6%84%EA%B0%80%EB%8A%A5%EC%84%B1%EC%9D%98-%EC%A0%95%EC%9D%98/"><i class="fab fa-linkedin fa-fw" aria-hidden="true"></i></a><a href="javascript:void(0);" title="Share on Reddit" data-sharer="reddit" data-url="https://Jongbin-kr.github.io/posts/2_study/mathematics/1_%EB%AF%B8%EC%A0%81%EB%B6%84/7_%EB%AF%B8%EB%B6%84%EA%B3%84%EC%88%98-%EB%AF%B8%EB%B6%84%EA%B0%80%EB%8A%A5%EC%84%B1%EC%9D%98-%EC%A0%95%EC%9D%98/"><i class="fab fa-reddit fa-fw" aria-hidden="true"></i></a><a href="javascript:void(0);" title="Share on Blogger" data-sharer="blogger" data-url="https://Jongbin-kr.github.io/posts/2_study/mathematics/1_%EB%AF%B8%EC%A0%81%EB%B6%84/7_%EB%AF%B8%EB%B6%84%EA%B3%84%EC%88%98-%EB%AF%B8%EB%B6%84%EA%B0%80%EB%8A%A5%EC%84%B1%EC%9D%98-%EC%A0%95%EC%9D%98/" data-title="[미적분007] 미분계수, 미분가능성의 정의" data-description=""><i class="fab fa-blogger fa-fw" aria-hidden="true"></i></a></span>
+                <span><a href="javascript:void(0);" title="Share on Twitter" data-sharer="twitter" data-url="https://Jongbin-kr.github.io/posts/2_study/mathematics/1_%EB%AF%B8%EC%A0%81%EB%B6%84/7_%EB%AF%B8%EB%B6%84%EA%B3%84%EC%88%98-%EB%AF%B8%EB%B6%84%EA%B0%80%EB%8A%A5%EC%84%B1%EC%9D%98-%EC%A0%95%EC%9D%98/" data-title="[미적분007] 미분계수, 미분가능성, 도함수의 정의" data-hashtags="미적분,미분계수,미분가능성,도함수"><i class="fab fa-twitter fa-fw" aria-hidden="true"></i></a><a href="javascript:void(0);" title="Share on Facebook" data-sharer="facebook" data-url="https://Jongbin-kr.github.io/posts/2_study/mathematics/1_%EB%AF%B8%EC%A0%81%EB%B6%84/7_%EB%AF%B8%EB%B6%84%EA%B3%84%EC%88%98-%EB%AF%B8%EB%B6%84%EA%B0%80%EB%8A%A5%EC%84%B1%EC%9D%98-%EC%A0%95%EC%9D%98/" data-hashtag="미적분"><i class="fab fa-facebook-square fa-fw" aria-hidden="true"></i></a><a href="javascript:void(0);" title="Share on Linkedin" data-sharer="linkedin" data-url="https://Jongbin-kr.github.io/posts/2_study/mathematics/1_%EB%AF%B8%EC%A0%81%EB%B6%84/7_%EB%AF%B8%EB%B6%84%EA%B3%84%EC%88%98-%EB%AF%B8%EB%B6%84%EA%B0%80%EB%8A%A5%EC%84%B1%EC%9D%98-%EC%A0%95%EC%9D%98/"><i class="fab fa-linkedin fa-fw" aria-hidden="true"></i></a><a href="javascript:void(0);" title="Share on Reddit" data-sharer="reddit" data-url="https://Jongbin-kr.github.io/posts/2_study/mathematics/1_%EB%AF%B8%EC%A0%81%EB%B6%84/7_%EB%AF%B8%EB%B6%84%EA%B3%84%EC%88%98-%EB%AF%B8%EB%B6%84%EA%B0%80%EB%8A%A5%EC%84%B1%EC%9D%98-%EC%A0%95%EC%9D%98/"><i class="fab fa-reddit fa-fw" aria-hidden="true"></i></a><a href="javascript:void(0);" title="Share on Blogger" data-sharer="blogger" data-url="https://Jongbin-kr.github.io/posts/2_study/mathematics/1_%EB%AF%B8%EC%A0%81%EB%B6%84/7_%EB%AF%B8%EB%B6%84%EA%B3%84%EC%88%98-%EB%AF%B8%EB%B6%84%EA%B0%80%EB%8A%A5%EC%84%B1%EC%9D%98-%EC%A0%95%EC%9D%98/" data-title="[미적분007] 미분계수, 미분가능성, 도함수의 정의" data-description=""><i class="fab fa-blogger fa-fw" aria-hidden="true"></i></a></span>
             </div>
         </div>
     </div>
 
     <div class="post-info-more">
-        <section class="post-tags"><i class="fas fa-tags fa-fw" aria-hidden="true"></i>&nbsp;<a href="/tags/%EB%AF%B8%EC%A0%81%EB%B6%84/">미적분</a></section>
+        <section class="post-tags"><i class="fas fa-tags fa-fw" aria-hidden="true"></i>&nbsp;<a href="/tags/%EB%AF%B8%EC%A0%81%EB%B6%84/">미적분</a>,&nbsp;<a href="/tags/%EB%AF%B8%EB%B6%84%EA%B3%84%EC%88%98/">미분계수</a>,&nbsp;<a href="/tags/%EB%AF%B8%EB%B6%84%EA%B0%80%EB%8A%A5%EC%84%B1/">미분가능성</a>,&nbsp;<a href="/tags/%EB%8F%84%ED%95%A8%EC%88%98/">도함수</a></section>
         <section>
             <span><a href="javascript:void(0);" onclick="window.history.back();">Back</a></span>&nbsp;|&nbsp;<span><a href="/">Home</a></span>
         </section>
     </div>
 
     <div class="post-nav"><a href="/posts/2_study/mathematics/1_%EB%AF%B8%EC%A0%81%EB%B6%84/6_%ED%95%A8%EC%88%98%EC%9D%98-%EC%97%B0%EC%86%8D%EC%97%90-%EA%B4%80%ED%95%9C-%EC%A0%95%EB%A6%AC%EB%93%A4/" class="prev" rel="prev" title="[미적분006] 함수의 연속에 관한 정리들(중간값정리, 최대최소정리)"><i class="fas fa-angle-left fa-fw" aria-hidden="true"></i>[미적분006] 함수의 연속에 관한 정리들(중간값정리, 최대최소정리)</a>
-            <a href="/posts/2_study/mathematics/1_%EB%AF%B8%EC%A0%81%EB%B6%84/8_%EB%8F%84%ED%95%A8%EC%88%98%EC%99%80-%EB%AF%B8%EB%B6%84%EA%B3%B5%EC%8B%9D/" class="next" rel="next" title="[미적분008] 도함수와 미분공식">[미적분008] 도함수와 미분공식<i class="fas fa-angle-right fa-fw" aria-hidden="true"></i></a></div>
+            <a href="/posts/2_study/mathematics/1_%EB%AF%B8%EC%A0%81%EB%B6%84/8_%EB%AF%B8%EB%B6%84%EA%B0%80%EB%8A%A5%EC%84%B1%EC%97%90-%EA%B4%80%ED%95%9C-%EC%A0%95%EB%A6%AC%EB%93%A4/" class="next" rel="next" title="[미적분008] 미분가능성에 관한 정리들(역함수정리, 평균값정리, 로피탈정리)">[미적분008] 미분가능성에 관한 정리들(역함수정리, 평균값정리, 로피탈정리)<i class="fas fa-angle-right fa-fw" aria-hidden="true"></i></a></div>
 </div>
 <div id="comments"><div id="disqus_thread" class="comment"></div><noscript>
                 Please enable JavaScript to view the comments powered by <a href="https://disqus.com/?ref_noscript">Disqus</a>.
