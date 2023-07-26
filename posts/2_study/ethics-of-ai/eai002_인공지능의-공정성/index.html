@@ -40,7 +40,7 @@ if (!doNotTrack) {
         "mainEntityOfPage": {
             "@type": "WebPage",
             "@id": "https:\/\/Jongbin-kr.github.io\/posts\/2_study\/ethics-of-ai\/eai002_%EC%9D%B8%EA%B3%B5%EC%A7%80%EB%8A%A5%EC%9D%98-%EA%B3%B5%EC%A0%95%EC%84%B1\/"
-        },"genre": "posts","keywords": "Ethics of AI","wordcount":  2958 ,
+        },"genre": "posts","keywords": "Ethics of AI","wordcount":  2439 ,
         "url": "https:\/\/Jongbin-kr.github.io\/posts\/2_study\/ethics-of-ai\/eai002_%EC%9D%B8%EA%B3%B5%EC%A7%80%EB%8A%A5%EC%9D%98-%EA%B3%B5%EC%A0%95%EC%84%B1\/","datePublished": "2023-03-25T00:21:44+09:00","dateModified": "2023-03-25T00:21:44+09:00","publisher": {
             "@type": "Organization",
             "name": ""},"author": {
@@ -116,8 +116,8 @@ if (!doNotTrack) {
         </div><article class="page single"><h1 class="single-title animate__animated animate__flipInX">[EAI002] 인공지능의 공정성</h1><div class="post-meta">
             <div class="post-meta-line"><span class="post-author"><a href="/" title="Author" rel=" author" class="author"><i class="fas fa-user-circle fa-fw" aria-hidden="true"></i>Jongbin Won</a>
 </span>&nbsp;<span class="post-category">included in <a href="/categories/study/"><i class="far fa-folder fa-fw" aria-hidden="true"></i>Study</a></span></div>
-            <div class="post-meta-line"><i class="far fa-calendar-alt fa-fw" aria-hidden="true"></i>&nbsp;<time datetime="2023-03-25">2023-03-25</time>&nbsp;<i class="fas fa-pencil-alt fa-fw" aria-hidden="true"></i>&nbsp;2958 words&nbsp;
-                <i class="far fa-clock fa-fw" aria-hidden="true"></i>&nbsp;6 minutes&nbsp;</div>
+            <div class="post-meta-line"><i class="far fa-calendar-alt fa-fw" aria-hidden="true"></i>&nbsp;<time datetime="2023-03-25">2023-03-25</time>&nbsp;<i class="fas fa-pencil-alt fa-fw" aria-hidden="true"></i>&nbsp;2439 words&nbsp;
+                <i class="far fa-clock fa-fw" aria-hidden="true"></i>&nbsp;5 minutes&nbsp;</div>
         </div><div class="details toc" id="toc-static"  data-kept="true">
                 <div class="details-summary toc-title">
                     <span>Contents</span>
@@ -135,7 +135,6 @@ if (!doNotTrack) {
       </ul>
     </li>
     <li><a href="#4-인공지능-공정성-문제에-대한-주요-테크기업들의-대응">4. 인공지능 공정성 문제에 대한 주요 테크기업들의 대응</a></li>
-    <li><a href="#4-인공지능의-공정성에-대한-나의-생각들">4. 인공지능의 공정성에 대한 나의 생각들</a></li>
   </ul>
 </nav></div>
             </div><div class="content" id="content"><br>
@@ -192,7 +191,7 @@ if (!doNotTrack) {
 <li>여자보다는 남자를, 흑인보다는 백인을, 노인보다는 중년을 더 잘 인식한다!
 <ul>
 <li>그 이유는? <strong>학습 과정에서 사용된 데이터가 다양한 인종/연령/성별의 얼굴 이미지를 담고 있지 못하기 때문이다.</strong></li>
-<li>1)<u><strong>데이터 편향성</strong></u>의 문제
+<li>1)**<u>데이터 편향성</u>**의 문제
 <ul>
 <li>구글, 페이스북에서는 좀 더 다양한 이미지 데이터들을 수집하려고 노력한다.</li>
 </ul>
@@ -263,14 +262,6 @@ if (!doNotTrack) {
 <blockquote>
 <p>최근 주목받고있는 대형언어모델(LLM, Large Language Model)들은, 무수히 많은 데이터셋들에 기반하여 학습한다. 그런데 해당 학습 데이터셋들이 내재하고 있는 편견/불공정/차별적인 문제들은 어떻게 최소화할 수 있을까?</p>
 </blockquote>
-<ul>
-<li>RLHF(Reinforce Learning by Human Feedback) 방식. chatGPT의 경우 이 방식을 통해 GPT-3가 가지고 있던 윤리적인 문제들을 어느 정도 해결했다.</li>
-<li>이루다 2.0이나 심심이와 같은 챗봇들은 아예 민감한 주제에 대해서는 대답을 회피하는 모습을 보여준다.<br>
-<figure><img src="%ec%9d%b4%eb%a3%a8%eb%8b%a4.jpg"/>
-  </figure>
-</li>
-<li>사용자들의 적극적인 피드백 역시 좀 더 정확하고 윤리적인 챗봇을 만드는 데 많은 역할을 할 것이다!</li>
-</ul>
 <br>
 <br>
 <h3 id="33-인공지능-평가-시스템의-문제">3.3. 인공지능 평가 시스템의 문제</h3>
@@ -397,32 +388,6 @@ if (!doNotTrack) {
 </ul>
 </li>
 </ul>
-<br>
-<br>
-<h2 id="4-인공지능의-공정성에-대한-나의-생각들">4. 인공지능의 공정성에 대한 나의 생각들</h2>
-<ul>
-<li>교수님과 여러 전문가들께서 말씀하시길, 다음에 올 단어의 확률에 따라 문장을 생성해나가는 Transformer모델의 특성상, 언어모델의 공정성이나 환각(Hallucination)같은 문제들을 없애는 것을 어렵다고 한다.
-<ul>
-<li>연결주의가 점차 한계를 맞이하고 있다면, 다시금 기호주의(symbolic AI)의 관점에서 AI를 접근할 필요도 있지 않을까?
-<ul>
-<li><a href="https://m.blog.naver.com/joymychoy/222318354002" target="_blank" rel="noopener noreffer">참고</a>
-</li>
-</ul>
-</li>
-<li><a href="https://content.iospress.com/articles/semantic-web/sw223228" target="_blank" rel="noopener noreffer">참고할만한 논문 1</a>
-, <a href="https://ieeexplore.ieee.org/abstract/document/10001097" target="_blank" rel="noopener noreffer">참고할만한 논문2</a>
-</li>
-</ul>
-</li>
-</ul>
-<br>
-<ul>
-<li>최근들어 PC주의, 다양성 존중과 같은 가치들이 부상하고 있다. 만약 이러한 추세가 계속되고, 이전에 비해 상대적으로 공정한 데이터들이 많이 쌓여 학습 데이터로 비중이 증가한다면, 인공지능의 공정성 문제는 자연스레 해결될 수 있지 않을까하는 생각이 들었다.
-<ul>
-<li><strong>그런 점에서 기술적이고 사후적으로 보완해나가는 방식을 넘어서, 선두적으로 공정성과 다양성을 존중하는 문화를 만드는 것이 인공지능의 공정성에 대한 근본적인 해결책이라고 생각한다!</strong></li>
-</ul>
-</li>
-</ul>
 </div><div class="post-footer" id="post-footer">
     <div class="post-info">
         <div class="post-info-line">
@@ -451,7 +416,7 @@ if (!doNotTrack) {
                 Please enable JavaScript to view the comments powered by <a href="https://disqus.com/?ref_noscript">Disqus</a>.
             </noscript></div></article></div>
             </main><footer class="footer">
-        <div class="footer-container"><div class="footer-line">Powered by <a href="https://gohugo.io/" target="_blank" rel="noopener noreffer" title="Hugo 0.111.1">Hugo</a> | Theme - <a href="https://github.com/dillonzq/LoveIt" target="_blank" rel="noopener noreffer" title="LoveIt 0.2.10"><i class="far fa-kiss-wink-heart fa-fw" aria-hidden="true"></i> LoveIt</a>
+        <div class="footer-container"><div class="footer-line">Powered by <a href="https://gohugo.io/" target="_blank" rel="noopener noreffer" title="Hugo 0.110.0">Hugo</a> | Theme - <a href="https://github.com/dillonzq/LoveIt" target="_blank" rel="noopener noreffer" title="LoveIt 0.2.10"><i class="far fa-kiss-wink-heart fa-fw" aria-hidden="true"></i> LoveIt</a>
                 </div><div class="footer-line" itemscope itemtype="http://schema.org/CreativeWork"><i class="far fa-copyright fa-fw" aria-hidden="true"></i><span itemprop="copyrightYear">2022 - 2023</span><span class="author" itemprop="copyrightHolder">&nbsp;<a href="/" target="_blank">Jongbin Won</a></span>&nbsp;|&nbsp;<span class="license"><a rel="license external nofollow noopener noreffer" href="https://creativecommons.org/licenses/by-nc/4.0/" target="_blank">CC BY-NC 4.0</a></span></div>
         </div>
     </footer></div>
