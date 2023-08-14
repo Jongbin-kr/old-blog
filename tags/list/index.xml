@@ -1,0 +1,16 @@
+<rss xmlns:atom="http://www.w3.org/2005/Atom" version="2.0">
+    <channel>
+        <title>list - Tag - Jongbin&#39;s Blog</title>
+        <link>https://Jongbin-kr.github.io/tags/list/</link>
+        <description>list - Tag - Jongbin&#39;s Blog</description>
+        <generator>Hugo -- gohugo.io</generator><language>en-us</language><managingEditor>wonjb001@naver.com (Jongbin Won)</managingEditor>
+            <webMaster>wonjb001@naver.com (Jongbin Won)</webMaster><lastBuildDate>Fri, 28 Jul 2023 23:17:23 &#43;0900</lastBuildDate><atom:link href="https://Jongbin-kr.github.io/tags/list/" rel="self" type="application/rss+xml" /><item>
+    <title>[Python] 리스트의 참조와 복사</title>
+    <link>https://Jongbin-kr.github.io/posts/1_programming/1_learning_python/python-2_%EB%A6%AC%EC%8A%A4%ED%8A%B8%EC%9D%98-%EC%B0%B8%EC%A1%B0%EC%99%80-%EB%B3%B5%EC%82%AC/</link>
+    <pubDate>Fri, 28 Jul 2023 23:17:23 &#43;0900</pubDate>
+    <author>Jongbin Won</author>
+    <guid>https://Jongbin-kr.github.io/posts/1_programming/1_learning_python/python-2_%EB%A6%AC%EC%8A%A4%ED%8A%B8%EC%9D%98-%EC%B0%B8%EC%A1%B0%EC%99%80-%EB%B3%B5%EC%82%AC/</guid>
+    <description><![CDATA[&lt;파이썬 알고리즘 인터뷰(박상길)&gt;이라는 책과 함께 leetcode 문제들을 풀어나가던 중, 재밌는 사실을 하나 발견해 정리해둔다. 제목에서 밝혔듯, 리스트]]></description>
+</item>
+</channel>
+</rss>

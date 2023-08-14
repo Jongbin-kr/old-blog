@@ -4,7 +4,7 @@
         <meta charset="utf-8">
         <meta name="viewport" content="width=device-width, initial-scale=1">
         <meta name="robots" content="noodp" />
-        <title>새벽녘에 지하철을 타며 든 생각 - Jongbin&#39;s Blog</title>
+        <title>[Python] 리스트의 참조와 복사 - Jongbin&#39;s Blog</title>
             
 <script type="application/javascript">
 var doNotTrack = false;
@@ -17,31 +17,31 @@ if (!doNotTrack) {
 	
 	ga('send', 'pageview');
 }
-</script><meta name="Description" content="welcome to Jongbin Won&#39;s Blog!"><meta property="og:title" content="새벽녘에 지하철을 타며 든 생각" />
-<meta property="og:description" content="아슬하게 죽음으로 내모는 졸음을 마주하며, 나는 생각했다. 잠자릴 함께할 순 있어도, 꿈조차 같이 꿀 순 없는1 기구한 운명. 과연 나는 언제까지 혼자여야하고, 또 언" />
+</script><meta name="Description" content="welcome to Jongbin Won&#39;s Blog!"><meta property="og:title" content="[Python] 리스트의 참조와 복사" />
+<meta property="og:description" content="&lt;파이썬 알고리즘 인터뷰(박상길)&gt;이라는 책과 함께 leetcode 문제들을 풀어나가던 중, 재밌는 사실을 하나 발견해 정리해둔다. 제목에서 밝혔듯, 리스트" />
 <meta property="og:type" content="article" />
-<meta property="og:url" content="https://Jongbin-kr.github.io/posts/4_daily/230120_%EC%83%88%EB%B2%BD%EB%85%98%EC%97%90-%EC%A7%80%ED%95%98%EC%B2%A0%EC%9D%84-%ED%83%80%EB%A9%B0-%EB%93%A0-%EC%83%9D%EA%B0%81/" /><meta property="og:image" content="https://Jongbin-kr.github.io/logo.png"/><meta property="article:section" content="posts" />
-<meta property="article:published_time" content="2023-01-20T13:20:53+09:00" />
-<meta property="article:modified_time" content="2023-01-20T13:20:53+09:00" /><meta property="og:site_name" content="Jongbin&#39;s Blog" />
+<meta property="og:url" content="https://Jongbin-kr.github.io/posts/1_programming/1_learning_python/python-2_%EB%A6%AC%EC%8A%A4%ED%8A%B8%EC%9D%98-%EC%B0%B8%EC%A1%B0%EC%99%80-%EB%B3%B5%EC%82%AC/" /><meta property="og:image" content="https://Jongbin-kr.github.io/logo.png"/><meta property="article:section" content="posts" />
+<meta property="article:published_time" content="2023-07-28T23:17:23+09:00" />
+<meta property="article:modified_time" content="2023-07-28T23:17:23+09:00" /><meta property="og:site_name" content="Jongbin&#39;s Blog" />
 <meta name="twitter:card" content="summary_large_image"/>
 <meta name="twitter:image" content="https://Jongbin-kr.github.io/logo.png"/>
 
-<meta name="twitter:title" content="새벽녘에 지하철을 타며 든 생각"/>
-<meta name="twitter:description" content="아슬하게 죽음으로 내모는 졸음을 마주하며, 나는 생각했다. 잠자릴 함께할 순 있어도, 꿈조차 같이 꿀 순 없는1 기구한 운명. 과연 나는 언제까지 혼자여야하고, 또 언"/>
+<meta name="twitter:title" content="[Python] 리스트의 참조와 복사"/>
+<meta name="twitter:description" content="&lt;파이썬 알고리즘 인터뷰(박상길)&gt;이라는 책과 함께 leetcode 문제들을 풀어나가던 중, 재밌는 사실을 하나 발견해 정리해둔다. 제목에서 밝혔듯, 리스트"/>
 <meta name="application-name" content="My cool site">
 <meta name="apple-mobile-web-app-title" content="My cool site"><meta name="theme-color" content="#ffffff"><meta name="msapplication-TileColor" content="#da532c"><link rel="shortcut icon" type="image/x-icon" href="/favicon.ico" />
         <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
-        <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png"><link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png"><link rel="mask-icon" href="/safari-pinned-tab.svg" color="#5bbad5"><link rel="manifest" href="/site.webmanifest"><link rel="canonical" href="https://Jongbin-kr.github.io/posts/4_daily/230120_%EC%83%88%EB%B2%BD%EB%85%98%EC%97%90-%EC%A7%80%ED%95%98%EC%B2%A0%EC%9D%84-%ED%83%80%EB%A9%B0-%EB%93%A0-%EC%83%9D%EA%B0%81/" /><link rel="prev" href="https://Jongbin-kr.github.io/posts/1_programming/1_learning_python/python-1_%ED%8C%8C%EC%9D%B4%EC%8D%AC%EC%9D%B4-%EC%86%8C%EC%8A%A4%EC%BD%94%EB%93%9C%EB%A5%BC-%EC%8B%A4%ED%96%89%ED%95%98%EB%8A%94-%EB%B0%A9%EB%B2%95/" /><link rel="next" href="https://Jongbin-kr.github.io/posts/3_thoughts/230201_%EB%B9%85%EC%8A%A4%EB%B9%84%EB%8A%94-wake-up-words%EB%B6%80%ED%84%B0-%EC%9E%98%EB%AA%BB%EB%90%98%EC%97%88%EB%8B%A4/" /><link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/normalize.css@8.0.1/normalize.min.css"><link rel="stylesheet" href="/css/style.min.css"><link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.1.1/css/all.min.css"><link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/animate.css@4.1.1/animate.min.css"><script type="application/ld+json">
+        <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png"><link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png"><link rel="mask-icon" href="/safari-pinned-tab.svg" color="#5bbad5"><link rel="manifest" href="/site.webmanifest"><link rel="canonical" href="https://Jongbin-kr.github.io/posts/1_programming/1_learning_python/python-2_%EB%A6%AC%EC%8A%A4%ED%8A%B8%EC%9D%98-%EC%B0%B8%EC%A1%B0%EC%99%80-%EB%B3%B5%EC%82%AC/" /><link rel="prev" href="https://Jongbin-kr.github.io/posts/2_study/mathematics/1_%EB%AF%B8%EC%A0%81%EB%B6%84/9_%EB%8B%A4%EC%96%91%ED%95%9C-%EB%AF%B8%EB%B6%84%EA%B3%B5%EC%8B%9D/" /><link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/normalize.css@8.0.1/normalize.min.css"><link rel="stylesheet" href="/css/style.min.css"><link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.1.1/css/all.min.css"><link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/animate.css@4.1.1/animate.min.css"><script type="application/ld+json">
     {
         "@context": "http://schema.org",
         "@type": "BlogPosting",
-        "headline": "새벽녘에 지하철을 타며 든 생각",
+        "headline": "[Python] 리스트의 참조와 복사",
         "inLanguage": "en-us",
         "mainEntityOfPage": {
             "@type": "WebPage",
-            "@id": "https:\/\/Jongbin-kr.github.io\/posts\/4_daily\/230120_%EC%83%88%EB%B2%BD%EB%85%98%EC%97%90-%EC%A7%80%ED%95%98%EC%B2%A0%EC%9D%84-%ED%83%80%EB%A9%B0-%EB%93%A0-%EC%83%9D%EA%B0%81\/"
-        },"genre": "posts","wordcount":  83 ,
-        "url": "https:\/\/Jongbin-kr.github.io\/posts\/4_daily\/230120_%EC%83%88%EB%B2%BD%EB%85%98%EC%97%90-%EC%A7%80%ED%95%98%EC%B2%A0%EC%9D%84-%ED%83%80%EB%A9%B0-%EB%93%A0-%EC%83%9D%EA%B0%81\/","datePublished": "2023-01-20T13:20:53+09:00","dateModified": "2023-01-20T13:20:53+09:00","publisher": {
+            "@id": "https:\/\/Jongbin-kr.github.io\/posts\/1_programming\/1_learning_python\/python-2_%EB%A6%AC%EC%8A%A4%ED%8A%B8%EC%9D%98-%EC%B0%B8%EC%A1%B0%EC%99%80-%EB%B3%B5%EC%82%AC\/"
+        },"genre": "posts","keywords": "python, list","wordcount":  828 ,
+        "url": "https:\/\/Jongbin-kr.github.io\/posts\/1_programming\/1_learning_python\/python-2_%EB%A6%AC%EC%8A%A4%ED%8A%B8%EC%9D%98-%EC%B0%B8%EC%A1%B0%EC%99%80-%EB%B3%B5%EC%82%AC\/","datePublished": "2023-07-28T23:17:23+09:00","dateModified": "2023-07-28T23:17:23+09:00","publisher": {
             "@type": "Organization",
             "name": ""},"author": {
                 "@type": "Person",
@@ -113,35 +113,86 @@ if (!doNotTrack) {
                 <div class="container"><div class="toc" id="toc-auto">
             <h2 class="toc-title">Contents</h2>
             <div class="toc-content" id="toc-content-auto"></div>
-        </div><article class="page single"><h1 class="single-title animate__animated animate__flipInX">새벽녘에 지하철을 타며 든 생각</h1><div class="post-meta">
+        </div><article class="page single"><h1 class="single-title animate__animated animate__flipInX">[Python] 리스트의 참조와 복사</h1><div class="post-meta">
             <div class="post-meta-line"><span class="post-author"><a href="/" title="Author" rel=" author" class="author"><i class="fas fa-user-circle fa-fw" aria-hidden="true"></i>Jongbin Won</a>
-</span>&nbsp;<span class="post-category">included in <a href="/categories/daily/"><i class="far fa-folder fa-fw" aria-hidden="true"></i>Daily</a></span></div>
-            <div class="post-meta-line"><i class="far fa-calendar-alt fa-fw" aria-hidden="true"></i>&nbsp;<time datetime="2023-01-20">2023-01-20</time>&nbsp;<i class="fas fa-pencil-alt fa-fw" aria-hidden="true"></i>&nbsp;83 words&nbsp;
-                <i class="far fa-clock fa-fw" aria-hidden="true"></i>&nbsp;One minute&nbsp;</div>
+</span>&nbsp;<span class="post-category">included in <a href="/categories/programming/"><i class="far fa-folder fa-fw" aria-hidden="true"></i>Programming</a></span></div>
+            <div class="post-meta-line"><i class="far fa-calendar-alt fa-fw" aria-hidden="true"></i>&nbsp;<time datetime="2023-07-28">2023-07-28</time>&nbsp;<i class="fas fa-pencil-alt fa-fw" aria-hidden="true"></i>&nbsp;828 words&nbsp;
+                <i class="far fa-clock fa-fw" aria-hidden="true"></i>&nbsp;2 minutes&nbsp;</div>
         </div><div class="details toc" id="toc-static"  data-kept="true">
                 <div class="details-summary toc-title">
                     <span>Contents</span>
                     <span><i class="details-icon fas fa-angle-right" aria-hidden="true"></i></span>
                 </div>
-                <div class="details-content toc-content" id="toc-content-static"><nav id="TableOfContents"></nav></div>
+                <div class="details-content toc-content" id="toc-content-static"><nav id="TableOfContents">
+  <ul>
+    <li><a href="#리스트의-참조와-복사">리스트의 참조와 복사</a></li>
+    <li><a href="#왜-이런-차이가-발생할까">왜 이런 차이가 발생할까?</a></li>
+  </ul>
+</nav></div>
             </div><div class="content" id="content"><br>
-<figure><img src="20230119_071037.jpg"/>
-</figure>
+<p>&lt;파이썬 알고리즘 인터뷰(박상길)&gt;이라는 책과 함께 leetcode 문제들을 풀어나가던 중, 재밌는 사실을 하나 발견해 정리해둔다.<br>
+제목에서 밝혔듯, 리스트의 참조와 복사에 관한 것인데, 아래 글을 보기 전 <a href="https://leetcode.com/problems/reorder-data-in-log-files/" target="_blank" rel="noopener noreffer">문제</a>
+를 먼저 풀어보는 것 역시 좋을 것 같다.</p>
+<br>
+<br>
+<h2 id="리스트의-참조와-복사">리스트의 참조와 복사</h2>
+<p>코드로 바로 확인해보자.</p>
+<p><script type="application/javascript" src="https://gist.github.com/Jongbin-kr/63584b29a8bc8328d287a0477ae65f15.js"></script>
+<br>
+위와 같은 원본 리스트와 빈 리스트들이 주어지고,</p>
+<br>
+<br>
+<script type="application/javascript" src="https://gist.github.com/Jongbin-kr/6ae841aad2e70894e27b41e71253f46f.js"></script>
 
+<p>위 코드처럼 변수에 <code>x</code>를 재할당했을 때, 각 변수 <code>a</code>, <code>b</code>, <code>c</code>, <code>d</code>의 값과 id값은 어떻게 변할까?</p>
 <br>
-<p><strong>아슬하게 죽음으로 내모는 졸음을 마주하며, 나는 생각했다.</strong></p>
 <br>
-<p><strong>잠자릴 함께할 순 있어도, 꿈조차 같이 꿀 순 없는<sup id="fnref:1"><a href="#fn:1" class="footnote-ref" role="doc-noteref">1</a></sup> 기구한 운명.</strong></p>
+<p>정답은 다음과 같다.</p>
+<pre tabindex="0"><code>## output:
+# x: [1, 2, 3] 2041683749184
+# a: [1, 2, 3] 2041683749184
+# b: [1, 2, 3] 2041682911424
+# c: [1, 2, 3] 2041683739200
+# d: [1, 2, 3] 2041683748928
+</code></pre><br>
+<p>위 출력결과에서 값은 모두 같지만, id값을 자세히 살펴볼 필요가 있는데,</p>
+<ol>
+<li><code>a=x</code>는 <code>x</code>의 id값으로 변하고,</li>
+<li><code>b=x[:]</code>는 아예 다른 id값을,</li>
+<li><code>c[:]=x</code>와 <code>d[:]=x[:]</code>는 각각 자신이 원래 가지고 있던 각각의 id값을 그대로 유지한다</li>
+</ol>
+<p>는 사실을 확인할 수 있다.</p>
 <br>
-<p><strong>과연 나는 언제까지 혼자여야하고, 또 언제까지 혼자일 수 있을까?</strong></p>
 <br>
+<h2 id="왜-이런-차이가-발생할까">왜 이런 차이가 발생할까?</h2>
+<p>이는 파이썬이 변수에 값을 할당하는 방식과 관련이 있다.</p>
+<br>
+<ol>
+<li>
+<p>우리가 흔히 사용하는 1번 같은 방식(<code>a=x</code>)으로 할당하면, 변수 <code>a</code>가 가리키는 객체를 빈 리스트에서 <code>x</code>가 가리키는 리스트로 바꾼다. 따라서 <code>a</code>와 <code>x</code>의 id값이 같은 것이다.</p>
+</li>
+<li>
+<p>한편, 2번처럼 <code>b=x[:]</code>처럼 할당하면, <strong>우선 <code>x</code>의 얕은 복사본 <code>x[:]</code>을 생성한다.</strong> 그리고 <code>b</code>가 가리키는 객체를 빈 리스트에서 <code>x[:]</code>로 바꾼다. 그렇기에 새로운 객체를 참조하는 <code>b</code>의 id값은 원래의 <code>b</code>와도 <code>x</code>와도 다른 것이다.</p>
+</li>
+<li>
+<p>마지막으로, <code>c[:]=x</code> 혹은 <code>d[:]=x[:]</code>와 같은 식으로 할당하게 되면<sup id="fnref:1"><a href="#fn:1" class="footnote-ref" role="doc-noteref">1</a></sup>, <strong><code>c</code>나 <code>d</code>가 참조하는 객체는 달라지지 않고</strong>, 그 내용물만 변경한다. 따라서 <code>c</code>와 <code>d</code>의 원래 주소값은 유지하면서, 값은 변화시키는 소위 <em><strong>in-place</strong></em> 연산을 수행할 수 있는 것이다!</p>
+</li>
+</ol>
+<br>
+<p>이상의 내용들을 하나의 그림으로 표현하자면 다음과 같다.<br>
+<figure><img src="list_refer_copy.png"/>
+</figure>
+</p>
+<br>
+<br>
+<p>엄청 어려운 내용은 아니지만, 실수하기 쉬운 부분이라 한번 글로 정리해봤다!</p>
+<p>나중에 리스트에 대하여 in-place이 필요할 때 메모리를 절약할 때 써먹을 수 있을 것 같다!</p>
 <br>
 <div class="footnotes" role="doc-endnotes">
 <hr>
 <ol>
 <li id="fn:1">
-<p><a href="https://youtu.be/dRegKRl-V_c" target="_blank" rel="noopener noreffer">https://youtu.be/dRegKRl-V_c</a>
-&#160;<a href="#fnref:1" class="footnote-backref" role="doc-backlink">&#x21a9;&#xfe0e;</a></p>
+<p>참고로 <code>c[:]=x</code>와 <code>d[:]=x[:]</code>은 내부 동작은 차이가 있으나, 결과값은 큰 차이가 없는 것처럼 보인다.&#160;<a href="#fnref:1" class="footnote-backref" role="doc-backlink">&#x21a9;&#xfe0e;</a></p>
 </li>
 </ol>
 </div>
@@ -149,25 +200,24 @@ if (!doNotTrack) {
     <div class="post-info">
         <div class="post-info-line">
             <div class="post-info-mod">
-                <span>Updated on 2023-01-20</span>
+                <span>Updated on 2023-07-28</span>
             </div></div>
         <div class="post-info-line">
             <div class="post-info-md"></div>
             <div class="post-info-share">
-                <span><a href="javascript:void(0);" title="Share on Twitter" data-sharer="twitter" data-url="https://Jongbin-kr.github.io/posts/4_daily/230120_%EC%83%88%EB%B2%BD%EB%85%98%EC%97%90-%EC%A7%80%ED%95%98%EC%B2%A0%EC%9D%84-%ED%83%80%EB%A9%B0-%EB%93%A0-%EC%83%9D%EA%B0%81/" data-title="새벽녘에 지하철을 타며 든 생각"><i class="fab fa-twitter fa-fw" aria-hidden="true"></i></a><a href="javascript:void(0);" title="Share on Facebook" data-sharer="facebook" data-url="https://Jongbin-kr.github.io/posts/4_daily/230120_%EC%83%88%EB%B2%BD%EB%85%98%EC%97%90-%EC%A7%80%ED%95%98%EC%B2%A0%EC%9D%84-%ED%83%80%EB%A9%B0-%EB%93%A0-%EC%83%9D%EA%B0%81/"><i class="fab fa-facebook-square fa-fw" aria-hidden="true"></i></a><a href="javascript:void(0);" title="Share on Linkedin" data-sharer="linkedin" data-url="https://Jongbin-kr.github.io/posts/4_daily/230120_%EC%83%88%EB%B2%BD%EB%85%98%EC%97%90-%EC%A7%80%ED%95%98%EC%B2%A0%EC%9D%84-%ED%83%80%EB%A9%B0-%EB%93%A0-%EC%83%9D%EA%B0%81/"><i class="fab fa-linkedin fa-fw" aria-hidden="true"></i></a><a href="javascript:void(0);" title="Share on Reddit" data-sharer="reddit" data-url="https://Jongbin-kr.github.io/posts/4_daily/230120_%EC%83%88%EB%B2%BD%EB%85%98%EC%97%90-%EC%A7%80%ED%95%98%EC%B2%A0%EC%9D%84-%ED%83%80%EB%A9%B0-%EB%93%A0-%EC%83%9D%EA%B0%81/"><i class="fab fa-reddit fa-fw" aria-hidden="true"></i></a><a href="javascript:void(0);" title="Share on Blogger" data-sharer="blogger" data-url="https://Jongbin-kr.github.io/posts/4_daily/230120_%EC%83%88%EB%B2%BD%EB%85%98%EC%97%90-%EC%A7%80%ED%95%98%EC%B2%A0%EC%9D%84-%ED%83%80%EB%A9%B0-%EB%93%A0-%EC%83%9D%EA%B0%81/" data-title="새벽녘에 지하철을 타며 든 생각" data-description=""><i class="fab fa-blogger fa-fw" aria-hidden="true"></i></a></span>
+                <span><a href="javascript:void(0);" title="Share on Twitter" data-sharer="twitter" data-url="https://Jongbin-kr.github.io/posts/1_programming/1_learning_python/python-2_%EB%A6%AC%EC%8A%A4%ED%8A%B8%EC%9D%98-%EC%B0%B8%EC%A1%B0%EC%99%80-%EB%B3%B5%EC%82%AC/" data-title="[Python] 리스트의 참조와 복사" data-hashtags="python,list"><i class="fab fa-twitter fa-fw" aria-hidden="true"></i></a><a href="javascript:void(0);" title="Share on Facebook" data-sharer="facebook" data-url="https://Jongbin-kr.github.io/posts/1_programming/1_learning_python/python-2_%EB%A6%AC%EC%8A%A4%ED%8A%B8%EC%9D%98-%EC%B0%B8%EC%A1%B0%EC%99%80-%EB%B3%B5%EC%82%AC/" data-hashtag="python"><i class="fab fa-facebook-square fa-fw" aria-hidden="true"></i></a><a href="javascript:void(0);" title="Share on Linkedin" data-sharer="linkedin" data-url="https://Jongbin-kr.github.io/posts/1_programming/1_learning_python/python-2_%EB%A6%AC%EC%8A%A4%ED%8A%B8%EC%9D%98-%EC%B0%B8%EC%A1%B0%EC%99%80-%EB%B3%B5%EC%82%AC/"><i class="fab fa-linkedin fa-fw" aria-hidden="true"></i></a><a href="javascript:void(0);" title="Share on Reddit" data-sharer="reddit" data-url="https://Jongbin-kr.github.io/posts/1_programming/1_learning_python/python-2_%EB%A6%AC%EC%8A%A4%ED%8A%B8%EC%9D%98-%EC%B0%B8%EC%A1%B0%EC%99%80-%EB%B3%B5%EC%82%AC/"><i class="fab fa-reddit fa-fw" aria-hidden="true"></i></a><a href="javascript:void(0);" title="Share on Blogger" data-sharer="blogger" data-url="https://Jongbin-kr.github.io/posts/1_programming/1_learning_python/python-2_%EB%A6%AC%EC%8A%A4%ED%8A%B8%EC%9D%98-%EC%B0%B8%EC%A1%B0%EC%99%80-%EB%B3%B5%EC%82%AC/" data-title="[Python] 리스트의 참조와 복사" data-description=""><i class="fab fa-blogger fa-fw" aria-hidden="true"></i></a></span>
             </div>
         </div>
     </div>
 
     <div class="post-info-more">
-        <section class="post-tags"></section>
+        <section class="post-tags"><i class="fas fa-tags fa-fw" aria-hidden="true"></i>&nbsp;<a href="/tags/python/">python</a>,&nbsp;<a href="/tags/list/">list</a></section>
         <section>
             <span><a href="javascript:void(0);" onclick="window.history.back();">Back</a></span>&nbsp;|&nbsp;<span><a href="/">Home</a></span>
         </section>
     </div>
 
-    <div class="post-nav"><a href="/posts/1_programming/1_learning_python/python-1_%ED%8C%8C%EC%9D%B4%EC%8D%AC%EC%9D%B4-%EC%86%8C%EC%8A%A4%EC%BD%94%EB%93%9C%EB%A5%BC-%EC%8B%A4%ED%96%89%ED%95%98%EB%8A%94-%EB%B0%A9%EB%B2%95/" class="prev" rel="prev" title="[Python] 파이썬은 정말로 인터프리터 언어이기때문에 느릴까?"><i class="fas fa-angle-left fa-fw" aria-hidden="true"></i>[Python] 파이썬은 정말로 인터프리터 언어이기때문에 느릴까?</a>
-            <a href="/posts/3_thoughts/230201_%EB%B9%85%EC%8A%A4%EB%B9%84%EB%8A%94-wake-up-words%EB%B6%80%ED%84%B0-%EC%9E%98%EB%AA%BB%EB%90%98%EC%97%88%EB%8B%A4/" class="next" rel="next" title="빅스비는 wake-up words부터 잘못되었다.">빅스비는 wake-up words부터 잘못되었다.<i class="fas fa-angle-right fa-fw" aria-hidden="true"></i></a></div>
+    <div class="post-nav"><a href="/posts/2_study/mathematics/1_%EB%AF%B8%EC%A0%81%EB%B6%84/9_%EB%8B%A4%EC%96%91%ED%95%9C-%EB%AF%B8%EB%B6%84%EA%B3%B5%EC%8B%9D/" class="prev" rel="prev" title="[미적분009] 다양한 미분공식들"><i class="fas fa-angle-left fa-fw" aria-hidden="true"></i>[미적분009] 다양한 미분공식들</a></div>
 </div>
 <div id="comments"><div id="disqus_thread" class="comment"></div><noscript>
                 Please enable JavaScript to view the comments powered by <a href="https://disqus.com/?ref_noscript">Disqus</a>.

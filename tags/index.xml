@@ -4,7 +4,23 @@
         <link>https://Jongbin-kr.github.io/tags/</link>
         <description>Tags - Tag - Jongbin&#39;s Blog</description>
         <generator>Hugo -- gohugo.io</generator><language>en-us</language><managingEditor>wonjb001@naver.com (Jongbin Won)</managingEditor>
-            <webMaster>wonjb001@naver.com (Jongbin Won)</webMaster><lastBuildDate>Wed, 26 Jul 2023 17:00:59 &#43;0900</lastBuildDate><atom:link href="https://Jongbin-kr.github.io/tags/" rel="self" type="application/rss+xml" /><item>
+            <webMaster>wonjb001@naver.com (Jongbin Won)</webMaster><lastBuildDate>Fri, 28 Jul 2023 23:17:23 &#43;0900</lastBuildDate><atom:link href="https://Jongbin-kr.github.io/tags/" rel="self" type="application/rss+xml" /><item>
+    <title>list</title>
+    <link>https://Jongbin-kr.github.io/tags/list/</link>
+    <pubDate>Fri, 28 Jul 2023 23:17:23 &#43;0900</pubDate>
+    <author>Jongbin Won</author>
+    <guid>https://Jongbin-kr.github.io/tags/list/</guid>
+    <description><![CDATA[]]></description>
+</item>
+<item>
+    <title>python</title>
+    <link>https://Jongbin-kr.github.io/tags/python/</link>
+    <pubDate>Fri, 28 Jul 2023 23:17:23 &#43;0900</pubDate>
+    <author>Jongbin Won</author>
+    <guid>https://Jongbin-kr.github.io/tags/python/</guid>
+    <description><![CDATA[]]></description>
+</item>
+<item>
     <title>로그함수</title>
     <link>https://Jongbin-kr.github.io/tags/%EB%A1%9C%EA%B7%B8%ED%95%A8%EC%88%98/</link>
     <pubDate>Wed, 26 Jul 2023 17:00:59 &#43;0900</pubDate>
@@ -66,22 +82,6 @@
     <pubDate>Sun, 21 May 2023 16:49:29 &#43;0900</pubDate>
     <author>Jongbin Won</author>
     <guid>https://Jongbin-kr.github.io/tags/%EC%97%AD%ED%95%A8%EC%88%98%EC%A0%95%EB%A6%AC/</guid>
-    <description><![CDATA[]]></description>
-</item>
-<item>
-    <title>평균값정리</title>
-    <link>https://Jongbin-kr.github.io/tags/%ED%8F%89%EA%B7%A0%EA%B0%92%EC%A0%95%EB%A6%AC/</link>
-    <pubDate>Sun, 21 May 2023 16:49:29 &#43;0900</pubDate>
-    <author>Jongbin Won</author>
-    <guid>https://Jongbin-kr.github.io/tags/%ED%8F%89%EA%B7%A0%EA%B0%92%EC%A0%95%EB%A6%AC/</guid>
-    <description><![CDATA[]]></description>
-</item>
-<item>
-    <title>도함수</title>
-    <link>https://Jongbin-kr.github.io/tags/%EB%8F%84%ED%95%A8%EC%88%98/</link>
-    <pubDate>Sun, 21 May 2023 14:32:50 &#43;0900</pubDate>
-    <author>Jongbin Won</author>
-    <guid>https://Jongbin-kr.github.io/tags/%EB%8F%84%ED%95%A8%EC%88%98/</guid>
     <description><![CDATA[]]></description>
 </item>
 </channel>

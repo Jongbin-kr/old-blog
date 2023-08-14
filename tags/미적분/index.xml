@@ -13,14 +13,6 @@
     <description><![CDATA[1. 일반적인 미분공식들 더하기/뺴기 $f(x) \pm g(x) = f^{\prime}(x) \pm g^{\prime}(x)$ 상수배 $(cf(x))^{\prime} = 0 + cf^{\prime}(x) = cf^{\prime}(x)$ 곱하기(곱의 미분법) $f(x) \times g(x) = f^{\prime}(x)g(x) + f(x)g^{\prime}(x)$ 나누기(몫의 미분법) $\frac{f(x)}{g(x)} = \frac{f^{\prime}(x)g(x) - f(x)g^{\prime}(x)}{g(x)^2}$ (단, $g(x) \neq]]></description>
 </item>
 <item>
-    <title>[미적분013] 함수의 극대, 극소, 임계점</title>
-    <link>https://Jongbin-kr.github.io/posts/2_study/mathematics/1_%EB%AF%B8%EC%A0%81%EB%B6%84/13_%ED%95%A8%EC%88%98%EC%9D%98-%EA%B7%B9%EB%8C%80-%EA%B7%B9%EC%86%8C-%EC%9E%84%EA%B3%84%EC%A0%90/</link>
-    <pubDate>Wed, 31 May 2023 16:42:16 &#43;0900</pubDate>
-    <author>Jongbin Won</author>
-    <guid>https://Jongbin-kr.github.io/posts/2_study/mathematics/1_%EB%AF%B8%EC%A0%81%EB%B6%84/13_%ED%95%A8%EC%88%98%EC%9D%98-%EA%B7%B9%EB%8C%80-%EA%B7%B9%EC%86%8C-%EC%9E%84%EA%B3%84%EC%A0%90/</guid>
-    <description><![CDATA[1. 극대점, 극소점, 극댓값, 극솟값의 정의 $y=f(x)$가 $x=a$를 포함하는 개구간에서 $f(x) \leq f(a)$이면, $(a,f(a))$를 극대점, $f]]></description>
-</item>
-<item>
     <title>[미적분008] 미분가능성에 관한 정리들(역함수정리, 평균값정리, 로피탈정리)</title>
     <link>https://Jongbin-kr.github.io/posts/2_study/mathematics/1_%EB%AF%B8%EC%A0%81%EB%B6%84/8_%EB%AF%B8%EB%B6%84%EA%B0%80%EB%8A%A5%EC%84%B1%EC%97%90-%EA%B4%80%ED%95%9C-%EC%A0%95%EB%A6%AC%EB%93%A4/</link>
     <pubDate>Sun, 21 May 2023 16:49:29 &#43;0900</pubDate>
